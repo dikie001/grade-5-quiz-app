@@ -1,4 +1,4 @@
-import { useRef, useEffect } from "react";
+import { useRef, useEffect, useMemo } from "react";
 import success from "/sounds/success.mp3";
 import error from "/sounds/error.mp3";
 import finish from "/sounds/finish.mp3";
@@ -9,7 +9,7 @@ import ding from '/sounds/ding.mp3'
 import wrong from '/sounds/wrong.mp3'
 
 const useSound = () => {
-  const soundMap = {
+  const soundMap = useMemo(() => ({
     success: { src: success, volume: 0.7 },
     error: { src: error, volume: 1 },
     finish: { src: finish, volume: 1 },
@@ -18,7 +18,7 @@ const useSound = () => {
     correct: { src: correct, volume: 1 },
     ding: { src: ding, volume: 1 },
     wrong: { src: wrong, volume: 1 },
-  };
+  }), []);
 
   const audioRefs = useRef<Record<string, HTMLAudioElement>>({});
 
@@ -30,7 +30,7 @@ const useSound = () => {
       audio.load();
       audioRefs.current[key] = audio;
     });
-  }, []);
+  }, [soundMap]);
 
   const playSound = (key: keyof typeof soundMap) => {
     const audio = audioRefs.current[key];
