@@ -5,6 +5,7 @@ import {
   Circle,
   House,
   Loader,
+  Menu,
   MessageCircle,
   RotateCcw,
   Sparkles,
@@ -29,6 +30,7 @@ const QuizPage = () => {
   const [score, setScore] = useState(0);
   const [confirmModal, setConfirmModal] = useState<boolean>(false);
   const [loading, setLoading] = useState<boolean>(false);
+  const [openMenu, setOpenMenu] = useState<boolean>(false);
   const matilda = {
     current_score: 0,
     current_index: 0,
@@ -165,7 +167,7 @@ const QuizPage = () => {
       sendEmail();
       setLoading(false);
     } else {
-      playError()
+      playError();
       toast.error(
         "You have already sent a message, Kindly wait as I process your request",
         { id: "toasty", duration: 5000 }
@@ -216,7 +218,7 @@ const QuizPage = () => {
       localStorage.setItem("message-sent", JSON.stringify(true));
     } catch (err) {
       if (err instanceof TypeError) {
-        playError()
+        playError();
         toast.error("Buy bundles and connect to the internet to send message", {
           id: "toasty",
           duration: 5000,
@@ -227,9 +229,7 @@ const QuizPage = () => {
   };
   return (
     <div>
-      <div
-        className={`absolute z-0 `}
-      >
+      <div className={`absolute z-0 `}>
         <Star
           className="animate-pulse absolute top-50 text-yellow-400/20 "
           size={50}
@@ -260,6 +260,18 @@ const QuizPage = () => {
         />
       </div>
       <div className={` min-h-screen bg-black/50 py-6 z-10`}>
+        {/* Menu button */}
+        <div className="absolute  top-2 left-3">
+          <Menu
+            onClick={() => {
+              setOpenMenu(!openMenu);
+              toast.error("Menu not implemented yet", {id:'toasty'})
+              playError()
+            }}
+            className="text-pink-400"
+          />
+        </div>
+        {/* Menu Modal */}
         <div className="max-w-3xl mx-auto p-4">
           {/* Header with progress */}
           <div className="mb-4">
@@ -412,9 +424,7 @@ const QuizPage = () => {
                 <Sparkles className="w-8 h-8 text-purple-400" />
                 <Star className="w-8 h-8 text-yellow-400 fill-current" />
               </div>
-              <h1 className="text-2xl font-bold text-white ">
-                Quiz Complete! 
-              </h1>
+              <h1 className="text-2xl font-bold text-white ">Quiz Complete!</h1>
               <h1 className="text-xs font-bold text-gray-300 mb-2">
                 Well done Matilda
               </h1>
@@ -440,6 +450,7 @@ const QuizPage = () => {
                 <RotateCcw className="text-white/80" size={20} />
                 <span>Try Again! </span>
               </button>
+              n
               <div>
                 <p className="text-gray-200 mb-1 font-medium ">
                   Do you want more Quizzes?{" "}
