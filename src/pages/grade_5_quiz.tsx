@@ -454,7 +454,7 @@ const QuizPage = () => {
                         <Loader
                           className="text-yellow-500 animate-spin"
                           size={20}
-                        />{" "}
+                        />
                         <p>Sending message</p>
                       </div>
                     ) : (

@@ -2247,5 +2247,2735 @@
     },
     "correctAnswer": "B",
     "explanation": "The Constitution contains the fundamental laws and principles of Kenya."
+  },
+  {
+    "id": 1,
+    "subject": "Mathematics",
+    "question": "What is the sum of 125 and 37?",
+    "options": {
+      "A": "152",
+      "B": "162",
+      "C": "142",
+      "D": "172"
+    },
+    "correctAnswer": "B",
+    "explanation": "125 + 37 = 162."
+  },
+  {
+    "id": 2,
+    "subject": "English",
+    "question": "Choose the correct plural form of 'child'.",
+    "options": {
+      "A": "childs",
+      "B": "childrens",
+      "C": "children",
+      "D": "childes"
+    },
+    "correctAnswer": "C",
+    "explanation": "The correct plural form of 'child' is 'children'."
+  },
+  {
+    "id": 3,
+    "subject": "Kiswahili",
+    "question": "Neno 'mwalimu' lina maana gani?",
+    "options": {
+      "A": "student",
+      "B": "doctor",
+      "C": "teacher",
+      "D": "farmer"
+    },
+    "correctAnswer": "C",
+    "explanation": "Neno 'mwalimu' linamaanisha 'teacher'."
+  },
+  {
+    "id": 4,
+    "subject": "Science & Technology",
+    "question": "Which planet is known as the 'Red Planet'?",
+    "options": {
+      "A": "Earth",
+      "B": "Mars",
+      "C": "Jupiter",
+      "D": "Venus"
+    },
+    "correctAnswer": "B",
+    "explanation": "Mars is often called the 'Red Planet' due to its reddish appearance."
+  },
+  {
+    "id": 5,
+    "subject": "Social Studies",
+    "question": "What is the capital city of Kenya?",
+    "options": {
+      "A": "Mombasa",
+      "B": "Nairobi",
+      "C": "Kisumu",
+      "D": "Nakuru"
+    },
+    "correctAnswer": "B",
+    "explanation": "Nairobi is the capital city of Kenya."
+  },
+  {
+    "id": 6,
+    "subject": "Christian Religious Education (CRE)",
+    "question": "Who led the Israelites out of Egypt?",
+    "options": {
+      "A": "Abraham",
+      "B": "Moses",
+      "C": "David",
+      "D": "Noah"
+    },
+    "correctAnswer": "B",
+    "explanation": "Moses was chosen by God to lead the Israelites out of slavery in Egypt."
+  },
+  {
+    "id": 7,
+    "subject": "Agriculture",
+    "question": "Which of these is a cereal crop?",
+    "options": {
+      "A": "Cabbage",
+      "B": "Maize",
+      "C": "Beans",
+      "D": "Potatoes"
+    },
+    "correctAnswer": "B",
+    "explanation": "Maize is a common cereal crop grown in Kenya."
+  },
+  {
+    "id": 8,
+    "subject": "Music",
+    "question": "What is a group of musicians playing together called?",
+    "options": {
+      "A": "Choir",
+      "B": "Band",
+      "C": "Orchestra",
+      "D": "Ensemble"
+    },
+    "correctAnswer": "B",
+    "explanation": "A group of musicians playing together is commonly called a band."
+  },
+  {
+    "id": 9,
+    "subject": "Home Science",
+    "question": "Which of these foods is a good source of protein?",
+    "options": {
+      "A": "Ugali",
+      "B": "Oranges",
+      "C": "Eggs",
+      "D": "Sukumawiki"
+    },
+    "correctAnswer": "C",
+    "explanation": "Eggs are a good source of protein."
+  },
+  {
+    "id": 10,
+    "subject": "Art & Craft",
+    "question": "What is the primary color that results from mixing blue and yellow?",
+    "options": {
+      "A": "Red",
+      "B": "Green",
+      "C": "Purple",
+      "D": "Orange"
+    },
+    "correctAnswer": "B",
+    "explanation": "Mixing blue and yellow creates the secondary color green."
+  },
+  {
+    "id": 11,
+    "subject": "Mathematics",
+    "question": "How many minutes are in 2 hours?",
+    "options": {
+      "A": "60",
+      "B": "90",
+      "C": "120",
+      "D": "180"
+    },
+    "correctAnswer": "C",
+    "explanation": "There are 60 minutes in 1 hour, so 2 hours is 2 * 60 = 120 minutes."
+  },
+  {
+    "id": 12,
+    "subject": "English",
+    "question": "Identify the verb in the sentence: 'The bird sings beautifully.'",
+    "options": {
+      "A": "bird",
+      "B": "sings",
+      "C": "beautifully",
+      "D": "the"
+    },
+    "correctAnswer": "B",
+    "explanation": "'Sings' is the action word, or verb, in the sentence."
+  },
+  {
+    "id": 13,
+    "subject": "Kiswahili",
+    "question": "Kinyume cha 'kubwa' ni nini?",
+    "options": {
+      "A": "ndefu",
+      "B": "dog",
+      "C": "ndogo",
+      "D": "fupi"
+    },
+    "correctAnswer": "C",
+    "explanation": "Kinyume cha 'kubwa' (big) ni 'ndogo' (small)."
+  },
+  {
+    "id": 14,
+    "subject": "Science & Technology",
+    "question": "Which part of a plant absorbs water and nutrients from the soil?",
+    "options": {
+      "A": "Leaves",
+      "B": "Stem",
+      "C": "Roots",
+      "D": "Flowers"
+    },
+    "correctAnswer": "C",
+    "explanation": "Roots are responsible for absorbing water and nutrients from the soil."
+  },
+  {
+    "id": 15,
+    "subject": "Social Studies",
+    "question": "Which ocean borders the East African coast?",
+    "options": {
+      "A": "Atlantic Ocean",
+      "B": "Pacific Ocean",
+      "C": "Indian Ocean",
+      "D": "Arctic Ocean"
+    },
+    "correctAnswer": "C",
+    "explanation": "The Indian Ocean borders the East African coast, including Kenya."
+  },
+  {
+    "id": 16,
+    "subject": "Christian Religious Education (CRE)",
+    "question": "How many disciples did Jesus have?",
+    "options": {
+      "A": "7",
+      "B": "10",
+      "C": "12",
+      "D": "15"
+    },
+    "correctAnswer": "C",
+    "explanation": "Jesus had 12 main disciples."
+  },
+  {
+    "id": 17,
+    "subject": "Agriculture",
+    "question": "What is the process of planting seeds called?",
+    "options": {
+      "A": "Harvesting",
+      "B": "Weeding",
+      "C": "Sowing",
+      "D": "Irrigation"
+    },
+    "correctAnswer": "C",
+    "explanation": "The process of planting seeds is called sowing."
+  },
+  {
+    "id": 18,
+    "subject": "Music",
+    "question": "Which of these is a wind instrument?",
+    "options": {
+      "A": "Drum",
+      "B": "Guitar",
+      "C": "Flute",
+      "D": "Piano"
+    },
+    "correctAnswer": "C",
+    "explanation": "A flute is a wind instrument, played by blowing air across or into an opening."
+  },
+  {
+    "id": 19,
+    "subject": "Home Science",
+    "question": "Which meal is typically eaten in the morning?",
+    "options": {
+      "A": "Dinner",
+      "B": "Lunch",
+      "C": "Breakfast",
+      "D": "Supper"
+    },
+    "correctAnswer": "C",
+    "explanation": "Breakfast is the first meal of the day, eaten in the morning."
+  },
+  {
+    "id": 20,
+    "subject": "Art & Craft",
+    "question": "What material is commonly used for pottery?",
+    "options": {
+      "A": "Wood",
+      "B": "Metal",
+      "C": "Clay",
+      "D": "Fabric"
+    },
+    "correctAnswer": "C",
+    "explanation": "Clay is the primary material used for making pottery."
+  },
+  {
+    "id": 21,
+    "subject": "Mathematics",
+    "question": "What is the product of 9 and 7?",
+    "options": {
+      "A": "54",
+      "B": "63",
+      "C": "72",
+      "D": "81"
+    },
+    "correctAnswer": "B",
+    "explanation": "9 multiplied by 7 is 63."
+  },
+  {
+    "id": 22,
+    "subject": "English",
+    "question": "Which of these words is an adjective?",
+    "options": {
+      "A": "quickly",
+      "B": "run",
+      "C": "happy",
+      "D": "book"
+    },
+    "correctAnswer": "C",
+    "explanation": "'Happy' describes a noun, making it an adjective."
+  },
+  {
+    "id": 23,
+    "subject": "Kiswahili",
+    "question": "Jaza nafasi zilizo wazi: 'Mimi _______ chakula.'",
+    "options": {
+      "A": "kunywa",
+      "B": "kula",
+      "C": "cheza",
+      "D": "lala"
+    },
+    "correctAnswer": "B",
+    "explanation": "Sentensi sahihi ni 'Mimi kula chakula' (I eat food)."
+  },
+  {
+    "id": 24,
+    "subject": "Science & Technology",
+    "question": "What is the state of water when it is frozen?",
+    "options": {
+      "A": "Liquid",
+      "B": "Gas",
+      "C": "Solid",
+      "D": "Plasma"
+    },
+    "correctAnswer": "C",
+    "explanation": "When water freezes, it becomes ice, which is a solid."
+  },
+  {
+    "id": 25,
+    "subject": "Social Studies",
+    "question": "Which continent is Kenya located in?",
+    "options": {
+      "A": "Asia",
+      "B": "Europe",
+      "C": "Africa",
+      "D": "South America"
+    },
+    "correctAnswer": "C",
+    "explanation": "Kenya is located on the continent of Africa."
+  },
+  {
+    "id": 26,
+    "subject": "Christian Religious Education (CRE)",
+    "question": "What is the holy book for Christians?",
+    "options": {
+      "A": "Quran",
+      "B": "Torah",
+      "C": "Bible",
+      "D": "Vedas"
+    },
+    "correctAnswer": "C",
+    "explanation": "The Bible is the sacred scripture for Christians."
+  },
+  {
+    "id": 27,
+    "subject": "Agriculture",
+    "question": "Which farm tool is used for digging soil?",
+    "options": {
+      "A": "Rake",
+      "B": "Hoe",
+      "C": "Scythe",
+      "D": "Plow"
+    },
+    "correctAnswer": "B",
+    "explanation": "A hoe is a common tool used for digging and weeding in farming."
+  },
+  {
+    "id": 28,
+    "subject": "Music",
+    "question": "What is the term for the speed of music?",
+    "options": {
+      "A": "Rhythm",
+      "B": "Melody",
+      "C": "Tempo",
+      "D": "Harmony"
+    },
+    "correctAnswer": "C",
+    "explanation": "Tempo refers to the speed at which a piece of music is played."
+  },
+  {
+    "id": 29,
+    "subject": "Home Science",
+    "question": "Which of these is a type of fabric?",
+    "options": {
+      "A": "Plastic",
+      "B": "Cotton",
+      "C": "Glass",
+      "D": "Stone"
+    },
+    "correctAnswer": "B",
+    "explanation": "Cotton is a natural fiber used to make fabric."
+  },
+  {
+    "id": 30,
+    "subject": "Art & Craft",
+    "question": "What is a brush used for in painting?",
+    "options": {
+      "A": "Mixing colors",
+      "B": "Applying paint",
+      "C": "Cleaning",
+      "D": "Drying"
+    },
+    "correctAnswer": "B",
+    "explanation": "A brush is used to apply paint to a surface."
+  },
+  {
+    "id": 31,
+    "subject": "Mathematics",
+    "question": "What is the difference between 80 and 35?",
+    "options": {
+      "A": "45",
+      "B": "55",
+      "C": "35",
+      "D": "65"
+    },
+    "correctAnswer": "A",
+    "explanation": "80 - 35 = 45."
+  },
+  {
+    "id": 32,
+    "subject": "English",
+    "question": "Which word means the opposite of 'hot'?",
+    "options": {
+      "A": "Warm",
+      "B": "Cold",
+      "C": "Mild",
+      "D": "Boiling"
+    },
+    "correctAnswer": "B",
+    "explanation": "The opposite of 'hot' is 'cold'."
+  },
+  {
+    "id": 33,
+    "subject": "Kiswahili",
+    "question": "Kamilisha methali: 'Haraka haraka ______ baraka.'",
+    "options": {
+      "A": "haina",
+      "B": "ina",
+      "C": "na",
+      "D": "bila"
+    },
+    "correctAnswer": "A",
+    "explanation": "Methali kamili ni 'Haraka haraka haina baraka' (Hurry hurry has no blessing)."
+  },
+  {
+    "id": 34,
+    "subject": "Science & Technology",
+    "question": "What is the main source of light and heat on Earth?",
+    "options": {
+      "A": "Moon",
+      "B": "Stars",
+      "C": "Sun",
+      "D": "Fire"
+    },
+    "correctAnswer": "C",
+    "explanation": "The Sun is the primary source of light and heat for Earth."
+  },
+  {
+    "id": 35,
+    "subject": "Social Studies",
+    "question": "What is a group of people living together in an organized community called?",
+    "options": {
+      "A": "Crowd",
+      "B": "Herd",
+      "C": "Society",
+      "D": "Gang"
+    },
+    "correctAnswer": "C",
+    "explanation": "A society is an organized group of people living together."
+  },
+  {
+    "id": 36,
+    "subject": "Christian Religious Education (CRE)",
+    "question": "What did God create on the first day according to the Bible?",
+    "options": {
+      "A": "Animals",
+      "B": "Plants",
+      "C": "Light",
+      "D": "Humans"
+    },
+    "correctAnswer": "C",
+    "explanation": "According to Genesis, God created light on the first day."
+  },
+  {
+    "id": 37,
+    "subject": "Agriculture",
+    "question": "What is the term for raising animals for human use?",
+    "options": {
+      "A": "Crop farming",
+      "B": "Pastoralism",
+      "C": "Horticulture",
+      "D": "Apiculture"
+    },
+    "correctAnswer": "B",
+    "explanation": "Pastoralism involves the raising of livestock."
+  },
+  {
+    "id": 38,
+    "subject": "Music",
+    "question": "Which note has the highest pitch?",
+    "options": {
+      "A": "Do",
+      "B": "Re",
+      "C": "Mi",
+      "D": "Ti"
+    },
+    "correctAnswer": "D",
+    "explanation": "In the solfège scale, 'Ti' (or 'Si') is the highest pitch before returning to 'Do'."
+  },
+  {
+    "id": 39,
+    "subject": "Home Science",
+    "question": "What is the purpose of washing hands before eating?",
+    "options": {
+      "A": "To make them smell nice",
+      "B": "To remove dirt and germs",
+      "C": "To cool them down",
+      "D": "To make them soft"
+    },
+    "correctAnswer": "B",
+    "explanation": "Washing hands helps remove dirt and germs, preventing illness."
+  },
+  {
+    "id": 40,
+    "subject": "Art & Craft",
+    "question": "What is a collage made of?",
+    "options": {
+      "A": "Sculpted clay",
+      "B": "Painted canvas",
+      "C": "Assembled materials like paper, photos",
+      "D": "Carved wood"
+    },
+    "correctAnswer": "C",
+    "explanation": "A collage is an artwork made by assembling different materials onto a surface."
+  },
+  {
+    "id": 41,
+    "subject": "Mathematics",
+    "question": "If you have 4 groups of 6 apples, how many apples do you have in total?",
+    "options": {
+      "A": "10",
+      "B": "24",
+      "C": "18",
+      "D": "12"
+    },
+    "correctAnswer": "B",
+    "explanation": "4 groups of 6 apples is 4 * 6 = 24 apples."
+  },
+  {
+    "id": 42,
+    "subject": "English",
+    "question": "Which of these words is a pronoun?",
+    "options": {
+      "A": "Table",
+      "B": "He",
+      "C": "Jump",
+      "D": "Slowly"
+    },
+    "correctAnswer": "B",
+    "explanation": "'He' is a pronoun, used in place of a noun (a male person's name)."
+  },
+  {
+    "id": 43,
+    "subject": "Kiswahili",
+    "question": "Ni nani anafundisha shuleni?",
+    "options": {
+      "A": "Mwanafunzi",
+      "B": "Daktari",
+      "C": "Mwalimu",
+      "D": "Polisi"
+    },
+    "correctAnswer": "C",
+    "explanation": "Mwalimu (teacher) anafundisha shuleni."
+  },
+  {
+    "id": 44,
+    "subject": "Science & Technology",
+    "question": "What gas do plants take in from the atmosphere?",
+    "options": {
+      "A": "Oxygen",
+      "B": "Nitrogen",
+      "C": "Carbon dioxide",
+      "D": "Hydrogen"
+    },
+    "correctAnswer": "C",
+    "explanation": "Plants take in carbon dioxide for photosynthesis."
+  },
+  {
+    "id": 45,
+    "subject": "Social Studies",
+    "question": "What is the main role of a police officer?",
+    "options": {
+      "A": "Teaching",
+      "B": "Maintaining law and order",
+      "C": "Farming",
+      "D": "Building houses"
+    },
+    "correctAnswer": "B",
+    "explanation": "Police officers are responsible for maintaining law and order."
+  },
+  {
+    "id": 46,
+    "subject": "Christian Religious Education (CRE)",
+    "question": "Which parable teaches about a farmer sowing seeds?",
+    "options": {
+      "A": "The Good Samaritan",
+      "B": "The Prodigal Son",
+      "C": "The Sower",
+      "D": "The Lost Sheep"
+    },
+    "correctAnswer": "C",
+    "explanation": "The Parable of the Sower talks about a farmer sowing seeds on different types of ground."
+  },
+  {
+    "id": 47,
+    "subject": "Agriculture",
+    "question": "What is fertile soil rich in?",
+    "options": {
+      "A": "Sand",
+      "B": "Water",
+      "C": "Nutrients",
+      "D": "Stones"
+    },
+    "correctAnswer": "C",
+    "explanation": "Fertile soil is rich in nutrients essential for plant growth."
+  },
+  {
+    "id": 48,
+    "subject": "Music",
+    "question": "How many lines are there on a musical staff?",
+    "options": {
+      "A": "3",
+      "B": "4",
+      "C": "5",
+      "D": "6"
+    },
+    "correctAnswer": "C",
+    "explanation": "A musical staff has five horizontal lines."
+  },
+  {
+    "id": 49,
+    "subject": "Home Science",
+    "question": "What is the best way to store cooked food to prevent spoilage?",
+    "options": {
+      "A": "Leave it on the table",
+      "B": "Put it in the fridge",
+      "C": "Cover it with a cloth",
+      "D": "Place it in direct sunlight"
+    },
+    "correctAnswer": "B",
+    "explanation": "Refrigeration slows down bacterial growth, preventing spoilage."
+  },
+  {
+    "id": 50,
+    "subject": "Art & Craft",
+    "question": "Which of these is a carving tool?",
+    "options": {
+      "A": "Paintbrush",
+      "B": "Chisel",
+      "C": "Scissors",
+      "D": "Pencil"
+    },
+    "correctAnswer": "B",
+    "explanation": "A chisel is a tool used for carving wood, stone, or metal."
+  },
+  {
+    "id": 51,
+    "subject": "Mathematics",
+    "question": "What is half of 50?",
+    "options": {
+      "A": "10",
+      "B": "20",
+      "C": "25",
+      "D": "30"
+    },
+    "correctAnswer": "C",
+    "explanation": "Half of 50 is 50 divided by 2, which is 25."
+  },
+  {
+    "id": 52,
+    "subject": "English",
+    "question": "Which word is a synonym for 'big'?",
+    "options": {
+      "A": "Small",
+      "B": "Tiny",
+      "C": "Large",
+      "D": "Narrow"
+    },
+    "correctAnswer": "C",
+    "explanation": "'Large' means the same as 'big'."
+  },
+  {
+    "id": 53,
+    "subject": "Kiswahili",
+    "question": "Kamilisha sentensi: 'Jua _______ mashariki.'",
+    "options": {
+      "A": "linazama",
+      "B": "linachomoza",
+      "C": "linapanda",
+      "D": "linashuka"
+    },
+    "correctAnswer": "B",
+    "explanation": "Jua linachomoza (rises) mashariki (east)."
+  },
+  {
+    "id": 54,
+    "subject": "Science & Technology",
+    "question": "What is the process by which plants make their own food?",
+    "options": {
+      "A": "Respiration",
+      "B": "Transpiration",
+      "C": "Photosynthesis",
+      "D": "Germination"
+    },
+    "correctAnswer": "C",
+    "explanation": "Photosynthesis is the process plants use to convert light energy into chemical energy."
+  },
+  {
+    "id": 55,
+    "subject": "Social Studies",
+    "question": "Which arm of government makes laws?",
+    "options": {
+      "A": "Judiciary",
+      "B": "Executive",
+      "C": "Legislature",
+      "D": "Civil Service"
+    },
+    "correctAnswer": "C",
+    "explanation": "The Legislature (Parliament) is responsible for making laws."
+  },
+  {
+    "id": 56,
+    "subject": "Christian Religious Education (CRE)",
+    "question": "Who was Jesus' mother?",
+    "options": {
+      "A": "Martha",
+      "B": "Mary",
+      "C": "Elizabeth",
+      "D": "Ruth"
+    },
+    "correctAnswer": "B",
+    "explanation": "Jesus' mother was Mary."
+  },
+  {
+    "id": 57,
+    "subject": "Agriculture",
+    "question": "What is the practice of growing crops without soil, using nutrient solutions?",
+    "options": {
+      "A": "Organic farming",
+      "B": "Hydroponics",
+      "C": "Mixed farming",
+      "D": "Subsistence farming"
+    },
+    "correctAnswer": "B",
+    "explanation": "Hydroponics is a method of growing plants using mineral nutrient solutions in water, without soil."
+  },
+  {
+    "id": 58,
+    "subject": "Music",
+    "question": "What does 'piano' mean in music?",
+    "options": {
+      "A": "Loud",
+      "B": "Soft",
+      "C": "Fast",
+      "D": "Slow"
+    },
+    "correctAnswer": "B",
+    "explanation": "'Piano' (p) in music indicates to play softly."
+  },
+  {
+    "id": 59,
+    "subject": "Home Science",
+    "question": "What is a balanced diet?",
+    "options": {
+      "A": "Eating only meat",
+      "B": "Eating only fruits",
+      "C": "Eating a variety of foods in the right amounts",
+      "D": "Eating food once a day"
+    },
+    "correctAnswer": "C",
+    "explanation": "A balanced diet involves consuming various food groups in appropriate proportions."
+  },
+  {
+    "id": 60,
+    "subject": "Art & Craft",
+    "question": "Which of these is a primary color?",
+    "options": {
+      "A": "Orange",
+      "B": "Green",
+      "C": "Violet",
+      "D": "Red"
+    },
+    "correctAnswer": "D",
+    "explanation": "Red, blue, and yellow are the primary colors."
+  },
+  {
+    "id": 61,
+    "subject": "Mathematics",
+    "question": "Count the number of sides on a triangle.",
+    "options": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "5"
+    },
+    "correctAnswer": "B",
+    "explanation": "A triangle has 3 sides."
+  },
+  {
+    "id": 62,
+    "subject": "English",
+    "question": "Complete the sentence: 'She is ______ a book.'",
+    "options": {
+      "A": "reading",
+      "B": "read",
+      "C": "reads",
+      "D": "to read"
+    },
+    "correctAnswer": "A",
+    "explanation": "The present continuous tense requires 'is reading'."
+  },
+  {
+    "id": 63,
+    "subject": "Kiswahili",
+    "question": "Neno 'mtoto' linamaanisha nini?",
+    "options": {
+      "A": "Adult",
+      "B": "Baby",
+      "C": "Elder",
+      "D": "Parent"
+    },
+    "correctAnswer": "B",
+    "explanation": "Mtoto means 'baby' or 'child'."
+  },
+  {
+    "id": 64,
+    "subject": "Science & Technology",
+    "question": "What is the force that pulls objects towards the Earth?",
+    "options": {
+      "A": "Friction",
+      "B": "Gravity",
+      "C": "Magnetism",
+      "D": "Thrust"
+    },
+    "correctAnswer": "B",
+    "explanation": "Gravity is the force that pulls objects down towards the center of the Earth."
+  },
+  {
+    "id": 65,
+    "subject": "Social Studies",
+    "question": "Which document outlines the rights and responsibilities of citizens in Kenya?",
+    "options": {
+      "A": "The Penal Code",
+      "B": "The Constitution",
+      "C": "The Traffic Act",
+      "D": "The Marriage Act"
+    },
+    "correctAnswer": "B",
+    "explanation": "The Constitution of Kenya outlines the rights and responsibilities of its citizens."
+  },
+  {
+    "id": 66,
+    "subject": "Christian Religious Education (CRE)",
+    "question": "Where was Jesus born?",
+    "options": {
+      "A": "Nazareth",
+      "B": "Jerusalem",
+      "C": "Bethlehem",
+      "D": "Galilee"
+    },
+    "correctAnswer": "C",
+    "explanation": "Jesus was born in Bethlehem."
+  },
+  {
+    "id": 67,
+    "subject": "Agriculture",
+    "question": "What is the removal of unwanted plants (weeds) from a farm called?",
+    "options": {
+      "A": "Pruning",
+      "B": "Tilling",
+      "C": "Weeding",
+      "D": "Mulching"
+    },
+    "correctAnswer": "C",
+    "explanation": "Weeding is the process of removing unwanted plants from a cultivated area."
+  },
+  {
+    "id": 68,
+    "subject": "Music",
+    "question": "What is the high female singing voice called?",
+    "options": {
+      "A": "Alto",
+      "B": "Soprano",
+      "C": "Tenor",
+      "D": "Bass"
+    },
+    "correctAnswer": "B",
+    "explanation": "Soprano is the highest female vocal range."
+  },
+  {
+    "id": 69,
+    "subject": "Home Science",
+    "question": "Which is an example of a healthy snack?",
+    "options": {
+      "A": "Chips",
+      "B": "Soda",
+      "C": "Apple",
+      "D": "Candy"
+    },
+    "correctAnswer": "C",
+    "explanation": "An apple is a healthy snack option, rich in vitamins."
+  },
+  {
+    "id": 70,
+    "subject": "Art & Craft",
+    "question": "What is the process of shaping clay on a potter's wheel?",
+    "options": {
+      "A": "Sculpting",
+      "B": "Painting",
+      "C": "Throwing",
+      "D": "Weaving"
+    },
+    "correctAnswer": "C",
+    "explanation": "Shaping clay on a potter's wheel is called throwing."
+  },
+  {
+    "id": 71,
+    "subject": "Mathematics",
+    "question": "What is the next number in the sequence: 2, 4, 6, 8, __?",
+    "options": {
+      "A": "9",
+      "B": "10",
+      "C": "11",
+      "D": "12"
+    },
+    "correctAnswer": "B",
+    "explanation": "This is a sequence of even numbers, so the next number is 10."
+  },
+  {
+    "id": 72,
+    "subject": "English",
+    "question": "Identify the noun in the sentence: 'The cat slept on the mat.'",
+    "options": {
+      "A": "slept",
+      "B": "on",
+      "C": "mat",
+      "D": "the"
+    },
+    "correctAnswer": "C",
+    "explanation": "'Mat' is a thing, making it a noun. 'Cat' is also a noun, but 'mat' is an option."
+  },
+  {
+    "id": 73,
+    "subject": "Kiswahili",
+    "question": "Jaza nafasi zilizo wazi: 'Watoto _______ shuleni.'",
+    "options": {
+      "A": "anakwenda",
+      "B": "wanakwenda",
+      "C": "nakwenda",
+      "D": "alikwenda"
+    },
+    "correctAnswer": "B",
+    "explanation": "Watoto (plural) wanakwenda (they go) shuleni."
+  },
+  {
+    "id": 74,
+    "subject": "Science & Technology",
+    "question": "What is the largest organ in the human body?",
+    "options": {
+      "A": "Brain",
+      "B": "Heart",
+      "C": "Skin",
+      "D": "Lungs"
+    },
+    "correctAnswer": "C",
+    "explanation": "The skin is the largest organ of the human body."
+  },
+  {
+    "id": 75,
+    "subject": "Social Studies",
+    "question": "Which public holiday celebrates Kenya's independence?",
+    "options": {
+      "A": "Labour Day",
+      "B": "Madaraka Day",
+      "C": "Mashujaa Day",
+      "D": "Jamhuri Day"
+    },
+    "correctAnswer": "D",
+    "explanation": "Jamhuri Day, on December 12th, celebrates Kenya's independence."
+  },
+  {
+    "id": 76,
+    "subject": "Christian Religious Education (CRE)",
+    "question": "What is the first book of the Bible?",
+    "options": {
+      "A": "Exodus",
+      "B": "Psalms",
+      "C": "Genesis",
+      "D": "Matthew"
+    },
+    "correctAnswer": "C",
+    "explanation": "Genesis is the first book of the Bible."
+  },
+  {
+    "id": 77,
+    "subject": "Agriculture",
+    "question": "Which of these is a cash crop in Kenya?",
+    "options": {
+      "A": "Millet",
+      "B": "Beans",
+      "C": "Tea",
+      "D": "Cassava"
+    },
+    "correctAnswer": "C",
+    "explanation": "Tea is a major cash crop in Kenya, grown for sale rather than consumption by the farmer."
+  },
+  {
+    "id": 78,
+    "subject": "Music",
+    "question": "What is a rhythmic pattern of sounds called?",
+    "options": {
+      "A": "Melody",
+      "B": "Harmony",
+      "C": "Rhythm",
+      "D": "Pitch"
+    },
+    "correctAnswer": "C",
+    "explanation": "Rhythm is the pattern of sounds and silences in music."
+  },
+  {
+    "id": 79,
+    "subject": "Home Science",
+    "question": "What is the safest way to cross a busy road?",
+    "options": {
+      "A": "Run across quickly",
+      "B": "Walk slowly without looking",
+      "C": "Look both ways and cross when clear",
+      "D": "Follow someone else"
+    },
+    "correctAnswer": "C",
+    "explanation": "It's essential to look both ways and ensure the road is clear before crossing."
+  },
+  {
+    "id": 80,
+    "subject": "Art & Craft",
+    "question": "What is a sculpture?",
+    "options": {
+      "A": "A painting on canvas",
+      "B": "A drawing on paper",
+      "C": "A three-dimensional artwork",
+      "D": "A woven basket"
+    },
+    "correctAnswer": "C",
+    "explanation": "A sculpture is a three-dimensional work of art, often made by carving, molding, or assembling."
+  },
+  {
+    "id": 81,
+    "subject": "Mathematics",
+    "question": "How many tens are in 100?",
+    "options": {
+      "A": "1",
+      "B": "10",
+      "C": "100",
+      "D": "0"
+    },
+    "correctAnswer": "B",
+    "explanation": "There are 10 tens in 100 (10 x 10 = 100)."
+  },
+  {
+    "id": 82,
+    "subject": "English",
+    "question": "Which punctuation mark is used at the end of a question?",
+    "options": {
+      "A": "Period (.)",
+      "B": "Comma (,)",
+      "C": "Question mark (?)",
+      "D": "Exclamation mark (!)"
+    },
+    "correctAnswer": "C",
+    "explanation": "A question mark is used to indicate a question."
+  },
+  {
+    "id": 83,
+    "subject": "Kiswahili",
+    "question": "Neno 'rafiki' linamaanisha nini?",
+    "options": {
+      "A": "Enemy",
+      "B": "Stranger",
+      "C": "Friend",
+      "D": "Family"
+    },
+    "correctAnswer": "C",
+    "explanation": "Rafiki means 'friend'."
+  },
+  {
+    "id": 84,
+    "subject": "Science & Technology",
+    "question": "What is the main function of the heart in the human body?",
+    "options": {
+      "A": "Digesting food",
+      "B": "Pumping blood",
+      "C": "Breathing",
+      "D": "Thinking"
+    },
+    "correctAnswer": "B",
+    "explanation": "The heart pumps blood throughout the body."
+  },
+  {
+    "id": 85,
+    "subject": "Social Studies",
+    "question": "What is the name of the legislative arm of government in Kenya?",
+    "options": {
+      "A": "State House",
+      "B": "Parliament",
+      "C": "Supreme Court",
+      "D": "Cabinet"
+    },
+    "correctAnswer": "B",
+    "explanation": "The Parliament of Kenya is the country's legislative body."
+  },
+  {
+    "id": 86,
+    "subject": "Christian Religious Education (CRE)",
+    "question": "Who was swallowed by a big fish (whale)?",
+    "options": {
+      "A": "Noah",
+      "B": "Joseph",
+      "C": "Jonah",
+      "D": "Daniel"
+    },
+    "correctAnswer": "C",
+    "explanation": "The prophet Jonah was swallowed by a great fish."
+  },
+  {
+    "id": 87,
+    "subject": "Agriculture",
+    "question": "Which of these is a method of conserving soil?",
+    "options": {
+      "A": "Burning bushes",
+      "B": "Overgrazing",
+      "C": "Terracing",
+      "D": "Deforestation"
+    },
+    "correctAnswer": "C",
+    "explanation": "Terracing helps prevent soil erosion on slopes."
+  },
+  {
+    "id": 88,
+    "subject": "Music",
+    "question": "What is the plural of 'note' in music?",
+    "options": {
+      "A": "Notes",
+      "B": "Noties",
+      "C": "Notus",
+      "D": "Noti"
+    },
+    "correctAnswer": "A",
+    "explanation": "The plural of 'note' is 'notes'."
+  },
+  {
+    "id": 89,
+    "subject": "Home Science",
+    "question": "Which of these is a way to stay clean and healthy?",
+    "options": {
+      "A": "Not showering",
+      "B": "Washing clothes once a month",
+      "C": "Bathing daily",
+      "D": "Eating junk food"
+    },
+    "correctAnswer": "C",
+    "explanation": "Bathing daily helps maintain personal hygiene."
+  },
+  {
+    "id": 90,
+    "subject": "Art & Craft",
+    "question": "What do you call a drawing made with pencils?",
+    "options": {
+      "A": "Painting",
+      "B": "Sketch",
+      "C": "Sculpture",
+      "D": "Mosaic"
+    },
+    "correctAnswer": "B",
+    "explanation": "A sketch is a rough drawing made with a pencil."
+  },
+  {
+    "id": 91,
+    "subject": "Mathematics",
+    "question": "If a square has sides of 5 cm, what is its perimeter?",
+    "options": {
+      "A": "10 cm",
+      "B": "15 cm",
+      "C": "20 cm",
+      "D": "25 cm"
+    },
+    "correctAnswer": "C",
+    "explanation": "The perimeter of a square is 4 times the length of one side, so 4 * 5 cm = 20 cm."
+  },
+  {
+    "id": 92,
+    "subject": "English",
+    "question": "Choose the correct spelling:",
+    "options": {
+      "A": "recieve",
+      "B": "believe",
+      "C": "acheive",
+      "D": "deceive"
+    },
+    "correctAnswer": "B",
+    "explanation": "'Believe' is spelled correctly, following the 'i before e except after c' rule for 'ei' sounds like 'ee'."
+  },
+  {
+    "id": 93,
+    "subject": "Kiswahili",
+    "question": "Neno 'chakula' linamaanisha nini?",
+    "options": {
+      "A": "Water",
+      "B": "Drink",
+      "C": "Food",
+      "D": "Sleep"
+    },
+    "correctAnswer": "C",
+    "explanation": "Chakula means 'food'."
+  },
+  {
+    "id": 94,
+    "subject": "Science & Technology",
+    "question": "Which of these is a renewable source of energy?",
+    "options": {
+      "A": "Coal",
+      "B": "Oil",
+      "C": "Solar",
+      "D": "Natural Gas"
+    },
+    "correctAnswer": "C",
+    "explanation": "Solar energy is renewable because it comes from the sun, which is continuously available."
+  },
+  {
+    "id": 95,
+    "subject": "Social Studies",
+    "question": "What is the main physical feature of Kenya that is a high plateau?",
+    "options": {
+      "A": "Lake Victoria",
+      "B": "Mount Kenya",
+      "C": "Great Rift Valley",
+      "D": "Coastal Plain"
+    },
+    "correctAnswer": "C",
+    "explanation": "The Great Rift Valley runs through Kenya and is a prominent physical feature."
+  },
+  {
+    "id": 96,
+    "subject": "Christian Religious Education (CRE)",
+    "question": "Who built the ark before the great flood?",
+    "options": {
+      "A": "Moses",
+      "B": "Abraham",
+      "C": "Noah",
+      "D": "Joseph"
+    },
+    "correctAnswer": "C",
+    "explanation": "Noah built the ark as instructed by God to save his family and animals from the flood."
+  },
+  {
+    "id": 97,
+    "subject": "Agriculture",
+    "question": "What are young plants grown in a nursery before being transplanted called?",
+    "options": {
+      "A": "Cuttings",
+      "B": "Seedlings",
+      "C": "Tubers",
+      "D": "Suckers"
+    },
+    "correctAnswer": "B",
+    "explanation": "Young plants grown from seeds are called seedlings."
+  },
+  {
+    "id": 98,
+    "subject": "Music",
+    "question": "Which instrument uses keys to produce sound and is often large?",
+    "options": {
+      "A": "Violin",
+      "B": "Trumpet",
+      "C": "Piano",
+      "D": "Drums"
+    },
+    "correctAnswer": "C",
+    "explanation": "A piano is a large musical instrument played using a keyboard."
+  },
+  {
+    "id": 99,
+    "subject": "Home Science",
+    "question": "What is the importance of a clean living environment?",
+    "options": {
+      "A": "It makes the house look bigger.",
+      "B": "It attracts more visitors.",
+      "C": "It prevents diseases and pests.",
+      "D": "It saves money on cleaning supplies."
+    },
+    "correctAnswer": "C",
+    "explanation": "A clean environment helps prevent the spread of diseases and pests."
+  },
+  {
+    "id": 100,
+    "subject": "Art & Craft",
+    "question": "What is a mosaic made from?",
+    "options": {
+      "A": "Single large stone",
+      "B": "Small pieces of colored material",
+      "C": "A carved block of wood",
+      "D": "A painted canvas"
+    },
+    "correctAnswer": "B",
+    "explanation": "A mosaic is an artwork made from small pieces of colored glass, stone, or other materials."
+  },
+  {
+    "id": 101,
+    "subject": "Mathematics",
+    "question": "What is the place value of the digit '7' in the number 472?",
+    "options": {
+      "A": "Hundreds",
+      "B": "Tens",
+      "C": "Ones",
+      "D": "Thousands"
+    },
+    "correctAnswer": "B",
+    "explanation": "In 472, the '7' is in the tens place."
+  },
+  {
+    "id": 102,
+    "subject": "English",
+    "question": "Choose the word that means 'to speak very quietly'.",
+    "options": {
+      "A": "Shout",
+      "B": "Whisper",
+      "C": "Scream",
+      "D": "Talk"
+    },
+    "correctAnswer": "B",
+    "explanation": "To 'whisper' means to speak in a very low voice."
+  },
+  {
+    "id": 103,
+    "subject": "Kiswahili",
+    "question": "Andika nambari 'tatu' kwa herufi.",
+    "options": {
+      "A": "mbili",
+      "B": "nne",
+      "C": "tatu",
+      "D": "tano"
+    },
+    "correctAnswer": "C",
+    "explanation": "Tatu is the Kiswahili word for 'three'."
+  },
+  {
+    "id": 104,
+    "subject": "Science & Technology",
+    "question": "Which animal group lays eggs?",
+    "options": {
+      "A": "Mammals",
+      "B": "Reptiles",
+      "C": "Fish (some)",
+      "D": "Both B and C"
+    },
+    "correctAnswer": "D",
+    "explanation": "Many reptiles (like snakes, lizards) and most fish lay eggs. Some birds also lay eggs (not an option). Mammals mostly give birth to live young."
+  },
+  {
+    "id": 105,
+    "subject": "Social Studies",
+    "question": "What is the main duty of a good citizen?",
+    "options": {
+      "A": "Breaking laws",
+      "B": "Paying taxes and obeying laws",
+      "C": "Polluting the environment",
+      "D": "Ignoring public services"
+    },
+    "correctAnswer": "B",
+    "explanation": "A good citizen pays taxes and obeys the laws of the country."
+  },
+  {
+    "id": 106,
+    "subject": "Christian Religious Education (CRE)",
+    "question": "What is the meaning of 'Amen' at the end of a prayer?",
+    "options": {
+      "A": "The end",
+      "B": "So be it",
+      "C": "Thank you",
+      "D": "God bless"
+    },
+    "correctAnswer": "B",
+    "explanation": "'Amen' means 'so be it' or 'let it be'."
+  },
+  {
+    "id": 107,
+    "subject": "Agriculture",
+    "question": "What is a benefit of crop rotation?",
+    "options": {
+      "A": "Increases pests",
+      "B": "Depletes soil nutrients",
+      "C": "Improves soil fertility",
+      "D": "Encourages weeds"
+    },
+    "correctAnswer": "C",
+    "explanation": "Crop rotation helps maintain and improve soil fertility by alternating different types of crops."
+  },
+  {
+    "id": 108,
+    "subject": "Music",
+    "question": "What is a short, simple, catchy tune often used for children's songs?",
+    "options": {
+      "A": "Opera",
+      "B": "Symphony",
+      "C": "Jingle",
+      "D": "Sonata"
+    },
+    "correctAnswer": "C",
+    "explanation": "A jingle is a short, memorable tune."
+  },
+  {
+    "id": 109,
+    "subject": "Home Science",
+    "question": "How can you prevent a fire in the kitchen?",
+    "options": {
+      "A": "Leave cooking unattended",
+      "B": "Place flammable items near the stove",
+      "C": "Keep flammable items away from heat sources",
+      "D": "Overload electrical sockets"
+    },
+    "correctAnswer": "C",
+    "explanation": "Keeping flammable items away from heat sources reduces fire risk."
+  },
+  {
+    "id": 110,
+    "subject": "Art & Craft",
+    "question": "What is a loom used for?",
+    "options": {
+      "A": "Painting",
+      "B": "Sculpting",
+      "C": "Weaving",
+      "D": "Pottery"
+    },
+    "correctAnswer": "C",
+    "explanation": "A loom is a device used for weaving fabric."
+  },
+  {
+    "id": 111,
+    "subject": "Mathematics",
+    "question": "How many days are in a leap year?",
+    "options": {
+      "A": "365",
+      "B": "366",
+      "C": "360",
+      "D": "355"
+    },
+    "correctAnswer": "B",
+    "explanation": "A leap year has 366 days, with an extra day in February."
+  },
+  {
+    "id": 112,
+    "subject": "English",
+    "question": "Which of these words is a conjunction?",
+    "options": {
+      "A": "Run",
+      "B": "And",
+      "C": "Quickly",
+      "D": "Happy"
+    },
+    "correctAnswer": "B",
+    "explanation": "'And' is a conjunction used to connect words or clauses."
+  },
+  {
+    "id": 113,
+    "subject": "Kiswahili",
+    "question": "Neno 'kesho' linamaanisha nini?",
+    "options": {
+      "A": "Yesterday",
+      "B": "Today",
+      "C": "Tomorrow",
+      "D": "Now"
+    },
+    "correctAnswer": "C",
+    "explanation": "Kesho means 'tomorrow'."
+  },
+  {
+    "id": 114,
+    "subject": "Science & Technology",
+    "question": "What is the process of water changing from liquid to gas (vapor) called?",
+    "options": {
+      "A": "Condensation",
+      "B": "Evaporation",
+      "C": "Precipitation",
+      "D": "Melting"
+    },
+    "correctAnswer": "B",
+    "explanation": "Evaporation is when liquid water turns into water vapor."
+  },
+  {
+    "id": 115,
+    "subject": "Social Studies",
+    "question": "What is the symbol of unity and sovereignty for a country?",
+    "options": {
+      "A": "A monument",
+      "B": "A flag",
+      "C": "A building",
+      "D": "A map"
+    },
+    "correctAnswer": "B",
+    "explanation": "A flag is a powerful symbol of national identity and sovereignty."
+  },
+  {
+    "id": 116,
+    "subject": "Christian Religious Education (CRE)",
+    "question": "What did Jesus turn water into at the wedding in Cana?",
+    "options": {
+      "A": "Milk",
+      "B": "Wine",
+      "C": "Juice",
+      "D": "Honey"
+    },
+    "correctAnswer": "B",
+    "explanation": "Jesus performed his first miracle by turning water into wine."
+  },
+  {
+    "id": 117,
+    "subject": "Agriculture",
+    "question": "Which of these animals is a ruminant?",
+    "options": {
+      "A": "Pig",
+      "B": "Chicken",
+      "C": "Cow",
+      "D": "Dog"
+    },
+    "correctAnswer": "C",
+    "explanation": "Cows are ruminants, meaning they have a four-chambered stomach and chew cud."
+  },
+  {
+    "id": 118,
+    "subject": "Music",
+    "question": "What is a person who writes music called?",
+    "options": {
+      "A": "Singer",
+      "B": "Composer",
+      "C": "Performer",
+      "D": "Listener"
+    },
+    "correctAnswer": "B",
+    "explanation": "A composer is a person who writes music."
+  },
+  {
+    "id": 119,
+    "subject": "Home Science",
+    "question": "What is the first step in treating a minor cut?",
+    "options": {
+      "A": "Apply ointment",
+      "B": "Cover with a bandage",
+      "C": "Wash with soap and water",
+      "D": "Ignore it"
+    },
+    "correctAnswer": "C",
+    "explanation": "The first step is to clean the wound to prevent infection."
+  },
+  {
+    "id": 120,
+    "subject": "Art & Craft",
+    "question": "What is painting on a wall or ceiling called?",
+    "options": {
+      "A": "Sketching",
+      "B": "Drawing",
+      "C": "Fresco",
+      "D": "Sculpture"
+    },
+    "correctAnswer": "C",
+    "explanation": "A fresco is a mural painting technique done on fresh, wet plaster."
+  },
+  {
+    "id": 121,
+    "subject": "Mathematics",
+    "question": "What is the perimeter of a rectangle with length 10 cm and width 5 cm?",
+    "options": {
+      "A": "15 cm",
+      "B": "30 cm",
+      "C": "50 cm",
+      "D": "20 cm"
+    },
+    "correctAnswer": "B",
+    "explanation": "Perimeter = 2 * (length + width) = 2 * (10 + 5) = 2 * 15 = 30 cm."
+  },
+  {
+    "id": 122,
+    "subject": "English",
+    "question": "Which word is an antonym for 'fast'?",
+    "options": {
+      "A": "Quick",
+      "B": "Rapid",
+      "C": "Slow",
+      "D": "Swift"
+    },
+    "correctAnswer": "C",
+    "explanation": "The opposite of 'fast' is 'slow'."
+  },
+  {
+    "id": 123,
+    "subject": "Kiswahili",
+    "question": "Jina la baba wa kike ni nani?",
+    "options": {
+      "A": "Mama",
+      "B": "Mjomba",
+      "C": "Babu",
+      "D": "Baba"
+    },
+    "correctAnswer": "D",
+    "explanation": "Baba wa kike (female father) is still 'Baba' (father)."
+  },
+  {
+    "id": 124,
+    "subject": "Science & Technology",
+    "question": "What is the process of heating milk to kill harmful bacteria called?",
+    "options": {
+      "A": "Boiling",
+      "B": "Freezing",
+      "C": "Pasteurization",
+      "D": "Distillation"
+    },
+    "correctAnswer": "C",
+    "explanation": "Pasteurization is a process that kills harmful bacteria in milk by heating it to a specific temperature for a set time."
+  },
+  {
+    "id": 125,
+    "subject": "Social Studies",
+    "question": "Which of these is a traditional Kenyan community elder's role?",
+    "options": {
+      "A": "Building roads",
+      "B": "Settling disputes",
+      "C": "Operating machinery",
+      "D": "Teaching in formal schools"
+    },
+    "correctAnswer": "B",
+    "explanation": "Community elders traditionally play a crucial role in settling disputes."
+  },
+  {
+    "id": 126,
+    "subject": "Christian Religious Education (CRE)",
+    "question": "What is the season before Easter, marked by fasting and repentance?",
+    "options": {
+      "A": "Advent",
+      "B": "Lent",
+      "C": "Christmas",
+      "D": "Pentecost"
+    },
+    "correctAnswer": "B",
+    "explanation": "Lent is the 40-day period of fasting and prayer before Easter."
+  },
+  {
+    "id": 127,
+    "subject": "Agriculture",
+    "question": "What is the watering of crops by artificial means called?",
+    "options": {
+      "A": "Rainfall",
+      "B": "Drainage",
+      "C": "Irrigation",
+      "D": "Fertilization"
+    },
+    "correctAnswer": "C",
+    "explanation": "Irrigation is the application of controlled amounts of water to crops."
+  },
+  {
+    "id": 128,
+    "subject": "Music",
+    "question": "What are the spaces between the lines on a musical staff called?",
+    "options": {
+      "A": "Notes",
+      "B": "Measures",
+      "C": "Spaces",
+      "D": "Bars"
+    },
+    "correctAnswer": "C",
+    "explanation": "Notes can be placed on the lines or in the spaces of the staff."
+  },
+  {
+    "id": 129,
+    "subject": "Home Science",
+    "question": "What is the main reason for proper waste disposal?",
+    "options": {
+      "A": "To make the trash can look good",
+      "B": "To attract animals",
+      "C": "To prevent pollution and disease",
+      "D": "To fill up landfills quickly"
+    },
+    "correctAnswer": "C",
+    "explanation": "Proper waste disposal is crucial for environmental health and disease prevention."
+  },
+  {
+    "id": 130,
+    "subject": "Art & Craft",
+    "question": "What is a still life drawing?",
+    "options": {
+      "A": "A drawing of people",
+      "B": "A drawing of animals",
+      "C": "A drawing of inanimate objects",
+      "D": "A drawing of landscapes"
+    },
+    "correctAnswer": "C",
+    "explanation": "A still life is a work of art depicting inanimate objects."
+  },
+  {
+    "id": 131,
+    "subject": "Mathematics",
+    "question": "If you buy an item for Ksh 75 and pay with a Ksh 100 note, how much change do you get?",
+    "options": {
+      "A": "Ksh 15",
+      "B": "Ksh 20",
+      "C": "Ksh 25",
+      "D": "Ksh 30"
+    },
+    "correctAnswer": "C",
+    "explanation": "100 - 75 = 25. You get Ksh 25 change."
+  },
+  {
+    "id": 132,
+    "subject": "English",
+    "question": "Which of these is a compound word?",
+    "options": {
+      "A": "Flower",
+      "B": "Butterfly",
+      "C": "Table",
+      "D": "Chair"
+    },
+    "correctAnswer": "B",
+    "explanation": "'Butterfly' is formed by combining two smaller words: 'butter' and 'fly'."
+  },
+  {
+    "id": 133,
+    "subject": "Kiswahili",
+    "question": "Kinyume cha 'nje' ni nini?",
+    "options": {
+      "A": "juu",
+      "B": "ndani",
+      "C": "chini",
+      "D": "mbele"
+    },
+    "correctAnswer": "B",
+    "explanation": "Kinyume cha 'nje' (outside) ni 'ndani' (inside)."
+  },
+  {
+    "id": 134,
+    "subject": "Science & Technology",
+    "question": "What is the process of sound bouncing off a surface called?",
+    "options": {
+      "A": "Refraction",
+      "B": "Absorption",
+      "C": "Reflection",
+      "D": "Diffusion"
+    },
+    "correctAnswer": "C",
+    "explanation": "Sound reflection is when sound waves bounce off a surface, creating an echo."
+  },
+  {
+    "id": 135,
+    "subject": "Social Studies",
+    "question": "What is a physical map mainly used to show?",
+    "options": {
+      "A": "Population density",
+      "B": "Political boundaries",
+      "C": "Mountains, rivers, and lakes",
+      "D": "Climate zones"
+    },
+    "correctAnswer": "C",
+    "explanation": "Physical maps display natural features like mountains, rivers, and bodies of water."
+  },
+  {
+    "id": 136,
+    "subject": "Christian Religious Education (CRE)",
+    "question": "Who was the first man created by God according to the Bible?",
+    "options": {
+      "A": "Noah",
+      "B": "Abraham",
+      "C": "Adam",
+      "D": "Moses"
+    },
+    "correctAnswer": "C",
+    "explanation": "Adam was the first man created by God."
+  },
+  {
+    "id": 137,
+    "subject": "Agriculture",
+    "question": "What is the purpose of applying fertilizer to crops?",
+    "options": {
+      "A": "To kill pests",
+      "B": "To add nutrients to the soil",
+      "C": "To keep animals away",
+      "D": "To control weeds"
+    },
+    "correctAnswer": "B",
+    "explanation": "Fertilizers provide essential nutrients that promote plant growth."
+  },
+  {
+    "id": 138,
+    "subject": "Music",
+    "question": "Which of these is a string instrument?",
+    "options": {
+      "A": "Flute",
+      "B": "Trumpet",
+      "C": "Guitar",
+      "D": "Drum"
+    },
+    "correctAnswer": "C",
+    "explanation": "A guitar is a string instrument, producing sound by vibrating strings."
+  },
+  {
+    "id": 139,
+    "subject": "Home Science",
+    "question": "Which meal provides energy for the whole day?",
+    "options": {
+      "A": "Supper",
+      "B": "Lunch",
+      "C": "Breakfast",
+      "D": "Snacks"
+    },
+    "correctAnswer": "C",
+    "explanation": "Breakfast is often considered the most important meal, providing energy to start the day."
+  },
+  {
+    "id": 140,
+    "subject": "Art & Craft",
+    "question": "What is a canvas primarily used for?",
+    "options": {
+      "A": "Sculpting",
+      "B": "Drawing with pencil",
+      "C": "Painting with paints",
+      "D": "Printing"
+    },
+    "correctAnswer": "C",
+    "explanation": "Canvas is a sturdy fabric typically used as a surface for oil or acrylic painting."
+  },
+  {
+    "id": 141,
+    "subject": "Mathematics",
+    "question": "How many minutes are in half an hour?",
+    "options": {
+      "A": "15",
+      "B": "20",
+      "C": "30",
+      "D": "45"
+    },
+    "correctAnswer": "C",
+    "explanation": "Half an hour is 60 / 2 = 30 minutes."
+  },
+  {
+    "id": 142,
+    "subject": "English",
+    "question": "Choose the word that describes a person who loves books.",
+    "options": {
+      "A": "Athlete",
+      "B": "Artist",
+      "C": "Bookworm",
+      "D": "Scientist"
+    },
+    "correctAnswer": "C",
+    "explanation": "A 'bookworm' is an informal term for someone who reads a lot."
+  },
+  {
+    "id": 143,
+    "subject": "Kiswahili",
+    "question": "Jaza nafasi zilizo wazi: 'Huyu ni _______.' (kiti)",
+    "options": {
+      "A": "viti",
+      "B": "kiti",
+      "C": "mikiti",
+      "D": "jukiti"
+    },
+    "correctAnswer": "B",
+    "explanation": "Huyu ni kiti (This is a chair)."
+  },
+  {
+    "id": 144,
+    "subject": "Science & Technology",
+    "question": "Which part of the eye helps us see color?",
+    "options": {
+      "A": "Pupil",
+      "B": "Lens",
+      "C": "Iris",
+      "D": "Retina (cones)"
+    },
+    "correctAnswer": "D",
+    "explanation": "The cones in the retina are responsible for color vision."
+  },
+  {
+    "id": 145,
+    "subject": "Social Studies",
+    "question": "What is the study of the Earth's physical features and atmosphere called?",
+    "options": {
+      "A": "History",
+      "B": "Economics",
+      "C": "Geography",
+      "D": "Sociology"
+    },
+    "correctAnswer": "C",
+    "explanation": "Geography is the study of the Earth's physical features, atmosphere, and human activity."
+  },
+  {
+    "id": 146,
+    "subject": "Christian Religious Education (CRE)",
+    "question": "What is the importance of prayer?",
+    "options": {
+      "A": "To gain wealth",
+      "B": "To communicate with God",
+      "C": "To show off",
+      "D": "To get what you want instantly"
+    },
+    "correctAnswer": "B",
+    "explanation": "Prayer is seen as a way to communicate and build a relationship with God."
+  },
+  {
+    "id": 147,
+    "subject": "Agriculture",
+    "question": "Which method of farming involves growing different crops on the same land in different seasons?",
+    "options": {
+      "A": "Monoculture",
+      "B": "Shifting cultivation",
+      "C": "Crop rotation",
+      "D": "Nomadic pastoralism"
+    },
+    "correctAnswer": "C",
+    "explanation": "Crop rotation is the practice of growing different crops in succession on the same land."
+  },
+  {
+    "id": 148,
+    "subject": "Music",
+    "question": "What is a choir?",
+    "options": {
+      "A": "A group of dancers",
+      "B": "A group of singers",
+      "C": "A group of painters",
+      "D": "A group of actors"
+    },
+    "correctAnswer": "B",
+    "explanation": "A choir is an organized group of singers, typically performing together."
+  },
+  {
+    "id": 149,
+    "subject": "Home Science",
+    "question": "What is the best way to save water at home?",
+    "options": {
+      "A": "Leave taps running",
+      "B": "Take long showers",
+      "C": "Fix leaky faucets",
+      "D": "Water the garden daily with a hosepipe"
+    },
+    "correctAnswer": "C",
+    "explanation": "Fixing leaky faucets can significantly reduce water waste."
+  },
+  {
+    "id": 150,
+    "subject": "Art & Craft",
+    "question": "What is origami?",
+    "options": {
+      "A": "Japanese pottery",
+      "B": "The art of paper folding",
+      "C": "Chinese brush painting",
+      "D": "Indian fabric dyeing"
+    },
+    "correctAnswer": "B",
+    "explanation": "Origami is the traditional Japanese art of paper folding."
+  },
+  {
+    "id": 151,
+    "subject": "Mathematics",
+    "question": "What is the value of 1/4 of 20?",
+    "options": {
+      "A": "4",
+      "B": "5",
+      "C": "10",
+      "D": "20"
+    },
+    "correctAnswer": "B",
+    "explanation": "1/4 of 20 is 20 divided by 4, which is 5."
+  },
+  {
+    "id": 152,
+    "subject": "English",
+    "question": "Which word is a homophone for 'flour'?",
+    "options": {
+      "A": "Flower",
+      "B": "Floor",
+      "C": "Flyer",
+      "D": "Fowl"
+    },
+    "correctAnswer": "A",
+    "explanation": "'Flower' sounds the same as 'flour' but has a different meaning and spelling."
+  },
+  {
+    "id": 153,
+    "subject": "Kiswahili",
+    "question": "Neno 'asante' linamaanisha nini?",
+    "options": {
+      "A": "Hello",
+      "B": "Goodbye",
+      "C": "Thank you",
+      "D": "Please"
+    },
+    "correctAnswer": "C",
+    "explanation": "Asante means 'thank you'."
+  },
+  {
+    "id": 154,
+    "subject": "Science & Technology",
+    "question": "What is the function of teeth in the human body?",
+    "options": {
+      "A": "Smelling",
+      "B": "Chewing food",
+      "C": "Hearing",
+      "D": "Breathing"
+    },
+    "correctAnswer": "B",
+    "explanation": "Teeth are used for chewing and breaking down food."
+  },
+  {
+    "id": 155,
+    "subject": "Social Studies",
+    "question": "Which community leader represents a ward in Kenya?",
+    "options": {
+      "A": "Member of Parliament",
+      "B": "Senator",
+      "C": "Ward Administrator",
+      "D": "Governor"
+    },
+    "correctAnswer": "C",
+    "explanation": "A Ward Administrator is responsible for administrative duties within a ward."
+  },
+  {
+    "id": 156,
+    "subject": "Christian Religious Education (CRE)",
+    "question": "What is the symbol of God's promise to Noah after the flood?",
+    "options": {
+      "A": "A cloud",
+      "B": "A dove",
+      "C": "A rainbow",
+      "D": "A star"
+    },
+    "correctAnswer": "C",
+    "explanation": "The rainbow was a sign of God's covenant with Noah, promising not to destroy the Earth by flood again."
+  },
+  {
+    "id": 157,
+    "subject": "Agriculture",
+    "question": "Which type of farming focuses on growing crops and raising animals together?",
+    "options": {
+      "A": "Dairy farming",
+      "B": "Mixed farming",
+      "C": "Poultry farming",
+      "D": "Fish farming"
+    },
+    "correctAnswer": "B",
+    "explanation": "Mixed farming involves both crop cultivation and livestock raising."
+  },
+  {
+    "id": 158,
+    "subject": "Music",
+    "question": "What is the common term for a song that expresses feelings of sadness?",
+    "options": {
+      "A": "Jubilant song",
+      "B": "Lullaby",
+      "C": "Sorrowful song",
+      "D": "Upbeat song"
+    },
+    "correctAnswer": "C",
+    "explanation": "A sorrowful song expresses feelings of sadness or grief."
+  },
+  {
+    "id": 159,
+    "subject": "Home Science",
+    "question": "What is a common safety rule when using sharp objects like knives?",
+    "options": {
+      "A": "Cut towards your body",
+      "B": "Keep fingers away from the blade",
+      "C": "Leave them uncovered",
+      "D": "Play with them"
+    },
+    "correctAnswer": "B",
+    "explanation": "Keeping fingers away from the blade prevents accidental cuts."
+  },
+  {
+    "id": 160,
+    "subject": "Art & Craft",
+    "question": "What is a pattern?",
+    "options": {
+      "A": "A random arrangement of shapes",
+      "B": "A repeated decorative design",
+      "C": "A single isolated image",
+      "D": "A solid block of color"
+    },
+    "correctAnswer": "B",
+    "explanation": "A pattern is a repeated arrangement of shapes, colors, or lines."
+  },
+  {
+    "id": 161,
+    "subject": "Mathematics",
+    "question": "How many seconds are in 1 minute?",
+    "options": {
+      "A": "30",
+      "B": "60",
+      "C": "90",
+      "D": "120"
+    },
+    "correctAnswer": "B",
+    "explanation": "There are 60 seconds in 1 minute."
+  },
+  {
+    "id": 162,
+    "subject": "English",
+    "question": "Identify the adverb in the sentence: 'He runs quickly.'",
+    "options": {
+      "A": "He",
+      "B": "runs",
+      "C": "quickly",
+      "D": "the"
+    },
+    "correctAnswer": "C",
+    "explanation": "'Quickly' describes how he runs, making it an adverb."
+  },
+  {
+    "id": 163,
+    "subject": "Kiswahili",
+    "question": "Neno 'shule' linamaanisha nini?",
+    "options": {
+      "A": "House",
+      "B": "Market",
+      "C": "School",
+      "D": "Hospital"
+    },
+    "correctAnswer": "C",
+    "explanation": "Shule means 'school'."
+  },
+  {
+    "id": 164,
+    "subject": "Science & Technology",
+    "question": "Which sense organ is used for hearing?",
+    "options": {
+      "A": "Eyes",
+      "B": "Nose",
+      "C": "Ears",
+      "D": "Tongue"
+    },
+    "correctAnswer": "C",
+    "explanation": "Ears are the sense organs responsible for hearing."
+  },
+  {
+    "id": 165,
+    "subject": "Social Studies",
+    "question": "What is the local administrative unit smaller than a county in Kenya?",
+    "options": {
+      "A": "Constituency",
+      "B": "Ward",
+      "C": "Village",
+      "D": "Sub-county"
+    },
+    "correctAnswer": "D",
+    "explanation": "Sub-counties are administrative units within counties in Kenya."
+  },
+  {
+    "id": 166,
+    "subject": "Christian Religious Education (CRE)",
+    "question": "What is the meaning of 'forgiveness'?",
+    "options": {
+      "A": "Holding grudges",
+      "B": "Ignoring someone",
+      "C": "Pardoning someone for a mistake",
+      "D": "Seeking revenge"
+    },
+    "correctAnswer": "C",
+    "explanation": "Forgiveness is the act of pardoning someone for an offense or wrongdoing."
+  },
+  {
+    "id": 167,
+    "subject": "Agriculture",
+    "question": "Which of these is a pest that affects crops?",
+    "options": {
+      "A": "Ladybug",
+      "B": "Earthworm",
+      "C": "Aphid",
+      "D": "Bee"
+    },
+    "correctAnswer": "C",
+    "explanation": "Aphids are common agricultural pests that feed on plant sap."
+  },
+  {
+    "id": 168,
+    "subject": "Music",
+    "question": "What is the common name for a song without words?",
+    "options": {
+      "A": "Acapella",
+      "B": "Instrumental",
+      "C": "Opera",
+      "D": "Ballad"
+    },
+    "correctAnswer": "B",
+    "explanation": "An instrumental piece of music features only instruments, no vocals."
+  },
+  {
+    "id": 169,
+    "subject": "Home Science",
+    "question": "What is the importance of regular exercise?",
+    "options": {
+      "A": "Makes you tired",
+      "B": "Weakens muscles",
+      "C": "Keeps your body strong and healthy",
+      "D": "Makes you gain weight"
+    },
+    "correctAnswer": "C",
+    "explanation": "Regular exercise strengthens muscles and improves overall health."
+  },
+  {
+    "id": 170,
+    "subject": "Art & Craft",
+    "question": "What is a stencil used for?",
+    "options": {
+      "A": "Carving wood",
+      "B": "Cutting paper",
+      "C": "Applying a design repeatedly",
+      "D": "Mixing paints"
+    },
+    "correctAnswer": "C",
+    "explanation": "A stencil is a template used to apply a design to a surface by brushing or spraying through cutout areas."
+  },
+  {
+    "id": 171,
+    "subject": "Mathematics",
+    "question": "What is the total of 25 + 15 + 10?",
+    "options": {
+      "A": "40",
+      "B": "45",
+      "C": "50",
+      "D": "60"
+    },
+    "correctAnswer": "C",
+    "explanation": "25 + 15 + 10 = 50."
+  },
+  {
+    "id": 172,
+    "subject": "English",
+    "question": "Choose the correct past tense of 'go'.",
+    "options": {
+      "A": "Goes",
+      "B": "Going",
+      "C": "Went",
+      "D": "Gone"
+    },
+    "correctAnswer": "C",
+    "explanation": "The simple past tense of 'go' is 'went'."
+  },
+  {
+    "id": 173,
+    "subject": "Kiswahili",
+    "question": "Neno 'ndiyo' linamaanisha nini?",
+    "options": {
+      "A": "No",
+      "B": "Maybe",
+      "C": "Yes",
+      "D": "Later"
+    },
+    "correctAnswer": "C",
+    "explanation": "Ndiyo means 'yes'."
+  },
+  {
+    "id": 174,
+    "subject": "Science & Technology",
+    "question": "What is the process of a caterpillar changing into a butterfly called?",
+    "options": {
+      "A": "Reproduction",
+      "B": "Metamorphosis",
+      "C": "Germination",
+      "D": "Pollination"
+    },
+    "correctAnswer": "B",
+    "explanation": "Metamorphosis is the biological process by which an animal physically develops after birth or hatching."
+  },
+  {
+    "id": 175,
+    "subject": "Social Studies",
+    "question": "What is the purpose of the national anthem?",
+    "options": {
+      "A": "To tell a story",
+      "B": "To entertain people",
+      "C": "To express national pride and identity",
+      "D": "To advertise a product"
+    },
+    "correctAnswer": "C",
+    "explanation": "A national anthem is a musical composition that evokes and extols the history, traditions, or struggles of a nation or its people."
+  },
+  {
+    "id": 176,
+    "subject": "Christian Religious Education (CRE)",
+    "question": "Who was the father of Jesus on Earth?",
+    "options": {
+      "A": "Peter",
+      "B": "John",
+      "C": "Joseph",
+      "D": "Paul"
+    },
+    "correctAnswer": "C",
+    "explanation": "Joseph was Jesus' earthly foster father."
+  },
+  {
+    "id": 177,
+    "subject": "Agriculture",
+    "question": "Which of these is a traditional method of food preservation?",
+    "options": {
+      "A": "Refrigeration",
+      "B": "Canning",
+      "C": "Sun-drying",
+      "D": "Freezing"
+    },
+    "correctAnswer": "C",
+    "explanation": "Sun-drying is a traditional and ancient method of preserving food."
+  },
+  {
+    "id": 178,
+    "subject": "Music",
+    "question": "What are written symbols representing musical sounds called?",
+    "options": {
+      "A": "Letters",
+      "B": "Numbers",
+      "C": "Notes",
+      "D": "Words"
+    },
+    "correctAnswer": "C",
+    "explanation": "Notes are the symbols used to represent musical sounds."
+  },
+  {
+    "id": 179,
+    "subject": "Home Science",
+    "question": "What is the importance of a first aid kit?",
+    "options": {
+      "A": "To play with",
+      "B": "To treat minor injuries and emergencies",
+      "C": "To decorate the house",
+      "D": "To store old medicines"
+    },
+    "correctAnswer": "B",
+    "explanation": "A first aid kit contains supplies for treating minor injuries and providing immediate care."
+  },
+  {
+    "id": 180,
+    "subject": "Art & Craft",
+    "question": "What is shading in drawing?",
+    "options": {
+      "A": "Adding bright colors",
+      "B": "Creating shadows and depth with varying tones",
+      "C": "Drawing outlines",
+      "D": "Erasing mistakes"
+    },
+    "correctAnswer": "B",
+    "explanation": "Shading is the technique of adding values to a drawing to create the illusion of light, shadow, and depth."
+  },
+  {
+    "id": 181,
+    "subject": "Mathematics",
+    "question": "How many sides does a pentagon have?",
+    "options": {
+      "A": "4",
+      "B": "5",
+      "C": "6",
+      "D": "7"
+    },
+    "correctAnswer": "B",
+    "explanation": "A pentagon is a polygon with five sides."
+  },
+  {
+    "id": 182,
+    "subject": "English",
+    "question": "Which word is a collective noun for a group of lions?",
+    "options": {
+      "A": "Herd",
+      "B": "Flock",
+      "C": "Pride",
+      "D": "Pack"
+    },
+    "correctAnswer": "C",
+    "explanation": "A group of lions is called a pride."
+  },
+  {
+    "id": 183,
+    "subject": "Kiswahili",
+    "question": "Neno 'leo' linamaanisha nini?",
+    "options": {
+      "A": "Tomorrow",
+      "B": "Yesterday",
+      "C": "Today",
+      "D": "Tonight"
+    },
+    "correctAnswer": "C",
+    "explanation": "Leo means 'today'."
+  },
+  {
+    "id": 184,
+    "subject": "Science & Technology",
+    "question": "Which part of the plant makes food through photosynthesis?",
+    "options": {
+      "A": "Roots",
+      "B": "Stem",
+      "C": "Leaves",
+      "D": "Flowers"
+    },
+    "correctAnswer": "C",
+    "explanation": "Leaves contain chlorophyll, where photosynthesis takes place."
+  },
+  {
+    "id": 185,
+    "subject": "Social Studies",
+    "question": "What is the term for a place where goods are bought and sold?",
+    "options": {
+      "A": "School",
+      "B": "Hospital",
+      "C": "Market",
+      "D": "Church"
+    },
+    "correctAnswer": "C",
+    "explanation": "A market is a place where buyers and sellers meet to exchange goods and services."
+  },
+  {
+    "id": 186,
+    "subject": "Christian Religious Education (CRE)",
+    "question": "Who was the first king of Israel?",
+    "options": {
+      "A": "David",
+      "B": "Solomon",
+      "C": "Saul",
+      "D": "Samuel"
+    },
+    "correctAnswer": "C",
+    "explanation": "Saul was anointed as the first king of Israel."
+  },
+  {
+    "id": 187,
+    "subject": "Agriculture",
+    "question": "What is the main benefit of terracing in agriculture?",
+    "options": {
+      "A": "Increases water runoff",
+      "B": "Prevents soil erosion on slopes",
+      "C": "Makes farming difficult",
+      "D": "Attracts pests"
+    },
+    "correctAnswer": "B",
+    "explanation": "Terracing creates flat steps on hillsides, reducing soil erosion."
+  },
+  {
+    "id": 188,
+    "subject": "Music",
+    "question": "What is the lowest male singing voice called?",
+    "options": {
+      "A": "Tenor",
+      "B": "Baritone",
+      "C": "Bass",
+      "D": "Countertenor"
+    },
+    "correctAnswer": "C",
+    "explanation": "Bass is the lowest male vocal range."
+  },
+  {
+    "id": 189,
+    "subject": "Home Science",
+    "question": "What is the importance of a clean kitchen?",
+    "options": {
+      "A": "To make food taste better",
+      "B": "To prevent growth of bacteria and pests",
+      "C": "To waste water",
+      "D": "To show off"
+    },
+    "correctAnswer": "B",
+    "explanation": "A clean kitchen minimizes the risk of food contamination and pest infestation."
+  },
+  {
+    "id": 190,
+    "subject": "Art & Craft",
+    "question": "What is the art of making objects from threads or yarns by knitting or crocheting?",
+    "options": {
+      "A": "Pottery",
+      "B": "Weaving",
+      "C": "Textile art",
+      "D": "Origami"
+    },
+    "correctAnswer": "C",
+    "explanation": "Knitting and crocheting fall under textile arts."
+  },
+  {
+    "id": 191,
+    "subject": "Mathematics",
+    "question": "If a dozen eggs is 12, how many eggs are in half a dozen?",
+    "options": {
+      "A": "4",
+      "B": "6",
+      "C": "8",
+      "D": "10"
+    },
+    "correctAnswer": "B",
+    "explanation": "Half of 12 is 6."
+  },
+  {
+    "id": 192,
+    "subject": "English",
+    "question": "Choose the correct preposition to complete the sentence: 'The book is ______ the table.'",
+    "options": {
+      "A": "in",
+      "B": "on",
+      "C": "under",
+      "D": "at"
+    },
+    "correctAnswer": "B",
+    "explanation": "'On' is the correct preposition when something is resting on a surface."
+  },
+  {
+    "id": 193,
+    "subject": "Kiswahili",
+    "question": "Neno 'mama' linamaanisha nini?",
+    "options": {
+      "A": "Father",
+      "B": "Brother",
+      "C": "Mother",
+      "D": "Sister"
+    },
+    "correctAnswer": "C",
+    "explanation": "Mama means 'mother'."
+  },
+  {
+    "id": 194,
+    "subject": "Science & Technology",
+    "question": "What is the process of generating electricity from moving water called?",
+    "options": {
+      "A": "Solar power",
+      "B": "Wind power",
+      "C": "Hydropower",
+      "D": "Geothermal power"
+    },
+    "correctAnswer": "C",
+    "explanation": "Hydropower uses the force of moving water to generate electricity."
+  },
+  {
+    "id": 195,
+    "subject": "Social Studies",
+    "question": "Which historical site in Kenya is famous for its ancient Swahili ruins?",
+    "options": {
+      "A": "Maasai Mara",
+      "B": "Lamu Old Town",
+      "C": "Lake Nakuru",
+      "D": "Hell's Gate"
+    },
+    "correctAnswer": "B",
+    "explanation": "Lamu Old Town is a UNESCO World Heritage site known for its Swahili architecture and history."
+  },
+  {
+    "id": 196,
+    "subject": "Christian Religious Education (CRE)",
+    "question": "What is the purpose of the Sabbath day?",
+    "options": {
+      "A": "Working hard",
+      "B": "Rest and worship",
+      "C": "Playing games all day",
+      "D": "Doing chores"
+    },
+    "correctAnswer": "B",
+    "explanation": "The Sabbath is a day set aside for rest and worship."
+  },
+  {
+    "id": 197,
+    "subject": "Agriculture",
+    "question": "What is the common term for removing ripe crops from the field?",
+    "options": {
+      "A": "Planting",
+      "B": "Weeding",
+      "C": "Harvesting",
+      "D": "Tilling"
+    },
+    "correctAnswer": "C",
+    "explanation": "Harvesting is the process of gathering ripe crops from the fields."
+  },
+  {
+    "id": 198,
+    "subject": "Music",
+    "question": "What is the smallest unit of musical sound?",
+    "options": {
+      "A": "Song",
+      "B": "Note",
+      "C": "Melody",
+      "D": "Rhythm"
+    },
+    "correctAnswer": "B",
+    "explanation": "A note is the basic building block of music, representing a specific pitch and duration."
+  },
+  {
+    "id": 199,
+    "subject": "Home Science",
+    "question": "Which of these is a symptom of a common cold?",
+    "options": {
+      "A": "Broken leg",
+      "B": "Stuffy nose and sneezing",
+      "C": "Blurred vision",
+      "D": "Severe stomach ache"
+    },
+    "correctAnswer": "B",
+    "explanation": "A stuffy nose and sneezing are common symptoms of a cold."
+  },
+  {
+    "id": 200,
+    "subject": "Art & Craft",
+    "question": "What is the art of making pictures or designs by cutting and gluing pieces of paper or other materials onto a surface?",
+    "options": {
+      "A": "Drawing",
+      "B": "Painting",
+      "C": "Collage",
+      "D": "Sculpture"
+    },
+    "correctAnswer": "C",
+    "explanation": "Collage involves assembling different materials to create an artwork."
+  },
+  {
+    "id": 201,
+    "subject": "Mathematics",
+    "question": "What is the difference between 98 and 43?",
+    "options": {
+      "A": "45",
+      "B": "55",
+      "C": "65",
+      "D": "75"
+    },
+    "correctAnswer": "B",
+    "explanation": "98 - 43 = 55."
+  },
+  {
+    "id": 202,
+    "subject": "English",
+    "question": "Which of these words means 'very small'?",
+    "options": {
+      "A": "Huge",
+      "B": "Giant",
+      "C": "Tiny",
+      "D": "Large"
+    },
+    "correctAnswer": "C",
+    "explanation": "'Tiny' means extremely small."
+  },
+  {
+    "id": 203,
+    "subject": "Kiswahili",
+    "question": "Kamilisha methali: 'Mcheza kwao ______.'",
+    "options": {
+      "A": "hutunzwa",
+      "B": "hata",
+      "C": "hachoki",
+      "D": "hajui"
+    },
+    "correctAnswer": "C",
+    "explanation": "Methali kamili ni 'Mcheza kwao hachoki' (One who plays at home does not get tired)."
+  },
+  {
+    "id": 204,
+    "subject": "Science & Technology",
+    "question": "What type of energy is produced when objects vibrate?",
+    "options": {
+      "A": "Light energy",
+      "B": "Heat energy",
+      "C": "Sound energy",
+      "D": "Electrical energy"
+    },
+    "correctAnswer": "C",
+    "explanation": "Sound is produced by vibrations."
+  },
+  {
+    "id": 205,
+    "subject": "Social Studies",
+    "question": "What is the name of the legislative arm of Kenya's county government?",
+    "options": {
+      "A": "National Assembly",
+      "B": "County Assembly",
+      "C": "Senate",
+      "D": "Judiciary"
+    },
+    "correctAnswer": "B",
+    "explanation": "County Assemblies are the legislative bodies at the county level."
+  },
+  {
+    "id": 206,
+    "subject": "Christian Religious Education (CRE)",
+    "question": "What is Advent?",
+    "options": {
+      "A": "A time of celebration after Easter",
+      "B": "A period of preparation for Christmas",
+      "C": "A time of fasting before Lent",
+      "D": "A harvest festival"
+    },
+    "correctAnswer": "B",
+    "explanation": "Advent is the season of preparation for the celebration of the Nativity of Jesus at Christmas."
+  },
+  {
+    "id": 207,
+    "subject": "Agriculture",
+    "question": "Which practice helps in controlling soil erosion?",
+    "options": {
+      "A": "Over-tilling",
+      "B": "Leaving soil bare",
+      "C": "Cover cropping",
+      "D": "Burning crop residue"
+    },
+    "correctAnswer": "C",
+    "explanation": "Cover cropping helps protect the soil from erosion and improves soil health."
+  },
+  {
+    "id": 208,
+    "subject": "Music",
+    "question": "What is a group of musical notes played in sequence called?",
+    "options": {
+      "A": "Harmony",
+      "B": "Rhythm",
+      "C": "Melody",
+      "D": "Tempo"
+    },
+    "correctAnswer": "C",
+    "explanation": "A melody is a sequence of musical notes that is musically satisfying."
+  },
+  {
+    "id": 209,
+    "subject": "Home Science",
+    "question": "Why is it important to iron clothes?",
+    "options": {
+      "A": "To make them dirty faster",
+      "B": "To remove wrinkles and make them presentable",
+      "C": "To shrink them",
+      "D": "To make them heavier"
+    },
+    "correctAnswer": "B",
+    "explanation": "Ironing removes wrinkles and makes clothes look neat and presentable."
+  },
+  {
+    "id": 210,
+    "subject": "Art & Craft",
+    "question": "What is a primary tool for drawing fine lines and details in art?",
+    "options": {
+      "A": "Roller",
+      "B": "Sponge",
+      "C": "Fine-tipped brush or pencil",
+      "D": "Palette knife"
+    },
+    "correctAnswer": "C",
+    "explanation": "A fine-tipped brush or pencil allows for precise lines and details."
   }
 ]
