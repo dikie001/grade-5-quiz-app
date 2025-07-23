@@ -3,10 +3,10 @@ import { Toaster } from "react-hot-toast";
 import QuizPage from "./pages/grade_5_quiz"
 
 const App = () => {
-  const [deferredPrompt, setDeferredPrompt] = useState<any>(null);
+  const [deferredPrompt, setDeferredPrompt] = useState<any>();
 
   useEffect(() => {
-    const handler = (e:any) => {
+    const handler = (e) => {
       e.preventDefault();
       
       setDeferredPrompt(e);

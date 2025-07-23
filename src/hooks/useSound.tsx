@@ -20,7 +20,7 @@ const useSound = () => {
     wrong: { src: wrong, volume: 1 },
   };
 
-  const audioRefs = useRef<any>({});
+  const audioRefs = useRef<Record<string, HTMLAudioElement>>({});
 
   useEffect(() => {
     Object.entries(soundMap).forEach(([key, { src, volume }]) => {
@@ -32,7 +32,7 @@ const useSound = () => {
     });
   }, []);
 
-  const playSound = (key:any) => {
+  const playSound = (key: keyof typeof soundMap) => {
     const audio = audioRefs.current[key];
     if (audio) {
       try {

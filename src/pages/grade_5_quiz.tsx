@@ -1,5 +1,17 @@
 import Lottie from "lottie-react";
-import { ArrowDown, Bell, Car, Circle, House, Square, Star, Trees } from "lucide-react";
+import {
+  Bell,
+  Car,
+  Circle,
+  House,
+  Loader,
+  MessageCircle,
+  RotateCcw,
+  Sparkles,
+  Square,
+  Star,
+  Trees,
+} from "lucide-react";
 import { useEffect, useMemo, useRef, useState } from "react";
 import toast from "react-hot-toast";
 import anime from "../assets/animations/anime.json";
@@ -10,11 +22,13 @@ const MATILDA_KEY = "matilda-quiz-app";
 
 const QuizPage = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [selectedAnswer, setSelectedAnswer] = useState(null);
+  const [selectedAnswer, setSelectedAnswer] = useState<string | null>(null);
   const [showResult, setShowResult] = useState(false);
   const scoreRef = useRef<number>(0);
   const currentIndexRef = useRef<number>(0);
   const [score, setScore] = useState(0);
+  const [confirmModal, setConfirmModal] = useState<boolean>(false);
+  const [loading, setLoading] = useState<boolean>(false);
   const matilda = {
     current_score: 0,
     current_index: 0,
@@ -47,10 +61,8 @@ const QuizPage = () => {
   }
 
   // Memoized current question
-  const currentQuestion = useMemo(
-    () => quizData[currentIndex],
-    [quizData, currentIndex]
-  );
+  // eslint-disable-next-line react-hooks/rules-of-hooks
+  const currentQuestion = useMemo(() => quizData[currentIndex], [currentIndex]);
 
   // Dynamic calculations
   const progress = ((currentIndex + 1) / quizData.length) * 100;
@@ -137,8 +149,80 @@ const QuizPage = () => {
     setSelectedAnswer(null);
     setShowResult(false);
     setScore(0);
+    localStorage.removeItem(MATILDA_KEY);
   };
 
+  const messageToDikie = {
+    title: "I need more questions",
+    content:
+      "Hello, this is Matilda. I am requesting you to kindly add more questions to my app.Thanks",
+  };
+
+  const sendMessage = async () => {
+    setLoading(true);
+    const status = localStorage.getItem("message-sent");
+    if (status === null || status === "false") {
+      sendEmail();
+      setLoading(false);
+    } else {
+      toast.error(
+        "You have already sent a message, Kindly wait as I process your request",
+        { id: "toasty", duration: 5000 }
+      );
+      setLoading(false);
+
+      return;
+    }
+    setTimeout(() => {
+      setLoading(false);
+    }, 500);
+  };
+
+  //sending email function
+  const sendEmail = async () => {
+    try {
+      //send email to dikie
+      const res = await fetch("https://formspree.io/f/mgvvgozj", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json",
+        },
+        body: JSON.stringify(messageToDikie),
+      });
+      //check the response
+      if (res.ok) {
+        toast.custom(
+          (t) => (
+            <div
+              className={`flex items-center gap-3 px-4 py-3 rounded-xl shadow-lg transition-all ${
+                t.visible
+                  ? "opacity-100 translate-y-0"
+                  : "opacity-0 -translate-y-2"
+              } bg-purple-900/90 ring-1 ring-purple-500 text-white font-medium`}
+            >
+              <span>
+                Hello Matilda, I have received your message.I will add more
+                quizes to your app as soon as possible. Bye
+              </span>
+            </div>
+          ),
+          {
+            duration: 10000,
+          }
+        );
+      }
+      localStorage.setItem("message-sent", JSON.stringify(true));
+    } catch (err) {
+      if (err instanceof TypeError) {
+        toast.error("Buy bundles and connect to the internet to send message", {
+          id: "toasty",
+          duration: 5000,
+        });
+      }
+      console.log(err);
+    }
+  };
   return (
     <div>
       <div className="absolute z-0 ">
@@ -280,32 +364,105 @@ const QuizPage = () => {
           />
         </div>
       </div>
+      {confirmModal && (
+        <div className="fixed z-50 inset-0 bg-black/80 flex items-center justify-center p-4">
+          <div className="bg-gradient-to-bl from-purple-800/80 to-slate-950 rounded-3xl shadow-2xl p-4 py-8 max-w-md w-full mx-4 transform">
+            <h1 className="text-2xl text-center text-white font-bold">
+              Are you sure?
+            </h1>
+            <hr className="text-gray-600 mb-3" />
+            <p className="text-gray-200 ">
+              {" "}
+              This will reset all progress you have made so far!
+            </p>
+            <div className="flex justify-between mt-3">
+              <button
+                onClick={() => setConfirmModal(false)}
+                className="  bg-gray-700 text-white px-6 focus:ring-1 ring-purple-600 py-2 rounded-xl font-bold  
+               shadow-lg"
+              >
+                cancel
+              </button>
+              <button
+                onClick={() => {
+                  handleRestart();
+                  setConfirmModal(false);
+                }}
+                className="  bg-green-800 text-white px-6 focus:ring-1 ring-purple-600 py-2 rounded-xl font-bold  
+               shadow-lg"
+              >
+                Reset
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+
       {isLastQuestion && (
-        <div className="space-x-3 fixed  bg-black/80 inset-0  items-center justify-center flex flex-col">
-          <div className="flex flex-col space-y-2 bg-purple-600/60 rounded-xl shadow-xl  px-6 py-10">
-            <div className=" bg-black/30 text-white flex   px-4 py-2 rounded-lg font-medium">
-              <h1>
-                {" "}
-                Your final score is:{" "}
-                <span className="text-cyan-400 font-semibold">
-                  {" "}
-                  {((score / totalQuestions) * 100).toFixed(2)} %
-                </span>
+        <div className="fixed inset-0 bg-black/80 flex items-center justify-center p-4">
+          <div className="bg-gradient-to-bl from-purple-800/80 to-slate-950 rounded-3xl shadow-2xl p-4 py-8 max-w-md w-full mx-4 transform">
+            {/* Header with stars */}
+            <div className="text-center mb-6">
+              <div className="flex justify-center space-x-2 mb-4">
+                <Star className="w-8 h-8 text-yellow-400 fill-current" />
+                <Sparkles className="w-8 h-8 text-purple-400" />
+                <Star className="w-8 h-8 text-yellow-400 fill-current" />
+              </div>
+              <h1 className="text-2xl font-bold text-white ">
+                Quiz Complete! 🎊
+              </h1>
+              <h1 className="text-xs font-bold text-gray-300 mb-2">
+                Well done Matilda
               </h1>
             </div>
-            <p>Click this button to restart the quiz </p>
-            <button
-              onClick={handleRestart}
-              className="bg-gradient-to-r from-pink-800 to-slate-900 text-white px-6 py-3 rounded-lg font-medium hover:from-pink-600 hover:to-rose-600 transform hover:scale-105 transition-all duration-200 shadow-lg"
-            >
-              Restart Quiz
-            </button>
-            <p>Click this other one to tell dikie to add more quizes for you</p>
-            <button
-              className="bg-gradient-to-r from-pink-500 to-rose-500 text-white px-6 py-3 rounded-lg font-medium hover:from-pink-600 hover:to-rose-600 transform hover:scale-105 transition-all duration-200 shadow-lg"
-            >
-              Tell dikie
-            </button>
+
+            {/* Score Display */}
+            <div className="shadow-xl  bg-gradient-to-tr from-black/60 to-indigo-800 rounded-2xl p-4 mb-4 text-center">
+              <p className="text-gray-300 text-lg mb-1">Your Score:</p>
+              <div className="text-3xl font-bold text-green-500 mb-2">
+                {score}/{totalQuestions}
+              </div>
+              <div className="text-2xl font-semibold text-green-500">
+                {((score / totalQuestions) * 100).toFixed(1)}%
+              </div>
+            </div>
+
+            {/* Buttons */}
+            <div className="space-y-4">
+              <button
+                onClick={() => setConfirmModal(true)}
+                className="w-full bg-gradient-to-bl from-blue-950 to-indigo-800 text-white px-6 py-4 rounded-2xl font-bold text-lg transform hover:scale-105 transition-all duration-200 shadow-lg flex items-center justify-center space-x-3"
+              >
+                <RotateCcw className="text-white/80" size={20} />
+                <span>Try Again! </span>
+              </button>
+              <div>
+                <p className="text-gray-200 mb-1 font-medium ">
+                  Do you More Quizzes?{" "}
+                </p>
+                <button
+                  onClick={sendMessage}
+                  className="w-full  bg-gradient-to-tr from-black/60 to-indigo-800 text-white px-6 py-4 rounded-2xl font-bold text-lg transform hover:scale-105 transition-all duration-200 shadow-lg flex items-center justify-center space-x-3"
+                >
+                  <div>
+                    {loading ? (
+                      <div className="flex flex-row items-center justify-center gap-2">
+                        <Loader
+                          className="text-yellow-500 animate-spin"
+                          size={20}
+                        />{" "}
+                        <p>Sending message</p>
+                      </div>
+                    ) : (
+                      <div className="flex flex-row items-center justify-center gap-2">
+                        <MessageCircle className="text-white/80" size={20} />
+                        Tell dikie
+                      </div>
+                    )}
+                  </div>
+                </button>
+              </div>
+            </div>
           </div>
         </div>
       )}
