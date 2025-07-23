@@ -52,7 +52,10 @@ const App = () => {
                   Access anytime, anywhere
                 </p>
               </div>
-              <button className="text-purple-300 hover:text-white transition-colors p-1">
+              <button
+                onClick={() => setDeferredPrompt(null)}
+                className="text-purple-300 hover:text-white transition-colors p-1"
+              >
                 <X className="w-5 h-5" />
               </button>
             </div>
