@@ -8,7 +8,7 @@ import correct from '/sounds/correct.mp3'
 import ding from '/sounds/ding.mp3'
 import wrong from '/sounds/wrong.mp3'
 
-const useFeedbackSound = () => {
+const useSound = () => {
   const soundMap = {
     success: { src: success, volume: 0.7 },
     error: { src: error, volume: 1 },
@@ -20,7 +20,7 @@ const useFeedbackSound = () => {
     wrong: { src: wrong, volume: 1 },
   };
 
-  const audioRefs = useRef({});
+  const audioRefs = useRef<any>({});
 
   useEffect(() => {
     Object.entries(soundMap).forEach(([key, { src, volume }]) => {
@@ -32,7 +32,7 @@ const useFeedbackSound = () => {
     });
   }, []);
 
-  const playSound = (key) => {
+  const playSound = (key:any) => {
     const audio = audioRefs.current[key];
     if (audio) {
       try {
@@ -57,4 +57,4 @@ const useFeedbackSound = () => {
   };
 };
 
-export default useFeedbackSound;
+export default useSound;

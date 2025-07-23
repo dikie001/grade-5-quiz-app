@@ -1,11 +1,10 @@
 import Lottie from "lottie-react";
-import { Car, Circle, House, Square, Star, Trees } from "lucide-react";
-import { useEffect, useMemo, useState } from "react";
+import { ArrowDown, Bell, Car, Circle, House, Square, Star, Trees } from "lucide-react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import toast from "react-hot-toast";
 import anime from "../assets/animations/anime.json";
 import quizData from "../assets/jsons/RandomQuiz.json";
-import car from "../assets/animations/car.json";
-import useFeedbackSound from "../hooks/useFeedbackSound";
+import useSound from "../hooks/useSound";
 
 const MATILDA_KEY = "matilda-quiz-app";
 
@@ -13,12 +12,14 @@ const QuizPage = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [selectedAnswer, setSelectedAnswer] = useState(null);
   const [showResult, setShowResult] = useState(false);
+  const scoreRef = useRef<number>(0);
+  const currentIndexRef = useRef<number>(0);
   const [score, setScore] = useState(0);
   const matilda = {
-    current_score: "0",
-    current_index: "0",
+    current_score: 0,
+    current_index: 0,
   };
-  const { playError, playSuccess } = useFeedbackSound();
+  const { playError, playSuccess } = useSound();
 
   useEffect(() => {
     getStoredData();
@@ -29,12 +30,9 @@ const QuizPage = () => {
     const parsedData = storedData ? JSON.parse(storedData) : [];
     setCurrentIndex(Number(parsedData.current_index || 0));
     setScore(Number(parsedData.current_score || 0));
-    // matilda.current_index = parsedData.current_index || 0;
-    // matilda.current_score = parsedData.current_score || 0;
-    // localStorage.setItem(MATILDA_KEY, JSON.stringify(matilda));
-    // console.log("Stored Data: ", parsedData);
-    // console.log("Current Index: ", currentIndex);
-    // console.log("Current Score: ", score);
+    // Set the Refs
+    currentIndexRef.current = Number(parsedData.current_index || 0);
+    scoreRef.current = Number(parsedData.current_score || 0);
   };
 
   // Early return if no quiz data provided
@@ -61,13 +59,43 @@ const QuizPage = () => {
   const totalQuestions = quizData.length;
 
   // Handle answer selection
-  const handleAnswerSelect = async (optionKey) => {
+  const handleAnswerSelect = async (optionKey: string) => {
     if (showResult) return;
 
     setSelectedAnswer(optionKey);
     setShowResult(true);
 
-    toast(currentQuestion.explanation);
+    // toast(currentQuestion.explanation, { duration: 5000 });
+
+    //Custom toast
+    toast.custom(
+      (t) => (
+        <div
+          className={`flex items-center gap-3 px-4 py-3 rounded-xl shadow-lg transition-all ${
+            t.visible ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-2"
+          } bg-purple-800/90 ring-1 ring-purple-500 text-white font-medium`}
+        >
+          <Bell
+            className="text-yellow-400 absolute top-10 left-15 opacity-30"
+            size={30}
+          />
+          <Bell
+            className="text-purple-600 absolute top-2 left-2 opacity-40"
+            size={30}
+          />
+
+          <Bell
+            className="text-red-400 absolute top-5 left-50 opacity-40"
+            size={30}
+          />
+
+          <span>{currentQuestion.explanation}</span>
+        </div>
+      ),
+      {
+        duration: 5000,
+      }
+    );
 
     handleNext();
 
@@ -75,7 +103,8 @@ const QuizPage = () => {
     if (optionKey === currentQuestion.correctAnswer) {
       playSuccess();
       setScore((prev) => prev + 1);
-      matilda.current_score = score;
+      scoreRef.current += 1;
+      matilda.current_score = scoreRef.current;
       localStorage.setItem(MATILDA_KEY, JSON.stringify(matilda));
     } else {
       playError();
@@ -87,9 +116,10 @@ const QuizPage = () => {
     setTimeout(() => {
       setSelectedAnswer(null);
       setShowResult(false);
-      if (currentIndex + 2 <= quizData.length) {
+      if (!isLastQuestion) {
         setCurrentIndex((prev) => prev + 1);
-        matilda.current_index = currentIndex;
+        currentIndexRef.current += 1;
+        matilda.current_index = currentIndexRef.current;
         localStorage.setItem(MATILDA_KEY, JSON.stringify(matilda));
         console.log(
           "current_index",
@@ -248,22 +278,37 @@ const QuizPage = () => {
             autoplay
             style={{ background: "transparent" }}
           />
-
-          {currentIndex + 2 === quizData.length && (
-            <div className="space-x-3">
-              <div className="inline-block bg-pink-100 text-pink-800 px-4 py-2 rounded-lg font-medium">
-                Final Score: {score} / {totalQuestions}
-              </div>
-              <button
-                onClick={handleRestart}
-                className="bg-gradient-to-r from-pink-500 to-rose-500 text-white px-6 py-3 rounded-lg font-medium hover:from-pink-600 hover:to-rose-600 transform hover:scale-105 transition-all duration-200 shadow-lg"
-              >
-                Restart Quiz
-              </button>
-            </div>
-          )}
         </div>
       </div>
+      {isLastQuestion && (
+        <div className="space-x-3 fixed  bg-black/80 inset-0  items-center justify-center flex flex-col">
+          <div className="flex flex-col space-y-2 bg-purple-600/60 rounded-xl shadow-xl  px-6 py-10">
+            <div className=" bg-black/30 text-white flex   px-4 py-2 rounded-lg font-medium">
+              <h1>
+                {" "}
+                Your final score is:{" "}
+                <span className="text-cyan-400 font-semibold">
+                  {" "}
+                  {((score / totalQuestions) * 100).toFixed(2)} %
+                </span>
+              </h1>
+            </div>
+            <p>Click this button to restart the quiz </p>
+            <button
+              onClick={handleRestart}
+              className="bg-gradient-to-r from-pink-800 to-slate-900 text-white px-6 py-3 rounded-lg font-medium hover:from-pink-600 hover:to-rose-600 transform hover:scale-105 transition-all duration-200 shadow-lg"
+            >
+              Restart Quiz
+            </button>
+            <p>Click this other one to tell dikie to add more quizes for you</p>
+            <button
+              className="bg-gradient-to-r from-pink-500 to-rose-500 text-white px-6 py-3 rounded-lg font-medium hover:from-pink-600 hover:to-rose-600 transform hover:scale-105 transition-all duration-200 shadow-lg"
+            >
+              Tell dikie
+            </button>
+          </div>
+        </div>
+      )}
     </div>
   );
 };
