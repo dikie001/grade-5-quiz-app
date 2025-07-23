@@ -1,0 +1,6502 @@
+[
+  {
+    "id": 489,
+    "subject": "Social Studies",
+    "question": "What do we call the leader of a county?",
+    "options": {
+      "A": "President",
+      "B": "Chief",
+      "C": "Governor",
+      "D": "Councillor"
+    },
+    "correctAnswer": "C",
+    "explanation": "A governor leads a county."
+  },
+  {
+    "id": 241,
+    "subject": "Art and Craft",
+    "question": "Why do we do craft work?",
+    "options": {
+      "A": "To get dirty",
+      "B": "To waste time",
+      "C": "To be creative",
+      "D": "To sleep"
+    },
+    "correctAnswer": "C",
+    "explanation": "Craft work encourages creativity."
+  },
+  {
+    "id": 500,
+    "subject": "Social Studies",
+    "question": "Which symbol represents peace?",
+    "options": {
+      "A": "White dove",
+      "B": "Red flag",
+      "C": "Shield",
+      "D": "Arrow"
+    },
+    "correctAnswer": "A",
+    "explanation": "A white dove is a symbol of peace."
+  },
+  {
+    "id": 336,
+    "subject": "CRE",
+    "question": "What is the first book of the Bible?",
+    "options": {
+      "A": "Exodus",
+      "B": "Matthew",
+      "C": "Genesis",
+      "D": "Leviticus"
+    },
+    "correctAnswer": "C",
+    "explanation": "Genesis is the first book."
+  },
+  {
+    "id": 335,
+    "subject": "Social Studies",
+    "question": "Which symbol represents peace?",
+    "options": {
+      "A": "White dove",
+      "B": "Red flag",
+      "C": "Shield",
+      "D": "Arrow"
+    },
+    "correctAnswer": "A",
+    "explanation": "A white dove is a symbol of peace."
+  },
+  {
+    "id": 472,
+    "subject": "Art and Craft",
+    "question": "Why do we do craft work?",
+    "options": {
+      "A": "To get dirty",
+      "B": "To waste time",
+      "C": "To be creative",
+      "D": "To sleep"
+    },
+    "correctAnswer": "C",
+    "explanation": "Craft work encourages creativity."
+  },
+  {
+    "id": 263,
+    "subject": "Art and Craft",
+    "question": "What color is made by mixing red and blue?",
+    "options": {
+      "A": "Green",
+      "B": "Purple",
+      "C": "Orange",
+      "D": "Brown"
+    },
+    "correctAnswer": "B",
+    "explanation": "Red + Blue = Purple."
+  },
+  {
+    "id": 252,
+    "subject": "Art and Craft",
+    "question": "Why do we do craft work?",
+    "options": {
+      "A": "To get dirty",
+      "B": "To waste time",
+      "C": "To be creative",
+      "D": "To sleep"
+    },
+    "correctAnswer": "C",
+    "explanation": "Craft work encourages creativity."
+  },
+  {
+    "id": 471,
+    "subject": "Music",
+    "question": "What do we use to sing?",
+    "options": {
+      "A": "Legs",
+      "B": "Eyes",
+      "C": "Mouth",
+      "D": "Hands"
+    },
+    "correctAnswer": "C",
+    "explanation": "We use our mouth to sing."
+  },
+  {
+    "id": 137,
+    "subject": "Social Studies",
+    "question": "What do we call the leader of a county?",
+    "options": {
+      "A": "President",
+      "B": "Chief",
+      "C": "Governor",
+      "D": "Councillor"
+    },
+    "correctAnswer": "C",
+    "explanation": "A governor leads a county."
+  },
+  {
+    "id": 283,
+    "subject": "Agriculture",
+    "question": "What do we call young plants?",
+    "options": {
+      "A": "Seeds",
+      "B": "Seedlings",
+      "C": "Roots",
+      "D": "Weeds"
+    },
+    "correctAnswer": "B",
+    "explanation": "Seedlings are young plants."
+  },
+  {
+    "id": 309,
+    "subject": "Mathematics",
+    "question": "What is the value of 9 \u00d7 6?",
+    "options": {
+      "A": "54",
+      "B": "56",
+      "C": "64",
+      "D": "46"
+    },
+    "correctAnswer": "A",
+    "explanation": "9 multiplied by 6 is 54."
+  },
+  {
+    "id": 305,
+    "subject": "Agriculture",
+    "question": "What do we call young plants?",
+    "options": {
+      "A": "Seeds",
+      "B": "Seedlings",
+      "C": "Roots",
+      "D": "Weeds"
+    },
+    "correctAnswer": "B",
+    "explanation": "Seedlings are young plants."
+  },
+  {
+    "id": 432,
+    "subject": "Kiswahili",
+    "question": "Tunga sentensi kwa kutumia neno 'shule'",
+    "options": {
+      "A": "Ninapenda shule",
+      "B": "Shule kula",
+      "C": "Shule kutembea",
+      "D": "Nime shule"
+    },
+    "correctAnswer": "A",
+    "explanation": "'Ninapenda shule' ni sentensi sahihi."
+  },
+  {
+    "id": 262,
+    "subject": "Music",
+    "question": "What do we use to sing?",
+    "options": {
+      "A": "Legs",
+      "B": "Eyes",
+      "C": "Mouth",
+      "D": "Hands"
+    },
+    "correctAnswer": "C",
+    "explanation": "We use our mouth to sing."
+  },
+  {
+    "id": 92,
+    "subject": "Science and Technology",
+    "question": "Which part of the plant makes food?",
+    "options": {
+      "A": "Roots",
+      "B": "Stem",
+      "C": "Leaves",
+      "D": "Flower"
+    },
+    "correctAnswer": "C",
+    "explanation": "Leaves use sunlight to make food."
+  },
+  {
+    "id": 485,
+    "subject": "Mathematics",
+    "question": "What is 100 divided by 5?",
+    "options": {
+      "A": "15",
+      "B": "20",
+      "C": "25",
+      "D": "30"
+    },
+    "correctAnswer": "B",
+    "explanation": "100 \u00f7 5 = 20."
+  },
+  {
+    "id": 431,
+    "subject": "English",
+    "question": "Choose the correct verb in the sentence: She ___ to school every day.",
+    "options": {
+      "A": "go",
+      "B": "goes",
+      "C": "gone",
+      "D": "going"
+    },
+    "correctAnswer": "B",
+    "explanation": "'Goes' is the correct verb form for 'she'."
+  },
+  {
+    "id": 317,
+    "subject": "Music",
+    "question": "Which song type is used for celebration?",
+    "options": {
+      "A": "Lullaby",
+      "B": "Wedding song",
+      "C": "Work song",
+      "D": "Funeral song"
+    },
+    "correctAnswer": "B",
+    "explanation": "Wedding songs celebrate marriage."
+  },
+  {
+    "id": 249,
+    "subject": "Home Science",
+    "question": "Which of these is a clean habit?",
+    "options": {
+      "A": "Bathing",
+      "B": "Playing in mud",
+      "C": "Touching garbage",
+      "D": "Sharing clothes"
+    },
+    "correctAnswer": "A",
+    "explanation": "Bathing keeps the body clean."
+  },
+  {
+    "id": 195,
+    "subject": "Agriculture",
+    "question": "What do we call young plants?",
+    "options": {
+      "A": "Seeds",
+      "B": "Seedlings",
+      "C": "Roots",
+      "D": "Weeds"
+    },
+    "correctAnswer": "B",
+    "explanation": "Seedlings are young plants."
+  },
+  {
+    "id": 441,
+    "subject": "Mathematics",
+    "question": "What is the value of 9 \u00d7 6?",
+    "options": {
+      "A": "54",
+      "B": "56",
+      "C": "64",
+      "D": "46"
+    },
+    "correctAnswer": "A",
+    "explanation": "9 multiplied by 6 is 54."
+  },
+  {
+    "id": 151,
+    "subject": "Agriculture",
+    "question": "What do we call young plants?",
+    "options": {
+      "A": "Seeds",
+      "B": "Seedlings",
+      "C": "Roots",
+      "D": "Weeds"
+    },
+    "correctAnswer": "B",
+    "explanation": "Seedlings are young plants."
+  },
+  {
+    "id": 145,
+    "subject": "English",
+    "question": "Choose the correct verb in the sentence: She ___ to school every day.",
+    "options": {
+      "A": "go",
+      "B": "goes",
+      "C": "gone",
+      "D": "going"
+    },
+    "correctAnswer": "B",
+    "explanation": "'Goes' is the correct verb form for 'she'."
+  },
+  {
+    "id": 187,
+    "subject": "Physical Health Education",
+    "question": "Why should we exercise?",
+    "options": {
+      "A": "To get tired",
+      "B": "To grow strong",
+      "C": "To sleep more",
+      "D": "To skip school"
+    },
+    "correctAnswer": "B",
+    "explanation": "Exercise helps us grow strong."
+  },
+  {
+    "id": 325,
+    "subject": "CRE",
+    "question": "What is the first book of the Bible?",
+    "options": {
+      "A": "Exodus",
+      "B": "Matthew",
+      "C": "Genesis",
+      "D": "Leviticus"
+    },
+    "correctAnswer": "C",
+    "explanation": "Genesis is the first book."
+  },
+  {
+    "id": 392,
+    "subject": "Home Science",
+    "question": "What do we use to wash clothes?",
+    "options": {
+      "A": "Soap",
+      "B": "Juice",
+      "C": "Sugar",
+      "D": "Watermelon"
+    },
+    "correctAnswer": "A",
+    "explanation": "Soap helps clean dirty clothes."
+  },
+  {
+    "id": 103,
+    "subject": "Science and Technology",
+    "question": "Which part of the plant makes food?",
+    "options": {
+      "A": "Roots",
+      "B": "Stem",
+      "C": "Leaves",
+      "D": "Flower"
+    },
+    "correctAnswer": "C",
+    "explanation": "Leaves use sunlight to make food."
+  },
+  {
+    "id": 58,
+    "subject": "Kiswahili",
+    "question": "Tunga sentensi kwa kutumia neno 'shule'",
+    "options": {
+      "A": "Ninapenda shule",
+      "B": "Shule kula",
+      "C": "Shule kutembea",
+      "D": "Nime shule"
+    },
+    "correctAnswer": "A",
+    "explanation": "'Ninapenda shule' ni sentensi sahihi."
+  },
+  {
+    "id": 344,
+    "subject": "Kiswahili",
+    "question": "Tunga sentensi kwa kutumia neno 'shule'",
+    "options": {
+      "A": "Ninapenda shule",
+      "B": "Shule kula",
+      "C": "Shule kutembea",
+      "D": "Nime shule"
+    },
+    "correctAnswer": "A",
+    "explanation": "'Ninapenda shule' ni sentensi sahihi."
+  },
+  {
+    "id": 343,
+    "subject": "English",
+    "question": "What is the plural of 'child'?",
+    "options": {
+      "A": "childs",
+      "B": "childes",
+      "C": "children",
+      "D": "childrens"
+    },
+    "correctAnswer": "C",
+    "explanation": "The plural of 'child' is 'children'."
+  },
+  {
+    "id": 324,
+    "subject": "Social Studies",
+    "question": "Which symbol represents peace?",
+    "options": {
+      "A": "White dove",
+      "B": "Red flag",
+      "C": "Shield",
+      "D": "Arrow"
+    },
+    "correctAnswer": "A",
+    "explanation": "A white dove is a symbol of peace."
+  },
+  {
+    "id": 363,
+    "subject": "Physical Health Education",
+    "question": "Why should we exercise?",
+    "options": {
+      "A": "To get tired",
+      "B": "To grow strong",
+      "C": "To sleep more",
+      "D": "To skip school"
+    },
+    "correctAnswer": "B",
+    "explanation": "Exercise helps us grow strong."
+  },
+  {
+    "id": 373,
+    "subject": "Art and Craft",
+    "question": "What color is made by mixing red and blue?",
+    "options": {
+      "A": "Green",
+      "B": "Purple",
+      "C": "Orange",
+      "D": "Brown"
+    },
+    "correctAnswer": "B",
+    "explanation": "Red + Blue = Purple."
+  },
+  {
+    "id": 39,
+    "subject": "CRE",
+    "question": "Who created the world according to the Bible?",
+    "options": {
+      "A": "Jesus",
+      "B": "Moses",
+      "C": "God",
+      "D": "Noah"
+    },
+    "correctAnswer": "C",
+    "explanation": "God created the world."
+  },
+  {
+    "id": 403,
+    "subject": "Home Science",
+    "question": "Which food helps in growth?",
+    "options": {
+      "A": "Cake",
+      "B": "Rice",
+      "C": "Beans",
+      "D": "Sweets"
+    },
+    "correctAnswer": "C",
+    "explanation": "Beans are rich in proteins."
+  },
+  {
+    "id": 350,
+    "subject": "Music",
+    "question": "Which song type is used for celebration?",
+    "options": {
+      "A": "Lullaby",
+      "B": "Wedding song",
+      "C": "Work song",
+      "D": "Funeral song"
+    },
+    "correctAnswer": "B",
+    "explanation": "Wedding songs celebrate marriage."
+  },
+  {
+    "id": 47,
+    "subject": "Kiswahili",
+    "question": "Tunga sentensi kwa kutumia neno 'shule'",
+    "options": {
+      "A": "Ninapenda shule",
+      "B": "Shule kula",
+      "C": "Shule kutembea",
+      "D": "Nime shule"
+    },
+    "correctAnswer": "A",
+    "explanation": "'Ninapenda shule' ni sentensi sahihi."
+  },
+  {
+    "id": 83,
+    "subject": "CRE",
+    "question": "Who created the world according to the Bible?",
+    "options": {
+      "A": "Jesus",
+      "B": "Moses",
+      "C": "God",
+      "D": "Noah"
+    },
+    "correctAnswer": "C",
+    "explanation": "God created the world."
+  },
+  {
+    "id": 3,
+    "subject": "Kiswahili",
+    "question": "Ni ipi ni nomino?",
+    "options": {
+      "A": "Kimbia",
+      "B": "Rangi",
+      "C": "Mwalimu",
+      "D": "Haraka"
+    },
+    "correctAnswer": "C",
+    "explanation": "'Mwalimu' ni nomino kwa sababu ni mtu."
+  },
+  {
+    "id": 81,
+    "subject": "Science and Technology",
+    "question": "Which sense helps us hear?",
+    "options": {
+      "A": "Sight",
+      "B": "Smell",
+      "C": "Hearing",
+      "D": "Taste"
+    },
+    "correctAnswer": "C",
+    "explanation": "The sense of hearing helps us listen to sounds."
+  },
+  {
+    "id": 177,
+    "subject": "Mathematics",
+    "question": "What is 100 divided by 5?",
+    "options": {
+      "A": "15",
+      "B": "20",
+      "C": "25",
+      "D": "30"
+    },
+    "correctAnswer": "B",
+    "explanation": "100 \u00f7 5 = 20."
+  },
+  {
+    "id": 86,
+    "subject": "Music",
+    "question": "What do we use to sing?",
+    "options": {
+      "A": "Legs",
+      "B": "Eyes",
+      "C": "Mouth",
+      "D": "Hands"
+    },
+    "correctAnswer": "C",
+    "explanation": "We use our mouth to sing."
+  },
+  {
+    "id": 7,
+    "subject": "Home Science",
+    "question": "Which food helps in growth?",
+    "options": {
+      "A": "Cake",
+      "B": "Rice",
+      "C": "Beans",
+      "D": "Sweets"
+    },
+    "correctAnswer": "C",
+    "explanation": "Beans are rich in proteins."
+  },
+  {
+    "id": 477,
+    "subject": "Science and Technology",
+    "question": "Which part of the plant makes food?",
+    "options": {
+      "A": "Roots",
+      "B": "Stem",
+      "C": "Leaves",
+      "D": "Flower"
+    },
+    "correctAnswer": "C",
+    "explanation": "Leaves use sunlight to make food."
+  },
+  {
+    "id": 415,
+    "subject": "Agriculture",
+    "question": "Which tool is used to dig the soil?",
+    "options": {
+      "A": "Hoe",
+      "B": "Spoon",
+      "C": "Plate",
+      "D": "Cup"
+    },
+    "correctAnswer": "A",
+    "explanation": "A hoe is used for digging."
+  },
+  {
+    "id": 24,
+    "subject": "English",
+    "question": "Which word is a noun?",
+    "options": {
+      "A": "Run",
+      "B": "Quickly",
+      "C": "Teacher",
+      "D": "Blue"
+    },
+    "correctAnswer": "C",
+    "explanation": "'Teacher' is a person and a noun."
+  },
+  {
+    "id": 326,
+    "subject": "Home Science",
+    "question": "Which food helps in growth?",
+    "options": {
+      "A": "Cake",
+      "B": "Rice",
+      "C": "Beans",
+      "D": "Sweets"
+    },
+    "correctAnswer": "C",
+    "explanation": "Beans are rich in proteins."
+  },
+  {
+    "id": 160,
+    "subject": "CRE",
+    "question": "Who created the world according to the Bible?",
+    "options": {
+      "A": "Jesus",
+      "B": "Moses",
+      "C": "God",
+      "D": "Noah"
+    },
+    "correctAnswer": "C",
+    "explanation": "God created the world."
+  },
+  {
+    "id": 126,
+    "subject": "Social Studies",
+    "question": "Which is the capital city of Kenya?",
+    "options": {
+      "A": "Mombasa",
+      "B": "Kisumu",
+      "C": "Nairobi",
+      "D": "Nakuru"
+    },
+    "correctAnswer": "C",
+    "explanation": "Nairobi is the capital city."
+  },
+  {
+    "id": 45,
+    "subject": "Mathematics",
+    "question": "What is the value of 9 \u00d7 6?",
+    "options": {
+      "A": "54",
+      "B": "56",
+      "C": "64",
+      "D": "46"
+    },
+    "correctAnswer": "A",
+    "explanation": "9 multiplied by 6 is 54."
+  },
+  {
+    "id": 274,
+    "subject": "Art and Craft",
+    "question": "Why do we do craft work?",
+    "options": {
+      "A": "To get dirty",
+      "B": "To waste time",
+      "C": "To be creative",
+      "D": "To sleep"
+    },
+    "correctAnswer": "C",
+    "explanation": "Craft work encourages creativity."
+  },
+  {
+    "id": 235,
+    "subject": "Science and Technology",
+    "question": "What do we use to see stars?",
+    "options": {
+      "A": "Microscope",
+      "B": "Telescope",
+      "C": "Binoculars",
+      "D": "Magnifying glass"
+    },
+    "correctAnswer": "B",
+    "explanation": "A telescope helps us see faraway stars."
+  },
+  {
+    "id": 41,
+    "subject": "Agriculture",
+    "question": "Which tool is used to dig the soil?",
+    "options": {
+      "A": "Hoe",
+      "B": "Spoon",
+      "C": "Plate",
+      "D": "Cup"
+    },
+    "correctAnswer": "A",
+    "explanation": "A hoe is used for digging."
+  },
+  {
+    "id": 414,
+    "subject": "Home Science",
+    "question": "Which food helps in growth?",
+    "options": {
+      "A": "Cake",
+      "B": "Rice",
+      "C": "Beans",
+      "D": "Sweets"
+    },
+    "correctAnswer": "C",
+    "explanation": "Beans are rich in proteins."
+  },
+  {
+    "id": 460,
+    "subject": "Music",
+    "question": "What do we use to sing?",
+    "options": {
+      "A": "Legs",
+      "B": "Eyes",
+      "C": "Mouth",
+      "D": "Hands"
+    },
+    "correctAnswer": "C",
+    "explanation": "We use our mouth to sing."
+  },
+  {
+    "id": 277,
+    "subject": "English",
+    "question": "What is the plural of 'child'?",
+    "options": {
+      "A": "childs",
+      "B": "childes",
+      "C": "children",
+      "D": "childrens"
+    },
+    "correctAnswer": "C",
+    "explanation": "The plural of 'child' is 'children'."
+  },
+  {
+    "id": 136,
+    "subject": "Science and Technology",
+    "question": "What do we use to see stars?",
+    "options": {
+      "A": "Microscope",
+      "B": "Telescope",
+      "C": "Binoculars",
+      "D": "Magnifying glass"
+    },
+    "correctAnswer": "B",
+    "explanation": "A telescope helps us see faraway stars."
+  },
+  {
+    "id": 273,
+    "subject": "Music",
+    "question": "Which song type is used for celebration?",
+    "options": {
+      "A": "Lullaby",
+      "B": "Wedding song",
+      "C": "Work song",
+      "D": "Funeral song"
+    },
+    "correctAnswer": "B",
+    "explanation": "Wedding songs celebrate marriage."
+  },
+  {
+    "id": 153,
+    "subject": "Art and Craft",
+    "question": "Which of these is used in drawing?",
+    "options": {
+      "A": "Pencil",
+      "B": "Eraser",
+      "C": "Plate",
+      "D": "Book"
+    },
+    "correctAnswer": "A",
+    "explanation": "A pencil is used for drawing."
+  },
+  {
+    "id": 351,
+    "subject": "Art and Craft",
+    "question": "Which of these is used in drawing?",
+    "options": {
+      "A": "Pencil",
+      "B": "Eraser",
+      "C": "Plate",
+      "D": "Book"
+    },
+    "correctAnswer": "A",
+    "explanation": "A pencil is used for drawing."
+  },
+  {
+    "id": 189,
+    "subject": "English",
+    "question": "Choose the correct verb in the sentence: She ___ to school every day.",
+    "options": {
+      "A": "go",
+      "B": "goes",
+      "C": "gone",
+      "D": "going"
+    },
+    "correctAnswer": "B",
+    "explanation": "'Goes' is the correct verb form for 'she'."
+  },
+  {
+    "id": 310,
+    "subject": "English",
+    "question": "Which word is a noun?",
+    "options": {
+      "A": "Run",
+      "B": "Quickly",
+      "C": "Teacher",
+      "D": "Blue"
+    },
+    "correctAnswer": "C",
+    "explanation": "'Teacher' is a person and a noun."
+  },
+  {
+    "id": 178,
+    "subject": "English",
+    "question": "What is the plural of 'child'?",
+    "options": {
+      "A": "childs",
+      "B": "childes",
+      "C": "children",
+      "D": "childrens"
+    },
+    "correctAnswer": "C",
+    "explanation": "The plural of 'child' is 'children'."
+  },
+  {
+    "id": 217,
+    "subject": "Agriculture",
+    "question": "Why do farmers water crops?",
+    "options": {
+      "A": "For fun",
+      "B": "To clean them",
+      "C": "To help them grow",
+      "D": "To make them colorful"
+    },
+    "correctAnswer": "C",
+    "explanation": "Water helps plants grow."
+  },
+  {
+    "id": 280,
+    "subject": "Social Studies",
+    "question": "Which symbol represents peace?",
+    "options": {
+      "A": "White dove",
+      "B": "Red flag",
+      "C": "Shield",
+      "D": "Arrow"
+    },
+    "correctAnswer": "A",
+    "explanation": "A white dove is a symbol of peace."
+  },
+  {
+    "id": 443,
+    "subject": "Kiswahili",
+    "question": "Ni ipi ni nomino?",
+    "options": {
+      "A": "Kimbia",
+      "B": "Rangi",
+      "C": "Mwalimu",
+      "D": "Haraka"
+    },
+    "correctAnswer": "C",
+    "explanation": "'Mwalimu' ni nomino kwa sababu ni mtu."
+  },
+  {
+    "id": 214,
+    "subject": "Social Studies",
+    "question": "What do we call the leader of a county?",
+    "options": {
+      "A": "President",
+      "B": "Chief",
+      "C": "Governor",
+      "D": "Councillor"
+    },
+    "correctAnswer": "C",
+    "explanation": "A governor leads a county."
+  },
+  {
+    "id": 388,
+    "subject": "Kiswahili",
+    "question": "Ni ipi ni nomino?",
+    "options": {
+      "A": "Kimbia",
+      "B": "Rangi",
+      "C": "Mwalimu",
+      "D": "Haraka"
+    },
+    "correctAnswer": "C",
+    "explanation": "'Mwalimu' ni nomino kwa sababu ni mtu."
+  },
+  {
+    "id": 202,
+    "subject": "Science and Technology",
+    "question": "Which part of the plant makes food?",
+    "options": {
+      "A": "Roots",
+      "B": "Stem",
+      "C": "Leaves",
+      "D": "Flower"
+    },
+    "correctAnswer": "C",
+    "explanation": "Leaves use sunlight to make food."
+  },
+  {
+    "id": 4,
+    "subject": "Science and Technology",
+    "question": "Which part of the plant makes food?",
+    "options": {
+      "A": "Roots",
+      "B": "Stem",
+      "C": "Leaves",
+      "D": "Flower"
+    },
+    "correctAnswer": "C",
+    "explanation": "Leaves use sunlight to make food."
+  },
+  {
+    "id": 290,
+    "subject": "Science and Technology",
+    "question": "Which part of the plant makes food?",
+    "options": {
+      "A": "Roots",
+      "B": "Stem",
+      "C": "Leaves",
+      "D": "Flower"
+    },
+    "correctAnswer": "C",
+    "explanation": "Leaves use sunlight to make food."
+  },
+  {
+    "id": 422,
+    "subject": "Science and Technology",
+    "question": "Which sense helps us hear?",
+    "options": {
+      "A": "Sight",
+      "B": "Smell",
+      "C": "Hearing",
+      "D": "Taste"
+    },
+    "correctAnswer": "C",
+    "explanation": "The sense of hearing helps us listen to sounds."
+  },
+  {
+    "id": 299,
+    "subject": "English",
+    "question": "Choose the correct verb in the sentence: She ___ to school every day.",
+    "options": {
+      "A": "go",
+      "B": "goes",
+      "C": "gone",
+      "D": "going"
+    },
+    "correctAnswer": "B",
+    "explanation": "'Goes' is the correct verb form for 'she'."
+  },
+  {
+    "id": 490,
+    "subject": "CRE",
+    "question": "What is the first book of the Bible?",
+    "options": {
+      "A": "Exodus",
+      "B": "Matthew",
+      "C": "Genesis",
+      "D": "Leviticus"
+    },
+    "correctAnswer": "C",
+    "explanation": "Genesis is the first book."
+  },
+  {
+    "id": 97,
+    "subject": "Music",
+    "question": "Which song type is used for celebration?",
+    "options": {
+      "A": "Lullaby",
+      "B": "Wedding song",
+      "C": "Work song",
+      "D": "Funeral song"
+    },
+    "correctAnswer": "B",
+    "explanation": "Wedding songs celebrate marriage."
+  },
+  {
+    "id": 244,
+    "subject": "English",
+    "question": "Choose the correct verb in the sentence: She ___ to school every day.",
+    "options": {
+      "A": "go",
+      "B": "goes",
+      "C": "gone",
+      "D": "going"
+    },
+    "correctAnswer": "B",
+    "explanation": "'Goes' is the correct verb form for 'she'."
+  },
+  {
+    "id": 141,
+    "subject": "Music",
+    "question": "Which song type is used for celebration?",
+    "options": {
+      "A": "Lullaby",
+      "B": "Wedding song",
+      "C": "Work song",
+      "D": "Funeral song"
+    },
+    "correctAnswer": "B",
+    "explanation": "Wedding songs celebrate marriage."
+  },
+  {
+    "id": 424,
+    "subject": "CRE",
+    "question": "Who built the ark?",
+    "options": {
+      "A": "Abraham",
+      "B": "Noah",
+      "C": "Moses",
+      "D": "David"
+    },
+    "correctAnswer": "B",
+    "explanation": "Noah built the ark."
+  },
+  {
+    "id": 442,
+    "subject": "English",
+    "question": "Which word is a noun?",
+    "options": {
+      "A": "Run",
+      "B": "Quickly",
+      "C": "Teacher",
+      "D": "Blue"
+    },
+    "correctAnswer": "C",
+    "explanation": "'Teacher' is a person and a noun."
+  },
+  {
+    "id": 303,
+    "subject": "CRE",
+    "question": "Who created the world according to the Bible?",
+    "options": {
+      "A": "Jesus",
+      "B": "Moses",
+      "C": "God",
+      "D": "Noah"
+    },
+    "correctAnswer": "C",
+    "explanation": "God created the world."
+  },
+  {
+    "id": 80,
+    "subject": "Kiswahili",
+    "question": "Ni ipi ni nomino?",
+    "options": {
+      "A": "Kimbia",
+      "B": "Rangi",
+      "C": "Mwalimu",
+      "D": "Haraka"
+    },
+    "correctAnswer": "C",
+    "explanation": "'Mwalimu' ni nomino kwa sababu ni mtu."
+  },
+  {
+    "id": 12,
+    "subject": "Mathematics",
+    "question": "What is the value of 9 \u00d7 6?",
+    "options": {
+      "A": "54",
+      "B": "56",
+      "C": "64",
+      "D": "46"
+    },
+    "correctAnswer": "A",
+    "explanation": "9 multiplied by 6 is 54."
+  },
+  {
+    "id": 282,
+    "subject": "Home Science",
+    "question": "What do we use to wash clothes?",
+    "options": {
+      "A": "Soap",
+      "B": "Juice",
+      "C": "Sugar",
+      "D": "Watermelon"
+    },
+    "correctAnswer": "A",
+    "explanation": "Soap helps clean dirty clothes."
+  },
+  {
+    "id": 109,
+    "subject": "Art and Craft",
+    "question": "Why do we do craft work?",
+    "options": {
+      "A": "To get dirty",
+      "B": "To waste time",
+      "C": "To be creative",
+      "D": "To sleep"
+    },
+    "correctAnswer": "C",
+    "explanation": "Craft work encourages creativity."
+  },
+  {
+    "id": 79,
+    "subject": "English",
+    "question": "Which word is a noun?",
+    "options": {
+      "A": "Run",
+      "B": "Quickly",
+      "C": "Teacher",
+      "D": "Blue"
+    },
+    "correctAnswer": "C",
+    "explanation": "'Teacher' is a person and a noun."
+  },
+  {
+    "id": 436,
+    "subject": "Home Science",
+    "question": "Which food helps in growth?",
+    "options": {
+      "A": "Cake",
+      "B": "Rice",
+      "C": "Beans",
+      "D": "Sweets"
+    },
+    "correctAnswer": "C",
+    "explanation": "Beans are rich in proteins."
+  },
+  {
+    "id": 339,
+    "subject": "Music",
+    "question": "What do we use to sing?",
+    "options": {
+      "A": "Legs",
+      "B": "Eyes",
+      "C": "Mouth",
+      "D": "Hands"
+    },
+    "correctAnswer": "C",
+    "explanation": "We use our mouth to sing."
+  },
+  {
+    "id": 468,
+    "subject": "CRE",
+    "question": "What is the first book of the Bible?",
+    "options": {
+      "A": "Exodus",
+      "B": "Matthew",
+      "C": "Genesis",
+      "D": "Leviticus"
+    },
+    "correctAnswer": "C",
+    "explanation": "Genesis is the first book."
+  },
+  {
+    "id": 396,
+    "subject": "Physical Health Education",
+    "question": "Why should we exercise?",
+    "options": {
+      "A": "To get tired",
+      "B": "To grow strong",
+      "C": "To sleep more",
+      "D": "To skip school"
+    },
+    "correctAnswer": "B",
+    "explanation": "Exercise helps us grow strong."
+  },
+  {
+    "id": 210,
+    "subject": "Mathematics",
+    "question": "Which number is an even number?",
+    "options": {
+      "A": "17",
+      "B": "25",
+      "C": "32",
+      "D": "51"
+    },
+    "correctAnswer": "C",
+    "explanation": "Even numbers are divisible by 2."
+  },
+  {
+    "id": 1,
+    "subject": "Mathematics",
+    "question": "What is the value of 9 \u00d7 6?",
+    "options": {
+      "A": "54",
+      "B": "56",
+      "C": "64",
+      "D": "46"
+    },
+    "correctAnswer": "A",
+    "explanation": "9 multiplied by 6 is 54."
+  },
+  {
+    "id": 319,
+    "subject": "Physical Health Education",
+    "question": "Why should we exercise?",
+    "options": {
+      "A": "To get tired",
+      "B": "To grow strong",
+      "C": "To sleep more",
+      "D": "To skip school"
+    },
+    "correctAnswer": "B",
+    "explanation": "Exercise helps us grow strong."
+  },
+  {
+    "id": 219,
+    "subject": "Art and Craft",
+    "question": "Why do we do craft work?",
+    "options": {
+      "A": "To get dirty",
+      "B": "To waste time",
+      "C": "To be creative",
+      "D": "To sleep"
+    },
+    "correctAnswer": "C",
+    "explanation": "Craft work encourages creativity."
+  },
+  {
+    "id": 198,
+    "subject": "Physical Health Education",
+    "question": "Why should we exercise?",
+    "options": {
+      "A": "To get tired",
+      "B": "To grow strong",
+      "C": "To sleep more",
+      "D": "To skip school"
+    },
+    "correctAnswer": "B",
+    "explanation": "Exercise helps us grow strong."
+  },
+  {
+    "id": 221,
+    "subject": "Mathematics",
+    "question": "Which number is an even number?",
+    "options": {
+      "A": "17",
+      "B": "25",
+      "C": "32",
+      "D": "51"
+    },
+    "correctAnswer": "C",
+    "explanation": "Even numbers are divisible by 2."
+  },
+  {
+    "id": 331,
+    "subject": "Mathematics",
+    "question": "What is 100 divided by 5?",
+    "options": {
+      "A": "15",
+      "B": "20",
+      "C": "25",
+      "D": "30"
+    },
+    "correctAnswer": "B",
+    "explanation": "100 \u00f7 5 = 20."
+  },
+  {
+    "id": 275,
+    "subject": "Physical Health Education",
+    "question": "Which of these is an outdoor game?",
+    "options": {
+      "A": "Football",
+      "B": "Reading",
+      "C": "Writing",
+      "D": "Cooking"
+    },
+    "correctAnswer": "A",
+    "explanation": "Football is played outside."
+  },
+  {
+    "id": 401,
+    "subject": "Social Studies",
+    "question": "Which symbol represents peace?",
+    "options": {
+      "A": "White dove",
+      "B": "Red flag",
+      "C": "Shield",
+      "D": "Arrow"
+    },
+    "correctAnswer": "A",
+    "explanation": "A white dove is a symbol of peace."
+  },
+  {
+    "id": 194,
+    "subject": "Home Science",
+    "question": "Which of these is a clean habit?",
+    "options": {
+      "A": "Bathing",
+      "B": "Playing in mud",
+      "C": "Touching garbage",
+      "D": "Sharing clothes"
+    },
+    "correctAnswer": "A",
+    "explanation": "Bathing keeps the body clean."
+  },
+  {
+    "id": 368,
+    "subject": "Social Studies",
+    "question": "What do we call the leader of a county?",
+    "options": {
+      "A": "President",
+      "B": "Chief",
+      "C": "Governor",
+      "D": "Councillor"
+    },
+    "correctAnswer": "C",
+    "explanation": "A governor leads a county."
+  },
+  {
+    "id": 426,
+    "subject": "Agriculture",
+    "question": "Which tool is used to dig the soil?",
+    "options": {
+      "A": "Hoe",
+      "B": "Spoon",
+      "C": "Plate",
+      "D": "Cup"
+    },
+    "correctAnswer": "A",
+    "explanation": "A hoe is used for digging."
+  },
+  {
+    "id": 384,
+    "subject": "Art and Craft",
+    "question": "What color is made by mixing red and blue?",
+    "options": {
+      "A": "Green",
+      "B": "Purple",
+      "C": "Orange",
+      "D": "Brown"
+    },
+    "correctAnswer": "B",
+    "explanation": "Red + Blue = Purple."
+  },
+  {
+    "id": 484,
+    "subject": "Physical Health Education",
+    "question": "Why should we exercise?",
+    "options": {
+      "A": "To get tired",
+      "B": "To grow strong",
+      "C": "To sleep more",
+      "D": "To skip school"
+    },
+    "correctAnswer": "B",
+    "explanation": "Exercise helps us grow strong."
+  },
+  {
+    "id": 372,
+    "subject": "Music",
+    "question": "Which song type is used for celebration?",
+    "options": {
+      "A": "Lullaby",
+      "B": "Wedding song",
+      "C": "Work song",
+      "D": "Funeral song"
+    },
+    "correctAnswer": "B",
+    "explanation": "Wedding songs celebrate marriage."
+  },
+  {
+    "id": 330,
+    "subject": "Physical Health Education",
+    "question": "Why should we exercise?",
+    "options": {
+      "A": "To get tired",
+      "B": "To grow strong",
+      "C": "To sleep more",
+      "D": "To skip school"
+    },
+    "correctAnswer": "B",
+    "explanation": "Exercise helps us grow strong."
+  },
+  {
+    "id": 31,
+    "subject": "Music",
+    "question": "Which of these is a musical instrument?",
+    "options": {
+      "A": "Drum",
+      "B": "Pen",
+      "C": "Book",
+      "D": "Plate"
+    },
+    "correctAnswer": "A",
+    "explanation": "A drum is used to produce sound in music."
+  },
+  {
+    "id": 294,
+    "subject": "Agriculture",
+    "question": "Which tool is used to dig the soil?",
+    "options": {
+      "A": "Hoe",
+      "B": "Spoon",
+      "C": "Plate",
+      "D": "Cup"
+    },
+    "correctAnswer": "A",
+    "explanation": "A hoe is used for digging."
+  },
+  {
+    "id": 271,
+    "subject": "Home Science",
+    "question": "Which food helps in growth?",
+    "options": {
+      "A": "Cake",
+      "B": "Rice",
+      "C": "Beans",
+      "D": "Sweets"
+    },
+    "correctAnswer": "C",
+    "explanation": "Beans are rich in proteins."
+  },
+  {
+    "id": 393,
+    "subject": "Agriculture",
+    "question": "What do we call young plants?",
+    "options": {
+      "A": "Seeds",
+      "B": "Seedlings",
+      "C": "Roots",
+      "D": "Weeds"
+    },
+    "correctAnswer": "B",
+    "explanation": "Seedlings are young plants."
+  },
+  {
+    "id": 207,
+    "subject": "Music",
+    "question": "What do we use to sing?",
+    "options": {
+      "A": "Legs",
+      "B": "Eyes",
+      "C": "Mouth",
+      "D": "Hands"
+    },
+    "correctAnswer": "C",
+    "explanation": "We use our mouth to sing."
+  },
+  {
+    "id": 429,
+    "subject": "Physical Health Education",
+    "question": "Which of these is an outdoor game?",
+    "options": {
+      "A": "Football",
+      "B": "Reading",
+      "C": "Writing",
+      "D": "Cooking"
+    },
+    "correctAnswer": "A",
+    "explanation": "Football is played outside."
+  },
+  {
+    "id": 111,
+    "subject": "Mathematics",
+    "question": "What is 100 divided by 5?",
+    "options": {
+      "A": "15",
+      "B": "20",
+      "C": "25",
+      "D": "30"
+    },
+    "correctAnswer": "B",
+    "explanation": "100 \u00f7 5 = 20."
+  },
+  {
+    "id": 318,
+    "subject": "Art and Craft",
+    "question": "Why do we do craft work?",
+    "options": {
+      "A": "To get dirty",
+      "B": "To waste time",
+      "C": "To be creative",
+      "D": "To sleep"
+    },
+    "correctAnswer": "C",
+    "explanation": "Craft work encourages creativity."
+  },
+  {
+    "id": 479,
+    "subject": "CRE",
+    "question": "Who created the world according to the Bible?",
+    "options": {
+      "A": "Jesus",
+      "B": "Moses",
+      "C": "God",
+      "D": "Noah"
+    },
+    "correctAnswer": "C",
+    "explanation": "God created the world."
+  },
+  {
+    "id": 367,
+    "subject": "Science and Technology",
+    "question": "What do we use to see stars?",
+    "options": {
+      "A": "Microscope",
+      "B": "Telescope",
+      "C": "Binoculars",
+      "D": "Magnifying glass"
+    },
+    "correctAnswer": "B",
+    "explanation": "A telescope helps us see faraway stars."
+  },
+  {
+    "id": 190,
+    "subject": "Kiswahili",
+    "question": "Ni ipi ni nomino?",
+    "options": {
+      "A": "Kimbia",
+      "B": "Rangi",
+      "C": "Mwalimu",
+      "D": "Haraka"
+    },
+    "correctAnswer": "C",
+    "explanation": "'Mwalimu' ni nomino kwa sababu ni mtu."
+  },
+  {
+    "id": 378,
+    "subject": "Science and Technology",
+    "question": "What do we use to see stars?",
+    "options": {
+      "A": "Microscope",
+      "B": "Telescope",
+      "C": "Binoculars",
+      "D": "Magnifying glass"
+    },
+    "correctAnswer": "B",
+    "explanation": "A telescope helps us see faraway stars."
+  },
+  {
+    "id": 457,
+    "subject": "CRE",
+    "question": "Who created the world according to the Bible?",
+    "options": {
+      "A": "Jesus",
+      "B": "Moses",
+      "C": "God",
+      "D": "Noah"
+    },
+    "correctAnswer": "C",
+    "explanation": "God created the world."
+  },
+  {
+    "id": 179,
+    "subject": "Kiswahili",
+    "question": "Chagua kivumishi:",
+    "options": {
+      "A": "Mbio",
+      "B": "Mzuri",
+      "C": "Kitabu",
+      "D": "Lima"
+    },
+    "correctAnswer": "B",
+    "explanation": "'Mzuri' hutumika kuelezea nomino."
+  },
+  {
+    "id": 166,
+    "subject": "Mathematics",
+    "question": "What is the value of 9 \u00d7 6?",
+    "options": {
+      "A": "54",
+      "B": "56",
+      "C": "64",
+      "D": "46"
+    },
+    "correctAnswer": "A",
+    "explanation": "9 multiplied by 6 is 54."
+  },
+  {
+    "id": 20,
+    "subject": "Music",
+    "question": "What do we use to sing?",
+    "options": {
+      "A": "Legs",
+      "B": "Eyes",
+      "C": "Mouth",
+      "D": "Hands"
+    },
+    "correctAnswer": "C",
+    "explanation": "We use our mouth to sing."
+  },
+  {
+    "id": 147,
+    "subject": "Science and Technology",
+    "question": "Which sense helps us hear?",
+    "options": {
+      "A": "Sight",
+      "B": "Smell",
+      "C": "Hearing",
+      "D": "Taste"
+    },
+    "correctAnswer": "C",
+    "explanation": "The sense of hearing helps us listen to sounds."
+  },
+  {
+    "id": 245,
+    "subject": "Kiswahili",
+    "question": "Chagua kivumishi:",
+    "options": {
+      "A": "Mbio",
+      "B": "Mzuri",
+      "C": "Kitabu",
+      "D": "Lima"
+    },
+    "correctAnswer": "B",
+    "explanation": "'Mzuri' hutumika kuelezea nomino."
+  },
+  {
+    "id": 163,
+    "subject": "Music",
+    "question": "Which song type is used for celebration?",
+    "options": {
+      "A": "Lullaby",
+      "B": "Wedding song",
+      "C": "Work song",
+      "D": "Funeral song"
+    },
+    "correctAnswer": "B",
+    "explanation": "Wedding songs celebrate marriage."
+  },
+  {
+    "id": 146,
+    "subject": "Kiswahili",
+    "question": "Chagua kivumishi:",
+    "options": {
+      "A": "Mbio",
+      "B": "Mzuri",
+      "C": "Kitabu",
+      "D": "Lima"
+    },
+    "correctAnswer": "B",
+    "explanation": "'Mzuri' hutumika kuelezea nomino."
+  },
+  {
+    "id": 158,
+    "subject": "Science and Technology",
+    "question": "What do we use to see stars?",
+    "options": {
+      "A": "Microscope",
+      "B": "Telescope",
+      "C": "Binoculars",
+      "D": "Magnifying glass"
+    },
+    "correctAnswer": "B",
+    "explanation": "A telescope helps us see faraway stars."
+  },
+  {
+    "id": 135,
+    "subject": "Kiswahili",
+    "question": "Ni ipi ni nomino?",
+    "options": {
+      "A": "Kimbia",
+      "B": "Rangi",
+      "C": "Mwalimu",
+      "D": "Haraka"
+    },
+    "correctAnswer": "C",
+    "explanation": "'Mwalimu' ni nomino kwa sababu ni mtu."
+  },
+  {
+    "id": 15,
+    "subject": "Science and Technology",
+    "question": "Which sense helps us hear?",
+    "options": {
+      "A": "Sight",
+      "B": "Smell",
+      "C": "Hearing",
+      "D": "Taste"
+    },
+    "correctAnswer": "C",
+    "explanation": "The sense of hearing helps us listen to sounds."
+  },
+  {
+    "id": 316,
+    "subject": "Agriculture",
+    "question": "Why do farmers water crops?",
+    "options": {
+      "A": "For fun",
+      "B": "To clean them",
+      "C": "To help them grow",
+      "D": "To make them colorful"
+    },
+    "correctAnswer": "C",
+    "explanation": "Water helps plants grow."
+  },
+  {
+    "id": 206,
+    "subject": "Agriculture",
+    "question": "What do we call young plants?",
+    "options": {
+      "A": "Seeds",
+      "B": "Seedlings",
+      "C": "Roots",
+      "D": "Weeds"
+    },
+    "correctAnswer": "B",
+    "explanation": "Seedlings are young plants."
+  },
+  {
+    "id": 495,
+    "subject": "Physical Health Education",
+    "question": "Why should we exercise?",
+    "options": {
+      "A": "To get tired",
+      "B": "To grow strong",
+      "C": "To sleep more",
+      "D": "To skip school"
+    },
+    "correctAnswer": "B",
+    "explanation": "Exercise helps us grow strong."
+  },
+  {
+    "id": 154,
+    "subject": "Physical Health Education",
+    "question": "What is skipping rope used for?",
+    "options": {
+      "A": "Running",
+      "B": "Jumping",
+      "C": "Eating",
+      "D": "Drinking"
+    },
+    "correctAnswer": "B",
+    "explanation": "We use a skipping rope for jumping."
+  },
+  {
+    "id": 434,
+    "subject": "Social Studies",
+    "question": "What do we call the leader of a county?",
+    "options": {
+      "A": "President",
+      "B": "Chief",
+      "C": "Governor",
+      "D": "Councillor"
+    },
+    "correctAnswer": "C",
+    "explanation": "A governor leads a county."
+  },
+  {
+    "id": 118,
+    "subject": "Agriculture",
+    "question": "Why do farmers water crops?",
+    "options": {
+      "A": "For fun",
+      "B": "To clean them",
+      "C": "To help them grow",
+      "D": "To make them colorful"
+    },
+    "correctAnswer": "C",
+    "explanation": "Water helps plants grow."
+  },
+  {
+    "id": 102,
+    "subject": "Kiswahili",
+    "question": "Ni ipi ni nomino?",
+    "options": {
+      "A": "Kimbia",
+      "B": "Rangi",
+      "C": "Mwalimu",
+      "D": "Haraka"
+    },
+    "correctAnswer": "C",
+    "explanation": "'Mwalimu' ni nomino kwa sababu ni mtu."
+  },
+  {
+    "id": 499,
+    "subject": "Science and Technology",
+    "question": "What do we use to see stars?",
+    "options": {
+      "A": "Microscope",
+      "B": "Telescope",
+      "C": "Binoculars",
+      "D": "Magnifying glass"
+    },
+    "correctAnswer": "B",
+    "explanation": "A telescope helps us see faraway stars."
+  },
+  {
+    "id": 32,
+    "subject": "Art and Craft",
+    "question": "Which of these is used in drawing?",
+    "options": {
+      "A": "Pencil",
+      "B": "Eraser",
+      "C": "Plate",
+      "D": "Book"
+    },
+    "correctAnswer": "A",
+    "explanation": "A pencil is used for drawing."
+  },
+  {
+    "id": 44,
+    "subject": "Physical Health Education",
+    "question": "Why should we exercise?",
+    "options": {
+      "A": "To get tired",
+      "B": "To grow strong",
+      "C": "To sleep more",
+      "D": "To skip school"
+    },
+    "correctAnswer": "B",
+    "explanation": "Exercise helps us grow strong."
+  },
+  {
+    "id": 134,
+    "subject": "English",
+    "question": "What is the plural of 'child'?",
+    "options": {
+      "A": "childs",
+      "B": "childes",
+      "C": "children",
+      "D": "childrens"
+    },
+    "correctAnswer": "C",
+    "explanation": "The plural of 'child' is 'children'."
+  },
+  {
+    "id": 453,
+    "subject": "English",
+    "question": "What is the plural of 'child'?",
+    "options": {
+      "A": "childs",
+      "B": "childes",
+      "C": "children",
+      "D": "childrens"
+    },
+    "correctAnswer": "C",
+    "explanation": "The plural of 'child' is 'children'."
+  },
+  {
+    "id": 356,
+    "subject": "Science and Technology",
+    "question": "Which sense helps us hear?",
+    "options": {
+      "A": "Sight",
+      "B": "Smell",
+      "C": "Hearing",
+      "D": "Taste"
+    },
+    "correctAnswer": "C",
+    "explanation": "The sense of hearing helps us listen to sounds."
+  },
+  {
+    "id": 204,
+    "subject": "CRE",
+    "question": "Who built the ark?",
+    "options": {
+      "A": "Abraham",
+      "B": "Noah",
+      "C": "Moses",
+      "D": "David"
+    },
+    "correctAnswer": "B",
+    "explanation": "Noah built the ark."
+  },
+  {
+    "id": 197,
+    "subject": "Art and Craft",
+    "question": "Why do we do craft work?",
+    "options": {
+      "A": "To get dirty",
+      "B": "To waste time",
+      "C": "To be creative",
+      "D": "To sleep"
+    },
+    "correctAnswer": "C",
+    "explanation": "Craft work encourages creativity."
+  },
+  {
+    "id": 205,
+    "subject": "Home Science",
+    "question": "What do we use to wash clothes?",
+    "options": {
+      "A": "Soap",
+      "B": "Juice",
+      "C": "Sugar",
+      "D": "Watermelon"
+    },
+    "correctAnswer": "A",
+    "explanation": "Soap helps clean dirty clothes."
+  },
+  {
+    "id": 164,
+    "subject": "Art and Craft",
+    "question": "Why do we do craft work?",
+    "options": {
+      "A": "To get dirty",
+      "B": "To waste time",
+      "C": "To be creative",
+      "D": "To sleep"
+    },
+    "correctAnswer": "C",
+    "explanation": "Craft work encourages creativity."
+  },
+  {
+    "id": 157,
+    "subject": "Kiswahili",
+    "question": "Tunga sentensi kwa kutumia neno 'shule'",
+    "options": {
+      "A": "Ninapenda shule",
+      "B": "Shule kula",
+      "C": "Shule kutembea",
+      "D": "Nime shule"
+    },
+    "correctAnswer": "A",
+    "explanation": "'Ninapenda shule' ni sentensi sahihi."
+  },
+  {
+    "id": 450,
+    "subject": "Art and Craft",
+    "question": "Why do we do craft work?",
+    "options": {
+      "A": "To get dirty",
+      "B": "To waste time",
+      "C": "To be creative",
+      "D": "To sleep"
+    },
+    "correctAnswer": "C",
+    "explanation": "Craft work encourages creativity."
+  },
+  {
+    "id": 482,
+    "subject": "Music",
+    "question": "Which of these is a musical instrument?",
+    "options": {
+      "A": "Drum",
+      "B": "Pen",
+      "C": "Book",
+      "D": "Plate"
+    },
+    "correctAnswer": "A",
+    "explanation": "A drum is used to produce sound in music."
+  },
+  {
+    "id": 51,
+    "subject": "Home Science",
+    "question": "Which food helps in growth?",
+    "options": {
+      "A": "Cake",
+      "B": "Rice",
+      "C": "Beans",
+      "D": "Sweets"
+    },
+    "correctAnswer": "C",
+    "explanation": "Beans are rich in proteins."
+  },
+  {
+    "id": 492,
+    "subject": "Agriculture",
+    "question": "Which tool is used to dig the soil?",
+    "options": {
+      "A": "Hoe",
+      "B": "Spoon",
+      "C": "Plate",
+      "D": "Cup"
+    },
+    "correctAnswer": "A",
+    "explanation": "A hoe is used for digging."
+  },
+  {
+    "id": 293,
+    "subject": "Home Science",
+    "question": "Which of these is a clean habit?",
+    "options": {
+      "A": "Bathing",
+      "B": "Playing in mud",
+      "C": "Touching garbage",
+      "D": "Sharing clothes"
+    },
+    "correctAnswer": "A",
+    "explanation": "Bathing keeps the body clean."
+  },
+  {
+    "id": 17,
+    "subject": "CRE",
+    "question": "Who built the ark?",
+    "options": {
+      "A": "Abraham",
+      "B": "Noah",
+      "C": "Moses",
+      "D": "David"
+    },
+    "correctAnswer": "B",
+    "explanation": "Noah built the ark."
+  },
+  {
+    "id": 173,
+    "subject": "Agriculture",
+    "question": "Why do farmers water crops?",
+    "options": {
+      "A": "For fun",
+      "B": "To clean them",
+      "C": "To help them grow",
+      "D": "To make them colorful"
+    },
+    "correctAnswer": "C",
+    "explanation": "Water helps plants grow."
+  },
+  {
+    "id": 469,
+    "subject": "Home Science",
+    "question": "Which of these is a clean habit?",
+    "options": {
+      "A": "Bathing",
+      "B": "Playing in mud",
+      "C": "Touching garbage",
+      "D": "Sharing clothes"
+    },
+    "correctAnswer": "A",
+    "explanation": "Bathing keeps the body clean."
+  },
+  {
+    "id": 232,
+    "subject": "Mathematics",
+    "question": "Which number is an even number?",
+    "options": {
+      "A": "17",
+      "B": "25",
+      "C": "32",
+      "D": "51"
+    },
+    "correctAnswer": "C",
+    "explanation": "Even numbers are divisible by 2."
+  },
+  {
+    "id": 11,
+    "subject": "Physical Health Education",
+    "question": "Why should we exercise?",
+    "options": {
+      "A": "To get tired",
+      "B": "To grow strong",
+      "C": "To sleep more",
+      "D": "To skip school"
+    },
+    "correctAnswer": "B",
+    "explanation": "Exercise helps us grow strong."
+  },
+  {
+    "id": 52,
+    "subject": "Agriculture",
+    "question": "What do we call young plants?",
+    "options": {
+      "A": "Seeds",
+      "B": "Seedlings",
+      "C": "Roots",
+      "D": "Weeds"
+    },
+    "correctAnswer": "B",
+    "explanation": "Seedlings are young plants."
+  },
+  {
+    "id": 437,
+    "subject": "Agriculture",
+    "question": "Why do farmers water crops?",
+    "options": {
+      "A": "For fun",
+      "B": "To clean them",
+      "C": "To help them grow",
+      "D": "To make them colorful"
+    },
+    "correctAnswer": "C",
+    "explanation": "Water helps plants grow."
+  },
+  {
+    "id": 306,
+    "subject": "Music",
+    "question": "What do we use to sing?",
+    "options": {
+      "A": "Legs",
+      "B": "Eyes",
+      "C": "Mouth",
+      "D": "Hands"
+    },
+    "correctAnswer": "C",
+    "explanation": "We use our mouth to sing."
+  },
+  {
+    "id": 395,
+    "subject": "Art and Craft",
+    "question": "What color is made by mixing red and blue?",
+    "options": {
+      "A": "Green",
+      "B": "Purple",
+      "C": "Orange",
+      "D": "Brown"
+    },
+    "correctAnswer": "B",
+    "explanation": "Red + Blue = Purple."
+  },
+  {
+    "id": 451,
+    "subject": "Physical Health Education",
+    "question": "Which of these is an outdoor game?",
+    "options": {
+      "A": "Football",
+      "B": "Reading",
+      "C": "Writing",
+      "D": "Cooking"
+    },
+    "correctAnswer": "A",
+    "explanation": "Football is played outside."
+  },
+  {
+    "id": 171,
+    "subject": "CRE",
+    "question": "Who built the ark?",
+    "options": {
+      "A": "Abraham",
+      "B": "Noah",
+      "C": "Moses",
+      "D": "David"
+    },
+    "correctAnswer": "B",
+    "explanation": "Noah built the ark."
+  },
+  {
+    "id": 427,
+    "subject": "Music",
+    "question": "What do we use to sing?",
+    "options": {
+      "A": "Legs",
+      "B": "Eyes",
+      "C": "Mouth",
+      "D": "Hands"
+    },
+    "correctAnswer": "C",
+    "explanation": "We use our mouth to sing."
+  },
+  {
+    "id": 100,
+    "subject": "Mathematics",
+    "question": "What is 100 divided by 5?",
+    "options": {
+      "A": "15",
+      "B": "20",
+      "C": "25",
+      "D": "30"
+    },
+    "correctAnswer": "B",
+    "explanation": "100 \u00f7 5 = 20."
+  },
+  {
+    "id": 213,
+    "subject": "Science and Technology",
+    "question": "What do we use to see stars?",
+    "options": {
+      "A": "Microscope",
+      "B": "Telescope",
+      "C": "Binoculars",
+      "D": "Magnifying glass"
+    },
+    "correctAnswer": "B",
+    "explanation": "A telescope helps us see faraway stars."
+  },
+  {
+    "id": 447,
+    "subject": "Home Science",
+    "question": "Which food helps in growth?",
+    "options": {
+      "A": "Cake",
+      "B": "Rice",
+      "C": "Beans",
+      "D": "Sweets"
+    },
+    "correctAnswer": "C",
+    "explanation": "Beans are rich in proteins."
+  },
+  {
+    "id": 276,
+    "subject": "Mathematics",
+    "question": "What is the value of 9 \u00d7 6?",
+    "options": {
+      "A": "54",
+      "B": "56",
+      "C": "64",
+      "D": "46"
+    },
+    "correctAnswer": "A",
+    "explanation": "9 multiplied by 6 is 54."
+  },
+  {
+    "id": 314,
+    "subject": "CRE",
+    "question": "Who built the ark?",
+    "options": {
+      "A": "Abraham",
+      "B": "Noah",
+      "C": "Moses",
+      "D": "David"
+    },
+    "correctAnswer": "B",
+    "explanation": "Noah built the ark."
+  },
+  {
+    "id": 225,
+    "subject": "Social Studies",
+    "question": "What do we call the leader of a county?",
+    "options": {
+      "A": "President",
+      "B": "Chief",
+      "C": "Governor",
+      "D": "Councillor"
+    },
+    "correctAnswer": "C",
+    "explanation": "A governor leads a county."
+  },
+  {
+    "id": 98,
+    "subject": "Art and Craft",
+    "question": "What color is made by mixing red and blue?",
+    "options": {
+      "A": "Green",
+      "B": "Purple",
+      "C": "Orange",
+      "D": "Brown"
+    },
+    "correctAnswer": "B",
+    "explanation": "Red + Blue = Purple."
+  },
+  {
+    "id": 125,
+    "subject": "Science and Technology",
+    "question": "Which sense helps us hear?",
+    "options": {
+      "A": "Sight",
+      "B": "Smell",
+      "C": "Hearing",
+      "D": "Taste"
+    },
+    "correctAnswer": "C",
+    "explanation": "The sense of hearing helps us listen to sounds."
+  },
+  {
+    "id": 121,
+    "subject": "Physical Health Education",
+    "question": "Which of these is an outdoor game?",
+    "options": {
+      "A": "Football",
+      "B": "Reading",
+      "C": "Writing",
+      "D": "Cooking"
+    },
+    "correctAnswer": "A",
+    "explanation": "Football is played outside."
+  },
+  {
+    "id": 227,
+    "subject": "Home Science",
+    "question": "Which of these is a clean habit?",
+    "options": {
+      "A": "Bathing",
+      "B": "Playing in mud",
+      "C": "Touching garbage",
+      "D": "Sharing clothes"
+    },
+    "correctAnswer": "A",
+    "explanation": "Bathing keeps the body clean."
+  },
+  {
+    "id": 144,
+    "subject": "Mathematics",
+    "question": "What is 100 divided by 5?",
+    "options": {
+      "A": "15",
+      "B": "20",
+      "C": "25",
+      "D": "30"
+    },
+    "correctAnswer": "B",
+    "explanation": "100 \u00f7 5 = 20."
+  },
+  {
+    "id": 289,
+    "subject": "Kiswahili",
+    "question": "Ni ipi ni nomino?",
+    "options": {
+      "A": "Kimbia",
+      "B": "Rangi",
+      "C": "Mwalimu",
+      "D": "Haraka"
+    },
+    "correctAnswer": "C",
+    "explanation": "'Mwalimu' ni nomino kwa sababu ni mtu."
+  },
+  {
+    "id": 410,
+    "subject": "Kiswahili",
+    "question": "Ni ipi ni nomino?",
+    "options": {
+      "A": "Kimbia",
+      "B": "Rangi",
+      "C": "Mwalimu",
+      "D": "Haraka"
+    },
+    "correctAnswer": "C",
+    "explanation": "'Mwalimu' ni nomino kwa sababu ni mtu."
+  },
+  {
+    "id": 391,
+    "subject": "CRE",
+    "question": "What is the first book of the Bible?",
+    "options": {
+      "A": "Exodus",
+      "B": "Matthew",
+      "C": "Genesis",
+      "D": "Leviticus"
+    },
+    "correctAnswer": "C",
+    "explanation": "Genesis is the first book."
+  },
+  {
+    "id": 48,
+    "subject": "Science and Technology",
+    "question": "Which sense helps us hear?",
+    "options": {
+      "A": "Sight",
+      "B": "Smell",
+      "C": "Hearing",
+      "D": "Taste"
+    },
+    "correctAnswer": "C",
+    "explanation": "The sense of hearing helps us listen to sounds."
+  },
+  {
+    "id": 385,
+    "subject": "Physical Health Education",
+    "question": "Why should we exercise?",
+    "options": {
+      "A": "To get tired",
+      "B": "To grow strong",
+      "C": "To sleep more",
+      "D": "To skip school"
+    },
+    "correctAnswer": "B",
+    "explanation": "Exercise helps us grow strong."
+  },
+  {
+    "id": 464,
+    "subject": "English",
+    "question": "Choose the correct verb in the sentence: She ___ to school every day.",
+    "options": {
+      "A": "go",
+      "B": "goes",
+      "C": "gone",
+      "D": "going"
+    },
+    "correctAnswer": "B",
+    "explanation": "'Goes' is the correct verb form for 'she'."
+  },
+  {
+    "id": 383,
+    "subject": "Music",
+    "question": "Which song type is used for celebration?",
+    "options": {
+      "A": "Lullaby",
+      "B": "Wedding song",
+      "C": "Work song",
+      "D": "Funeral song"
+    },
+    "correctAnswer": "B",
+    "explanation": "Wedding songs celebrate marriage."
+  },
+  {
+    "id": 439,
+    "subject": "Art and Craft",
+    "question": "Which of these is used in drawing?",
+    "options": {
+      "A": "Pencil",
+      "B": "Eraser",
+      "C": "Plate",
+      "D": "Book"
+    },
+    "correctAnswer": "A",
+    "explanation": "A pencil is used for drawing."
+  },
+  {
+    "id": 183,
+    "subject": "Home Science",
+    "question": "Which of these is a clean habit?",
+    "options": {
+      "A": "Bathing",
+      "B": "Playing in mud",
+      "C": "Touching garbage",
+      "D": "Sharing clothes"
+    },
+    "correctAnswer": "A",
+    "explanation": "Bathing keeps the body clean."
+  },
+  {
+    "id": 380,
+    "subject": "CRE",
+    "question": "Who created the world according to the Bible?",
+    "options": {
+      "A": "Jesus",
+      "B": "Moses",
+      "C": "God",
+      "D": "Noah"
+    },
+    "correctAnswer": "C",
+    "explanation": "God created the world."
+  },
+  {
+    "id": 375,
+    "subject": "Mathematics",
+    "question": "What is the value of 9 \u00d7 6?",
+    "options": {
+      "A": "54",
+      "B": "56",
+      "C": "64",
+      "D": "46"
+    },
+    "correctAnswer": "A",
+    "explanation": "9 multiplied by 6 is 54."
+  },
+  {
+    "id": 408,
+    "subject": "Mathematics",
+    "question": "What is the value of 9 \u00d7 6?",
+    "options": {
+      "A": "54",
+      "B": "56",
+      "C": "64",
+      "D": "46"
+    },
+    "correctAnswer": "A",
+    "explanation": "9 multiplied by 6 is 54."
+  },
+  {
+    "id": 211,
+    "subject": "English",
+    "question": "Which word is a noun?",
+    "options": {
+      "A": "Run",
+      "B": "Quickly",
+      "C": "Teacher",
+      "D": "Blue"
+    },
+    "correctAnswer": "C",
+    "explanation": "'Teacher' is a person and a noun."
+  },
+  {
+    "id": 248,
+    "subject": "CRE",
+    "question": "Who built the ark?",
+    "options": {
+      "A": "Abraham",
+      "B": "Noah",
+      "C": "Moses",
+      "D": "David"
+    },
+    "correctAnswer": "B",
+    "explanation": "Noah built the ark."
+  },
+  {
+    "id": 337,
+    "subject": "Home Science",
+    "question": "What do we use to wash clothes?",
+    "options": {
+      "A": "Soap",
+      "B": "Juice",
+      "C": "Sugar",
+      "D": "Watermelon"
+    },
+    "correctAnswer": "A",
+    "explanation": "Soap helps clean dirty clothes."
+  },
+  {
+    "id": 494,
+    "subject": "Art and Craft",
+    "question": "What color is made by mixing red and blue?",
+    "options": {
+      "A": "Green",
+      "B": "Purple",
+      "C": "Orange",
+      "D": "Brown"
+    },
+    "correctAnswer": "B",
+    "explanation": "Red + Blue = Purple."
+  },
+  {
+    "id": 272,
+    "subject": "Agriculture",
+    "question": "What do we call young plants?",
+    "options": {
+      "A": "Seeds",
+      "B": "Seedlings",
+      "C": "Roots",
+      "D": "Weeds"
+    },
+    "correctAnswer": "B",
+    "explanation": "Seedlings are young plants."
+  },
+  {
+    "id": 188,
+    "subject": "Mathematics",
+    "question": "Which number is an even number?",
+    "options": {
+      "A": "17",
+      "B": "25",
+      "C": "32",
+      "D": "51"
+    },
+    "correctAnswer": "C",
+    "explanation": "Even numbers are divisible by 2."
+  },
+  {
+    "id": 470,
+    "subject": "Agriculture",
+    "question": "Which tool is used to dig the soil?",
+    "options": {
+      "A": "Hoe",
+      "B": "Spoon",
+      "C": "Plate",
+      "D": "Cup"
+    },
+    "correctAnswer": "A",
+    "explanation": "A hoe is used for digging."
+  },
+  {
+    "id": 496,
+    "subject": "Mathematics",
+    "question": "What is 100 divided by 5?",
+    "options": {
+      "A": "15",
+      "B": "20",
+      "C": "25",
+      "D": "30"
+    },
+    "correctAnswer": "B",
+    "explanation": "100 \u00f7 5 = 20."
+  },
+  {
+    "id": 35,
+    "subject": "English",
+    "question": "What is the plural of 'child'?",
+    "options": {
+      "A": "childs",
+      "B": "childes",
+      "C": "children",
+      "D": "childrens"
+    },
+    "correctAnswer": "C",
+    "explanation": "The plural of 'child' is 'children'."
+  },
+  {
+    "id": 28,
+    "subject": "CRE",
+    "question": "Who created the world according to the Bible?",
+    "options": {
+      "A": "Jesus",
+      "B": "Moses",
+      "C": "God",
+      "D": "Noah"
+    },
+    "correctAnswer": "C",
+    "explanation": "God created the world."
+  },
+  {
+    "id": 89,
+    "subject": "Mathematics",
+    "question": "What is the value of 9 \u00d7 6?",
+    "options": {
+      "A": "54",
+      "B": "56",
+      "C": "64",
+      "D": "46"
+    },
+    "correctAnswer": "A",
+    "explanation": "9 multiplied by 6 is 54."
+  },
+  {
+    "id": 366,
+    "subject": "Kiswahili",
+    "question": "Ni ipi ni nomino?",
+    "options": {
+      "A": "Kimbia",
+      "B": "Rangi",
+      "C": "Mwalimu",
+      "D": "Haraka"
+    },
+    "correctAnswer": "C",
+    "explanation": "'Mwalimu' ni nomino kwa sababu ni mtu."
+  },
+  {
+    "id": 448,
+    "subject": "Agriculture",
+    "question": "Why do farmers water crops?",
+    "options": {
+      "A": "For fun",
+      "B": "To clean them",
+      "C": "To help them grow",
+      "D": "To make them colorful"
+    },
+    "correctAnswer": "C",
+    "explanation": "Water helps plants grow."
+  },
+  {
+    "id": 67,
+    "subject": "Mathematics",
+    "question": "Which number is an even number?",
+    "options": {
+      "A": "17",
+      "B": "25",
+      "C": "32",
+      "D": "51"
+    },
+    "correctAnswer": "C",
+    "explanation": "Even numbers are divisible by 2."
+  },
+  {
+    "id": 308,
+    "subject": "Physical Health Education",
+    "question": "Which of these is an outdoor game?",
+    "options": {
+      "A": "Football",
+      "B": "Reading",
+      "C": "Writing",
+      "D": "Cooking"
+    },
+    "correctAnswer": "A",
+    "explanation": "Football is played outside."
+  },
+  {
+    "id": 78,
+    "subject": "Mathematics",
+    "question": "What is 100 divided by 5?",
+    "options": {
+      "A": "15",
+      "B": "20",
+      "C": "25",
+      "D": "30"
+    },
+    "correctAnswer": "B",
+    "explanation": "100 \u00f7 5 = 20."
+  },
+  {
+    "id": 165,
+    "subject": "Physical Health Education",
+    "question": "Why should we exercise?",
+    "options": {
+      "A": "To get tired",
+      "B": "To grow strong",
+      "C": "To sleep more",
+      "D": "To skip school"
+    },
+    "correctAnswer": "B",
+    "explanation": "Exercise helps us grow strong."
+  },
+  {
+    "id": 264,
+    "subject": "Physical Health Education",
+    "question": "Why should we exercise?",
+    "options": {
+      "A": "To get tired",
+      "B": "To grow strong",
+      "C": "To sleep more",
+      "D": "To skip school"
+    },
+    "correctAnswer": "B",
+    "explanation": "Exercise helps us grow strong."
+  },
+  {
+    "id": 159,
+    "subject": "Social Studies",
+    "question": "Which symbol represents peace?",
+    "options": {
+      "A": "White dove",
+      "B": "Red flag",
+      "C": "Shield",
+      "D": "Arrow"
+    },
+    "correctAnswer": "A",
+    "explanation": "A white dove is a symbol of peace."
+  },
+  {
+    "id": 444,
+    "subject": "Science and Technology",
+    "question": "What do we use to see stars?",
+    "options": {
+      "A": "Microscope",
+      "B": "Telescope",
+      "C": "Binoculars",
+      "D": "Magnifying glass"
+    },
+    "correctAnswer": "B",
+    "explanation": "A telescope helps us see faraway stars."
+  },
+  {
+    "id": 236,
+    "subject": "Social Studies",
+    "question": "Which is the capital city of Kenya?",
+    "options": {
+      "A": "Mombasa",
+      "B": "Kisumu",
+      "C": "Nairobi",
+      "D": "Nakuru"
+    },
+    "correctAnswer": "C",
+    "explanation": "Nairobi is the capital city."
+  },
+  {
+    "id": 433,
+    "subject": "Science and Technology",
+    "question": "What do we use to see stars?",
+    "options": {
+      "A": "Microscope",
+      "B": "Telescope",
+      "C": "Binoculars",
+      "D": "Magnifying glass"
+    },
+    "correctAnswer": "B",
+    "explanation": "A telescope helps us see faraway stars."
+  },
+  {
+    "id": 65,
+    "subject": "Art and Craft",
+    "question": "What color is made by mixing red and blue?",
+    "options": {
+      "A": "Green",
+      "B": "Purple",
+      "C": "Orange",
+      "D": "Brown"
+    },
+    "correctAnswer": "B",
+    "explanation": "Red + Blue = Purple."
+  },
+  {
+    "id": 421,
+    "subject": "Kiswahili",
+    "question": "Chagua kivumishi:",
+    "options": {
+      "A": "Mbio",
+      "B": "Mzuri",
+      "C": "Kitabu",
+      "D": "Lima"
+    },
+    "correctAnswer": "B",
+    "explanation": "'Mzuri' hutumika kuelezea nomino."
+  },
+  {
+    "id": 342,
+    "subject": "Mathematics",
+    "question": "Which number is an even number?",
+    "options": {
+      "A": "17",
+      "B": "25",
+      "C": "32",
+      "D": "51"
+    },
+    "correctAnswer": "C",
+    "explanation": "Even numbers are divisible by 2."
+  },
+  {
+    "id": 352,
+    "subject": "Physical Health Education",
+    "question": "Which of these is an outdoor game?",
+    "options": {
+      "A": "Football",
+      "B": "Reading",
+      "C": "Writing",
+      "D": "Cooking"
+    },
+    "correctAnswer": "A",
+    "explanation": "Football is played outside."
+  },
+  {
+    "id": 456,
+    "subject": "Social Studies",
+    "question": "Which symbol represents peace?",
+    "options": {
+      "A": "White dove",
+      "B": "Red flag",
+      "C": "Shield",
+      "D": "Arrow"
+    },
+    "correctAnswer": "A",
+    "explanation": "A white dove is a symbol of peace."
+  },
+  {
+    "id": 108,
+    "subject": "Music",
+    "question": "Which song type is used for celebration?",
+    "options": {
+      "A": "Lullaby",
+      "B": "Wedding song",
+      "C": "Work song",
+      "D": "Funeral song"
+    },
+    "correctAnswer": "B",
+    "explanation": "Wedding songs celebrate marriage."
+  },
+  {
+    "id": 203,
+    "subject": "Social Studies",
+    "question": "Which is the capital city of Kenya?",
+    "options": {
+      "A": "Mombasa",
+      "B": "Kisumu",
+      "C": "Nairobi",
+      "D": "Nakuru"
+    },
+    "correctAnswer": "C",
+    "explanation": "Nairobi is the capital city."
+  },
+  {
+    "id": 220,
+    "subject": "Physical Health Education",
+    "question": "What is skipping rope used for?",
+    "options": {
+      "A": "Running",
+      "B": "Jumping",
+      "C": "Eating",
+      "D": "Drinking"
+    },
+    "correctAnswer": "B",
+    "explanation": "We use a skipping rope for jumping."
+  },
+  {
+    "id": 182,
+    "subject": "CRE",
+    "question": "What is the first book of the Bible?",
+    "options": {
+      "A": "Exodus",
+      "B": "Matthew",
+      "C": "Genesis",
+      "D": "Leviticus"
+    },
+    "correctAnswer": "C",
+    "explanation": "Genesis is the first book."
+  },
+  {
+    "id": 278,
+    "subject": "Kiswahili",
+    "question": "Chagua kivumishi:",
+    "options": {
+      "A": "Mbio",
+      "B": "Mzuri",
+      "C": "Kitabu",
+      "D": "Lima"
+    },
+    "correctAnswer": "B",
+    "explanation": "'Mzuri' hutumika kuelezea nomino."
+  },
+  {
+    "id": 307,
+    "subject": "Art and Craft",
+    "question": "What color is made by mixing red and blue?",
+    "options": {
+      "A": "Green",
+      "B": "Purple",
+      "C": "Orange",
+      "D": "Brown"
+    },
+    "correctAnswer": "B",
+    "explanation": "Red + Blue = Purple."
+  },
+  {
+    "id": 475,
+    "subject": "English",
+    "question": "What is the plural of 'child'?",
+    "options": {
+      "A": "childs",
+      "B": "childes",
+      "C": "children",
+      "D": "childrens"
+    },
+    "correctAnswer": "C",
+    "explanation": "The plural of 'child' is 'children'."
+  },
+  {
+    "id": 123,
+    "subject": "English",
+    "question": "Choose the correct verb in the sentence: She ___ to school every day.",
+    "options": {
+      "A": "go",
+      "B": "goes",
+      "C": "gone",
+      "D": "going"
+    },
+    "correctAnswer": "B",
+    "explanation": "'Goes' is the correct verb form for 'she'."
+  },
+  {
+    "id": 347,
+    "subject": "CRE",
+    "question": "Who built the ark?",
+    "options": {
+      "A": "Abraham",
+      "B": "Noah",
+      "C": "Moses",
+      "D": "David"
+    },
+    "correctAnswer": "B",
+    "explanation": "Noah built the ark."
+  },
+  {
+    "id": 417,
+    "subject": "Art and Craft",
+    "question": "Which of these is used in drawing?",
+    "options": {
+      "A": "Pencil",
+      "B": "Eraser",
+      "C": "Plate",
+      "D": "Book"
+    },
+    "correctAnswer": "A",
+    "explanation": "A pencil is used for drawing."
+  },
+  {
+    "id": 362,
+    "subject": "Art and Craft",
+    "question": "Which of these is used in drawing?",
+    "options": {
+      "A": "Pencil",
+      "B": "Eraser",
+      "C": "Plate",
+      "D": "Book"
+    },
+    "correctAnswer": "A",
+    "explanation": "A pencil is used for drawing."
+  },
+  {
+    "id": 66,
+    "subject": "Physical Health Education",
+    "question": "Why should we exercise?",
+    "options": {
+      "A": "To get tired",
+      "B": "To grow strong",
+      "C": "To sleep more",
+      "D": "To skip school"
+    },
+    "correctAnswer": "B",
+    "explanation": "Exercise helps us grow strong."
+  },
+  {
+    "id": 196,
+    "subject": "Music",
+    "question": "Which of these is a musical instrument?",
+    "options": {
+      "A": "Drum",
+      "B": "Pen",
+      "C": "Book",
+      "D": "Plate"
+    },
+    "correctAnswer": "A",
+    "explanation": "A drum is used to produce sound in music."
+  },
+  {
+    "id": 13,
+    "subject": "English",
+    "question": "What is the plural of 'child'?",
+    "options": {
+      "A": "childs",
+      "B": "childes",
+      "C": "children",
+      "D": "childrens"
+    },
+    "correctAnswer": "C",
+    "explanation": "The plural of 'child' is 'children'."
+  },
+  {
+    "id": 172,
+    "subject": "Home Science",
+    "question": "Which food helps in growth?",
+    "options": {
+      "A": "Cake",
+      "B": "Rice",
+      "C": "Beans",
+      "D": "Sweets"
+    },
+    "correctAnswer": "C",
+    "explanation": "Beans are rich in proteins."
+  },
+  {
+    "id": 296,
+    "subject": "Art and Craft",
+    "question": "What color is made by mixing red and blue?",
+    "options": {
+      "A": "Green",
+      "B": "Purple",
+      "C": "Orange",
+      "D": "Brown"
+    },
+    "correctAnswer": "B",
+    "explanation": "Red + Blue = Purple."
+  },
+  {
+    "id": 247,
+    "subject": "Social Studies",
+    "question": "What do we call the leader of a county?",
+    "options": {
+      "A": "President",
+      "B": "Chief",
+      "C": "Governor",
+      "D": "Councillor"
+    },
+    "correctAnswer": "C",
+    "explanation": "A governor leads a county."
+  },
+  {
+    "id": 438,
+    "subject": "Music",
+    "question": "Which song type is used for celebration?",
+    "options": {
+      "A": "Lullaby",
+      "B": "Wedding song",
+      "C": "Work song",
+      "D": "Funeral song"
+    },
+    "correctAnswer": "B",
+    "explanation": "Wedding songs celebrate marriage."
+  },
+  {
+    "id": 412,
+    "subject": "Social Studies",
+    "question": "Which is the capital city of Kenya?",
+    "options": {
+      "A": "Mombasa",
+      "B": "Kisumu",
+      "C": "Nairobi",
+      "D": "Nakuru"
+    },
+    "correctAnswer": "C",
+    "explanation": "Nairobi is the capital city."
+  },
+  {
+    "id": 105,
+    "subject": "CRE",
+    "question": "What is the first book of the Bible?",
+    "options": {
+      "A": "Exodus",
+      "B": "Matthew",
+      "C": "Genesis",
+      "D": "Leviticus"
+    },
+    "correctAnswer": "C",
+    "explanation": "Genesis is the first book."
+  },
+  {
+    "id": 240,
+    "subject": "Music",
+    "question": "Which song type is used for celebration?",
+    "options": {
+      "A": "Lullaby",
+      "B": "Wedding song",
+      "C": "Work song",
+      "D": "Funeral song"
+    },
+    "correctAnswer": "B",
+    "explanation": "Wedding songs celebrate marriage."
+  },
+  {
+    "id": 476,
+    "subject": "Kiswahili",
+    "question": "Ni ipi ni nomino?",
+    "options": {
+      "A": "Kimbia",
+      "B": "Rangi",
+      "C": "Mwalimu",
+      "D": "Haraka"
+    },
+    "correctAnswer": "C",
+    "explanation": "'Mwalimu' ni nomino kwa sababu ni mtu."
+  },
+  {
+    "id": 156,
+    "subject": "English",
+    "question": "Choose the correct verb in the sentence: She ___ to school every day.",
+    "options": {
+      "A": "go",
+      "B": "goes",
+      "C": "gone",
+      "D": "going"
+    },
+    "correctAnswer": "B",
+    "explanation": "'Goes' is the correct verb form for 'she'."
+  },
+  {
+    "id": 353,
+    "subject": "Mathematics",
+    "question": "What is the value of 9 \u00d7 6?",
+    "options": {
+      "A": "54",
+      "B": "56",
+      "C": "64",
+      "D": "46"
+    },
+    "correctAnswer": "A",
+    "explanation": "9 multiplied by 6 is 54."
+  },
+  {
+    "id": 486,
+    "subject": "English",
+    "question": "What is the plural of 'child'?",
+    "options": {
+      "A": "childs",
+      "B": "childes",
+      "C": "children",
+      "D": "childrens"
+    },
+    "correctAnswer": "C",
+    "explanation": "The plural of 'child' is 'children'."
+  },
+  {
+    "id": 23,
+    "subject": "Mathematics",
+    "question": "What is 100 divided by 5?",
+    "options": {
+      "A": "15",
+      "B": "20",
+      "C": "25",
+      "D": "30"
+    },
+    "correctAnswer": "B",
+    "explanation": "100 \u00f7 5 = 20."
+  },
+  {
+    "id": 400,
+    "subject": "Science and Technology",
+    "question": "What do we use to see stars?",
+    "options": {
+      "A": "Microscope",
+      "B": "Telescope",
+      "C": "Binoculars",
+      "D": "Magnifying glass"
+    },
+    "correctAnswer": "B",
+    "explanation": "A telescope helps us see faraway stars."
+  },
+  {
+    "id": 29,
+    "subject": "Home Science",
+    "question": "What do we use to wash clothes?",
+    "options": {
+      "A": "Soap",
+      "B": "Juice",
+      "C": "Sugar",
+      "D": "Watermelon"
+    },
+    "correctAnswer": "A",
+    "explanation": "Soap helps clean dirty clothes."
+  },
+  {
+    "id": 76,
+    "subject": "Art and Craft",
+    "question": "Which of these is used in drawing?",
+    "options": {
+      "A": "Pencil",
+      "B": "Eraser",
+      "C": "Plate",
+      "D": "Book"
+    },
+    "correctAnswer": "A",
+    "explanation": "A pencil is used for drawing."
+  },
+  {
+    "id": 200,
+    "subject": "English",
+    "question": "Choose the correct verb in the sentence: She ___ to school every day.",
+    "options": {
+      "A": "go",
+      "B": "goes",
+      "C": "gone",
+      "D": "going"
+    },
+    "correctAnswer": "B",
+    "explanation": "'Goes' is the correct verb form for 'she'."
+  },
+  {
+    "id": 454,
+    "subject": "Kiswahili",
+    "question": "Chagua kivumishi:",
+    "options": {
+      "A": "Mbio",
+      "B": "Mzuri",
+      "C": "Kitabu",
+      "D": "Lima"
+    },
+    "correctAnswer": "B",
+    "explanation": "'Mzuri' hutumika kuelezea nomino."
+  },
+  {
+    "id": 428,
+    "subject": "Art and Craft",
+    "question": "Why do we do craft work?",
+    "options": {
+      "A": "To get dirty",
+      "B": "To waste time",
+      "C": "To be creative",
+      "D": "To sleep"
+    },
+    "correctAnswer": "C",
+    "explanation": "Craft work encourages creativity."
+  },
+  {
+    "id": 174,
+    "subject": "Music",
+    "question": "Which of these is a musical instrument?",
+    "options": {
+      "A": "Drum",
+      "B": "Pen",
+      "C": "Book",
+      "D": "Plate"
+    },
+    "correctAnswer": "A",
+    "explanation": "A drum is used to produce sound in music."
+  },
+  {
+    "id": 389,
+    "subject": "Science and Technology",
+    "question": "Which part of the plant makes food?",
+    "options": {
+      "A": "Roots",
+      "B": "Stem",
+      "C": "Leaves",
+      "D": "Flower"
+    },
+    "correctAnswer": "C",
+    "explanation": "Leaves use sunlight to make food."
+  },
+  {
+    "id": 218,
+    "subject": "Music",
+    "question": "What do we use to sing?",
+    "options": {
+      "A": "Legs",
+      "B": "Eyes",
+      "C": "Mouth",
+      "D": "Hands"
+    },
+    "correctAnswer": "C",
+    "explanation": "We use our mouth to sing."
+  },
+  {
+    "id": 320,
+    "subject": "Mathematics",
+    "question": "Which number is an even number?",
+    "options": {
+      "A": "17",
+      "B": "25",
+      "C": "32",
+      "D": "51"
+    },
+    "correctAnswer": "C",
+    "explanation": "Even numbers are divisible by 2."
+  },
+  {
+    "id": 474,
+    "subject": "Mathematics",
+    "question": "Which number is an even number?",
+    "options": {
+      "A": "17",
+      "B": "25",
+      "C": "32",
+      "D": "51"
+    },
+    "correctAnswer": "C",
+    "explanation": "Even numbers are divisible by 2."
+  },
+  {
+    "id": 465,
+    "subject": "Kiswahili",
+    "question": "Tunga sentensi kwa kutumia neno 'shule'",
+    "options": {
+      "A": "Ninapenda shule",
+      "B": "Shule kula",
+      "C": "Shule kutembea",
+      "D": "Nime shule"
+    },
+    "correctAnswer": "A",
+    "explanation": "'Ninapenda shule' ni sentensi sahihi."
+  },
+  {
+    "id": 6,
+    "subject": "CRE",
+    "question": "Who created the world according to the Bible?",
+    "options": {
+      "A": "Jesus",
+      "B": "Moses",
+      "C": "God",
+      "D": "Noah"
+    },
+    "correctAnswer": "C",
+    "explanation": "God created the world."
+  },
+  {
+    "id": 313,
+    "subject": "Social Studies",
+    "question": "Which is the capital city of Kenya?",
+    "options": {
+      "A": "Mombasa",
+      "B": "Kisumu",
+      "C": "Nairobi",
+      "D": "Nakuru"
+    },
+    "correctAnswer": "C",
+    "explanation": "Nairobi is the capital city."
+  },
+  {
+    "id": 409,
+    "subject": "English",
+    "question": "Which word is a noun?",
+    "options": {
+      "A": "Run",
+      "B": "Quickly",
+      "C": "Teacher",
+      "D": "Blue"
+    },
+    "correctAnswer": "C",
+    "explanation": "'Teacher' is a person and a noun."
+  },
+  {
+    "id": 334,
+    "subject": "Science and Technology",
+    "question": "Which sense helps us hear?",
+    "options": {
+      "A": "Sight",
+      "B": "Smell",
+      "C": "Hearing",
+      "D": "Taste"
+    },
+    "correctAnswer": "C",
+    "explanation": "The sense of hearing helps us listen to sounds."
+  },
+  {
+    "id": 16,
+    "subject": "Social Studies",
+    "question": "What do we call the leader of a county?",
+    "options": {
+      "A": "President",
+      "B": "Chief",
+      "C": "Governor",
+      "D": "Councillor"
+    },
+    "correctAnswer": "C",
+    "explanation": "A governor leads a county."
+  },
+  {
+    "id": 348,
+    "subject": "Home Science",
+    "question": "What do we use to wash clothes?",
+    "options": {
+      "A": "Soap",
+      "B": "Juice",
+      "C": "Sugar",
+      "D": "Watermelon"
+    },
+    "correctAnswer": "A",
+    "explanation": "Soap helps clean dirty clothes."
+  },
+  {
+    "id": 112,
+    "subject": "English",
+    "question": "Which word is a noun?",
+    "options": {
+      "A": "Run",
+      "B": "Quickly",
+      "C": "Teacher",
+      "D": "Blue"
+    },
+    "correctAnswer": "C",
+    "explanation": "'Teacher' is a person and a noun."
+  },
+  {
+    "id": 64,
+    "subject": "Music",
+    "question": "What do we use to sing?",
+    "options": {
+      "A": "Legs",
+      "B": "Eyes",
+      "C": "Mouth",
+      "D": "Hands"
+    },
+    "correctAnswer": "C",
+    "explanation": "We use our mouth to sing."
+  },
+  {
+    "id": 321,
+    "subject": "English",
+    "question": "Which word is a noun?",
+    "options": {
+      "A": "Run",
+      "B": "Quickly",
+      "C": "Teacher",
+      "D": "Blue"
+    },
+    "correctAnswer": "C",
+    "explanation": "'Teacher' is a person and a noun."
+  },
+  {
+    "id": 46,
+    "subject": "English",
+    "question": "Which word is a noun?",
+    "options": {
+      "A": "Run",
+      "B": "Quickly",
+      "C": "Teacher",
+      "D": "Blue"
+    },
+    "correctAnswer": "C",
+    "explanation": "'Teacher' is a person and a noun."
+  },
+  {
+    "id": 129,
+    "subject": "Agriculture",
+    "question": "Why do farmers water crops?",
+    "options": {
+      "A": "For fun",
+      "B": "To clean them",
+      "C": "To help them grow",
+      "D": "To make them colorful"
+    },
+    "correctAnswer": "C",
+    "explanation": "Water helps plants grow."
+  },
+  {
+    "id": 458,
+    "subject": "Home Science",
+    "question": "Which food helps in growth?",
+    "options": {
+      "A": "Cake",
+      "B": "Rice",
+      "C": "Beans",
+      "D": "Sweets"
+    },
+    "correctAnswer": "C",
+    "explanation": "Beans are rich in proteins."
+  },
+  {
+    "id": 311,
+    "subject": "Kiswahili",
+    "question": "Ni ipi ni nomino?",
+    "options": {
+      "A": "Kimbia",
+      "B": "Rangi",
+      "C": "Mwalimu",
+      "D": "Haraka"
+    },
+    "correctAnswer": "C",
+    "explanation": "'Mwalimu' ni nomino kwa sababu ni mtu."
+  },
+  {
+    "id": 322,
+    "subject": "Kiswahili",
+    "question": "Chagua kivumishi:",
+    "options": {
+      "A": "Mbio",
+      "B": "Mzuri",
+      "C": "Kitabu",
+      "D": "Lima"
+    },
+    "correctAnswer": "B",
+    "explanation": "'Mzuri' hutumika kuelezea nomino."
+  },
+  {
+    "id": 491,
+    "subject": "Home Science",
+    "question": "Which food helps in growth?",
+    "options": {
+      "A": "Cake",
+      "B": "Rice",
+      "C": "Beans",
+      "D": "Sweets"
+    },
+    "correctAnswer": "C",
+    "explanation": "Beans are rich in proteins."
+  },
+  {
+    "id": 349,
+    "subject": "Agriculture",
+    "question": "Why do farmers water crops?",
+    "options": {
+      "A": "For fun",
+      "B": "To clean them",
+      "C": "To help them grow",
+      "D": "To make them colorful"
+    },
+    "correctAnswer": "C",
+    "explanation": "Water helps plants grow."
+  },
+  {
+    "id": 5,
+    "subject": "Social Studies",
+    "question": "Which symbol represents peace?",
+    "options": {
+      "A": "White dove",
+      "B": "Red flag",
+      "C": "Shield",
+      "D": "Arrow"
+    },
+    "correctAnswer": "A",
+    "explanation": "A white dove is a symbol of peace."
+  },
+  {
+    "id": 374,
+    "subject": "Physical Health Education",
+    "question": "Which of these is an outdoor game?",
+    "options": {
+      "A": "Football",
+      "B": "Reading",
+      "C": "Writing",
+      "D": "Cooking"
+    },
+    "correctAnswer": "A",
+    "explanation": "Football is played outside."
+  },
+  {
+    "id": 370,
+    "subject": "Home Science",
+    "question": "What do we use to wash clothes?",
+    "options": {
+      "A": "Soap",
+      "B": "Juice",
+      "C": "Sugar",
+      "D": "Watermelon"
+    },
+    "correctAnswer": "A",
+    "explanation": "Soap helps clean dirty clothes."
+  },
+  {
+    "id": 467,
+    "subject": "Social Studies",
+    "question": "What do we call the leader of a county?",
+    "options": {
+      "A": "President",
+      "B": "Chief",
+      "C": "Governor",
+      "D": "Councillor"
+    },
+    "correctAnswer": "C",
+    "explanation": "A governor leads a county."
+  },
+  {
+    "id": 493,
+    "subject": "Music",
+    "question": "What do we use to sing?",
+    "options": {
+      "A": "Legs",
+      "B": "Eyes",
+      "C": "Mouth",
+      "D": "Hands"
+    },
+    "correctAnswer": "C",
+    "explanation": "We use our mouth to sing."
+  },
+  {
+    "id": 361,
+    "subject": "Music",
+    "question": "Which of these is a musical instrument?",
+    "options": {
+      "A": "Drum",
+      "B": "Pen",
+      "C": "Book",
+      "D": "Plate"
+    },
+    "correctAnswer": "A",
+    "explanation": "A drum is used to produce sound in music."
+  },
+  {
+    "id": 377,
+    "subject": "Kiswahili",
+    "question": "Tunga sentensi kwa kutumia neno 'shule'",
+    "options": {
+      "A": "Ninapenda shule",
+      "B": "Shule kula",
+      "C": "Shule kutembea",
+      "D": "Nime shule"
+    },
+    "correctAnswer": "A",
+    "explanation": "'Ninapenda shule' ni sentensi sahihi."
+  },
+  {
+    "id": 10,
+    "subject": "Art and Craft",
+    "question": "Which of these is used in drawing?",
+    "options": {
+      "A": "Pencil",
+      "B": "Eraser",
+      "C": "Plate",
+      "D": "Book"
+    },
+    "correctAnswer": "A",
+    "explanation": "A pencil is used for drawing."
+  },
+  {
+    "id": 358,
+    "subject": "CRE",
+    "question": "What is the first book of the Bible?",
+    "options": {
+      "A": "Exodus",
+      "B": "Matthew",
+      "C": "Genesis",
+      "D": "Leviticus"
+    },
+    "correctAnswer": "C",
+    "explanation": "Genesis is the first book."
+  },
+  {
+    "id": 42,
+    "subject": "Music",
+    "question": "What do we use to sing?",
+    "options": {
+      "A": "Legs",
+      "B": "Eyes",
+      "C": "Mouth",
+      "D": "Hands"
+    },
+    "correctAnswer": "C",
+    "explanation": "We use our mouth to sing."
+  },
+  {
+    "id": 175,
+    "subject": "Art and Craft",
+    "question": "Why do we do craft work?",
+    "options": {
+      "A": "To get dirty",
+      "B": "To waste time",
+      "C": "To be creative",
+      "D": "To sleep"
+    },
+    "correctAnswer": "C",
+    "explanation": "Craft work encourages creativity."
+  },
+  {
+    "id": 242,
+    "subject": "Physical Health Education",
+    "question": "Which of these is an outdoor game?",
+    "options": {
+      "A": "Football",
+      "B": "Reading",
+      "C": "Writing",
+      "D": "Cooking"
+    },
+    "correctAnswer": "A",
+    "explanation": "Football is played outside."
+  },
+  {
+    "id": 127,
+    "subject": "CRE",
+    "question": "Who built the ark?",
+    "options": {
+      "A": "Abraham",
+      "B": "Noah",
+      "C": "Moses",
+      "D": "David"
+    },
+    "correctAnswer": "B",
+    "explanation": "Noah built the ark."
+  },
+  {
+    "id": 260,
+    "subject": "Home Science",
+    "question": "What do we use to wash clothes?",
+    "options": {
+      "A": "Soap",
+      "B": "Juice",
+      "C": "Sugar",
+      "D": "Watermelon"
+    },
+    "correctAnswer": "A",
+    "explanation": "Soap helps clean dirty clothes."
+  },
+  {
+    "id": 323,
+    "subject": "Science and Technology",
+    "question": "Which part of the plant makes food?",
+    "options": {
+      "A": "Roots",
+      "B": "Stem",
+      "C": "Leaves",
+      "D": "Flower"
+    },
+    "correctAnswer": "C",
+    "explanation": "Leaves use sunlight to make food."
+  },
+  {
+    "id": 445,
+    "subject": "Social Studies",
+    "question": "What do we call the leader of a county?",
+    "options": {
+      "A": "President",
+      "B": "Chief",
+      "C": "Governor",
+      "D": "Councillor"
+    },
+    "correctAnswer": "C",
+    "explanation": "A governor leads a county."
+  },
+  {
+    "id": 209,
+    "subject": "Physical Health Education",
+    "question": "What is skipping rope used for?",
+    "options": {
+      "A": "Running",
+      "B": "Jumping",
+      "C": "Eating",
+      "D": "Drinking"
+    },
+    "correctAnswer": "B",
+    "explanation": "We use a skipping rope for jumping."
+  },
+  {
+    "id": 99,
+    "subject": "Physical Health Education",
+    "question": "Why should we exercise?",
+    "options": {
+      "A": "To get tired",
+      "B": "To grow strong",
+      "C": "To sleep more",
+      "D": "To skip school"
+    },
+    "correctAnswer": "B",
+    "explanation": "Exercise helps us grow strong."
+  },
+  {
+    "id": 394,
+    "subject": "Music",
+    "question": "What do we use to sing?",
+    "options": {
+      "A": "Legs",
+      "B": "Eyes",
+      "C": "Mouth",
+      "D": "Hands"
+    },
+    "correctAnswer": "C",
+    "explanation": "We use our mouth to sing."
+  },
+  {
+    "id": 402,
+    "subject": "CRE",
+    "question": "Who built the ark?",
+    "options": {
+      "A": "Abraham",
+      "B": "Noah",
+      "C": "Moses",
+      "D": "David"
+    },
+    "correctAnswer": "B",
+    "explanation": "Noah built the ark."
+  },
+  {
+    "id": 333,
+    "subject": "Kiswahili",
+    "question": "Chagua kivumishi:",
+    "options": {
+      "A": "Mbio",
+      "B": "Mzuri",
+      "C": "Kitabu",
+      "D": "Lima"
+    },
+    "correctAnswer": "B",
+    "explanation": "'Mzuri' hutumika kuelezea nomino."
+  },
+  {
+    "id": 302,
+    "subject": "Social Studies",
+    "question": "What do we call the leader of a county?",
+    "options": {
+      "A": "President",
+      "B": "Chief",
+      "C": "Governor",
+      "D": "Councillor"
+    },
+    "correctAnswer": "C",
+    "explanation": "A governor leads a county."
+  },
+  {
+    "id": 152,
+    "subject": "Music",
+    "question": "What do we use to sing?",
+    "options": {
+      "A": "Legs",
+      "B": "Eyes",
+      "C": "Mouth",
+      "D": "Hands"
+    },
+    "correctAnswer": "C",
+    "explanation": "We use our mouth to sing."
+  },
+  {
+    "id": 120,
+    "subject": "Art and Craft",
+    "question": "Why do we do craft work?",
+    "options": {
+      "A": "To get dirty",
+      "B": "To waste time",
+      "C": "To be creative",
+      "D": "To sleep"
+    },
+    "correctAnswer": "C",
+    "explanation": "Craft work encourages creativity."
+  },
+  {
+    "id": 222,
+    "subject": "English",
+    "question": "Choose the correct verb in the sentence: She ___ to school every day.",
+    "options": {
+      "A": "go",
+      "B": "goes",
+      "C": "gone",
+      "D": "going"
+    },
+    "correctAnswer": "B",
+    "explanation": "'Goes' is the correct verb form for 'she'."
+  },
+  {
+    "id": 312,
+    "subject": "Science and Technology",
+    "question": "What do we use to see stars?",
+    "options": {
+      "A": "Microscope",
+      "B": "Telescope",
+      "C": "Binoculars",
+      "D": "Magnifying glass"
+    },
+    "correctAnswer": "B",
+    "explanation": "A telescope helps us see faraway stars."
+  },
+  {
+    "id": 386,
+    "subject": "Mathematics",
+    "question": "What is 100 divided by 5?",
+    "options": {
+      "A": "15",
+      "B": "20",
+      "C": "25",
+      "D": "30"
+    },
+    "correctAnswer": "B",
+    "explanation": "100 \u00f7 5 = 20."
+  },
+  {
+    "id": 425,
+    "subject": "Home Science",
+    "question": "Which of these is a clean habit?",
+    "options": {
+      "A": "Bathing",
+      "B": "Playing in mud",
+      "C": "Touching garbage",
+      "D": "Sharing clothes"
+    },
+    "correctAnswer": "A",
+    "explanation": "Bathing keeps the body clean."
+  },
+  {
+    "id": 364,
+    "subject": "Mathematics",
+    "question": "What is the value of 9 \u00d7 6?",
+    "options": {
+      "A": "54",
+      "B": "56",
+      "C": "64",
+      "D": "46"
+    },
+    "correctAnswer": "A",
+    "explanation": "9 multiplied by 6 is 54."
+  },
+  {
+    "id": 449,
+    "subject": "Music",
+    "question": "What do we use to sing?",
+    "options": {
+      "A": "Legs",
+      "B": "Eyes",
+      "C": "Mouth",
+      "D": "Hands"
+    },
+    "correctAnswer": "C",
+    "explanation": "We use our mouth to sing."
+  },
+  {
+    "id": 185,
+    "subject": "Music",
+    "question": "What do we use to sing?",
+    "options": {
+      "A": "Legs",
+      "B": "Eyes",
+      "C": "Mouth",
+      "D": "Hands"
+    },
+    "correctAnswer": "C",
+    "explanation": "We use our mouth to sing."
+  },
+  {
+    "id": 162,
+    "subject": "Agriculture",
+    "question": "What do we call young plants?",
+    "options": {
+      "A": "Seeds",
+      "B": "Seedlings",
+      "C": "Roots",
+      "D": "Weeds"
+    },
+    "correctAnswer": "B",
+    "explanation": "Seedlings are young plants."
+  },
+  {
+    "id": 234,
+    "subject": "Kiswahili",
+    "question": "Chagua kivumishi:",
+    "options": {
+      "A": "Mbio",
+      "B": "Mzuri",
+      "C": "Kitabu",
+      "D": "Lima"
+    },
+    "correctAnswer": "B",
+    "explanation": "'Mzuri' hutumika kuelezea nomino."
+  },
+  {
+    "id": 75,
+    "subject": "Music",
+    "question": "Which song type is used for celebration?",
+    "options": {
+      "A": "Lullaby",
+      "B": "Wedding song",
+      "C": "Work song",
+      "D": "Funeral song"
+    },
+    "correctAnswer": "B",
+    "explanation": "Wedding songs celebrate marriage."
+  },
+  {
+    "id": 128,
+    "subject": "Home Science",
+    "question": "Which of these is a clean habit?",
+    "options": {
+      "A": "Bathing",
+      "B": "Playing in mud",
+      "C": "Touching garbage",
+      "D": "Sharing clothes"
+    },
+    "correctAnswer": "A",
+    "explanation": "Bathing keeps the body clean."
+  },
+  {
+    "id": 487,
+    "subject": "Kiswahili",
+    "question": "Tunga sentensi kwa kutumia neno 'shule'",
+    "options": {
+      "A": "Ninapenda shule",
+      "B": "Shule kula",
+      "C": "Shule kutembea",
+      "D": "Nime shule"
+    },
+    "correctAnswer": "A",
+    "explanation": "'Ninapenda shule' ni sentensi sahihi."
+  },
+  {
+    "id": 390,
+    "subject": "Social Studies",
+    "question": "What do we call the leader of a county?",
+    "options": {
+      "A": "President",
+      "B": "Chief",
+      "C": "Governor",
+      "D": "Councillor"
+    },
+    "correctAnswer": "C",
+    "explanation": "A governor leads a county."
+  },
+  {
+    "id": 328,
+    "subject": "Music",
+    "question": "What do we use to sing?",
+    "options": {
+      "A": "Legs",
+      "B": "Eyes",
+      "C": "Mouth",
+      "D": "Hands"
+    },
+    "correctAnswer": "C",
+    "explanation": "We use our mouth to sing."
+  },
+  {
+    "id": 132,
+    "subject": "Physical Health Education",
+    "question": "What is skipping rope used for?",
+    "options": {
+      "A": "Running",
+      "B": "Jumping",
+      "C": "Eating",
+      "D": "Drinking"
+    },
+    "correctAnswer": "B",
+    "explanation": "We use a skipping rope for jumping."
+  },
+  {
+    "id": 292,
+    "subject": "CRE",
+    "question": "What is the first book of the Bible?",
+    "options": {
+      "A": "Exodus",
+      "B": "Matthew",
+      "C": "Genesis",
+      "D": "Leviticus"
+    },
+    "correctAnswer": "C",
+    "explanation": "Genesis is the first book."
+  },
+  {
+    "id": 2,
+    "subject": "English",
+    "question": "What is the plural of 'child'?",
+    "options": {
+      "A": "childs",
+      "B": "childes",
+      "C": "children",
+      "D": "childrens"
+    },
+    "correctAnswer": "C",
+    "explanation": "The plural of 'child' is 'children'."
+  },
+  {
+    "id": 243,
+    "subject": "Mathematics",
+    "question": "Which number is an even number?",
+    "options": {
+      "A": "17",
+      "B": "25",
+      "C": "32",
+      "D": "51"
+    },
+    "correctAnswer": "C",
+    "explanation": "Even numbers are divisible by 2."
+  },
+  {
+    "id": 405,
+    "subject": "Music",
+    "question": "What do we use to sing?",
+    "options": {
+      "A": "Legs",
+      "B": "Eyes",
+      "C": "Mouth",
+      "D": "Hands"
+    },
+    "correctAnswer": "C",
+    "explanation": "We use our mouth to sing."
+  },
+  {
+    "id": 133,
+    "subject": "Mathematics",
+    "question": "Which number is an even number?",
+    "options": {
+      "A": "17",
+      "B": "25",
+      "C": "32",
+      "D": "51"
+    },
+    "correctAnswer": "C",
+    "explanation": "Even numbers are divisible by 2."
+  },
+  {
+    "id": 122,
+    "subject": "Mathematics",
+    "question": "What is the value of 9 \u00d7 6?",
+    "options": {
+      "A": "54",
+      "B": "56",
+      "C": "64",
+      "D": "46"
+    },
+    "correctAnswer": "A",
+    "explanation": "9 multiplied by 6 is 54."
+  },
+  {
+    "id": 57,
+    "subject": "English",
+    "question": "What is the plural of 'child'?",
+    "options": {
+      "A": "childs",
+      "B": "childes",
+      "C": "children",
+      "D": "childrens"
+    },
+    "correctAnswer": "C",
+    "explanation": "The plural of 'child' is 'children'."
+  },
+  {
+    "id": 258,
+    "subject": "Social Studies",
+    "question": "What do we call the leader of a county?",
+    "options": {
+      "A": "President",
+      "B": "Chief",
+      "C": "Governor",
+      "D": "Councillor"
+    },
+    "correctAnswer": "C",
+    "explanation": "A governor leads a county."
+  },
+  {
+    "id": 419,
+    "subject": "Mathematics",
+    "question": "What is the value of 9 \u00d7 6?",
+    "options": {
+      "A": "54",
+      "B": "56",
+      "C": "64",
+      "D": "46"
+    },
+    "correctAnswer": "A",
+    "explanation": "9 multiplied by 6 is 54."
+  },
+  {
+    "id": 167,
+    "subject": "English",
+    "question": "What is the plural of 'child'?",
+    "options": {
+      "A": "childs",
+      "B": "childes",
+      "C": "children",
+      "D": "childrens"
+    },
+    "correctAnswer": "C",
+    "explanation": "The plural of 'child' is 'children'."
+  },
+  {
+    "id": 18,
+    "subject": "Home Science",
+    "question": "What do we use to wash clothes?",
+    "options": {
+      "A": "Soap",
+      "B": "Juice",
+      "C": "Sugar",
+      "D": "Watermelon"
+    },
+    "correctAnswer": "A",
+    "explanation": "Soap helps clean dirty clothes."
+  },
+  {
+    "id": 149,
+    "subject": "CRE",
+    "question": "Who built the ark?",
+    "options": {
+      "A": "Abraham",
+      "B": "Noah",
+      "C": "Moses",
+      "D": "David"
+    },
+    "correctAnswer": "B",
+    "explanation": "Noah built the ark."
+  },
+  {
+    "id": 418,
+    "subject": "Physical Health Education",
+    "question": "Why should we exercise?",
+    "options": {
+      "A": "To get tired",
+      "B": "To grow strong",
+      "C": "To sleep more",
+      "D": "To skip school"
+    },
+    "correctAnswer": "B",
+    "explanation": "Exercise helps us grow strong."
+  },
+  {
+    "id": 60,
+    "subject": "Social Studies",
+    "question": "Which is the capital city of Kenya?",
+    "options": {
+      "A": "Mombasa",
+      "B": "Kisumu",
+      "C": "Nairobi",
+      "D": "Nakuru"
+    },
+    "correctAnswer": "C",
+    "explanation": "Nairobi is the capital city."
+  },
+  {
+    "id": 30,
+    "subject": "Agriculture",
+    "question": "What do we call young plants?",
+    "options": {
+      "A": "Seeds",
+      "B": "Seedlings",
+      "C": "Roots",
+      "D": "Weeds"
+    },
+    "correctAnswer": "B",
+    "explanation": "Seedlings are young plants."
+  },
+  {
+    "id": 266,
+    "subject": "English",
+    "question": "Choose the correct verb in the sentence: She ___ to school every day.",
+    "options": {
+      "A": "go",
+      "B": "goes",
+      "C": "gone",
+      "D": "going"
+    },
+    "correctAnswer": "B",
+    "explanation": "'Goes' is the correct verb form for 'she'."
+  },
+  {
+    "id": 19,
+    "subject": "Agriculture",
+    "question": "What do we call young plants?",
+    "options": {
+      "A": "Seeds",
+      "B": "Seedlings",
+      "C": "Roots",
+      "D": "Weeds"
+    },
+    "correctAnswer": "B",
+    "explanation": "Seedlings are young plants."
+  },
+  {
+    "id": 237,
+    "subject": "CRE",
+    "question": "Who created the world according to the Bible?",
+    "options": {
+      "A": "Jesus",
+      "B": "Moses",
+      "C": "God",
+      "D": "Noah"
+    },
+    "correctAnswer": "C",
+    "explanation": "God created the world."
+  },
+  {
+    "id": 376,
+    "subject": "English",
+    "question": "Which word is a noun?",
+    "options": {
+      "A": "Run",
+      "B": "Quickly",
+      "C": "Teacher",
+      "D": "Blue"
+    },
+    "correctAnswer": "C",
+    "explanation": "'Teacher' is a person and a noun."
+  },
+  {
+    "id": 140,
+    "subject": "Agriculture",
+    "question": "Why do farmers water crops?",
+    "options": {
+      "A": "For fun",
+      "B": "To clean them",
+      "C": "To help them grow",
+      "D": "To make them colorful"
+    },
+    "correctAnswer": "C",
+    "explanation": "Water helps plants grow."
+  },
+  {
+    "id": 397,
+    "subject": "Mathematics",
+    "question": "What is 100 divided by 5?",
+    "options": {
+      "A": "15",
+      "B": "20",
+      "C": "25",
+      "D": "30"
+    },
+    "correctAnswer": "B",
+    "explanation": "100 \u00f7 5 = 20."
+  },
+  {
+    "id": 114,
+    "subject": "Science and Technology",
+    "question": "Which part of the plant makes food?",
+    "options": {
+      "A": "Roots",
+      "B": "Stem",
+      "C": "Leaves",
+      "D": "Flower"
+    },
+    "correctAnswer": "C",
+    "explanation": "Leaves use sunlight to make food."
+  },
+  {
+    "id": 406,
+    "subject": "Art and Craft",
+    "question": "Why do we do craft work?",
+    "options": {
+      "A": "To get dirty",
+      "B": "To waste time",
+      "C": "To be creative",
+      "D": "To sleep"
+    },
+    "correctAnswer": "C",
+    "explanation": "Craft work encourages creativity."
+  },
+  {
+    "id": 265,
+    "subject": "Mathematics",
+    "question": "What is the value of 9 \u00d7 6?",
+    "options": {
+      "A": "54",
+      "B": "56",
+      "C": "64",
+      "D": "46"
+    },
+    "correctAnswer": "A",
+    "explanation": "9 multiplied by 6 is 54."
+  },
+  {
+    "id": 90,
+    "subject": "English",
+    "question": "Choose the correct verb in the sentence: She ___ to school every day.",
+    "options": {
+      "A": "go",
+      "B": "goes",
+      "C": "gone",
+      "D": "going"
+    },
+    "correctAnswer": "B",
+    "explanation": "'Goes' is the correct verb form for 'she'."
+  },
+  {
+    "id": 96,
+    "subject": "Agriculture",
+    "question": "Which tool is used to dig the soil?",
+    "options": {
+      "A": "Hoe",
+      "B": "Spoon",
+      "C": "Plate",
+      "D": "Cup"
+    },
+    "correctAnswer": "A",
+    "explanation": "A hoe is used for digging."
+  },
+  {
+    "id": 161,
+    "subject": "Home Science",
+    "question": "What do we use to wash clothes?",
+    "options": {
+      "A": "Soap",
+      "B": "Juice",
+      "C": "Sugar",
+      "D": "Watermelon"
+    },
+    "correctAnswer": "A",
+    "explanation": "Soap helps clean dirty clothes."
+  },
+  {
+    "id": 329,
+    "subject": "Art and Craft",
+    "question": "What color is made by mixing red and blue?",
+    "options": {
+      "A": "Green",
+      "B": "Purple",
+      "C": "Orange",
+      "D": "Brown"
+    },
+    "correctAnswer": "B",
+    "explanation": "Red + Blue = Purple."
+  },
+  {
+    "id": 338,
+    "subject": "Agriculture",
+    "question": "Which tool is used to dig the soil?",
+    "options": {
+      "A": "Hoe",
+      "B": "Spoon",
+      "C": "Plate",
+      "D": "Cup"
+    },
+    "correctAnswer": "A",
+    "explanation": "A hoe is used for digging."
+  },
+  {
+    "id": 91,
+    "subject": "Kiswahili",
+    "question": "Tunga sentensi kwa kutumia neno 'shule'",
+    "options": {
+      "A": "Ninapenda shule",
+      "B": "Shule kula",
+      "C": "Shule kutembea",
+      "D": "Nime shule"
+    },
+    "correctAnswer": "A",
+    "explanation": "'Ninapenda shule' ni sentensi sahihi."
+  },
+  {
+    "id": 36,
+    "subject": "Kiswahili",
+    "question": "Chagua kivumishi:",
+    "options": {
+      "A": "Mbio",
+      "B": "Mzuri",
+      "C": "Kitabu",
+      "D": "Lima"
+    },
+    "correctAnswer": "B",
+    "explanation": "'Mzuri' hutumika kuelezea nomino."
+  },
+  {
+    "id": 229,
+    "subject": "Music",
+    "question": "Which song type is used for celebration?",
+    "options": {
+      "A": "Lullaby",
+      "B": "Wedding song",
+      "C": "Work song",
+      "D": "Funeral song"
+    },
+    "correctAnswer": "B",
+    "explanation": "Wedding songs celebrate marriage."
+  },
+  {
+    "id": 288,
+    "subject": "English",
+    "question": "Choose the correct verb in the sentence: She ___ to school every day.",
+    "options": {
+      "A": "go",
+      "B": "goes",
+      "C": "gone",
+      "D": "going"
+    },
+    "correctAnswer": "B",
+    "explanation": "'Goes' is the correct verb form for 'she'."
+  },
+  {
+    "id": 399,
+    "subject": "Kiswahili",
+    "question": "Ni ipi ni nomino?",
+    "options": {
+      "A": "Kimbia",
+      "B": "Rangi",
+      "C": "Mwalimu",
+      "D": "Haraka"
+    },
+    "correctAnswer": "C",
+    "explanation": "'Mwalimu' ni nomino kwa sababu ni mtu."
+  },
+  {
+    "id": 143,
+    "subject": "Physical Health Education",
+    "question": "What is skipping rope used for?",
+    "options": {
+      "A": "Running",
+      "B": "Jumping",
+      "C": "Eating",
+      "D": "Drinking"
+    },
+    "correctAnswer": "B",
+    "explanation": "We use a skipping rope for jumping."
+  },
+  {
+    "id": 176,
+    "subject": "Physical Health Education",
+    "question": "Which of these is an outdoor game?",
+    "options": {
+      "A": "Football",
+      "B": "Reading",
+      "C": "Writing",
+      "D": "Cooking"
+    },
+    "correctAnswer": "A",
+    "explanation": "Football is played outside."
+  },
+  {
+    "id": 54,
+    "subject": "Art and Craft",
+    "question": "Why do we do craft work?",
+    "options": {
+      "A": "To get dirty",
+      "B": "To waste time",
+      "C": "To be creative",
+      "D": "To sleep"
+    },
+    "correctAnswer": "C",
+    "explanation": "Craft work encourages creativity."
+  },
+  {
+    "id": 371,
+    "subject": "Agriculture",
+    "question": "Why do farmers water crops?",
+    "options": {
+      "A": "For fun",
+      "B": "To clean them",
+      "C": "To help them grow",
+      "D": "To make them colorful"
+    },
+    "correctAnswer": "C",
+    "explanation": "Water helps plants grow."
+  },
+  {
+    "id": 208,
+    "subject": "Art and Craft",
+    "question": "Which of these is used in drawing?",
+    "options": {
+      "A": "Pencil",
+      "B": "Eraser",
+      "C": "Plate",
+      "D": "Book"
+    },
+    "correctAnswer": "A",
+    "explanation": "A pencil is used for drawing."
+  },
+  {
+    "id": 279,
+    "subject": "Science and Technology",
+    "question": "What do we use to see stars?",
+    "options": {
+      "A": "Microscope",
+      "B": "Telescope",
+      "C": "Binoculars",
+      "D": "Magnifying glass"
+    },
+    "correctAnswer": "B",
+    "explanation": "A telescope helps us see faraway stars."
+  },
+  {
+    "id": 285,
+    "subject": "Art and Craft",
+    "question": "Why do we do craft work?",
+    "options": {
+      "A": "To get dirty",
+      "B": "To waste time",
+      "C": "To be creative",
+      "D": "To sleep"
+    },
+    "correctAnswer": "C",
+    "explanation": "Craft work encourages creativity."
+  },
+  {
+    "id": 233,
+    "subject": "English",
+    "question": "Which word is a noun?",
+    "options": {
+      "A": "Run",
+      "B": "Quickly",
+      "C": "Teacher",
+      "D": "Blue"
+    },
+    "correctAnswer": "C",
+    "explanation": "'Teacher' is a person and a noun."
+  },
+  {
+    "id": 246,
+    "subject": "Science and Technology",
+    "question": "Which part of the plant makes food?",
+    "options": {
+      "A": "Roots",
+      "B": "Stem",
+      "C": "Leaves",
+      "D": "Flower"
+    },
+    "correctAnswer": "C",
+    "explanation": "Leaves use sunlight to make food."
+  },
+  {
+    "id": 327,
+    "subject": "Agriculture",
+    "question": "Which tool is used to dig the soil?",
+    "options": {
+      "A": "Hoe",
+      "B": "Spoon",
+      "C": "Plate",
+      "D": "Cup"
+    },
+    "correctAnswer": "A",
+    "explanation": "A hoe is used for digging."
+  },
+  {
+    "id": 70,
+    "subject": "Science and Technology",
+    "question": "Which sense helps us hear?",
+    "options": {
+      "A": "Sight",
+      "B": "Smell",
+      "C": "Hearing",
+      "D": "Taste"
+    },
+    "correctAnswer": "C",
+    "explanation": "The sense of hearing helps us listen to sounds."
+  },
+  {
+    "id": 95,
+    "subject": "Home Science",
+    "question": "Which of these is a clean habit?",
+    "options": {
+      "A": "Bathing",
+      "B": "Playing in mud",
+      "C": "Touching garbage",
+      "D": "Sharing clothes"
+    },
+    "correctAnswer": "A",
+    "explanation": "Bathing keeps the body clean."
+  },
+  {
+    "id": 38,
+    "subject": "Social Studies",
+    "question": "Which is the capital city of Kenya?",
+    "options": {
+      "A": "Mombasa",
+      "B": "Kisumu",
+      "C": "Nairobi",
+      "D": "Nakuru"
+    },
+    "correctAnswer": "C",
+    "explanation": "Nairobi is the capital city."
+  },
+  {
+    "id": 407,
+    "subject": "Physical Health Education",
+    "question": "Why should we exercise?",
+    "options": {
+      "A": "To get tired",
+      "B": "To grow strong",
+      "C": "To sleep more",
+      "D": "To skip school"
+    },
+    "correctAnswer": "B",
+    "explanation": "Exercise helps us grow strong."
+  },
+  {
+    "id": 478,
+    "subject": "Social Studies",
+    "question": "Which symbol represents peace?",
+    "options": {
+      "A": "White dove",
+      "B": "Red flag",
+      "C": "Shield",
+      "D": "Arrow"
+    },
+    "correctAnswer": "A",
+    "explanation": "A white dove is a symbol of peace."
+  },
+  {
+    "id": 150,
+    "subject": "Home Science",
+    "question": "Which of these is a clean habit?",
+    "options": {
+      "A": "Bathing",
+      "B": "Playing in mud",
+      "C": "Touching garbage",
+      "D": "Sharing clothes"
+    },
+    "correctAnswer": "A",
+    "explanation": "Bathing keeps the body clean."
+  },
+  {
+    "id": 230,
+    "subject": "Art and Craft",
+    "question": "What color is made by mixing red and blue?",
+    "options": {
+      "A": "Green",
+      "B": "Purple",
+      "C": "Orange",
+      "D": "Brown"
+    },
+    "correctAnswer": "B",
+    "explanation": "Red + Blue = Purple."
+  },
+  {
+    "id": 360,
+    "subject": "Agriculture",
+    "question": "Which tool is used to dig the soil?",
+    "options": {
+      "A": "Hoe",
+      "B": "Spoon",
+      "C": "Plate",
+      "D": "Cup"
+    },
+    "correctAnswer": "A",
+    "explanation": "A hoe is used for digging."
+  },
+  {
+    "id": 25,
+    "subject": "Kiswahili",
+    "question": "Tunga sentensi kwa kutumia neno 'shule'",
+    "options": {
+      "A": "Ninapenda shule",
+      "B": "Shule kula",
+      "C": "Shule kutembea",
+      "D": "Nime shule"
+    },
+    "correctAnswer": "A",
+    "explanation": "'Ninapenda shule' ni sentensi sahihi."
+  },
+  {
+    "id": 387,
+    "subject": "English",
+    "question": "What is the plural of 'child'?",
+    "options": {
+      "A": "childs",
+      "B": "childes",
+      "C": "children",
+      "D": "childrens"
+    },
+    "correctAnswer": "C",
+    "explanation": "The plural of 'child' is 'children'."
+  },
+  {
+    "id": 354,
+    "subject": "English",
+    "question": "Choose the correct verb in the sentence: She ___ to school every day.",
+    "options": {
+      "A": "go",
+      "B": "goes",
+      "C": "gone",
+      "D": "going"
+    },
+    "correctAnswer": "B",
+    "explanation": "'Goes' is the correct verb form for 'she'."
+  },
+  {
+    "id": 287,
+    "subject": "Mathematics",
+    "question": "What is 100 divided by 5?",
+    "options": {
+      "A": "15",
+      "B": "20",
+      "C": "25",
+      "D": "30"
+    },
+    "correctAnswer": "B",
+    "explanation": "100 \u00f7 5 = 20."
+  },
+  {
+    "id": 413,
+    "subject": "CRE",
+    "question": "What is the first book of the Bible?",
+    "options": {
+      "A": "Exodus",
+      "B": "Matthew",
+      "C": "Genesis",
+      "D": "Leviticus"
+    },
+    "correctAnswer": "C",
+    "explanation": "Genesis is the first book."
+  },
+  {
+    "id": 488,
+    "subject": "Science and Technology",
+    "question": "Which sense helps us hear?",
+    "options": {
+      "A": "Sight",
+      "B": "Smell",
+      "C": "Hearing",
+      "D": "Taste"
+    },
+    "correctAnswer": "C",
+    "explanation": "The sense of hearing helps us listen to sounds."
+  },
+  {
+    "id": 297,
+    "subject": "Physical Health Education",
+    "question": "Which of these is an outdoor game?",
+    "options": {
+      "A": "Football",
+      "B": "Reading",
+      "C": "Writing",
+      "D": "Cooking"
+    },
+    "correctAnswer": "A",
+    "explanation": "Football is played outside."
+  },
+  {
+    "id": 131,
+    "subject": "Art and Craft",
+    "question": "Why do we do craft work?",
+    "options": {
+      "A": "To get dirty",
+      "B": "To waste time",
+      "C": "To be creative",
+      "D": "To sleep"
+    },
+    "correctAnswer": "C",
+    "explanation": "Craft work encourages creativity."
+  },
+  {
+    "id": 73,
+    "subject": "Home Science",
+    "question": "Which of these is a clean habit?",
+    "options": {
+      "A": "Bathing",
+      "B": "Playing in mud",
+      "C": "Touching garbage",
+      "D": "Sharing clothes"
+    },
+    "correctAnswer": "A",
+    "explanation": "Bathing keeps the body clean."
+  },
+  {
+    "id": 404,
+    "subject": "Agriculture",
+    "question": "Why do farmers water crops?",
+    "options": {
+      "A": "For fun",
+      "B": "To clean them",
+      "C": "To help them grow",
+      "D": "To make them colorful"
+    },
+    "correctAnswer": "C",
+    "explanation": "Water helps plants grow."
+  },
+  {
+    "id": 357,
+    "subject": "Social Studies",
+    "question": "Which symbol represents peace?",
+    "options": {
+      "A": "White dove",
+      "B": "Red flag",
+      "C": "Shield",
+      "D": "Arrow"
+    },
+    "correctAnswer": "A",
+    "explanation": "A white dove is a symbol of peace."
+  },
+  {
+    "id": 497,
+    "subject": "English",
+    "question": "Which word is a noun?",
+    "options": {
+      "A": "Run",
+      "B": "Quickly",
+      "C": "Teacher",
+      "D": "Blue"
+    },
+    "correctAnswer": "C",
+    "explanation": "'Teacher' is a person and a noun."
+  },
+  {
+    "id": 104,
+    "subject": "Social Studies",
+    "question": "Which symbol represents peace?",
+    "options": {
+      "A": "White dove",
+      "B": "Red flag",
+      "C": "Shield",
+      "D": "Arrow"
+    },
+    "correctAnswer": "A",
+    "explanation": "A white dove is a symbol of peace."
+  },
+  {
+    "id": 498,
+    "subject": "Kiswahili",
+    "question": "Ni ipi ni nomino?",
+    "options": {
+      "A": "Kimbia",
+      "B": "Rangi",
+      "C": "Mwalimu",
+      "D": "Haraka"
+    },
+    "correctAnswer": "C",
+    "explanation": "'Mwalimu' ni nomino kwa sababu ni mtu."
+  },
+  {
+    "id": 440,
+    "subject": "Physical Health Education",
+    "question": "What is skipping rope used for?",
+    "options": {
+      "A": "Running",
+      "B": "Jumping",
+      "C": "Eating",
+      "D": "Drinking"
+    },
+    "correctAnswer": "B",
+    "explanation": "We use a skipping rope for jumping."
+  },
+  {
+    "id": 184,
+    "subject": "Agriculture",
+    "question": "Why do farmers water crops?",
+    "options": {
+      "A": "For fun",
+      "B": "To clean them",
+      "C": "To help them grow",
+      "D": "To make them colorful"
+    },
+    "correctAnswer": "C",
+    "explanation": "Water helps plants grow."
+  },
+  {
+    "id": 315,
+    "subject": "Home Science",
+    "question": "What do we use to wash clothes?",
+    "options": {
+      "A": "Soap",
+      "B": "Juice",
+      "C": "Sugar",
+      "D": "Watermelon"
+    },
+    "correctAnswer": "A",
+    "explanation": "Soap helps clean dirty clothes."
+  },
+  {
+    "id": 56,
+    "subject": "Mathematics",
+    "question": "Which number is an even number?",
+    "options": {
+      "A": "17",
+      "B": "25",
+      "C": "32",
+      "D": "51"
+    },
+    "correctAnswer": "C",
+    "explanation": "Even numbers are divisible by 2."
+  },
+  {
+    "id": 420,
+    "subject": "English",
+    "question": "Which word is a noun?",
+    "options": {
+      "A": "Run",
+      "B": "Quickly",
+      "C": "Teacher",
+      "D": "Blue"
+    },
+    "correctAnswer": "C",
+    "explanation": "'Teacher' is a person and a noun."
+  },
+  {
+    "id": 281,
+    "subject": "CRE",
+    "question": "Who created the world according to the Bible?",
+    "options": {
+      "A": "Jesus",
+      "B": "Moses",
+      "C": "God",
+      "D": "Noah"
+    },
+    "correctAnswer": "C",
+    "explanation": "God created the world."
+  },
+  {
+    "id": 113,
+    "subject": "Kiswahili",
+    "question": "Ni ipi ni nomino?",
+    "options": {
+      "A": "Kimbia",
+      "B": "Rangi",
+      "C": "Mwalimu",
+      "D": "Haraka"
+    },
+    "correctAnswer": "C",
+    "explanation": "'Mwalimu' ni nomino kwa sababu ni mtu."
+  },
+  {
+    "id": 466,
+    "subject": "Science and Technology",
+    "question": "What do we use to see stars?",
+    "options": {
+      "A": "Microscope",
+      "B": "Telescope",
+      "C": "Binoculars",
+      "D": "Magnifying glass"
+    },
+    "correctAnswer": "B",
+    "explanation": "A telescope helps us see faraway stars."
+  },
+  {
+    "id": 355,
+    "subject": "Kiswahili",
+    "question": "Ni ipi ni nomino?",
+    "options": {
+      "A": "Kimbia",
+      "B": "Rangi",
+      "C": "Mwalimu",
+      "D": "Haraka"
+    },
+    "correctAnswer": "C",
+    "explanation": "'Mwalimu' ni nomino kwa sababu ni mtu."
+  },
+  {
+    "id": 231,
+    "subject": "Physical Health Education",
+    "question": "What is skipping rope used for?",
+    "options": {
+      "A": "Running",
+      "B": "Jumping",
+      "C": "Eating",
+      "D": "Drinking"
+    },
+    "correctAnswer": "B",
+    "explanation": "We use a skipping rope for jumping."
+  },
+  {
+    "id": 55,
+    "subject": "Physical Health Education",
+    "question": "What is skipping rope used for?",
+    "options": {
+      "A": "Running",
+      "B": "Jumping",
+      "C": "Eating",
+      "D": "Drinking"
+    },
+    "correctAnswer": "B",
+    "explanation": "We use a skipping rope for jumping."
+  },
+  {
+    "id": 251,
+    "subject": "Music",
+    "question": "Which song type is used for celebration?",
+    "options": {
+      "A": "Lullaby",
+      "B": "Wedding song",
+      "C": "Work song",
+      "D": "Funeral song"
+    },
+    "correctAnswer": "B",
+    "explanation": "Wedding songs celebrate marriage."
+  },
+  {
+    "id": 170,
+    "subject": "Social Studies",
+    "question": "Which symbol represents peace?",
+    "options": {
+      "A": "White dove",
+      "B": "Red flag",
+      "C": "Shield",
+      "D": "Arrow"
+    },
+    "correctAnswer": "A",
+    "explanation": "A white dove is a symbol of peace."
+  },
+  {
+    "id": 430,
+    "subject": "Mathematics",
+    "question": "What is 100 divided by 5?",
+    "options": {
+      "A": "15",
+      "B": "20",
+      "C": "25",
+      "D": "30"
+    },
+    "correctAnswer": "B",
+    "explanation": "100 \u00f7 5 = 20."
+  },
+  {
+    "id": 53,
+    "subject": "Music",
+    "question": "Which song type is used for celebration?",
+    "options": {
+      "A": "Lullaby",
+      "B": "Wedding song",
+      "C": "Work song",
+      "D": "Funeral song"
+    },
+    "correctAnswer": "B",
+    "explanation": "Wedding songs celebrate marriage."
+  },
+  {
+    "id": 101,
+    "subject": "English",
+    "question": "Which word is a noun?",
+    "options": {
+      "A": "Run",
+      "B": "Quickly",
+      "C": "Teacher",
+      "D": "Blue"
+    },
+    "correctAnswer": "C",
+    "explanation": "'Teacher' is a person and a noun."
+  },
+  {
+    "id": 40,
+    "subject": "Home Science",
+    "question": "Which food helps in growth?",
+    "options": {
+      "A": "Cake",
+      "B": "Rice",
+      "C": "Beans",
+      "D": "Sweets"
+    },
+    "correctAnswer": "C",
+    "explanation": "Beans are rich in proteins."
+  },
+  {
+    "id": 365,
+    "subject": "English",
+    "question": "What is the plural of 'child'?",
+    "options": {
+      "A": "childs",
+      "B": "childes",
+      "C": "children",
+      "D": "childrens"
+    },
+    "correctAnswer": "C",
+    "explanation": "The plural of 'child' is 'children'."
+  },
+  {
+    "id": 480,
+    "subject": "Home Science",
+    "question": "What do we use to wash clothes?",
+    "options": {
+      "A": "Soap",
+      "B": "Juice",
+      "C": "Sugar",
+      "D": "Watermelon"
+    },
+    "correctAnswer": "A",
+    "explanation": "Soap helps clean dirty clothes."
+  },
+  {
+    "id": 62,
+    "subject": "Home Science",
+    "question": "What do we use to wash clothes?",
+    "options": {
+      "A": "Soap",
+      "B": "Juice",
+      "C": "Sugar",
+      "D": "Watermelon"
+    },
+    "correctAnswer": "A",
+    "explanation": "Soap helps clean dirty clothes."
+  },
+  {
+    "id": 68,
+    "subject": "English",
+    "question": "Which word is a noun?",
+    "options": {
+      "A": "Run",
+      "B": "Quickly",
+      "C": "Teacher",
+      "D": "Blue"
+    },
+    "correctAnswer": "C",
+    "explanation": "'Teacher' is a person and a noun."
+  },
+  {
+    "id": 50,
+    "subject": "CRE",
+    "question": "Who built the ark?",
+    "options": {
+      "A": "Abraham",
+      "B": "Noah",
+      "C": "Moses",
+      "D": "David"
+    },
+    "correctAnswer": "B",
+    "explanation": "Noah built the ark."
+  },
+  {
+    "id": 63,
+    "subject": "Agriculture",
+    "question": "What do we call young plants?",
+    "options": {
+      "A": "Seeds",
+      "B": "Seedlings",
+      "C": "Roots",
+      "D": "Weeds"
+    },
+    "correctAnswer": "B",
+    "explanation": "Seedlings are young plants."
+  },
+  {
+    "id": 9,
+    "subject": "Music",
+    "question": "Which song type is used for celebration?",
+    "options": {
+      "A": "Lullaby",
+      "B": "Wedding song",
+      "C": "Work song",
+      "D": "Funeral song"
+    },
+    "correctAnswer": "B",
+    "explanation": "Wedding songs celebrate marriage."
+  },
+  {
+    "id": 463,
+    "subject": "Mathematics",
+    "question": "What is the value of 9 \u00d7 6?",
+    "options": {
+      "A": "54",
+      "B": "56",
+      "C": "64",
+      "D": "46"
+    },
+    "correctAnswer": "A",
+    "explanation": "9 multiplied by 6 is 54."
+  },
+  {
+    "id": 226,
+    "subject": "CRE",
+    "question": "Who created the world according to the Bible?",
+    "options": {
+      "A": "Jesus",
+      "B": "Moses",
+      "C": "God",
+      "D": "Noah"
+    },
+    "correctAnswer": "C",
+    "explanation": "God created the world."
+  },
+  {
+    "id": 59,
+    "subject": "Science and Technology",
+    "question": "Which sense helps us hear?",
+    "options": {
+      "A": "Sight",
+      "B": "Smell",
+      "C": "Hearing",
+      "D": "Taste"
+    },
+    "correctAnswer": "C",
+    "explanation": "The sense of hearing helps us listen to sounds."
+  },
+  {
+    "id": 304,
+    "subject": "Home Science",
+    "question": "What do we use to wash clothes?",
+    "options": {
+      "A": "Soap",
+      "B": "Juice",
+      "C": "Sugar",
+      "D": "Watermelon"
+    },
+    "correctAnswer": "A",
+    "explanation": "Soap helps clean dirty clothes."
+  },
+  {
+    "id": 82,
+    "subject": "Social Studies",
+    "question": "What do we call the leader of a county?",
+    "options": {
+      "A": "President",
+      "B": "Chief",
+      "C": "Governor",
+      "D": "Councillor"
+    },
+    "correctAnswer": "C",
+    "explanation": "A governor leads a county."
+  },
+  {
+    "id": 215,
+    "subject": "CRE",
+    "question": "Who built the ark?",
+    "options": {
+      "A": "Abraham",
+      "B": "Noah",
+      "C": "Moses",
+      "D": "David"
+    },
+    "correctAnswer": "B",
+    "explanation": "Noah built the ark."
+  },
+  {
+    "id": 193,
+    "subject": "CRE",
+    "question": "Who created the world according to the Bible?",
+    "options": {
+      "A": "Jesus",
+      "B": "Moses",
+      "C": "God",
+      "D": "Noah"
+    },
+    "correctAnswer": "C",
+    "explanation": "God created the world."
+  },
+  {
+    "id": 191,
+    "subject": "Science and Technology",
+    "question": "Which sense helps us hear?",
+    "options": {
+      "A": "Sight",
+      "B": "Smell",
+      "C": "Hearing",
+      "D": "Taste"
+    },
+    "correctAnswer": "C",
+    "explanation": "The sense of hearing helps us listen to sounds."
+  },
+  {
+    "id": 199,
+    "subject": "Mathematics",
+    "question": "What is the value of 9 \u00d7 6?",
+    "options": {
+      "A": "54",
+      "B": "56",
+      "C": "64",
+      "D": "46"
+    },
+    "correctAnswer": "A",
+    "explanation": "9 multiplied by 6 is 54."
+  },
+  {
+    "id": 381,
+    "subject": "Home Science",
+    "question": "Which food helps in growth?",
+    "options": {
+      "A": "Cake",
+      "B": "Rice",
+      "C": "Beans",
+      "D": "Sweets"
+    },
+    "correctAnswer": "C",
+    "explanation": "Beans are rich in proteins."
+  },
+  {
+    "id": 69,
+    "subject": "Kiswahili",
+    "question": "Chagua kivumishi:",
+    "options": {
+      "A": "Mbio",
+      "B": "Mzuri",
+      "C": "Kitabu",
+      "D": "Lima"
+    },
+    "correctAnswer": "B",
+    "explanation": "'Mzuri' hutumika kuelezea nomino."
+  },
+  {
+    "id": 224,
+    "subject": "Science and Technology",
+    "question": "Which sense helps us hear?",
+    "options": {
+      "A": "Sight",
+      "B": "Smell",
+      "C": "Hearing",
+      "D": "Taste"
+    },
+    "correctAnswer": "C",
+    "explanation": "The sense of hearing helps us listen to sounds."
+  },
+  {
+    "id": 346,
+    "subject": "Social Studies",
+    "question": "Which symbol represents peace?",
+    "options": {
+      "A": "White dove",
+      "B": "Red flag",
+      "C": "Shield",
+      "D": "Arrow"
+    },
+    "correctAnswer": "A",
+    "explanation": "A white dove is a symbol of peace."
+  },
+  {
+    "id": 461,
+    "subject": "Art and Craft",
+    "question": "What color is made by mixing red and blue?",
+    "options": {
+      "A": "Green",
+      "B": "Purple",
+      "C": "Orange",
+      "D": "Brown"
+    },
+    "correctAnswer": "B",
+    "explanation": "Red + Blue = Purple."
+  },
+  {
+    "id": 84,
+    "subject": "Home Science",
+    "question": "What do we use to wash clothes?",
+    "options": {
+      "A": "Soap",
+      "B": "Juice",
+      "C": "Sugar",
+      "D": "Watermelon"
+    },
+    "correctAnswer": "A",
+    "explanation": "Soap helps clean dirty clothes."
+  },
+  {
+    "id": 148,
+    "subject": "Social Studies",
+    "question": "Which symbol represents peace?",
+    "options": {
+      "A": "White dove",
+      "B": "Red flag",
+      "C": "Shield",
+      "D": "Arrow"
+    },
+    "correctAnswer": "A",
+    "explanation": "A white dove is a symbol of peace."
+  },
+  {
+    "id": 168,
+    "subject": "Kiswahili",
+    "question": "Chagua kivumishi:",
+    "options": {
+      "A": "Mbio",
+      "B": "Mzuri",
+      "C": "Kitabu",
+      "D": "Lima"
+    },
+    "correctAnswer": "B",
+    "explanation": "'Mzuri' hutumika kuelezea nomino."
+  },
+  {
+    "id": 212,
+    "subject": "Kiswahili",
+    "question": "Ni ipi ni nomino?",
+    "options": {
+      "A": "Kimbia",
+      "B": "Rangi",
+      "C": "Mwalimu",
+      "D": "Haraka"
+    },
+    "correctAnswer": "C",
+    "explanation": "'Mwalimu' ni nomino kwa sababu ni mtu."
+  },
+  {
+    "id": 186,
+    "subject": "Art and Craft",
+    "question": "Why do we do craft work?",
+    "options": {
+      "A": "To get dirty",
+      "B": "To waste time",
+      "C": "To be creative",
+      "D": "To sleep"
+    },
+    "correctAnswer": "C",
+    "explanation": "Craft work encourages creativity."
+  },
+  {
+    "id": 267,
+    "subject": "Kiswahili",
+    "question": "Tunga sentensi kwa kutumia neno 'shule'",
+    "options": {
+      "A": "Ninapenda shule",
+      "B": "Shule kula",
+      "C": "Shule kutembea",
+      "D": "Nime shule"
+    },
+    "correctAnswer": "A",
+    "explanation": "'Ninapenda shule' ni sentensi sahihi."
+  },
+  {
+    "id": 301,
+    "subject": "Science and Technology",
+    "question": "Which sense helps us hear?",
+    "options": {
+      "A": "Sight",
+      "B": "Smell",
+      "C": "Hearing",
+      "D": "Taste"
+    },
+    "correctAnswer": "C",
+    "explanation": "The sense of hearing helps us listen to sounds."
+  },
+  {
+    "id": 359,
+    "subject": "Home Science",
+    "question": "What do we use to wash clothes?",
+    "options": {
+      "A": "Soap",
+      "B": "Juice",
+      "C": "Sugar",
+      "D": "Watermelon"
+    },
+    "correctAnswer": "A",
+    "explanation": "Soap helps clean dirty clothes."
+  },
+  {
+    "id": 250,
+    "subject": "Agriculture",
+    "question": "Why do farmers water crops?",
+    "options": {
+      "A": "For fun",
+      "B": "To clean them",
+      "C": "To help them grow",
+      "D": "To make them colorful"
+    },
+    "correctAnswer": "C",
+    "explanation": "Water helps plants grow."
+  },
+  {
+    "id": 192,
+    "subject": "Social Studies",
+    "question": "Which symbol represents peace?",
+    "options": {
+      "A": "White dove",
+      "B": "Red flag",
+      "C": "Shield",
+      "D": "Arrow"
+    },
+    "correctAnswer": "A",
+    "explanation": "A white dove is a symbol of peace."
+  },
+  {
+    "id": 61,
+    "subject": "CRE",
+    "question": "What is the first book of the Bible?",
+    "options": {
+      "A": "Exodus",
+      "B": "Matthew",
+      "C": "Genesis",
+      "D": "Leviticus"
+    },
+    "correctAnswer": "C",
+    "explanation": "Genesis is the first book."
+  },
+  {
+    "id": 94,
+    "subject": "CRE",
+    "question": "Who built the ark?",
+    "options": {
+      "A": "Abraham",
+      "B": "Noah",
+      "C": "Moses",
+      "D": "David"
+    },
+    "correctAnswer": "B",
+    "explanation": "Noah built the ark."
+  },
+  {
+    "id": 201,
+    "subject": "Kiswahili",
+    "question": "Tunga sentensi kwa kutumia neno 'shule'",
+    "options": {
+      "A": "Ninapenda shule",
+      "B": "Shule kula",
+      "C": "Shule kutembea",
+      "D": "Nime shule"
+    },
+    "correctAnswer": "A",
+    "explanation": "'Ninapenda shule' ni sentensi sahihi."
+  },
+  {
+    "id": 481,
+    "subject": "Agriculture",
+    "question": "Why do farmers water crops?",
+    "options": {
+      "A": "For fun",
+      "B": "To clean them",
+      "C": "To help them grow",
+      "D": "To make them colorful"
+    },
+    "correctAnswer": "C",
+    "explanation": "Water helps plants grow."
+  },
+  {
+    "id": 300,
+    "subject": "Kiswahili",
+    "question": "Chagua kivumishi:",
+    "options": {
+      "A": "Mbio",
+      "B": "Mzuri",
+      "C": "Kitabu",
+      "D": "Lima"
+    },
+    "correctAnswer": "B",
+    "explanation": "'Mzuri' hutumika kuelezea nomino."
+  },
+  {
+    "id": 21,
+    "subject": "Art and Craft",
+    "question": "Which of these is used in drawing?",
+    "options": {
+      "A": "Pencil",
+      "B": "Eraser",
+      "C": "Plate",
+      "D": "Book"
+    },
+    "correctAnswer": "A",
+    "explanation": "A pencil is used for drawing."
+  },
+  {
+    "id": 228,
+    "subject": "Agriculture",
+    "question": "Which tool is used to dig the soil?",
+    "options": {
+      "A": "Hoe",
+      "B": "Spoon",
+      "C": "Plate",
+      "D": "Cup"
+    },
+    "correctAnswer": "A",
+    "explanation": "A hoe is used for digging."
+  },
+  {
+    "id": 117,
+    "subject": "Home Science",
+    "question": "What do we use to wash clothes?",
+    "options": {
+      "A": "Soap",
+      "B": "Juice",
+      "C": "Sugar",
+      "D": "Watermelon"
+    },
+    "correctAnswer": "A",
+    "explanation": "Soap helps clean dirty clothes."
+  },
+  {
+    "id": 34,
+    "subject": "Mathematics",
+    "question": "What is the value of 9 \u00d7 6?",
+    "options": {
+      "A": "54",
+      "B": "56",
+      "C": "64",
+      "D": "46"
+    },
+    "correctAnswer": "A",
+    "explanation": "9 multiplied by 6 is 54."
+  },
+  {
+    "id": 116,
+    "subject": "CRE",
+    "question": "What is the first book of the Bible?",
+    "options": {
+      "A": "Exodus",
+      "B": "Matthew",
+      "C": "Genesis",
+      "D": "Leviticus"
+    },
+    "correctAnswer": "C",
+    "explanation": "Genesis is the first book."
+  },
+  {
+    "id": 71,
+    "subject": "Social Studies",
+    "question": "Which symbol represents peace?",
+    "options": {
+      "A": "White dove",
+      "B": "Red flag",
+      "C": "Shield",
+      "D": "Arrow"
+    },
+    "correctAnswer": "A",
+    "explanation": "A white dove is a symbol of peace."
+  },
+  {
+    "id": 291,
+    "subject": "Social Studies",
+    "question": "Which symbol represents peace?",
+    "options": {
+      "A": "White dove",
+      "B": "Red flag",
+      "C": "Shield",
+      "D": "Arrow"
+    },
+    "correctAnswer": "A",
+    "explanation": "A white dove is a symbol of peace."
+  },
+  {
+    "id": 256,
+    "subject": "Kiswahili",
+    "question": "Tunga sentensi kwa kutumia neno 'shule'",
+    "options": {
+      "A": "Ninapenda shule",
+      "B": "Shule kula",
+      "C": "Shule kutembea",
+      "D": "Nime shule"
+    },
+    "correctAnswer": "A",
+    "explanation": "'Ninapenda shule' ni sentensi sahihi."
+  },
+  {
+    "id": 332,
+    "subject": "English",
+    "question": "Which word is a noun?",
+    "options": {
+      "A": "Run",
+      "B": "Quickly",
+      "C": "Teacher",
+      "D": "Blue"
+    },
+    "correctAnswer": "C",
+    "explanation": "'Teacher' is a person and a noun."
+  },
+  {
+    "id": 268,
+    "subject": "Science and Technology",
+    "question": "Which part of the plant makes food?",
+    "options": {
+      "A": "Roots",
+      "B": "Stem",
+      "C": "Leaves",
+      "D": "Flower"
+    },
+    "correctAnswer": "C",
+    "explanation": "Leaves use sunlight to make food."
+  },
+  {
+    "id": 130,
+    "subject": "Music",
+    "question": "Which song type is used for celebration?",
+    "options": {
+      "A": "Lullaby",
+      "B": "Wedding song",
+      "C": "Work song",
+      "D": "Funeral song"
+    },
+    "correctAnswer": "B",
+    "explanation": "Wedding songs celebrate marriage."
+  },
+  {
+    "id": 261,
+    "subject": "Agriculture",
+    "question": "Which tool is used to dig the soil?",
+    "options": {
+      "A": "Hoe",
+      "B": "Spoon",
+      "C": "Plate",
+      "D": "Cup"
+    },
+    "correctAnswer": "A",
+    "explanation": "A hoe is used for digging."
+  },
+  {
+    "id": 340,
+    "subject": "Art and Craft",
+    "question": "Why do we do craft work?",
+    "options": {
+      "A": "To get dirty",
+      "B": "To waste time",
+      "C": "To be creative",
+      "D": "To sleep"
+    },
+    "correctAnswer": "C",
+    "explanation": "Craft work encourages creativity."
+  },
+  {
+    "id": 473,
+    "subject": "Physical Health Education",
+    "question": "Which of these is an outdoor game?",
+    "options": {
+      "A": "Football",
+      "B": "Reading",
+      "C": "Writing",
+      "D": "Cooking"
+    },
+    "correctAnswer": "A",
+    "explanation": "Football is played outside."
+  },
+  {
+    "id": 85,
+    "subject": "Agriculture",
+    "question": "Which tool is used to dig the soil?",
+    "options": {
+      "A": "Hoe",
+      "B": "Spoon",
+      "C": "Plate",
+      "D": "Cup"
+    },
+    "correctAnswer": "A",
+    "explanation": "A hoe is used for digging."
+  },
+  {
+    "id": 341,
+    "subject": "Physical Health Education",
+    "question": "What is skipping rope used for?",
+    "options": {
+      "A": "Running",
+      "B": "Jumping",
+      "C": "Eating",
+      "D": "Drinking"
+    },
+    "correctAnswer": "B",
+    "explanation": "We use a skipping rope for jumping."
+  },
+  {
+    "id": 223,
+    "subject": "Kiswahili",
+    "question": "Chagua kivumishi:",
+    "options": {
+      "A": "Mbio",
+      "B": "Mzuri",
+      "C": "Kitabu",
+      "D": "Lima"
+    },
+    "correctAnswer": "B",
+    "explanation": "'Mzuri' hutumika kuelezea nomino."
+  },
+  {
+    "id": 74,
+    "subject": "Agriculture",
+    "question": "Why do farmers water crops?",
+    "options": {
+      "A": "For fun",
+      "B": "To clean them",
+      "C": "To help them grow",
+      "D": "To make them colorful"
+    },
+    "correctAnswer": "C",
+    "explanation": "Water helps plants grow."
+  },
+  {
+    "id": 216,
+    "subject": "Home Science",
+    "question": "What do we use to wash clothes?",
+    "options": {
+      "A": "Soap",
+      "B": "Juice",
+      "C": "Sugar",
+      "D": "Watermelon"
+    },
+    "correctAnswer": "A",
+    "explanation": "Soap helps clean dirty clothes."
+  },
+  {
+    "id": 37,
+    "subject": "Science and Technology",
+    "question": "Which part of the plant makes food?",
+    "options": {
+      "A": "Roots",
+      "B": "Stem",
+      "C": "Leaves",
+      "D": "Flower"
+    },
+    "correctAnswer": "C",
+    "explanation": "Leaves use sunlight to make food."
+  },
+  {
+    "id": 455,
+    "subject": "Science and Technology",
+    "question": "Which part of the plant makes food?",
+    "options": {
+      "A": "Roots",
+      "B": "Stem",
+      "C": "Leaves",
+      "D": "Flower"
+    },
+    "correctAnswer": "C",
+    "explanation": "Leaves use sunlight to make food."
+  },
+  {
+    "id": 270,
+    "subject": "CRE",
+    "question": "What is the first book of the Bible?",
+    "options": {
+      "A": "Exodus",
+      "B": "Matthew",
+      "C": "Genesis",
+      "D": "Leviticus"
+    },
+    "correctAnswer": "C",
+    "explanation": "Genesis is the first book."
+  },
+  {
+    "id": 462,
+    "subject": "Physical Health Education",
+    "question": "What is skipping rope used for?",
+    "options": {
+      "A": "Running",
+      "B": "Jumping",
+      "C": "Eating",
+      "D": "Drinking"
+    },
+    "correctAnswer": "B",
+    "explanation": "We use a skipping rope for jumping."
+  },
+  {
+    "id": 459,
+    "subject": "Agriculture",
+    "question": "What do we call young plants?",
+    "options": {
+      "A": "Seeds",
+      "B": "Seedlings",
+      "C": "Roots",
+      "D": "Weeds"
+    },
+    "correctAnswer": "B",
+    "explanation": "Seedlings are young plants."
+  },
+  {
+    "id": 110,
+    "subject": "Physical Health Education",
+    "question": "What is skipping rope used for?",
+    "options": {
+      "A": "Running",
+      "B": "Jumping",
+      "C": "Eating",
+      "D": "Drinking"
+    },
+    "correctAnswer": "B",
+    "explanation": "We use a skipping rope for jumping."
+  },
+  {
+    "id": 253,
+    "subject": "Physical Health Education",
+    "question": "Why should we exercise?",
+    "options": {
+      "A": "To get tired",
+      "B": "To grow strong",
+      "C": "To sleep more",
+      "D": "To skip school"
+    },
+    "correctAnswer": "B",
+    "explanation": "Exercise helps us grow strong."
+  },
+  {
+    "id": 423,
+    "subject": "Social Studies",
+    "question": "Which is the capital city of Kenya?",
+    "options": {
+      "A": "Mombasa",
+      "B": "Kisumu",
+      "C": "Nairobi",
+      "D": "Nakuru"
+    },
+    "correctAnswer": "C",
+    "explanation": "Nairobi is the capital city."
+  },
+  {
+    "id": 259,
+    "subject": "CRE",
+    "question": "What is the first book of the Bible?",
+    "options": {
+      "A": "Exodus",
+      "B": "Matthew",
+      "C": "Genesis",
+      "D": "Leviticus"
+    },
+    "correctAnswer": "C",
+    "explanation": "Genesis is the first book."
+  },
+  {
+    "id": 22,
+    "subject": "Physical Health Education",
+    "question": "Why should we exercise?",
+    "options": {
+      "A": "To get tired",
+      "B": "To grow strong",
+      "C": "To sleep more",
+      "D": "To skip school"
+    },
+    "correctAnswer": "B",
+    "explanation": "Exercise helps us grow strong."
+  },
+  {
+    "id": 435,
+    "subject": "CRE",
+    "question": "Who created the world according to the Bible?",
+    "options": {
+      "A": "Jesus",
+      "B": "Moses",
+      "C": "God",
+      "D": "Noah"
+    },
+    "correctAnswer": "C",
+    "explanation": "God created the world."
+  },
+  {
+    "id": 286,
+    "subject": "Physical Health Education",
+    "question": "What is skipping rope used for?",
+    "options": {
+      "A": "Running",
+      "B": "Jumping",
+      "C": "Eating",
+      "D": "Drinking"
+    },
+    "correctAnswer": "B",
+    "explanation": "We use a skipping rope for jumping."
+  },
+  {
+    "id": 269,
+    "subject": "Social Studies",
+    "question": "Which symbol represents peace?",
+    "options": {
+      "A": "White dove",
+      "B": "Red flag",
+      "C": "Shield",
+      "D": "Arrow"
+    },
+    "correctAnswer": "A",
+    "explanation": "A white dove is a symbol of peace."
+  },
+  {
+    "id": 27,
+    "subject": "Social Studies",
+    "question": "What do we call the leader of a county?",
+    "options": {
+      "A": "President",
+      "B": "Chief",
+      "C": "Governor",
+      "D": "Councillor"
+    },
+    "correctAnswer": "C",
+    "explanation": "A governor leads a county."
+  },
+  {
+    "id": 298,
+    "subject": "Mathematics",
+    "question": "Which number is an even number?",
+    "options": {
+      "A": "17",
+      "B": "25",
+      "C": "32",
+      "D": "51"
+    },
+    "correctAnswer": "C",
+    "explanation": "Even numbers are divisible by 2."
+  },
+  {
+    "id": 284,
+    "subject": "Music",
+    "question": "What do we use to sing?",
+    "options": {
+      "A": "Legs",
+      "B": "Eyes",
+      "C": "Mouth",
+      "D": "Hands"
+    },
+    "correctAnswer": "C",
+    "explanation": "We use our mouth to sing."
+  },
+  {
+    "id": 180,
+    "subject": "Science and Technology",
+    "question": "Which part of the plant makes food?",
+    "options": {
+      "A": "Roots",
+      "B": "Stem",
+      "C": "Leaves",
+      "D": "Flower"
+    },
+    "correctAnswer": "C",
+    "explanation": "Leaves use sunlight to make food."
+  },
+  {
+    "id": 124,
+    "subject": "Kiswahili",
+    "question": "Tunga sentensi kwa kutumia neno 'shule'",
+    "options": {
+      "A": "Ninapenda shule",
+      "B": "Shule kula",
+      "C": "Shule kutembea",
+      "D": "Nime shule"
+    },
+    "correctAnswer": "A",
+    "explanation": "'Ninapenda shule' ni sentensi sahihi."
+  },
+  {
+    "id": 106,
+    "subject": "Home Science",
+    "question": "What do we use to wash clothes?",
+    "options": {
+      "A": "Soap",
+      "B": "Juice",
+      "C": "Sugar",
+      "D": "Watermelon"
+    },
+    "correctAnswer": "A",
+    "explanation": "Soap helps clean dirty clothes."
+  },
+  {
+    "id": 239,
+    "subject": "Agriculture",
+    "question": "Which tool is used to dig the soil?",
+    "options": {
+      "A": "Hoe",
+      "B": "Spoon",
+      "C": "Plate",
+      "D": "Cup"
+    },
+    "correctAnswer": "A",
+    "explanation": "A hoe is used for digging."
+  },
+  {
+    "id": 398,
+    "subject": "English",
+    "question": "What is the plural of 'child'?",
+    "options": {
+      "A": "childs",
+      "B": "childes",
+      "C": "children",
+      "D": "childrens"
+    },
+    "correctAnswer": "C",
+    "explanation": "The plural of 'child' is 'children'."
+  },
+  {
+    "id": 88,
+    "subject": "Physical Health Education",
+    "question": "Why should we exercise?",
+    "options": {
+      "A": "To get tired",
+      "B": "To grow strong",
+      "C": "To sleep more",
+      "D": "To skip school"
+    },
+    "correctAnswer": "B",
+    "explanation": "Exercise helps us grow strong."
+  },
+  {
+    "id": 379,
+    "subject": "Social Studies",
+    "question": "Which symbol represents peace?",
+    "options": {
+      "A": "White dove",
+      "B": "Red flag",
+      "C": "Shield",
+      "D": "Arrow"
+    },
+    "correctAnswer": "A",
+    "explanation": "A white dove is a symbol of peace."
+  },
+  {
+    "id": 139,
+    "subject": "Home Science",
+    "question": "Which of these is a clean habit?",
+    "options": {
+      "A": "Bathing",
+      "B": "Playing in mud",
+      "C": "Touching garbage",
+      "D": "Sharing clothes"
+    },
+    "correctAnswer": "A",
+    "explanation": "Bathing keeps the body clean."
+  },
+  {
+    "id": 72,
+    "subject": "CRE",
+    "question": "What is the first book of the Bible?",
+    "options": {
+      "A": "Exodus",
+      "B": "Matthew",
+      "C": "Genesis",
+      "D": "Leviticus"
+    },
+    "correctAnswer": "C",
+    "explanation": "Genesis is the first book."
+  },
+  {
+    "id": 295,
+    "subject": "Music",
+    "question": "Which song type is used for celebration?",
+    "options": {
+      "A": "Lullaby",
+      "B": "Wedding song",
+      "C": "Work song",
+      "D": "Funeral song"
+    },
+    "correctAnswer": "B",
+    "explanation": "Wedding songs celebrate marriage."
+  },
+  {
+    "id": 93,
+    "subject": "Social Studies",
+    "question": "Which symbol represents peace?",
+    "options": {
+      "A": "White dove",
+      "B": "Red flag",
+      "C": "Shield",
+      "D": "Arrow"
+    },
+    "correctAnswer": "A",
+    "explanation": "A white dove is a symbol of peace."
+  },
+  {
+    "id": 411,
+    "subject": "Science and Technology",
+    "question": "Which part of the plant makes food?",
+    "options": {
+      "A": "Roots",
+      "B": "Stem",
+      "C": "Leaves",
+      "D": "Flower"
+    },
+    "correctAnswer": "C",
+    "explanation": "Leaves use sunlight to make food."
+  },
+  {
+    "id": 107,
+    "subject": "Agriculture",
+    "question": "What do we call young plants?",
+    "options": {
+      "A": "Seeds",
+      "B": "Seedlings",
+      "C": "Roots",
+      "D": "Weeds"
+    },
+    "correctAnswer": "B",
+    "explanation": "Seedlings are young plants."
+  },
+  {
+    "id": 257,
+    "subject": "Science and Technology",
+    "question": "What do we use to see stars?",
+    "options": {
+      "A": "Microscope",
+      "B": "Telescope",
+      "C": "Binoculars",
+      "D": "Magnifying glass"
+    },
+    "correctAnswer": "B",
+    "explanation": "A telescope helps us see faraway stars."
+  },
+  {
+    "id": 345,
+    "subject": "Science and Technology",
+    "question": "Which part of the plant makes food?",
+    "options": {
+      "A": "Roots",
+      "B": "Stem",
+      "C": "Leaves",
+      "D": "Flower"
+    },
+    "correctAnswer": "C",
+    "explanation": "Leaves use sunlight to make food."
+  },
+  {
+    "id": 452,
+    "subject": "Mathematics",
+    "question": "Which number is an even number?",
+    "options": {
+      "A": "17",
+      "B": "25",
+      "C": "32",
+      "D": "51"
+    },
+    "correctAnswer": "C",
+    "explanation": "Even numbers are divisible by 2."
+  },
+  {
+    "id": 26,
+    "subject": "Science and Technology",
+    "question": "What do we use to see stars?",
+    "options": {
+      "A": "Microscope",
+      "B": "Telescope",
+      "C": "Binoculars",
+      "D": "Magnifying glass"
+    },
+    "correctAnswer": "B",
+    "explanation": "A telescope helps us see faraway stars."
+  },
+  {
+    "id": 181,
+    "subject": "Social Studies",
+    "question": "What do we call the leader of a county?",
+    "options": {
+      "A": "President",
+      "B": "Chief",
+      "C": "Governor",
+      "D": "Councillor"
+    },
+    "correctAnswer": "C",
+    "explanation": "A governor leads a county."
+  },
+  {
+    "id": 33,
+    "subject": "Physical Health Education",
+    "question": "What is skipping rope used for?",
+    "options": {
+      "A": "Running",
+      "B": "Jumping",
+      "C": "Eating",
+      "D": "Drinking"
+    },
+    "correctAnswer": "B",
+    "explanation": "We use a skipping rope for jumping."
+  },
+  {
+    "id": 254,
+    "subject": "Mathematics",
+    "question": "What is the value of 9 \u00d7 6?",
+    "options": {
+      "A": "54",
+      "B": "56",
+      "C": "64",
+      "D": "46"
+    },
+    "correctAnswer": "A",
+    "explanation": "9 multiplied by 6 is 54."
+  },
+  {
+    "id": 446,
+    "subject": "CRE",
+    "question": "What is the first book of the Bible?",
+    "options": {
+      "A": "Exodus",
+      "B": "Matthew",
+      "C": "Genesis",
+      "D": "Leviticus"
+    },
+    "correctAnswer": "C",
+    "explanation": "Genesis is the first book."
+  },
+  {
+    "id": 382,
+    "subject": "Agriculture",
+    "question": "Why do farmers water crops?",
+    "options": {
+      "A": "For fun",
+      "B": "To clean them",
+      "C": "To help them grow",
+      "D": "To make them colorful"
+    },
+    "correctAnswer": "C",
+    "explanation": "Water helps plants grow."
+  },
+  {
+    "id": 119,
+    "subject": "Music",
+    "question": "Which of these is a musical instrument?",
+    "options": {
+      "A": "Drum",
+      "B": "Pen",
+      "C": "Book",
+      "D": "Plate"
+    },
+    "correctAnswer": "A",
+    "explanation": "A drum is used to produce sound in music."
+  },
+  {
+    "id": 138,
+    "subject": "CRE",
+    "question": "Who created the world according to the Bible?",
+    "options": {
+      "A": "Jesus",
+      "B": "Moses",
+      "C": "God",
+      "D": "Noah"
+    },
+    "correctAnswer": "C",
+    "explanation": "God created the world."
+  },
+  {
+    "id": 14,
+    "subject": "Kiswahili",
+    "question": "Tunga sentensi kwa kutumia neno 'shule'",
+    "options": {
+      "A": "Ninapenda shule",
+      "B": "Shule kula",
+      "C": "Shule kutembea",
+      "D": "Nime shule"
+    },
+    "correctAnswer": "A",
+    "explanation": "'Ninapenda shule' ni sentensi sahihi."
+  },
+  {
+    "id": 115,
+    "subject": "Social Studies",
+    "question": "Which is the capital city of Kenya?",
+    "options": {
+      "A": "Mombasa",
+      "B": "Kisumu",
+      "C": "Nairobi",
+      "D": "Nakuru"
+    },
+    "correctAnswer": "C",
+    "explanation": "Nairobi is the capital city."
+  },
+  {
+    "id": 77,
+    "subject": "Physical Health Education",
+    "question": "What is skipping rope used for?",
+    "options": {
+      "A": "Running",
+      "B": "Jumping",
+      "C": "Eating",
+      "D": "Drinking"
+    },
+    "correctAnswer": "B",
+    "explanation": "We use a skipping rope for jumping."
+  },
+  {
+    "id": 169,
+    "subject": "Science and Technology",
+    "question": "Which part of the plant makes food?",
+    "options": {
+      "A": "Roots",
+      "B": "Stem",
+      "C": "Leaves",
+      "D": "Flower"
+    },
+    "correctAnswer": "C",
+    "explanation": "Leaves use sunlight to make food."
+  },
+  {
+    "id": 155,
+    "subject": "Mathematics",
+    "question": "What is 100 divided by 5?",
+    "options": {
+      "A": "15",
+      "B": "20",
+      "C": "25",
+      "D": "30"
+    },
+    "correctAnswer": "B",
+    "explanation": "100 \u00f7 5 = 20."
+  },
+  {
+    "id": 483,
+    "subject": "Art and Craft",
+    "question": "What color is made by mixing red and blue?",
+    "options": {
+      "A": "Green",
+      "B": "Purple",
+      "C": "Orange",
+      "D": "Brown"
+    },
+    "correctAnswer": "B",
+    "explanation": "Red + Blue = Purple."
+  },
+  {
+    "id": 49,
+    "subject": "Social Studies",
+    "question": "What do we call the leader of a county?",
+    "options": {
+      "A": "President",
+      "B": "Chief",
+      "C": "Governor",
+      "D": "Councillor"
+    },
+    "correctAnswer": "C",
+    "explanation": "A governor leads a county."
+  },
+  {
+    "id": 255,
+    "subject": "English",
+    "question": "Choose the correct verb in the sentence: She ___ to school every day.",
+    "options": {
+      "A": "go",
+      "B": "goes",
+      "C": "gone",
+      "D": "going"
+    },
+    "correctAnswer": "B",
+    "explanation": "'Goes' is the correct verb form for 'she'."
+  },
+  {
+    "id": 8,
+    "subject": "Agriculture",
+    "question": "What do we call young plants?",
+    "options": {
+      "A": "Seeds",
+      "B": "Seedlings",
+      "C": "Roots",
+      "D": "Weeds"
+    },
+    "correctAnswer": "B",
+    "explanation": "Seedlings are young plants."
+  },
+  {
+    "id": 416,
+    "subject": "Music",
+    "question": "Which of these is a musical instrument?",
+    "options": {
+      "A": "Drum",
+      "B": "Pen",
+      "C": "Book",
+      "D": "Plate"
+    },
+    "correctAnswer": "A",
+    "explanation": "A drum is used to produce sound in music."
+  },
+  {
+    "id": 43,
+    "subject": "Art and Craft",
+    "question": "Why do we do craft work?",
+    "options": {
+      "A": "To get dirty",
+      "B": "To waste time",
+      "C": "To be creative",
+      "D": "To sleep"
+    },
+    "correctAnswer": "C",
+    "explanation": "Craft work encourages creativity."
+  },
+  {
+    "id": 142,
+    "subject": "Art and Craft",
+    "question": "Which of these is used in drawing?",
+    "options": {
+      "A": "Pencil",
+      "B": "Eraser",
+      "C": "Plate",
+      "D": "Book"
+    },
+    "correctAnswer": "A",
+    "explanation": "A pencil is used for drawing."
+  },
+  {
+    "id": 238,
+    "subject": "Home Science",
+    "question": "What do we use to wash clothes?",
+    "options": {
+      "A": "Soap",
+      "B": "Juice",
+      "C": "Sugar",
+      "D": "Watermelon"
+    },
+    "correctAnswer": "A",
+    "explanation": "Soap helps clean dirty clothes."
+  },
+  {
+    "id": 369,
+    "subject": "CRE",
+    "question": "What is the first book of the Bible?",
+    "options": {
+      "A": "Exodus",
+      "B": "Matthew",
+      "C": "Genesis",
+      "D": "Leviticus"
+    },
+    "correctAnswer": "C",
+    "explanation": "Genesis is the first book."
+  },
+  {
+    "id": 87,
+    "subject": "Art and Craft",
+    "question": "Why do we do craft work?",
+    "options": {
+      "A": "To get dirty",
+      "B": "To waste time",
+      "C": "To be creative",
+      "D": "To sleep"
+    },
+    "correctAnswer": "C",
+    "explanation": "Craft work encourages creativity."
+  }
+]
