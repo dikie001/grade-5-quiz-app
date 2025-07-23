@@ -370,7 +370,7 @@ const QuizPage = () => {
       </div>
       {confirmModal && (
         <div className="fixed z-50 inset-0 bg-black/80 flex items-center justify-center p-4">
-          <div className="bg-gradient-to-bl from-purple-800/80 to-slate-950 rounded-3xl shadow-2xl p-4 py-8 max-w-md w-full mx-4 transform">
+          <div className="bg-gradient-to-bl from-purple-800/80 to-slate-950 rounded-3xl  shadow-2xl p-4 py-8 max-w-md w-full mx-4 transform">
             <h1 className="text-2xl text-center text-white font-bold">
               Are you sure?
             </h1>
@@ -413,7 +413,7 @@ const QuizPage = () => {
                 <Star className="w-8 h-8 text-yellow-400 fill-current" />
               </div>
               <h1 className="text-2xl font-bold text-white ">
-                Quiz Complete! 🎊
+                Quiz Complete! 
               </h1>
               <h1 className="text-xs font-bold text-gray-300 mb-2">
                 Well done Matilda
