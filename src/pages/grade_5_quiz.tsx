@@ -165,6 +165,7 @@ const QuizPage = () => {
       sendEmail();
       setLoading(false);
     } else {
+      playError()
       toast.error(
         "You have already sent a message, Kindly wait as I process your request",
         { id: "toasty", duration: 5000 }
@@ -215,6 +216,7 @@ const QuizPage = () => {
       localStorage.setItem("message-sent", JSON.stringify(true));
     } catch (err) {
       if (err instanceof TypeError) {
+        playError()
         toast.error("Buy bundles and connect to the internet to send message", {
           id: "toasty",
           duration: 5000,
@@ -225,7 +227,9 @@ const QuizPage = () => {
   };
   return (
     <div>
-      <div className="absolute z-0 ">
+      <div
+        className={`absolute z-0 `}
+      >
         <Star
           className="animate-pulse absolute top-50 text-yellow-400/20 "
           size={50}
@@ -255,7 +259,7 @@ const QuizPage = () => {
           size={50}
         />
       </div>
-      <div className="min-h-screen bg-black/50 py-6 z-10">
+      <div className={` min-h-screen bg-black/50 py-6 z-10`}>
         <div className="max-w-3xl mx-auto p-4">
           {/* Header with progress */}
           <div className="mb-4">
@@ -399,7 +403,7 @@ const QuizPage = () => {
       )}
 
       {isLastQuestion && (
-        <div className="fixed inset-0 bg-black/80 flex items-center justify-center p-4">
+        <div className="fixed inset-0  bg-black/80 flex items-center justify-center ">
           <div className="bg-gradient-to-bl from-purple-800/80 to-slate-950 rounded-3xl shadow-2xl p-4 py-8 max-w-md w-full mx-4 transform">
             {/* Header with stars */}
             <div className="text-center mb-6">
@@ -438,7 +442,7 @@ const QuizPage = () => {
               </button>
               <div>
                 <p className="text-gray-200 mb-1 font-medium ">
-                  Do you More Quizzes?{" "}
+                  Do you want more Quizzes?{" "}
                 </p>
                 <button
                   onClick={sendMessage}
