@@ -74,7 +74,7 @@ const App = () => {
             bg-gradient-to-r from-purple-500 via-indigo-500 to-purple-600
             hover:from-purple-400 hover:via-indigo-400 hover:to-purple-500
             text-white font-semibold
-            px-6 p2-4
+            px-6 py-3
             rounded-2xl
             shadow-lg shadow-purple-500/30
             hover:shadow-purple-400/40
