@@ -1,18 +1,24 @@
 import { useEffect, useState } from "react";
+
+// Define the BeforeInstallPromptEvent type
+interface BeforeInstallPromptEvent extends Event {
+  prompt: () => void;
+  userChoice: Promise<{ outcome: "accepted" | "dismissed" }>;
+}
 import { Toaster } from "react-hot-toast";
 import QuizPage from "./pages/grade_5_quiz"
 
 const App = () => {
-  const [deferredPrompt, setDeferredPrompt] = useState<any>();
+  const [deferredPrompt, setDeferredPrompt] = useState<BeforeInstallPromptEvent | null>(null);
 
   useEffect(() => {
-    const handler = (e) => {
+    const handler = (e: BeforeInstallPromptEvent) => {
       e.preventDefault();
       
       setDeferredPrompt(e);
     };
-    window.addEventListener("beforeinstallprompt", handler);
-    return () => window.removeEventListener("beforeinstallprompt", handler);
+    window.addEventListener("beforeinstallprompt", handler as EventListener);
+    return () => window.removeEventListener("beforeinstallprompt", handler as EventListener);
   }, []);
 
   const handleInstallClick = async () => {
