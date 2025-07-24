@@ -584,19 +584,7 @@
     "correctAnswer": "A",
     "explanation": "River Tana is the longest river in Kenya, flowing from Mount Kenya to the Indian Ocean."
   },
-  {
-    "id": 46,
-    "subject": "CRE",
-    "question": "Where was Jesus born?",
-    "options": {
-      "A": "Nazareth",
-      "B": "Jerusalem",
-      "C": "Bethlehem",
-      "D": "Galilee"
-    },
-    "correctAnswer": "C",
-    "explanation": "Jesus was born in Bethlehem as recorded in the Bible."
-  },
+
   {
     "id": 47,
     "subject": "Agriculture",
@@ -717,773 +705,6 @@
   {
     "id": 56,
     "subject": "CRE",
-    "question": "How many disciples did Jesus have?",
-    "options": {
-      "A": "10",
-      "B": "11",
-      "C": "12",
-      "D": "13"
-    },
-    "correctAnswer": "C",
-    "explanation": "Jesus had 12 disciples who followed him during his ministry."
-  },
-  {
-    "id": 57,
-    "subject": "Agriculture",
-    "question": "Which of these is a root crop?",
-    "options": {
-      "A": "Maize",
-      "B": "Beans",
-      "C": "Carrots",
-      "D": "Wheat"
-    },
-    "correctAnswer": "C",
-    "explanation": "Carrots are root crops because we eat the root part of the plant."
-  },
-  {
-    "id": 58,
-    "subject": "Music",
-    "question": "What is the lowest singing voice called?",
-    "options": {
-      "A": "Soprano",
-      "B": "Alto",
-      "C": "Tenor",
-      "D": "Bass"
-    },
-    "correctAnswer": "D",
-    "explanation": "Bass is the lowest singing voice, usually sung by men."
-  },
-  {
-    "id": 59,
-    "subject": "Home Science",
-    "question": "What should you do after using the toilet?",
-    "options": {
-      "A": "Eat food",
-      "B": "Wash hands",
-      "C": "Go to sleep",
-      "D": "Play games"
-    },
-    "correctAnswer": "B",
-    "explanation": "Washing hands after using the toilet prevents the spread of germs and diseases."
-  },
-  {
-    "id": 1,
-    "subject": "Mathematics",
-    "question": "What is the value of 347 + 156?",
-    "options": {
-      "A": "503",
-      "B": "493",
-      "C": "513",
-      "D": "483"
-    },
-    "correctAnswer": "A",
-    "explanation": "347 + 156 = 503 by adding units, tens, and hundreds column-wise."
-  },
-  {
-    "id": 2,
-    "subject": "English",
-    "question": "Which word is a proper noun?",
-    "options": {
-      "A": "school",
-      "B": "Kenya",
-      "C": "book",
-      "D": "teacher"
-    },
-    "correctAnswer": "B",
-    "explanation": "Kenya is a proper noun because it names a specific country and starts with a capital letter."
-  },
-  {
-    "id": 3,
-    "subject": "Kiswahili",
-    "question": "Neno 'mzuri' ni aina gani ya maneno?",
-    "options": {
-      "A": "Nomino",
-      "B": "Kivumishi",
-      "C": "Kitenzi",
-      "D": "Kihusishi"
-    },
-    "correctAnswer": "B",
-    "explanation": "Mzuri ni kivumishi kinachoelezea sifa za kitu au mtu."
-  },
-  {
-    "id": 4,
-    "subject": "Science & Technology",
-    "question": "Which part of a plant makes food?",
-    "options": {
-      "A": "Roots",
-      "B": "Stem",
-      "C": "Leaves",
-      "D": "Flowers"
-    },
-    "correctAnswer": "C",
-    "explanation": "Leaves make food through photosynthesis using sunlight, water, and carbon dioxide."
-  },
-  {
-    "id": 5,
-    "subject": "Social Studies",
-    "question": "What is the capital city of Kenya?",
-    "options": {
-      "A": "Mombasa",
-      "B": "Kisumu",
-      "C": "Nairobi",
-      "D": "Eldoret"
-    },
-    "correctAnswer": "C",
-    "explanation": "Nairobi is the capital and largest city of Kenya."
-  },
-  {
-    "id": 6,
-    "subject": "Christian Religious Education (CRE)",
-    "question": "Who built the ark in the Bible?",
-    "options": {
-      "A": "Moses",
-      "B": "Noah",
-      "C": "Abraham",
-      "D": "David"
-    },
-    "correctAnswer": "B",
-    "explanation": "Noah built the ark as commanded by God to save his family and animals from the flood."
-  },
-  {
-    "id": 7,
-    "subject": "Agriculture",
-    "question": "Which season is best for planting maize in Kenya?",
-    "options": {
-      "A": "Dry season",
-      "B": "Cold season",
-      "C": "Rainy season",
-      "D": "Windy season"
-    },
-    "correctAnswer": "C",
-    "explanation": "Maize needs water to grow, so it's best planted during the rainy season."
-  },
-  {
-    "id": 8,
-    "subject": "Music",
-    "question": "How many strings does a guitar have?",
-    "options": {
-      "A": "4",
-      "B": "5",
-      "C": "6",
-      "D": "7"
-    },
-    "correctAnswer": "C",
-    "explanation": "A standard guitar has 6 strings tuned to different pitches."
-  },
-  {
-    "id": 9,
-    "subject": "Home Science",
-    "question": "Which nutrient helps build strong bones and teeth?",
-    "options": {
-      "A": "Protein",
-      "B": "Calcium",
-      "C": "Iron",
-      "D": "Vitamin A"
-    },
-    "correctAnswer": "B",
-    "explanation": "Calcium is essential for building and maintaining strong bones and teeth."
-  },
-  {
-    "id": 10,
-    "subject": "Art & Craft",
-    "question": "What are the primary colors?",
-    "options": {
-      "A": "Red, Blue, Yellow",
-      "B": "Red, Green, Blue",
-      "C": "Blue, Yellow, Orange",
-      "D": "Red, Purple, Green"
-    },
-    "correctAnswer": "A",
-    "explanation": "The primary colors are red, blue, and yellow. All other colors are made by mixing these."
-  },
-  {
-    "id": 11,
-    "subject": "Mathematics",
-    "question": "What is 8 × 7?",
-    "options": {
-      "A": "54",
-      "B": "56",
-      "C": "64",
-      "D": "48"
-    },
-    "correctAnswer": "B",
-    "explanation": "8 × 7 = 56, which can be calculated as 8 × 7 or 7 × 8."
-  },
-  {
-    "id": 12,
-    "subject": "English",
-    "question": "What is the past tense of 'run'?",
-    "options": {
-      "A": "runned",
-      "B": "ran",
-      "C": "running",
-      "D": "runs"
-    },
-    "correctAnswer": "B",
-    "explanation": "The past tense of 'run' is 'ran', which is an irregular verb form."
-  },
-  {
-    "id": 13,
-    "subject": "Kiswahili",
-    "question": "Wingi wa neno 'mti' ni nini?",
-    "options": {
-      "A": "miti",
-      "B": "mimti",
-      "C": "wamti",
-      "D": "mati"
-    },
-    "correctAnswer": "A",
-    "explanation": "Wingi wa mti ni miti. Hii ni katika ngeli za M-MI."
-  },
-  {
-    "id": 14,
-    "subject": "Science & Technology",
-    "question": "What do we call animals that eat only plants?",
-    "options": {
-      "A": "Carnivores",
-      "B": "Omnivores",
-      "C": "Herbivores",
-      "D": "Scavengers"
-    },
-    "correctAnswer": "C",
-    "explanation": "Herbivores are animals that eat only plants, like cows, goats, and rabbits."
-  },
-  {
-    "id": 15,
-    "subject": "Social Studies",
-    "question": "Which ocean borders Kenya to the east?",
-    "options": {
-      "A": "Atlantic Ocean",
-      "B": "Indian Ocean",
-      "C": "Pacific Ocean",
-      "D": "Arctic Ocean"
-    },
-    "correctAnswer": "B",
-    "explanation": "The Indian Ocean borders Kenya to the east, providing the country with a coastline."
-  },
-  {
-    "id": 16,
-    "subject": "Christian Religious Education (CRE)",
-    "question": "How many days did it take God to create the world?",
-    "options": {
-      "A": "5 days",
-      "B": "6 days",
-      "C": "7 days",
-      "D": "8 days"
-    },
-    "correctAnswer": "B",
-    "explanation": "According to Genesis, God created the world in 6 days and rested on the 7th day."
-  },
-  {
-    "id": 17,
-    "subject": "Agriculture",
-    "question": "What do plants need to make their own food?",
-    "options": {
-      "A": "Water only",
-      "B": "Sunlight only",
-      "C": "Water, sunlight, and carbon dioxide",
-      "D": "Soil only"
-    },
-    "correctAnswer": "C",
-    "explanation": "Plants need water, sunlight, and carbon dioxide to make food through photosynthesis."
-  },
-  {
-    "id": 18,
-    "subject": "Music",
-    "question": "What is the highest singing voice called?",
-    "options": {
-      "A": "Bass",
-      "B": "Tenor",
-      "C": "Alto",
-      "D": "Soprano"
-    },
-    "correctAnswer": "D",
-    "explanation": "Soprano is the highest singing voice, usually sung by women or children."
-  },
-  {
-    "id": 19,
-    "subject": "Home Science",
-    "question": "Which food group gives us energy?",
-    "options": {
-      "A": "Proteins",
-      "B": "Carbohydrates",
-      "C": "Vitamins",
-      "D": "Minerals"
-    },
-    "correctAnswer": "B",
-    "explanation": "Carbohydrates are the body's main source of energy, found in foods like rice, bread, and potatoes."
-  },
-  {
-    "id": 20,
-    "subject": "Art & Craft",
-    "question": "What tool is used for drawing straight lines?",
-    "options": {
-      "A": "Compass",
-      "B": "Protractor",
-      "C": "Ruler",
-      "D": "Eraser"
-    },
-    "correctAnswer": "C",
-    "explanation": "A ruler is used for drawing straight lines and measuring lengths."
-  },
-  {
-    "id": 21,
-    "subject": "Mathematics",
-    "question": "What is 156 - 89?",
-    "options": {
-      "A": "67",
-      "B": "77",
-      "C": "57",
-      "D": "87"
-    },
-    "correctAnswer": "A",
-    "explanation": "156 - 89 = 67 by borrowing from the tens and hundreds place."
-  },
-  {
-    "id": 22,
-    "subject": "English",
-    "question": "Which sentence uses correct punctuation?",
-    "options": {
-      "A": "What is your name",
-      "B": "What is your name.",
-      "C": "What is your name?",
-      "D": "What is your name!"
-    },
-    "correctAnswer": "C",
-    "explanation": "Questions end with a question mark (?), so 'What is your name?' is correct."
-  },
-  {
-    "id": 23,
-    "subject": "Kiswahili",
-    "question": "Neno 'alipanda' liko katika wakati gani?",
-    "options": {
-      "A": "Wakati ujao",
-      "B": "Wakati uliopo",
-      "C": "Wakati uliopita",
-      "D": "Wakati wa mazoea"
-    },
-    "correctAnswer": "C",
-    "explanation": "Alipanda liko katika wakati uliopita kwa sababu ya kiambishi 'ali-'."
-  },
-  {
-    "id": 24,
-    "subject": "Science & Technology",
-    "question": "Which sense organ helps us to smell?",
-    "options": {
-      "A": "Eyes",
-      "B": "Ears",
-      "C": "Nose",
-      "D": "Tongue"
-    },
-    "correctAnswer": "C",
-    "explanation": "The nose contains smell receptors that help us detect different odors."
-  },
-  {
-    "id": 25,
-    "subject": "Social Studies",
-    "question": "What is the main source of water for rivers?",
-    "options": {
-      "A": "Wells",
-      "B": "Rain",
-      "C": "Boreholes",
-      "D": "Taps"
-    },
-    "correctAnswer": "B",
-    "explanation": "Rain is the main natural source of water that feeds rivers and streams."
-  },
-  {
-    "id": 26,
-    "subject": "Christian Religious Education (CRE)",
-    "question": "Who was the first man created by God?",
-    "options": {
-      "A": "Noah",
-      "B": "Moses",
-      "C": "Adam",
-      "D": "Abraham"
-    },
-    "correctAnswer": "C",
-    "explanation": "According to the Bible, Adam was the first man created by God from dust."
-  },
-  {
-    "id": 27,
-    "subject": "Agriculture",
-    "question": "Which farm animal gives us milk?",
-    "options": {
-      "A": "Pig",
-      "B": "Chicken",
-      "C": "Sheep",
-      "D": "Cow"
-    },
-    "correctAnswer": "D",
-    "explanation": "Cows are the primary source of milk for human consumption on farms."
-  },
-  {
-    "id": 28,
-    "subject": "Music",
-    "question": "How many beats does a whole note have?",
-    "options": {
-      "A": "1 beat",
-      "B": "2 beats",
-      "C": "3 beats",
-      "D": "4 beats"
-    },
-    "correctAnswer": "D",
-    "explanation": "A whole note receives 4 beats in 4/4 time signature."
-  },
-  {
-    "id": 29,
-    "subject": "Home Science",
-    "question": "What should you do before preparing food?",
-    "options": {
-      "A": "Watch TV",
-      "B": "Wash hands",
-      "C": "Play games",
-      "D": "Sleep"
-    },
-    "correctAnswer": "B",
-    "explanation": "Washing hands before preparing food prevents contamination and keeps food safe."
-  },
-  {
-    "id": 30,
-    "subject": "Art & Craft",
-    "question": "What happens when you mix red and yellow?",
-    "options": {
-      "A": "Purple",
-      "B": "Green",
-      "C": "Orange",
-      "D": "Brown"
-    },
-    "correctAnswer": "C",
-    "explanation": "Red and yellow mix to make orange, which is a secondary color."
-  },
-  {
-    "id": 31,
-    "subject": "Mathematics",
-    "question": "How many sides does a triangle have?",
-    "options": {
-      "A": "2",
-      "B": "3",
-      "C": "4",
-      "D": "5"
-    },
-    "correctAnswer": "B",
-    "explanation": "A triangle has 3 sides and 3 angles."
-  },
-  {
-    "id": 32,
-    "subject": "English",
-    "question": "Which word rhymes with 'cat'?",
-    "options": {
-      "A": "dog",
-      "B": "bat",
-      "C": "pen",
-      "D": "book"
-    },
-    "correctAnswer": "B",
-    "explanation": "Bat rhymes with cat because they both end with the '-at' sound."
-  },
-  {
-    "id": 33,
-    "subject": "Kiswahili",
-    "question": "Kitu kinachotumiwa kuchota maji ni nini?",
-    "options": {
-      "A": "Sufuria",
-      "B": "Ndoo",
-      "C": "Sahani",
-      "D": "Kofia"
-    },
-    "correctAnswer": "B",
-    "explanation": "Ndoo ni chombo kinachotumiwa kuchota na kubeba maji."
-  },
-  {
-    "id": 34,
-    "subject": "Science & Technology",
-    "question": "What happens to water when it is heated?",
-    "options": {
-      "A": "It freezes",
-      "B": "It evaporates",
-      "C": "It gets colder",
-      "D": "Nothing happens"
-    },
-    "correctAnswer": "B",
-    "explanation": "When water is heated, it evaporates and turns into water vapor (gas)."
-  },
-  {
-    "id": 35,
-    "subject": "Social Studies",
-    "question": "Which direction does the sun rise from?",
-    "options": {
-      "A": "North",
-      "B": "South",
-      "C": "East",
-      "D": "West"
-    },
-    "correctAnswer": "C",
-    "explanation": "The sun rises from the east every morning and sets in the west."
-  },
-  {
-    "id": 36,
-    "subject": "Christian Religious Education (CRE)",
-    "question": "What did Jesus use to feed 5000 people?",
-    "options": {
-      "A": "3 loaves and 4 fish",
-      "B": "5 loaves and 2 fish",
-      "C": "2 loaves and 5 fish",
-      "D": "4 loaves and 3 fish"
-    },
-    "correctAnswer": "B",
-    "explanation": "Jesus miraculously fed 5000 people with 5 loaves and 2 fish."
-  },
-  {
-    "id": 37,
-    "subject": "Agriculture",
-    "question": "Which tool is used for digging the soil?",
-    "options": {
-      "A": "Rake",
-      "B": "Hoe",
-      "C": "Watering can",
-      "D": "Sickle"
-    },
-    "correctAnswer": "B",
-    "explanation": "A hoe is a farming tool used for digging and loosening soil."
-  },
-  {
-    "id": 38,
-    "subject": "Music",
-    "question": "What do we call a group of singers?",
-    "options": {
-      "A": "Orchestra",
-      "B": "Band",
-      "C": "Choir",
-      "D": "Ensemble"
-    },
-    "correctAnswer": "C",
-    "explanation": "A choir is a group of singers who perform together."
-  },
-  {
-    "id": 39,
-    "subject": "Home Science",
-    "question": "Which vitamin do we get from sunlight?",
-    "options": {
-      "A": "Vitamin A",
-      "B": "Vitamin B",
-      "C": "Vitamin C",
-      "D": "Vitamin D"
-    },
-    "correctAnswer": "D",
-    "explanation": "Our skin produces Vitamin D when exposed to sunlight."
-  },
-  {
-    "id": 40,
-    "subject": "Art & Craft",
-    "question": "What is used to join pieces of paper together?",
-    "options": {
-      "A": "Scissors",
-      "B": "Glue",
-      "C": "Ruler",
-      "D": "Pencil"
-    },
-    "correctAnswer": "B",
-    "explanation": "Glue is an adhesive used to stick or join pieces of paper together."
-  },
-  {
-    "id": 41,
-    "subject": "Mathematics",
-    "question": "What is half of 24?",
-    "options": {
-      "A": "10",
-      "B": "11",
-      "C": "12",
-      "D": "13"
-    },
-    "correctAnswer": "C",
-    "explanation": "Half of 24 is 12, which is 24 ÷ 2 = 12."
-  },
-  {
-    "id": 42,
-    "subject": "English",
-    "question": "Which is the correct plural of 'child'?",
-    "options": {
-      "A": "childs",
-      "B": "childrens",
-      "C": "children",
-      "D": "childer"
-    },
-    "correctAnswer": "C",
-    "explanation": "Children is the correct plural form of child, which is irregular."
-  },
-  {
-    "id": 43,
-    "subject": "Kiswahili",
-    "question": "Kinyume cha neno 'kubwa' ni nini?",
-    "options": {
-      "A": "kidogo",
-      "B": "kirefu",
-      "C": "kizuri",
-      "D": "kikuu"
-    },
-    "correctAnswer": "A",
-    "explanation": "Kinyume cha kubwa ni kidogo. Haya ni maneno yanayokinzana."
-  },
-  {
-    "id": 44,
-    "subject": "Science & Technology",
-    "question": "Which part of the body pumps blood?",
-    "options": {
-      "A": "Liver",
-      "B": "Heart",
-      "C": "Lungs",
-      "D": "Kidneys"
-    },
-    "correctAnswer": "B",
-    "explanation": "The heart is a muscle that pumps blood throughout the body."
-  },
-  {
-    "id": 45,
-    "subject": "Social Studies",
-    "question": "What is the longest river in Kenya?",
-    "options": {
-      "A": "River Tana",
-      "B": "River Athi",
-      "C": "River Ewaso Nyiro",
-      "D": "River Yala"
-    },
-    "correctAnswer": "A",
-    "explanation": "River Tana is the longest river in Kenya, flowing from Mount Kenya to the Indian Ocean."
-  },
-  {
-    "id": 46,
-    "subject": "Christian Religious Education (CRE)",
-    "question": "Where was Jesus born?",
-    "options": {
-      "A": "Nazareth",
-      "B": "Jerusalem",
-      "C": "Bethlehem",
-      "D": "Galilee"
-    },
-    "correctAnswer": "C",
-    "explanation": "Jesus was born in Bethlehem as recorded in the Bible."
-  },
-  {
-    "id": 47,
-    "subject": "Agriculture",
-    "question": "What do we call a young cow?",
-    "options": {
-      "A": "Foal",
-      "B": "Calf",
-      "C": "Kid",
-      "D": "Lamb"
-    },
-    "correctAnswer": "B",
-    "explanation": "A young cow is called a calf."
-  },
-  {
-    "id": 48,
-    "subject": "Music",
-    "question": "Which instrument has black and white keys?",
-    "options": {
-      "A": "Guitar",
-      "B": "Drum",
-      "C": "Piano",
-      "D": "Flute"
-    },
-    "correctAnswer": "C",
-    "explanation": "A piano has black and white keys that produce different musical notes."
-  },
-  {
-    "id": 49,
-    "subject": "Home Science",
-    "question": "Which meal is eaten in the morning?",
-    "options": {
-      "A": "Lunch",
-      "B": "Dinner",
-      "C": "Breakfast",
-      "D": "Supper"
-    },
-    "correctAnswer": "C",
-    "explanation": "Breakfast is the first meal of the day, eaten in the morning."
-  },
-  {
-    "id": 50,
-    "subject": "Art & Craft",
-    "question": "What do you get when you mix blue and yellow?",
-    "options": {
-      "A": "Purple",
-      "B": "Orange",
-      "C": "Green",
-      "D": "Pink"
-    },
-    "correctAnswer": "C",
-    "explanation": "Blue and yellow mix to make green, which is a secondary color."
-  },
-  {
-    "id": 51,
-    "subject": "Mathematics",
-    "question": "How many minutes are in one hour?",
-    "options": {
-      "A": "50",
-      "B": "60",
-      "C": "70",
-      "D": "80"
-    },
-    "correctAnswer": "B",
-    "explanation": "There are 60 minutes in one hour."
-  },
-  {
-    "id": 52,
-    "subject": "English",
-    "question": "Which word is an adjective?",
-    "options": {
-      "A": "quickly",
-      "B": "beautiful",
-      "C": "running",
-      "D": "jumped"
-    },
-    "correctAnswer": "B",
-    "explanation": "Beautiful is an adjective because it describes the quality of a noun."
-  },
-  {
-    "id": 53,
-    "subject": "Kiswahili",
-    "question": "Sentensi ipi ina uamilifu?",
-    "options": {
-      "A": "Mti mkubwa",
-      "B": "Mti mkubwa umepasuka",
-      "C": "Umepasuka mti",
-      "D": "Mkubwa mti"
-    },
-    "correctAnswer": "B",
-    "explanation": "Mti mkubwa umepasuka ni sentensi kamili kwa sababu ina kiima na kitendo."
-  },
-  {
-    "id": 54,
-    "subject": "Science & Technology",
-    "question": "What do we call baby frogs?",
-    "options": {
-      "A": "Tadpoles",
-      "B": "Caterpillars",
-      "C": "Larvae",
-      "D": "Pupae"
-    },
-    "correctAnswer": "A",
-    "explanation": "Baby frogs are called tadpoles and they live in water before becoming adult frogs."
-  },
-  {
-    "id": 55,
-    "subject": "Social Studies",
-    "question": "Which county is Kisumu located in?",
-    "options": {
-      "A": "Nairobi County",
-      "B": "Mombasa County",
-      "C": "Kisumu County",
-      "D": "Nakuru County"
-    },
-    "correctAnswer": "C",
-    "explanation": "Kisumu city is located in Kisumu County in western Kenya."
-  },
-  {
-    "id": 56,
-    "subject": "Christian Religious Education (CRE)",
     "question": "How many disciples did Jesus have?",
     "options": {
       "A": "10",
@@ -1600,7 +821,7 @@
   },
   {
     "id": 6,
-    "subject": "Christian Religious Education (CRE)",
+    "subject": "CRE",
     "question": "Who was the first man created by God according to the Bible?",
     "options": {
       "A": "Noah",
@@ -1730,7 +951,7 @@
   },
   {
     "id": 16,
-    "subject": "Christian Religious Education (CRE)",
+    "subject": "CRE",
     "question": "How many commandments did God give to Moses?",
     "options": {
       "A": "5",
@@ -1860,7 +1081,7 @@
   },
   {
     "id": 26,
-    "subject": "Christian Religious Education (CRE)",
+    "subject": "CRE",
     "question": "In which city was Jesus born?",
     "options": {
       "A": "Jerusalem",
@@ -1990,7 +1211,7 @@
   },
   {
     "id": 36,
-    "subject": "Christian Religious Education (CRE)",
+    "subject": "CRE",
     "question": "Who built the ark in the Bible?",
     "options": {
       "A": "Moses",
@@ -2120,7 +1341,7 @@
   },
   {
     "id": 46,
-    "subject": "Christian Religious Education (CRE)",
+    "subject": "CRE",
     "question": "What did Jesus use to feed 5000 people?",
     "options": {
       "A": "Rice and beans",
@@ -2315,7 +1536,7 @@
   },
   {
     "id": 6,
-    "subject": "Christian Religious Education (CRE)",
+    "subject": "CRE",
     "question": "Who led the Israelites out of Egypt?",
     "options": {
       "A": "Abraham",
@@ -2445,7 +1666,7 @@
   },
   {
     "id": 16,
-    "subject": "Christian Religious Education (CRE)",
+    "subject": "CRE",
     "question": "How many disciples did Jesus have?",
     "options": {
       "A": "7",
@@ -2575,7 +1796,7 @@
   },
   {
     "id": 26,
-    "subject": "Christian Religious Education (CRE)",
+    "subject": "CRE",
     "question": "What is the holy book for Christians?",
     "options": {
       "A": "Quran",
@@ -2705,7 +1926,7 @@
   },
   {
     "id": 36,
-    "subject": "Christian Religious Education (CRE)",
+    "subject": "CRE",
     "question": "What did God create on the first day according to the Bible?",
     "options": {
       "A": "Animals",
@@ -2835,7 +2056,7 @@
   },
   {
     "id": 46,
-    "subject": "Christian Religious Education (CRE)",
+    "subject": "CRE",
     "question": "Which parable teaches about a farmer sowing seeds?",
     "options": {
       "A": "The Good Samaritan",
@@ -2965,7 +2186,7 @@
   },
   {
     "id": 56,
-    "subject": "Christian Religious Education (CRE)",
+    "subject": "CRE",
     "question": "Who was Jesus' mother?",
     "options": {
       "A": "Martha",
@@ -3095,7 +2316,7 @@
   },
   {
     "id": 66,
-    "subject": "Christian Religious Education (CRE)",
+    "subject": "CRE",
     "question": "Where was Jesus born?",
     "options": {
       "A": "Nazareth",
@@ -3225,7 +2446,7 @@
   },
   {
     "id": 76,
-    "subject": "Christian Religious Education (CRE)",
+    "subject": "CRE",
     "question": "What is the first book of the Bible?",
     "options": {
       "A": "Exodus",
@@ -3355,7 +2576,7 @@
   },
   {
     "id": 86,
-    "subject": "Christian Religious Education (CRE)",
+    "subject": "CRE",
     "question": "Who was swallowed by a big fish (whale)?",
     "options": {
       "A": "Noah",
@@ -3485,7 +2706,7 @@
   },
   {
     "id": 96,
-    "subject": "Christian Religious Education (CRE)",
+    "subject": "CRE",
     "question": "Who built the ark before the great flood?",
     "options": {
       "A": "Moses",
@@ -3615,7 +2836,7 @@
   },
   {
     "id": 106,
-    "subject": "Christian Religious Education (CRE)",
+    "subject": "CRE",
     "question": "What is the meaning of 'Amen' at the end of a prayer?",
     "options": {
       "A": "The end",
@@ -3745,7 +2966,7 @@
   },
   {
     "id": 116,
-    "subject": "Christian Religious Education (CRE)",
+    "subject": "CRE",
     "question": "What did Jesus turn water into at the wedding in Cana?",
     "options": {
       "A": "Milk",
@@ -3875,7 +3096,7 @@
   },
   {
     "id": 126,
-    "subject": "Christian Religious Education (CRE)",
+    "subject": "CRE",
     "question": "What is the season before Easter, marked by fasting and repentance?",
     "options": {
       "A": "Advent",
@@ -4005,7 +3226,7 @@
   },
   {
     "id": 136,
-    "subject": "Christian Religious Education (CRE)",
+    "subject": "CRE",
     "question": "Who was the first man created by God according to the Bible?",
     "options": {
       "A": "Noah",
@@ -4135,7 +3356,7 @@
   },
   {
     "id": 146,
-    "subject": "Christian Religious Education (CRE)",
+    "subject": "CRE",
     "question": "What is the importance of prayer?",
     "options": {
       "A": "To gain wealth",
@@ -4265,7 +3486,7 @@
   },
   {
     "id": 156,
-    "subject": "Christian Religious Education (CRE)",
+    "subject": "CRE",
     "question": "What is the symbol of God's promise to Noah after the flood?",
     "options": {
       "A": "A cloud",
@@ -4395,7 +3616,7 @@
   },
   {
     "id": 166,
-    "subject": "Christian Religious Education (CRE)",
+    "subject": "CRE",
     "question": "What is the meaning of 'forgiveness'?",
     "options": {
       "A": "Holding grudges",
@@ -4525,7 +3746,7 @@
   },
   {
     "id": 176,
-    "subject": "Christian Religious Education (CRE)",
+    "subject": "CRE",
     "question": "Who was the father of Jesus on Earth?",
     "options": {
       "A": "Peter",
@@ -4655,7 +3876,7 @@
   },
   {
     "id": 186,
-    "subject": "Christian Religious Education (CRE)",
+    "subject": "CRE",
     "question": "Who was the first king of Israel?",
     "options": {
       "A": "David",
@@ -4785,7 +4006,7 @@
   },
   {
     "id": 196,
-    "subject": "Christian Religious Education (CRE)",
+    "subject": "CRE",
     "question": "What is the purpose of the Sabbath day?",
     "options": {
       "A": "Working hard",
@@ -4915,7 +4136,7 @@
   },
   {
     "id": 206,
-    "subject": "Christian Religious Education (CRE)",
+    "subject": "CRE",
     "question": "What is Advent?",
     "options": {
       "A": "A time of celebration after Easter",
@@ -5058,7 +4279,7 @@
   },
   {
     "id": 7,
-    "subject": "Christian Religious Education (CRE)",
+    "subject": "CRE",
     "question": "Who was the first man created by God according to the book of Genesis?",
     "options": {
       "A": "Moses",
@@ -5123,7 +4344,7 @@
   },
   {
     "id": 12,
-    "subject": "Christian Religious Education (CRE)",
+    "subject": "CRE",
     "question": "Which of the Ten Commandments teaches us to respect our parents?",
     "options": {
       "A": "The first commandment",
@@ -5355,19 +4576,7 @@
     "correctAnswer": "B",
     "explanation": "An author is a writer of a book, article, or report."
   },
-  {
-    "id": 30,
-    "subject": "Christian Religious Education (CRE)",
-    "question": "Where was Jesus born?",
-    "options": {
-      "A": "Jerusalem",
-      "B": "Nazareth",
-      "C": "Bethlehem",
-      "D": "Galilee"
-    },
-    "correctAnswer": "C",
-    "explanation": "According to the Gospels of Matthew and Luke in the New Testament, Jesus was born in the town of Bethlehem."
-  },
+
   {
     "id": 31,
     "subject": "Mathematics",
@@ -5461,7 +4670,7 @@
   },
   {
     "id": 38,
-    "subject": "Christian Religious Education (CRE)",
+    "subject": "CRE",
     "question": "In the parable of the Good Samaritan, who helped the man who was attacked by robbers?",
     "options": {
       "A": "A priest",
@@ -5565,7 +4774,7 @@
   },
   {
     "id": 46,
-    "subject": "Christian Religious Education (CRE)",
+    "subject": "CRE",
     "question": "Who led the Israelites out of slavery in Egypt?",
     "options": {
       "A": "Abraham",
@@ -5669,7 +4878,7 @@
   },
   {
     "id": 54,
-    "subject": "Christian Religious Education (CRE)",
+    "subject": "CRE",
     "question": "Jesus told his followers to love God and to ___.",
     "options": {
       "A": "love their enemies",
@@ -5786,7 +4995,7 @@
   },
   {
     "id": 63,
-    "subject": "Christian Religious Education (CRE)",
+    "subject": "CRE",
     "question": "Who baptized Jesus in the River Jordan?",
     "options": {
       "A": "Peter",
@@ -5942,7 +5151,7 @@
   },
   {
     "id": 75,
-    "subject": "Christian Religious Education (CRE)",
+    "subject": "CRE",
     "question": "Who built the ark to save his family and animals from the great flood?",
     "options": {
       "A": "Abraham",
@@ -6059,7 +5268,7 @@
   },
   {
     "id": 84,
-    "subject": "Christian Religious Education (CRE)",
+    "subject": "CRE",
     "question": "What is the first book of the New Testament?",
     "options": {
       "A": "Genesis",
@@ -6163,7 +5372,7 @@
   },
   {
     "id": 92,
-    "subject": "Christian Religious Education (CRE)",
+    "subject": "CRE",
     "question": "How many disciples did Jesus choose to be in his inner circle?",
     "options": {
       "A": "7",
@@ -6332,7 +5541,7 @@
   },
   {
     "id": 105,
-    "subject": "Christian Religious Education (CRE)",
+    "subject": "CRE",
     "question": "The Christian holy book is called the ___.",
     "options": {
       "A": "Quran",
@@ -6449,7 +5658,7 @@
   },
   {
     "id": 114,
-    "subject": "Christian Religious Education (CRE)",
+    "subject": "CRE",
     "question": "The story of creation is found in which book of the Bible?",
     "options": {
       "A": "Exodus",
@@ -6579,7 +5788,7 @@
   },
   {
     "id": 124,
-    "subject": "Christian Religious Education (CRE)",
+    "subject": "CRE",
     "question": "What miracle did Jesus perform at the wedding in Cana?",
     "options": {
       "A": "Healed a blind man",
@@ -6670,7 +5879,7 @@
   },
   {
     "id": 131,
-    "subject": "Christian Religious Education (CRE)",
+    "subject": "CRE",
     "question": "Which one of these is a fruit of the Holy Spirit mentioned by St. Paul?",
     "options": {
       "A": "Wealth",
@@ -6878,7 +6087,7 @@
   },
   {
     "id": 147,
-    "subject": "Christian Religious Education (CRE)",
+    "subject": "CRE",
     "question": "What did David use to defeat the giant Goliath?",
     "options": {
       "A": "A sword and shield",
@@ -6982,7 +6191,7 @@
   },
   {
     "id": 155,
-    "subject": "Christian Religious Education (CRE)",
+    "subject": "CRE",
     "question": "Which Christian value teaches us to say 'thank you'?",
     "options": {
       "A": "Patience",
@@ -7086,7 +6295,7 @@
   },
   {
     "id": 163,
-    "subject": "Christian Religious Education (CRE)",
+    "subject": "CRE",
     "question": "What is the Christian festival that celebrates the resurrection of Jesus Christ?",
     "options": {
       "A": "Christmas",
@@ -7294,7 +6503,7 @@
   },
   {
     "id": 179,
-    "subject": "Christian Religious Education (CRE)",
+    "subject": "CRE",
     "question": "Which of these events is associated with the Holy Spirit coming down upon the disciples?",
     "options": {
       "A": "The Transfiguration",
@@ -7372,7 +6581,7 @@
   },
   {
     "id": 185,
-    "subject": "Christian Religious Education (CRE)",
+    "subject": "CRE",
     "question": "The Lord's Prayer begins with the words ___.",
     "options": {
       "A": "Hail Mary, full of grace",
@@ -7502,7 +6711,7 @@
   },
   {
     "id": 195,
-    "subject": "Christian Religious Education (CRE)",
+    "subject": "CRE",
     "question": "Who was swallowed by a big fish after disobeying God?",
     "options": {
       "A": "Daniel",
@@ -7645,7 +6854,7 @@
   },
   {
     "id": 206,
-    "subject": "Christian Religious Education (CRE)",
+    "subject": "CRE",
     "question": "In which town did Jesus grow up?",
     "options": {
       "A": "Jerusalem",
@@ -7828,7 +7037,7 @@
   },
   {
     "id": 10,
-    "subject": "Christian Religious Education (CRE)",
+    "subject": "CRE",
     "question": "Who was the first man created by God according to the book of Genesis?",
     "options": {
       "A": "Moses",
@@ -7919,7 +7128,7 @@
   },
   {
     "id": 17,
-    "subject": "Christian Religious Education (CRE)",
+    "subject": "CRE",
     "question": "Jesus was born in which town?",
     "options": {
       "A": "Jerusalem",
@@ -8023,7 +7232,7 @@
   },
   {
     "id": 25,
-    "subject": "Christian Religious Education (CRE)",
+    "subject": "CRE",
     "question": "How many disciples did Jesus choose to be his closest followers?",
     "options": {
       "A": "Ten",
@@ -8179,7 +7388,7 @@
   },
   {
     "id": 37,
-    "subject": "Christian Religious Education (CRE)",
+    "subject": "CRE",
     "question": "Which book is the first in the New Testament of the Bible?",
     "options": {
       "A": "Genesis",
@@ -8309,7 +7518,7 @@
   },
   {
     "id": 47,
-    "subject": "Christian Religious Education (CRE)",
+    "subject": "CRE",
     "question": "What is a parable?",
     "options": {
       "A": "A historical fact",
@@ -8439,7 +7648,7 @@
   },
   {
     "id": 57,
-    "subject": "Christian Religious Education (CRE)",
+    "subject": "CRE",
     "question": "Who betrayed Jesus to the authorities for thirty pieces of silver?",
     "options": {
       "A": "Peter",
@@ -8569,7 +7778,7 @@
   },
   {
     "id": 67,
-    "subject": "Christian Religious Education (CRE)",
+    "subject": "CRE",
     "question": "The story of the Good Samaritan teaches us about ______.",
     "options": {
       "A": "praying",
@@ -8699,7 +7908,7 @@
   },
   {
     "id": 77,
-    "subject": "Christian Religious Education (CRE)",
+    "subject": "CRE",
     "question": "The Lord's Prayer is found in which gospel?",
     "options": {
       "A": "John",
@@ -8829,7 +8038,7 @@
   },
   {
     "id": 87,
-    "subject": "Christian Religious Education (CRE)",
+    "subject": "CRE",
     "question": "Who built the ark to save his family and animals from the great flood?",
     "options": {
       "A": "Moses",
@@ -8959,7 +8168,7 @@
   },
   {
     "id": 97,
-    "subject": "Christian Religious Education (CRE)",
+    "subject": "CRE",
     "question": "Who was swallowed by a big fish after disobeying God?",
     "options": {
       "A": "Daniel",
@@ -9089,7 +8298,7 @@
   },
   {
     "id": 107,
-    "subject": "Christian Religious Education (CRE)",
+    "subject": "CRE",
     "question": "The first four books of the New Testament (Matthew, Mark, Luke, John) are known as the ____.",
     "options": {
       "A": "Epistles",
@@ -9219,7 +8428,7 @@
   },
   {
     "id": 117,
-    "subject": "Christian Religious Education (CRE)",
+    "subject": "CRE",
     "question": "In the story of creation, on which day did God rest?",
     "options": {
       "A": "First day",
@@ -9349,7 +8558,7 @@
   },
   {
     "id": 127,
-    "subject": "Christian Religious Education (CRE)",
+    "subject": "CRE",
     "question": "Who was the mother of Jesus?",
     "options": {
       "A": "Mary Magdalene",
@@ -9479,7 +8688,7 @@
   },
   {
     "id": 137,
-    "subject": "Christian Religious Education (CRE)",
+    "subject": "CRE",
     "question": "What were the Ten Commandments given to Moses written on?",
     "options": {
       "A": "Papyrus scrolls",
@@ -9609,7 +8818,7 @@
   },
   {
     "id": 147,
-    "subject": "Christian Religious Education (CRE)",
+    "subject": "CRE",
     "question": "Who was David's best friend?",
     "options": {
       "A": "Saul",
@@ -9739,7 +8948,7 @@
   },
   {
     "id": 157,
-    "subject": "Christian Religious Education (CRE)",
+    "subject": "CRE",
     "question": "Who was the Roman governor who sentenced Jesus to be crucified?",
     "options": {
       "A": "Herod",
@@ -9869,7 +9078,7 @@
   },
   {
     "id": 167,
-    "subject": "Christian Religious Education (CRE)",
+    "subject": "CRE",
     "question": "Who was the father of many nations, as promised by God?",
     "options": {
       "A": "Isaac",
@@ -9999,7 +9208,7 @@
   },
   {
     "id": 177,
-    "subject": "Christian Religious Education (CRE)",
+    "subject": "CRE",
     "question": "Who defeated the giant Goliath with a sling and a stone?",
     "options": {
       "A": "Samson",
@@ -10129,7 +9338,7 @@
   },
   {
     "id": 187,
-    "subject": "Christian Religious Education (CRE)",
+    "subject": "CRE",
     "question": "Which Christian value teaches us to be sorry for our sins and turn back to God?",
     "options": {
       "A": "Faith",
@@ -10259,7 +9468,7 @@
   },
   {
     "id": 197,
-    "subject": "Christian Religious Education (CRE)",
+    "subject": "CRE",
     "question": "What is the Christian holy book called?",
     "options": {
       "A": "The Quran",
@@ -10389,7 +9598,7 @@
   },
   {
     "id": 207,
-    "subject": "Christian Religious Education (CRE)",
+    "subject": "CRE",
     "question": "Which Christian festival celebrates the resurrection of Jesus Christ?",
     "options": {
       "A": "Christmas",
@@ -10519,7 +9728,7 @@
   },
   {
     "id": 217,
-    "subject": "Christian Religious Education (CRE)",
+    "subject": "CRE",
     "question": "What special gift did Joseph receive from his father Jacob?",
     "options": {
       "A": "A herd of sheep",
@@ -10649,7 +9858,7 @@
   },
   {
     "id": 227,
-    "subject": "Christian Religious Education (CRE)",
+    "subject": "CRE",
     "question": "What did Jesus use to feed five thousand people?",
     "options": {
       "A": "Ten chickens and twenty potatoes",
@@ -10779,7 +9988,7 @@
   },
   {
     "id": 237,
-    "subject": "Christian Religious Education (CRE)",
+    "subject": "CRE",
     "question": "Which one of these is one of the Ten Commandments?",
     "options": {
       "A": "You shall sing every day",
@@ -10909,7 +10118,7 @@
   },
   {
     "id": 247,
-    "subject": "Christian Religious Education (CRE)",
+    "subject": "CRE",
     "question": "The wise men from the East brought Jesus gifts of gold, frankincense, and ____.",
     "options": {
       "A": "silver",
@@ -11039,7 +10248,7 @@
   },
   {
     "id": 257,
-    "subject": "Christian Religious Education (CRE)",
+    "subject": "CRE",
     "question": "Where was Moses when God gave him the Ten Commandments?",
     "options": {
       "A": "Mount Kenya",
@@ -11169,7 +10378,7 @@
   },
   {
     "id": 267,
-    "subject": "Christian Religious Education (CRE)",
+    "subject": "CRE",
     "question": "The festival that celebrates the birth of Jesus is known as ____.",
     "options": {
       "A": "Easter",
@@ -11299,7 +10508,7 @@
   },
   {
     "id": 277,
-    "subject": "Christian Religious Education (CRE)",
+    "subject": "CRE",
     "question": "Jesus said, 'I am the way, the truth, and the ____.'",
     "options": {
       "A": "light",
@@ -11429,7 +10638,7 @@
   },
   {
     "id": 287,
-    "subject": "Christian Religious Education (CRE)",
+    "subject": "CRE",
     "question": "How did God speak to Moses in the desert?",
     "options": {
       "A": "Through a dream",
@@ -11559,7 +10768,7 @@
   },
   {
     "id": 297,
-    "subject": "Christian Religious Education (CRE)",
+    "subject": "CRE",
     "question": "Which disciple denied Jesus three times before the rooster crowed?",
     "options": {
       "A": "John",
@@ -11689,7 +10898,7 @@
   },
   {
     "id": 307,
-    "subject": "Christian Religious Education (CRE)",
+    "subject": "CRE",
     "question": "According to the Bible, who were the first two sons of Adam and Eve?",
     "options": {
       "A": "Jacob and Esau",
@@ -11819,7 +11028,7 @@
   },
   {
     "id": 317,
-    "subject": "Christian Religious Education (CRE)",
+    "subject": "CRE",
     "question": "The Christian value of treating others as you would want to be treated is known as the ____.",
     "options": {
       "A": "Silver Rule",
@@ -11949,7 +11158,7 @@
   },
   {
     "id": 327,
-    "subject": "Christian Religious Education (CRE)",
+    "subject": "CRE",
     "question": "The story of creation is found in which book of the Bible?",
     "options": {
       "A": "Exodus",
@@ -12079,7 +11288,7 @@
   },
   {
     "id": 337,
-    "subject": "Christian Religious Education (CRE)",
+    "subject": "CRE",
     "question": "What is the meaning of the name 'Emmanuel'?",
     "options": {
       "A": "God is powerful",
@@ -12209,7 +11418,7 @@
   },
   {
     "id": 347,
-    "subject": "Christian Religious Education (CRE)",
+    "subject": "CRE",
     "question": "The act of giving one-tenth of one's income to the church is known as ____.",
     "options": {
       "A": "offering",
@@ -12339,7 +11548,7 @@
   },
   {
     "id": 357,
-    "subject": "Christian Religious Education (CRE)",
+    "subject": "CRE",
     "question": "In the parable of the Sower, what does the seed that fell on good soil represent?",
     "options": {
       "A": "People who hear the word of God but ignore it",
@@ -12469,7 +11678,7 @@
   },
   {
     "id": 367,
-    "subject": "Christian Religious Education (CRE)",
+    "subject": "CRE",
     "question": "The holiday that marks the end of the Christmas season and the visit of the Wise Men is called ____.",
     "options": {
       "A": "Advent",
@@ -12599,7 +11808,7 @@
   },
   {
     "id": 377,
-    "subject": "Christian Religious Education (CRE)",
+    "subject": "CRE",
     "question": "Which of these is a fruit of the Holy Spirit mentioned by Paul in Galatians?",
     "options": {
       "A": "Wealth",
@@ -12729,7 +11938,7 @@
   },
   {
     "id": 387,
-    "subject": "Christian Religious Education (CRE)",
+    "subject": "CRE",
     "question": "Who is known for his great wisdom and for building the first Temple in Jerusalem?",
     "options": {
       "A": "David",
@@ -12859,7 +12068,7 @@
   },
   {
     "id": 397,
-    "subject": "Christian Religious Education (CRE)",
+    "subject": "CRE",
     "question": "What is a 'talent' in the Parable of the Talents?",
     "options": {
       "A": "A special ability to sing or dance",
@@ -12989,7 +12198,7 @@
   },
   {
     "id": 407,
-    "subject": "Christian Religious Education (CRE)",
+    "subject": "CRE",
     "question": "Who was the first Christian martyr?",
     "options": {
       "A": "Peter",
@@ -13184,7 +12393,7 @@
   },
   {
     "id": 6,
-    "subject": "Christian Religious Education (CRE)",
+    "subject": "CRE",
     "question": "According to the Bible, who built an ark to save his family from the great flood?",
     "options": {
       "A": "Moses",
@@ -13314,7 +12523,7 @@
   },
   {
     "id": 16,
-    "subject": "Christian Religious Education (CRE)",
+    "subject": "CRE",
     "question": "Jesus was born in which town?",
     "options": {
       "A": "Jerusalem",
@@ -13444,7 +12653,7 @@
   },
   {
     "id": 26,
-    "subject": "Christian Religious Education (CRE)",
+    "subject": "CRE",
     "question": "Which of the Ten Commandments tells us to respect our parents?",
     "options": {
       "A": "The first commandment",
@@ -13574,7 +12783,7 @@
   },
   {
     "id": 36,
-    "subject": "Christian Religious Education (CRE)",
+    "subject": "CRE",
     "question": "Who was the first man created by God according to Genesis?",
     "options": {
       "A": "Abel",
@@ -13704,7 +12913,7 @@
   },
   {
     "id": 46,
-    "subject": "Christian Religious Education (CRE)",
+    "subject": "CRE",
     "question": "What is the first book of the New Testament in the Bible?",
     "options": {
       "A": "Genesis",
@@ -13834,7 +13043,7 @@
   },
   {
     "id": 56,
-    "subject": "Christian Religious Education (CRE)",
+    "subject": "CRE",
     "question": "Which of these was one of Jesus' disciples?",
     "options": {
       "A": "Paul",
@@ -13964,7 +13173,7 @@
   },
   {
     "id": 66,
-    "subject": "Christian Religious Education (CRE)",
+    "subject": "CRE",
     "question": "A story with a heavenly meaning told by Jesus is called a...",
     "options": {
       "A": "Miracle",
@@ -14094,7 +13303,7 @@
   },
   {
     "id": 76,
-    "subject": "Christian Religious Education (CRE)",
+    "subject": "CRE",
     "question": "What special gift did Joseph, Jacob's son, receive from his father?",
     "options": {
       "A": "A herd of sheep",
@@ -14224,7 +13433,7 @@
   },
   {
     "id": 86,
-    "subject": "Christian Religious Education (CRE)",
+    "subject": "CRE",
     "question": "Who betrayed Jesus to the authorities for thirty pieces of silver?",
     "options": {
       "A": "Peter",
@@ -14354,7 +13563,7 @@
   },
   {
     "id": 96,
-    "subject": "Christian Religious Education (CRE)",
+    "subject": "CRE",
     "question": "In the parable of the Good Samaritan, who helped the man who was robbed and beaten?",
     "options": {
       "A": "A priest",
@@ -14484,7 +13693,7 @@
   },
   {
     "id": 106,
-    "subject": "Christian Religious Education (CRE)",
+    "subject": "CRE",
     "question": "Who was swallowed by a big fish after disobeying God's command to go to Nineveh?",
     "options": {
       "A": "Jonah",
@@ -14614,7 +13823,7 @@
   },
   {
     "id": 116,
-    "subject": "Christian Religious Education (CRE)",
+    "subject": "CRE",
     "question": "Who led the Israelites out of slavery in Egypt?",
     "options": {
       "A": "King David",
@@ -14744,7 +13953,7 @@
   },
   {
     "id": 126,
-    "subject": "Christian Religious Education (CRE)",
+    "subject": "CRE",
     "question": "Who was David's best friend, the son of King Saul?",
     "options": {
       "A": "Goliath",
@@ -14874,7 +14083,7 @@
   },
   {
     "id": 136,
-    "subject": "Christian Religious Education (CRE)",
+    "subject": "CRE",
     "question": "What did David use to defeat the giant Goliath?",
     "options": {
       "A": "A sword",
@@ -15004,7 +14213,7 @@
   },
   {
     "id": 146,
-    "subject": "Christian Religious Education (CRE)",
+    "subject": "CRE",
     "question": "On which mountain did God give Moses the Ten Commandments?",
     "options": {
       "A": "Mount Kenya",
@@ -15134,7 +14343,7 @@
   },
   {
     "id": 156,
-    "subject": "Christian Religious Education (CRE)",
+    "subject": "CRE",
     "question": "Which Christian value teaches us to care for and share with others?",
     "options": {
       "A": "Patience",
@@ -15264,7 +14473,7 @@
   },
   {
     "id": 166,
-    "subject": "Christian Religious Education (CRE)",
+    "subject": "CRE",
     "question": "The Christian holy book is called the...",
     "options": {
       "A": "Quran",
@@ -15394,7 +14603,7 @@
   },
   {
     "id": 176,
-    "subject": "Christian Religious Education (CRE)",
+    "subject": "CRE",
     "question": "Which event do Christians celebrate to remember the resurrection of Jesus Christ?",
     "options": {
       "A": "Christmas",
@@ -15524,7 +14733,7 @@
   },
   {
     "id": 186,
-    "subject": "Christian Religious Education (CRE)",
+    "subject": "CRE",
     "question": "Which of these is a fruit of the Holy Spirit mentioned by Paul in Galatians?",
     "options": {
       "A": "Anger",
@@ -15654,7 +14863,7 @@
   },
   {
     "id": 196,
-    "subject": "Christian Religious Education (CRE)",
+    "subject": "CRE",
     "question": "What did Jesus use to feed five thousand people?",
     "options": {
       "A": "Ten chickens and a bag of rice",
@@ -15784,7 +14993,7 @@
   },
   {
     "id": 206,
-    "subject": "Christian Religious Education (CRE)",
+    "subject": "CRE",
     "question": "The Lord's Prayer begins with which words?",
     "options": {
       "A": "Hail Mary, full of grace...",

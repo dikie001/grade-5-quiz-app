@@ -106,7 +106,7 @@ const QuizPage = () => {
         </div>
       ),
       {
-        duration: 6000,
+        duration: 8000,
       }
     );
 
