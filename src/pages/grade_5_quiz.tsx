@@ -152,12 +152,13 @@ const QuizPage = () => {
     setShowResult(false);
     setScore(0);
     localStorage.removeItem(MATILDA_KEY);
+    localStorage.removeItem("message-sent")
   };
 
   const messageToDikie = {
     title: "I need more questions",
     content:
-      "Hello, this is Matilda. I am requesting you to kindly add more questions to my app.Thanks",
+      "Hello, this is Matilda.I hope you are doing great my bro. I am requesting you to add more questions to my app.Thanks",
   };
 
   const sendMessage = async () => {

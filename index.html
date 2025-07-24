@@ -4,14 +4,156 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/test.png" />
-
     <link rel="manifest" href="./manifest.webmanifest" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Matilda Awino</title>
+    <style>
+      #loading-screen * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      #loading-screen {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: radial-gradient(circle at center, #1a1625 0%, #0f0d14 100%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 9999;
+        font-family: 'Segoe UI', sans-serif;
+      }
+
+      .loading-wrapper {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .avatar {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        background: linear-gradient(135deg, #8b5cf6, #ec4899, #6366f1);
+        margin-bottom: 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 3rem;
+        font-weight: bold;
+        color: white;
+        animation: pulse 2s infinite;
+        box-shadow: 0 0 50px rgba(139, 92, 246, 0.3);
+      }
+
+      .name {
+        font-size: 2.5rem;
+        font-weight: 700;
+        background: linear-gradient(135deg, #ec4899, #8b5cf6, #6366f1);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        margin-bottom: 1rem;
+      }
+
+      .loading-text {
+        color: rgba(255, 255, 255, 0.6);
+        font-size: 1.1rem;
+        margin-bottom: 2rem;
+      }
+
+      .spinner {
+        width: 40px;
+        height: 40px;
+        border: 3px solid rgba(255, 255, 255, 0.1);
+        border-top: 3px solid #ec4899;
+        border-radius: 50%;
+        animation: spin 1s linear infinite;
+      }
+
+      @keyframes pulse {
+
+        0%,
+        100% {
+          transform: scale(1);
+        }
+
+        50% {
+          transform: scale(1.05);
+        }
+      }
+
+      @keyframes spin {
+        0% {
+          transform: rotate(0deg);
+        }
+
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+
+      .glow {
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        background: radial-gradient(circle, rgba(139, 92, 246, 0.1) 0%, transparent 70%);
+        border-radius: 50%;
+        animation: glow 3s ease-in-out infinite;
+        z-index: -1;
+      }
+
+      @keyframes glow {
+
+        0%,
+        100% {
+          opacity: 0.5;
+          transform: scale(1);
+        }
+
+        50% {
+          opacity: 0.8;
+          transform: scale(1.1);
+        }
+      }
+    </style>
   </head>
 
   <body>
+    <div id="loading-screen">
+      <div class="loading-wrapper">
+        <div class="glow"></div>
+        <div class="avatar">MA</div>
+        <h1 class="name">Matilda Awino</h1>
+        <p class="loading-text">Loading your quiz...</p>
+        <div class="spinner"></div>
+      </div>
+    </div>
+
     <div id="root"></div>
+
+    <script>
+      // Hide loading screen once React app loads
+      window.addEventListener('load', () => {
+        setTimeout(() => {
+          const loadingScreen = document.getElementById('loading-screen');
+          if (loadingScreen) {
+            loadingScreen.style.opacity = '0';
+            loadingScreen.style.transition = 'opacity 0.5s ease-out';
+            setTimeout(() => {
+              loadingScreen.style.display = 'none';
+            }, 500);
+          }
+        }, 1000); // Show for at least 1 second
+      });
+    </script>
     <script type="module" src="/src/main.jsx"></script>
   </body>
 
