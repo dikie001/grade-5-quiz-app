@@ -79,7 +79,6 @@ const QuizPage = () => {
     setSelectedAnswer(optionKey);
     setShowResult(true);
 
-    // toast(currentQuestion.explanation, { duration: 5000 });
 
     //Custom toast
     toast.custom(
