@@ -14,8 +14,9 @@ export default defineConfig({
         short_name: "matilda",
         start_url: "/",
         display: "standalone",
-        background_color: "#ffffff",
-        theme_color: "#1f2937",
+        background_color: "#1e1b4b", // dark purple (Tailwind's purple-950)
+        theme_color: "#030712", // Tailwind's gray-950
+        description: "Matilda Awino's personal app  for learning and quizzes",
         icons: [
           {
             src: "/test.png",
