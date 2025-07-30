@@ -404,14 +404,14 @@ const QuizPage: React.FC = () => {
 
             {/* Progress section */}
             <div>
-              <div className="flex flex-row justify-between mb-1">
+              <div className="flex flex-row justify-between ">
                 {/* Score display */}
                 <div className="text-gray-400 font-medium justify-self-start text-xs">
                   Score: {score} / {questionNumber}
                 </div>
 
                 {/* Question counter */}
-                <div className="text-gray-400 font-medium justify-self-end text-xs">
+                <div className="text-gray-400  font-medium justify-self-end text-xs">
                   Question{" "}
                   <span className="text-cyan-400">{questionNumber}</span> of{" "}
                   <span className="text-cyan-400">{totalQuestions}</span>
@@ -437,7 +437,7 @@ const QuizPage: React.FC = () => {
           </div>
 
           {/* Question card */}
-          <div className="bg-slate-900/30 rounded-xl shadow-lg shadow-black/50 p-6 mb-4">
+          <div className="bg-slate-900/30 mt-8  rounded-xl shadow-lg shadow-black/50 p-6 mb-4">
             {/* Subject badge */}
             <div className="inline-block bg-pink-800 text-white px-3 py-1 rounded-full text-xs shadow-lg font-semibold mb-2">
               {currentQuestion?.subject}
