@@ -3,21 +3,24 @@ import {
   Bell,
   Car,
   Circle,
+  DownloadCloud,
   Home,
   Loader,
-  Menu,
   MessageCircle,
   RotateCcw,
+  ShieldCheck,
   Sparkles,
   Square,
   Star,
-  Trees,
+  Trees
 } from "lucide-react";
-import { useEffect, useMemo, useRef, useState, useCallback } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import toast from "react-hot-toast";
 import anime from "../assets/animations/anime.json";
 import quizData from "../assets/jsons/RandomQuiz.json";
 import useSound from "../hooks/useSound";
+import AdminModal from "../modals/AdminModal";
+import CheckUpdates from "./CheckUpdates";
 
 // TypeScript interfaces
 interface QuizOption {
@@ -57,6 +60,7 @@ const QuizPage: React.FC = () => {
   const [confirmModal, setConfirmModal] = useState<boolean>(false);
   const [loading, setLoading] = useState<boolean>(false);
   const [openMenu, setOpenMenu] = useState<boolean>(false);
+  const [showUpdatePage, setShowUpdatePage]=useState<boolean>(false)
 
   // Refs for consistent state tracking
   const scoreRef = useRef<number>(0);
@@ -184,7 +188,7 @@ const QuizPage: React.FC = () => {
             <span className="relative z-10">{message}</span>
           </div>
         ),
-        { duration }
+        { duration, id: "toasty" }
       );
     },
     []
@@ -342,9 +346,7 @@ const QuizPage: React.FC = () => {
   // Handle menu click
   const handleMenuClick = useCallback((): void => {
     setOpenMenu(!openMenu);
-    toast.error("Menu not implemented yet", { id: "toasty" });
-    playError();
-  }, [openMenu, playError]);
+  }, [openMenu]);
 
   return (
     <div>
@@ -382,12 +384,13 @@ const QuizPage: React.FC = () => {
 
       <div className="min-h-screen bg-black/50 py-6 z-10">
         {/* Menu button */}
-        <div className="absolute top-2 left-3">
-          <Menu
+        <div className="absolute top-2 left-3 flex gap-4">
+          <ShieldCheck
             onClick={handleMenuClick}
             className="text-pink-400 cursor-pointer hover:text-pink-300 transition-colors"
             size={24}
           />
+          <DownloadCloud onClick={()=>setShowUpdatePage(true)} className="text-green-400 cursor-pointer hover:text-green-300 transition-colors" />
         </div>
 
         <div className="max-w-3xl mx-auto p-4">
@@ -597,6 +600,8 @@ const QuizPage: React.FC = () => {
           </div>
         </div>
       )}
+      {openMenu && <AdminModal />}
+      {showUpdatePage && <CheckUpdates/>}
     </div>
   );
 };
