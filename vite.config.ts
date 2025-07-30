@@ -19,12 +19,12 @@ export default defineConfig({
         description: "Matilda Awino's personal app  for learning and quizzes",
         icons: [
           {
-            src: "/test.png",
+            src: "/matilda.png",
             sizes: "192x192",
             type: "image/png",
           },
           {
-            src: "/test.png",
+            src: "/matilda.png",
             sizes: "512x512",
             type: "image/png",
           },

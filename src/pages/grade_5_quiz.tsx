@@ -12,7 +12,7 @@ import {
   Sparkles,
   Square,
   Star,
-  Trees
+  Trees,
 } from "lucide-react";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import toast from "react-hot-toast";
@@ -50,6 +50,7 @@ const MATILDA_KEY = "matilda-quiz-app";
 const MESSAGE_SENT_KEY = "message-sent";
 const RESULT_DISPLAY_DURATION = 4000;
 const TOAST_DURATION = 8000;
+const SHORT_TEST_KEY = "matilda-short-test";
 
 const QuizPage: React.FC = () => {
   // State management
@@ -60,13 +61,20 @@ const QuizPage: React.FC = () => {
   const [confirmModal, setConfirmModal] = useState<boolean>(false);
   const [loading, setLoading] = useState<boolean>(false);
   const [openMenu, setOpenMenu] = useState<boolean>(false);
-  const [showUpdatePage, setShowUpdatePage]=useState<boolean>(false)
+  const [showUpdatePage, setShowUpdatePage] = useState<boolean>(false);
 
   // Refs for consistent state tracking
   const scoreRef = useRef<number>(0);
   const currentIndexRef = useRef<number>(0);
+  const shortTestIndexRef = useRef<number>(0);
+  const shortTestScoresRef = useRef<number>(0);
 
   const { playError, playSuccess } = useSound();
+
+  const short_test = {
+    current_index: 0,
+    scores: 0,
+  };
 
   // Load stored data on component mount
   useEffect(() => {
@@ -213,6 +221,8 @@ const QuizPage: React.FC = () => {
         const newScore = scoreRef.current + 1;
         setScore(newScore);
         scoreRef.current = newScore;
+        shortTestScoresRef.current += 1;
+        short_test.current_index = shortTestScoresRef.current
       } else {
         playError();
       }
@@ -233,6 +243,7 @@ const QuizPage: React.FC = () => {
         const newIndex = currentIndexRef.current + 1;
         setCurrentIndex(newIndex);
         currentIndexRef.current = newIndex;
+        shortTestIndexRef.current += 1;
 
         // Save progress
         saveDataToStorage(scoreRef.current, newIndex);
@@ -390,7 +401,10 @@ const QuizPage: React.FC = () => {
             className="text-pink-400 cursor-pointer hover:text-pink-300 transition-colors"
             size={24}
           />
-          <DownloadCloud onClick={()=>setShowUpdatePage(true)} className="text-green-400 cursor-pointer hover:text-green-300 transition-colors" />
+          <DownloadCloud
+            onClick={() => setShowUpdatePage(true)}
+            className="text-green-400 cursor-pointer hover:text-green-300 transition-colors"
+          />
         </div>
 
         <div className="max-w-3xl mx-auto p-4">
@@ -601,7 +615,7 @@ const QuizPage: React.FC = () => {
         </div>
       )}
       {openMenu && <AdminModal />}
-      {showUpdatePage && <CheckUpdates/>}
+      {showUpdatePage && <CheckUpdates />}
     </div>
   );
 };
