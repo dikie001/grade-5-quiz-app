@@ -1,225 +1,798 @@
 [
   {
-    "id": 1,
-    "subject": "Mathematics",
-    "question": "What is the value of 347 + 156?",
-    "options": {
-      "A": "503",
-      "B": "493",
-      "C": "513",
-      "D": "483"
-    },
-    "correctAnswer": "A",
-    "explanation": "347 + 156 = 503 by adding units, tens, and hundreds column-wise."
-  },
-  {
-    "id": 2,
-    "subject": "English",
-    "question": "Which word is a proper noun?",
-    "options": {
-      "A": "school",
-      "B": "Kenya",
-      "C": "book",
-      "D": "teacher"
-    },
-    "correctAnswer": "B",
-    "explanation": "Kenya is a proper noun because it names a specific country and starts with a capital letter."
-  },
-  {
-    "id": 3,
-    "subject": "Kiswahili",
-    "question": "Neno 'mzuri' ni aina gani ya maneno?",
-    "options": {
-      "A": "Nomino",
-      "B": "Kivumishi",
-      "C": "Kitenzi",
-      "D": "Kihusishi"
-    },
-    "correctAnswer": "B",
-    "explanation": "Mzuri ni kivumishi kinachoelezea sifa za kitu au mtu."
-  },
-  {
-    "id": 4,
-    "subject": "Science & Technology",
-    "question": "Which part of a plant makes food?",
-    "options": {
-      "A": "Roots",
-      "B": "Stem",
-      "C": "Leaves",
-      "D": "Flowers"
-    },
-    "correctAnswer": "C",
-    "explanation": "Leaves make food through photosynthesis using sunlight, water, and carbon dioxide."
-  },
-  {
-    "id": 5,
-    "subject": "Social Studies",
-    "question": "What is the capital city of Kenya?",
-    "options": {
-      "A": "Mombasa",
-      "B": "Kisumu",
-      "C": "Nairobi",
-      "D": "Eldoret"
-    },
-    "correctAnswer": "C",
-    "explanation": "Nairobi is the capital and largest city of Kenya."
-  },
-  {
-    "id": 6,
-    "subject": "CRE",
-    "question": "Who built the ark in the Bible?",
-    "options": {
-      "A": "Moses",
-      "B": "Noah",
-      "C": "Abraham",
-      "D": "David"
-    },
-    "correctAnswer": "B",
-    "explanation": "Noah built the ark as commanded by God to save his family and animals from the flood."
-  },
-  {
-    "id": 7,
-    "subject": "Agriculture",
-    "question": "Which season is best for planting maize in Kenya?",
-    "options": {
-      "A": "Dry season",
-      "B": "Cold season",
-      "C": "Rainy season",
-      "D": "Windy season"
-    },
-    "correctAnswer": "C",
-    "explanation": "Maize needs water to grow, so it's best planted during the rainy season."
-  },
-  {
-    "id": 8,
-    "subject": "Music",
-    "question": "How many strings does a guitar have?",
-    "options": {
-      "A": "4",
-      "B": "5",
-      "C": "6",
-      "D": "7"
-    },
-    "correctAnswer": "C",
-    "explanation": "A standard guitar has 6 strings tuned to different pitches."
-  },
-  {
-    "id": 9,
-    "subject": "Home Science",
-    "question": "Which nutrient helps build strong bones and teeth?",
-    "options": {
-      "A": "Protein",
-      "B": "Calcium",
-      "C": "Iron",
-      "D": "Vitamin A"
-    },
-    "correctAnswer": "B",
-    "explanation": "Calcium is essential for building and maintaining strong bones and teeth."
-  },
-  {
-    "id": 10,
+    "id": 150,
     "subject": "Art & Craft",
-    "question": "What are the primary colors?",
+    "question": "The art of folding paper to create decorative shapes and figures is called?",
     "options": {
-      "A": "Red, Blue, Yellow",
-      "B": "Red, Green, Blue",
-      "C": "Blue, Yellow, Orange",
-      "D": "Red, Purple, Green"
+      "A": "Origami",
+      "B": "Calligraphy",
+      "C": "Collage",
+      "D": "Quilling"
     },
     "correctAnswer": "A",
-    "explanation": "The primary colors are red, blue, and yellow. All other colors are made by mixing these."
+    "explanation": "Origami is the Japanese art of paper folding, where a flat square sheet of paper is transformed into a finished sculpture through folding techniques."
   },
   {
-    "id": 11,
+    "id": 151,
     "subject": "Mathematics",
-    "question": "What is 8 × 7?",
+    "question": "What is the next number in the pattern: 2, 5, 8, 11, __?",
     "options": {
-      "A": "54",
-      "B": "56",
-      "C": "64",
-      "D": "48"
+      "A": "12",
+      "B": "13",
+      "C": "14",
+      "D": "15"
     },
-    "correctAnswer": "B",
-    "explanation": "8 × 7 = 56, which can be calculated as 8 × 7 or 7 × 8."
+    "correctAnswer": "C",
+    "explanation": "The pattern is adding 3 to the previous number. 2+3=5, 5+3=8, 8+3=11, so the next number is 11+3=14."
   },
   {
-    "id": 12,
+    "id": 152,
     "subject": "English",
-    "question": "What is the past tense of 'run'?",
+    "question": "My book is interesting, but ___ is boring.",
     "options": {
-      "A": "runned",
-      "B": "ran",
-      "C": "running",
-      "D": "runs"
+      "A": "your",
+      "B": "you're",
+      "C": "yours",
+      "D": "you"
     },
-    "correctAnswer": "B",
-    "explanation": "The past tense of 'run' is 'ran', which is an irregular verb form."
+    "correctAnswer": "C",
+    "explanation": "'Yours' is a possessive pronoun that can stand alone, meaning 'the book that belongs to you'."
   },
   {
-    "id": 13,
+    "id": 153,
     "subject": "Kiswahili",
-    "question": "Wingi wa neno 'mti' ni nini?",
+    "question": "Mnyama anayetambaa na hana miguu ni yupi?",
     "options": {
-      "A": "miti",
-      "B": "mimti",
-      "C": "wamti",
-      "D": "mati"
+      "A": "Kobe",
+      "B": "Nyoka",
+      "C": "Mamba",
+      "D": "Kenge"
+    },
+    "correctAnswer": "B",
+    "explanation": "Nyoka ni mnyama anayetambaa ardhini na hana miguu."
+  },
+  {
+    "id": 154,
+    "subject": "Science & Technology",
+    "question": "The force that pulls objects towards the center of the Earth is called?",
+    "options": {
+      "A": "Friction",
+      "B": "Magnetism",
+      "C": "Gravity",
+      "D": "Motion"
+    },
+    "correctAnswer": "C",
+    "explanation": "Gravity is the natural force that causes objects with mass to be attracted to one another, such as the force that keeps us on the ground."
+  },
+  {
+    "id": 155,
+    "subject": "Social Studies",
+    "question": "The green colour on the Kenyan flag represents...?",
+    "options": {
+      "A": "Peace",
+      "B": "The people of Kenya",
+      "C": "The blood shed for freedom",
+      "D": "The country's natural wealth"
+    },
+    "correctAnswer": "D",
+    "explanation": "Green symbolizes the agricultural and natural wealth of Kenya, including its forests and fields."
+  },
+  {
+    "id": 156,
+    "subject": "CRE",
+    "question": "What did God promise Abraham?",
+    "options": {
+      "A": "A new boat",
+      "B": "That he would be the father of many nations",
+      "C": "That he would never be sick",
+      "D": "That he would live forever"
+    },
+    "correctAnswer": "B",
+    "explanation": "God made a covenant with Abraham, promising to make him the father of a great people and give his descendants the land of Canaan."
+  },
+  {
+    "id": 157,
+    "subject": "Agriculture",
+    "question": "Which of these is a food crop?",
+    "options": {
+      "A": "Cotton",
+      "B": "Pyrethrum",
+      "C": "Coffee",
+      "D": "Maize"
+    },
+    "correctAnswer": "D",
+    "explanation": "A food crop is a crop grown to be eaten by humans. Maize is a staple food in Kenya. The others are cash crops."
+  },
+  {
+    "id": 158,
+    "subject": "Music",
+    "question": "Standing up straight and breathing properly are important for good...?",
+    "options": {
+      "A": "Dancing",
+      "B": "Singing posture",
+      "C": "Listening",
+      "D": "Composing"
+    },
+    "correctAnswer": "B",
+    "explanation": "Good posture and breath support are essential techniques for a singer to produce a strong and controlled sound."
+  },
+  {
+    "id": 159,
+    "subject": "Home Science",
+    "question": "Which of the following would you use to clean a greasy pot?",
+    "options": {
+      "A": "Cold water only",
+      "B": "A dry cloth",
+      "C": "Hot water and soap",
+      "D": "A newspaper"
+    },
+    "correctAnswer": "C",
+    "explanation": "Hot water and soap are effective for cutting through grease and cleaning oily utensils properly."
+  },
+  {
+    "id": 160,
+    "subject": "Art & Craft",
+    "question": "Using thin strips of paper to weave and create a mat-like surface is called?",
+    "options": {
+      "A": "Paper weaving",
+      "B": "Paper cutting",
+      "C": "Paper folding",
+      "D": "Paper collage"
     },
     "correctAnswer": "A",
-    "explanation": "Wingi wa mti ni miti. Hii ni katika ngeli za M-MI."
+    "explanation": "Paper weaving involves interlacing strips of paper to create a flat, textured surface or pattern."
   },
   {
-    "id": 14,
+    "id": 161,
+    "subject": "Mathematics",
+    "question": "A shopkeeper had 1000 eggs. 120 of them broke. How many eggs were left?",
+    "options": {
+      "A": "880",
+      "B": "980",
+      "C": "1120",
+      "D": "820"
+    },
+    "correctAnswer": "A",
+    "explanation": "To find the number of eggs left, you subtract the broken eggs from the total: 1000 - 120 = 880."
+  },
+  {
+    "id": 162,
+    "subject": "English",
+    "question": "Which sentence has the correct punctuation?",
+    "options": {
+      "A": "where are you going.",
+      "B": "Where are you going?",
+      "C": "Where are you going,",
+      "D": "Where are you going"
+    },
+    "correctAnswer": "B",
+    "explanation": "A sentence that asks a question must end with a question mark (?)."
+  },
+  {
+    "id": 163,
+    "subject": "Kiswahili",
+    "question": "Neno 'barabara' liko katika ngeli gani?",
+    "options": {
+      "A": "A-WA",
+      "B": "I-ZI",
+      "C": "U-I",
+      "D": "LI-YA"
+    },
+    "correctAnswer": "B",
+    "explanation": "Neno 'barabara' liko katika ngeli ya I-ZI. Mfano: Barabara hii ni ndefu (umoja), Barabara hizi ni ndefu (wingi)."
+  },
+  {
+    "id": 164,
     "subject": "Science & Technology",
-    "question": "What do we call animals that eat only plants?",
+    "question": "An animal that is hunted and eaten by another animal is called...",
+    "options": {
+      "A": "a predator.",
+      "B": "a producer.",
+      "C": "a prey.",
+      "D": "a decomposer."
+    },
+    "correctAnswer": "C",
+    "explanation": "In a food chain, a prey is an organism that is killed and eaten by another organism, the predator."
+  },
+  {
+    "id": 165,
+    "subject": "Social Studies",
+    "question": "The currency used in Kenya is the...?",
+    "options": {
+      "A": "Dollar",
+      "B": "Pound",
+      "C": "Shilling",
+      "D": "Rand"
+    },
+    "correctAnswer": "C",
+    "explanation": "The official currency of the Republic of Kenya is the Kenyan Shilling (KES)."
+  },
+  {
+    "id": 166,
+    "subject": "CRE",
+    "question": "What happened on the day of Pentecost?",
+    "options": {
+      "A": "Jesus was born",
+      "B": "The Holy Spirit came upon the disciples",
+      "C": "The world was created",
+      "D": "Moses received the Ten Commandments"
+    },
+    "correctAnswer": "B",
+    "explanation": "Pentecost is a Christian holiday that commemorates the descent of the Holy Spirit upon the Apostles and other followers of Jesus Christ, as described in the book of Acts."
+  },
+  {
+    "id": 167,
+    "subject": "Agriculture",
+    "question": "Why is it important to store harvested grains in a dry place?",
+    "options": {
+      "A": "To make them grow again",
+      "B": "To prevent them from rotting or getting mouldy",
+      "C": "To make them wet",
+      "D": "To change their colour"
+    },
+    "correctAnswer": "B",
+    "explanation": "Storing grains in a dry, well-ventilated place prevents the growth of mould and stops them from rotting, ensuring they remain safe to eat."
+  },
+  {
+    "id": 168,
+    "subject": "Music",
+    "question": "A song that is sung to make a baby sleep is called a...?",
+    "options": {
+      "A": "War song",
+      "B": "Work song",
+      "C": "Lullaby",
+      "D": "Hymn"
+    },
+    "correctAnswer": "C",
+    "explanation": "A lullaby is a soothing song or piece of music, usually played or sung to children to help them fall asleep."
+  },
+  {
+    "id": 169,
+    "subject": "Home Science",
+    "question": "Which of these is NOT a good personal hygiene practice?",
+    "options": {
+      "A": "Brushing teeth twice a day",
+      "B": "Bathing daily with soap and water",
+      "C": "Wearing dirty clothes",
+      "D": "Washing hands before eating"
+    },
+    "correctAnswer": "C",
+    "explanation": "Wearing dirty clothes can harbor germs and cause bad body odour. Good personal hygiene involves wearing clean clothes."
+  },
+  {
+    "id": 170,
+    "subject": "Art & Craft",
+    "question": "Which of these is a tool used for carving wood?",
+    "options": {
+      "A": "A paintbrush",
+      "B": "A chisel",
+      "C": "A needle",
+      "D": "A pencil"
+    },
+    "correctAnswer": "B",
+    "explanation": "A chisel is a tool with a characteristically shaped cutting edge of blade on its end, for carving or cutting a hard material such as wood, stone, or metal."
+  },
+  {
+    "id": 171,
+    "subject": "Mathematics",
+    "question": "What is the volume of a cuboid with length 5 cm, width 3 cm, and height 2 cm?",
+    "options": {
+      "A": "10 cm³",
+      "B": "15 cm³",
+      "C": "30 cm³",
+      "D": "6 cm³"
+    },
+    "correctAnswer": "C",
+    "explanation": "Volume of a cuboid is calculated as length × width × height. So, 5 cm × 3 cm × 2 cm = 30 cm³."
+  },
+  {
+    "id": 172,
+    "subject": "English",
+    "question": "The sun is shining ___. ",
+    "options": {
+      "A": "bright",
+      "B": "brightly",
+      "C": "brighter",
+      "D": "brightness"
+    },
+    "correctAnswer": "B",
+    "explanation": "An adverb is needed to describe how the sun is shining. 'Brightly' is the adverb form of 'bright'."
+  },
+  {
+    "id": 173,
+    "subject": "Kiswahili",
+    "question": "Chagua neno ambalo ni tofauti na mengine.",
+    "options": {
+      "A": "Chungwa",
+      "B": "Embe",
+      "C": "Ndizi",
+      "D": "Karoti"
+    },
+    "correctAnswer": "D",
+    "explanation": "Chungwa, embe, na ndizi ni matunda. Karoti ni mboga ya mizizi. Kwa hivyo, karoti ni tofauti."
+  },
+  {
+    "id": 174,
+    "subject": "Science & Technology",
+    "question": "Animals that eat both plants and other animals are called...?",
     "options": {
       "A": "Carnivores",
-      "B": "Omnivores",
-      "C": "Herbivores",
-      "D": "Scavengers"
+      "B": "Herbivores",
+      "C": "Omnivores",
+      "D": "Producers"
     },
     "correctAnswer": "C",
-    "explanation": "Herbivores are animals that eat only plants, like cows, goats, and rabbits."
+    "explanation": "Omnivores are animals that have a diet consisting of both plant and animal matter."
   },
   {
-    "id": 15,
+    "id": 175,
     "subject": "Social Studies",
-    "question": "Which ocean borders Kenya to the east?",
+    "question": "Which of these is NOT a national symbol of Kenya?",
+    "options": {
+      "A": "The National Flag",
+      "B": "The Coat of Arms",
+      "C": "The National Anthem",
+      "D": "The Maasai Mara"
+    },
+    "correctAnswer": "D",
+    "explanation": "The flag, coat of arms, and national anthem are official national symbols. The Maasai Mara is a famous game reserve, but not an official national symbol."
+  },
+  {
+    "id": 176,
+    "subject": "CRE",
+    "question": "Which one of these is a fruit of the Holy Spirit?",
+    "options": {
+      "A": "Anger",
+      "B": "Jealousy",
+      "C": "Patience",
+      "D": "Pride"
+    },
+    "correctAnswer": "C",
+    "explanation": "According to Galatians 5:22-23, the fruits of the Spirit include love, joy, peace, patience, kindness, goodness, faithfulness, gentleness, and self-control."
+  },
+  {
+    "id": 177,
+    "subject": "Agriculture",
+    "question": "The practice of growing crops and raising animals is called?",
+    "options": {
+      "A": "Fishing",
+      "B": "Mining",
+      "C": "Agriculture",
+      "D": "Forestry"
+    },
+    "correctAnswer": "C",
+    "explanation": "Agriculture, or farming, is the science and art of cultivating plants and livestock."
+  },
+  {
+    "id": 178,
+    "subject": "Music",
+    "question": "The main tune of a song is called the...?",
+    "options": {
+      "A": "Rhythm",
+      "B": "Harmony",
+      "C": "Melody",
+      "D": "Beat"
+    },
+    "correctAnswer": "C",
+    "explanation": "The melody is a sequence of single notes that is musically satisfying; it's the part of the song you often hum or sing."
+  },
+  {
+    "id": 179,
+    "subject": "Home Science",
+    "question": "A meal that contains all the food groups in the right amounts is called a...?",
+    "options": {
+      "A": "Snack",
+      "B": "Junk food",
+      "C": "Balanced diet",
+      "D": "Large meal"
+    },
+    "correctAnswer": "C",
+    "explanation": "A balanced diet provides the body with all the essential nutrients (proteins, carbohydrates, fats, vitamins, minerals) it needs to function correctly."
+  },
+  {
+    "id": 180,
+    "subject": "Art & Craft",
+    "question": "A still life is a drawing or painting of...?",
+    "options": {
+      "A": "a person's face.",
+      "B": "a group of moving animals.",
+      "C": "a group of non-living objects.",
+      "D": "a wide view of the countryside."
+    },
+    "correctAnswer": "C",
+    "explanation": "A still life is a work of art depicting mostly inanimate subject matter, typically commonplace objects which may be either natural (food, flowers) or man-made (vases, books)."
+  },
+  {
+    "id": 181,
+    "subject": "Mathematics",
+    "question": "Which fraction is the largest: 1/2, 1/4, 1/3, 1/5?",
+    "options": {
+      "A": "1/2",
+      "B": "1/4",
+      "C": "1/3",
+      "D": "1/5"
+    },
+    "correctAnswer": "A",
+    "explanation": "When the numerator is the same (in this case, 1), the fraction with the smallest denominator has the largest value. 1/2 (or a half) is larger than a third, a quarter, or a fifth."
+  },
+  {
+    "id": 182,
+    "subject": "English",
+    "question": "A place where books are kept for people to read or borrow is a...",
+    "options": {
+      "A": "museum.",
+      "B": "library.",
+      "C": "market.",
+      "D": "stadium."
+    },
+    "correctAnswer": "B",
+    "explanation": "A library is a building or room containing collections of books, periodicals, and sometimes films and recorded music for use or borrowing by the public or the members of an institution."
+  },
+  {
+    "id": 183,
+    "subject": "Kiswahili",
+    "question": "Neno 'shamba' lina silabi ngapi?",
+    "options": {
+      "A": "Moja",
+      "B": "Mbili",
+      "C": "Tatu",
+      "D": "Nne"
+    },
+    "correctAnswer": "B",
+    "explanation": "Neno 'shamba' lina silabi mbili: 'sha-' na '-mba'."
+  },
+  {
+    "id": 184,
+    "subject": "Science & Technology",
+    "question": "To see very small things like germs, scientists use a special instrument called a...?",
+    "options": {
+      "A": "Telescope",
+      "B": "Microscope",
+      "C": "Binoculars",
+      "D": "Magnifying glass"
+    },
+    "correctAnswer": "B",
+    "explanation": "A microscope is a laboratory instrument used to examine objects that are too small to be seen by the naked eye."
+  },
+  {
+    "id": 185,
+    "subject": "Social Studies",
+    "question": "The colours on the Kenyan flag are black, red, green and...?",
+    "options": {
+      "A": "Yellow",
+      "B": "Blue",
+      "C": "White",
+      "D": "Orange"
+    },
+    "correctAnswer": "C",
+    "explanation": "The Kenyan flag has four colours: black, red, and green horizontal stripes, separated by thin white fimbriations (stripes)."
+  },
+  {
+    "id": 186,
+    "subject": "CRE",
+    "question": "The story of Noah and the Ark teaches about God's punishment for sin and his...?",
+    "options": {
+      "A": "anger.",
+      "B": "power.",
+      "C": "promise to save those who are faithful.",
+      "D": "knowledge."
+    },
+    "correctAnswer": "C",
+    "explanation": "The story shows that while God judges sin, He also provides a way of salvation for the righteous and faithful, as He did for Noah and his family."
+  },
+  {
+    "id": 187,
+    "subject": "Agriculture",
+    "question": "Which of these is a domestic animal used for transport, especially for carrying goods?",
+    "options": {
+      "A": "Cow",
+      "B": "Donkey",
+      "C": "Goat",
+      "D": "Pig"
+    },
+    "correctAnswer": "B",
+    "explanation": "Donkeys are commonly used as pack animals to transport goods and materials in many parts of Kenya and the world."
+  },
+  {
+    "id": 188,
+    "subject": "Music",
+    "question": "When you sing without any musical instruments playing along, it is called...?",
+    "options": {
+      "A": "Opera",
+      "B": "A cappella",
+      "C": "A solo",
+      "D": "A chorus"
+    },
+    "correctAnswer": "B",
+    "explanation": "A cappella is a performance by a singer or a singing group without instrumental accompaniment."
+  },
+  {
+    "id": 189,
+    "subject": "Home Science",
+    "question": "Which of these should NOT be touched with wet hands?",
+    "options": {
+      "A": "A book",
+      "B": "A piece of fruit",
+      "C": "An electrical switch",
+      "D": "A chair"
+    },
+    "correctAnswer": "C",
+    "explanation": "Touching electrical switches or appliances with wet hands is extremely dangerous because water conducts electricity and can cause a severe electric shock."
+  },
+  {
+    "id": 190,
+    "subject": "Art & Craft",
+    "question": "A type of crayon made of oil, wax, and pigment that is used for drawing is called an...?",
+    "options": {
+      "A": "Oil pastel",
+      "B": "Chalk",
+      "C": "Ink pen",
+      "D": "Watercolour"
+    },
+    "correctAnswer": "A",
+    "explanation": "Oil pastels are a drawing and painting medium with characteristics similar to pastels and wax crayons. They are known for their rich colours and oily texture."
+  },
+  {
+    "id": 191,
+    "subject": "Mathematics",
+    "question": "A right angle measures exactly...?",
+    "options": {
+      "A": "45 degrees",
+      "B": "90 degrees",
+      "C": "180 degrees",
+      "D": "360 degrees"
+    },
+    "correctAnswer": "B",
+    "explanation": "A right angle is an angle of exactly 90°, corresponding to a quarter turn."
+  },
+  {
+    "id": 192,
+    "subject": "English",
+    "question": "Which word describes how a tortoise moves?",
+    "options": {
+      "A": "Quickly",
+      "B": "Loudly",
+      "C": "Slowly",
+      "D": "Angrily"
+    },
+    "correctAnswer": "C",
+    "explanation": "Tortoises are known for their very slow movement. The adverb 'slowly' correctly describes this."
+  },
+  {
+    "id": 193,
+    "subject": "Kiswahili",
+    "question": "Mtu asiyesikia huitwaje?",
+    "options": {
+      "A": "Kipofu",
+      "B": "Bubu",
+      "C": "Kiziwi",
+      "D": "Kilema"
+    },
+    "correctAnswer": "C",
+    "explanation": "Mtu ambaye hawezi kusikia anaitwa kiziwi."
+  },
+  {
+    "id": 194,
+    "subject": "Science & Technology",
+    "question": "A shadow is formed when an object...",
+    "options": {
+      "A": "produces light.",
+      "B": "blocks the path of light.",
+      "C": "is transparent.",
+      "D": "is very small."
+    },
+    "correctAnswer": "B",
+    "explanation": "A shadow is a dark area where light from a light source is blocked by an opaque object."
+  },
+  {
+    "id": 195,
+    "subject": "Social Studies",
+    "question": "The traditional songs, stories, and beliefs that are passed down from one generation to the next form a community's...?",
+    "options": {
+      "A": "Government",
+      "B": "Economy",
+      "C": "Culture",
+      "D": "Climate"
+    },
+    "correctAnswer": "C",
+    "explanation": "Culture encompasses the social behavior, institutions, and norms found in human societies, as well as the knowledge, beliefs, arts, laws, customs, and habits of the individuals in these groups."
+  },
+  {
+    "id": 196,
+    "subject": "CRE",
+    "question": "A story with a heavenly meaning that Jesus used to teach people is called a...?",
+    "options": {
+      "A": "Miracle",
+      "B": "Parable",
+      "C": "Proverb",
+      "D": "Sermon"
+    },
+    "correctAnswer": "B",
+    "explanation": "A parable is a simple story used to illustrate a moral or spiritual lesson, as told by Jesus in the Gospels."
+  },
+  {
+    "id": 197,
+    "subject": "Agriculture",
+    "question": "Which of the following is a disadvantage of using too much chemical fertilizer on a farm?",
+    "options": {
+      "A": "It makes crops grow very fast",
+      "B": "It is cheap to buy",
+      "C": "It can pollute water sources and harm the soil",
+      "D": "It kills all pests"
+    },
+    "correctAnswer": "C",
+    "explanation": "Overuse of chemical fertilizers can lead to them being washed into rivers and lakes, causing water pollution, and can also damage the long-term health and structure of the soil."
+  },
+  {
+    "id": 198,
+    "subject": "Music",
+    "question": "The pattern of sounds and silences in music is called...?",
+    "options": {
+      "A": "Pitch",
+      "B": "Rhythm",
+      "C": "Tempo",
+      "D": "Melody"
+    },
+    "correctAnswer": "B",
+    "explanation": "Rhythm is the arrangement of sounds and silences in time, creating the 'beat' or 'pulse' of the music."
+  },
+  {
+    "id": 199,
+    "subject": "Home Science",
+    "question": "Why is it important to have windows in a house?",
+    "options": {
+      "A": "To keep the house dark",
+      "B": "To allow for ventilation and natural light",
+      "C": "To make it easier for thieves to enter",
+      "D": "To hang pictures on"
+    },
+    "correctAnswer": "B",
+    "explanation": "Windows are essential for letting fresh air circulate in a house (ventilation) and for allowing natural sunlight to enter, which is good for health and saves electricity."
+  },
+  {
+    "id": 200,
+    "subject": "Art & Craft",
+    "question": "The surface quality of an artwork, such as how it feels (e.g., rough, smooth), is called...?",
+    "options": {
+      "A": "Colour",
+      "B": "Shape",
+      "C": "Line",
+      "D": "Texture"
+    },
+    "correctAnswer": "D",
+    "explanation": "Texture is an element of art that refers to the way things feel, or look as if they might feel if touched."
+  },
+  {
+    "id": 201,
+    "subject": "Mathematics",
+    "question": "What is 1/2 + 1/4?",
+    "options": {
+      "A": "2/6",
+      "B": "1/6",
+      "C": "2/4",
+      "D": "3/4"
+    },
+    "correctAnswer": "D",
+    "explanation": "To add these fractions, you need a common denominator, which is 4. 1/2 is the same as 2/4. So, 2/4 + 1/4 = 3/4."
+  },
+  {
+    "id": 202,
+    "subject": "English",
+    "question": "An elephant is ___ than a mouse.",
+    "options": {
+      "A": "big",
+      "B": "bigger",
+      "C": "biggest",
+      "D": "more big"
+    },
+    "correctAnswer": "B",
+    "explanation": "When comparing two things, we use the comparative form of the adjective. The comparative of 'big' is 'bigger'."
+  },
+  {
+    "id": 203,
+    "subject": "Kiswahili",
+    "question": "Ukiona neno 'hospitalini', 'ni' mwishoni inamaanisha nini?",
+    "options": {
+      "A": "Ni wingi",
+      "B": "Inaonyesha mahali",
+      "C": "Ni kitenzi",
+      "D": "Ni kinyume"
+    },
+    "correctAnswer": "B",
+    "explanation": "Katika Kiswahili, kiambishi tamati '-ni' huongezwa kwenye nomino kuonyesha mahali. Kwa mfano, 'shuleni' (at/in school), 'sokoni' (at/in the market)."
+  },
+  {
+    "id": 204,
+    "subject": "Science & Technology",
+    "question": "The movement of the Earth around the Sun is called...?",
+    "options": {
+      "A": "Rotation",
+      "B": "Revolution",
+      "C": "Orbit",
+      "D": "Axis"
+    },
+    "correctAnswer": "B",
+    "explanation": "Revolution is the movement of one object around another. The Earth revolves around the Sun, which takes approximately 365 days to complete."
+  },
+  {
+    "id": 205,
+    "subject": "Social Studies",
+    "question": "What is the name of the ocean that borders Kenya to the East?",
     "options": {
       "A": "Atlantic Ocean",
-      "B": "Indian Ocean",
-      "C": "Pacific Ocean",
+      "B": "Pacific Ocean",
+      "C": "Indian Ocean",
       "D": "Arctic Ocean"
     },
-    "correctAnswer": "B",
-    "explanation": "The Indian Ocean borders Kenya to the east, providing the country with a coastline."
+    "correctAnswer": "C",
+    "explanation": "The eastern border of Kenya is the coastline along the Indian Ocean."
   },
   {
-    "id": 16,
+    "id": 206,
     "subject": "CRE",
-    "question": "How many days did it take God to create the world?",
+    "question": "What did Jesus say are the two greatest commandments?",
     "options": {
-      "A": "5 days",
-      "B": "6 days",
-      "C": "7 days",
-      "D": "8 days"
-    },
-    "correctAnswer": "B",
-    "explanation": "According to Genesis, God created the world in 6 days and rested on the 7th day."
-  },
-  {
-    "id": 17,
-    "subject": "Agriculture",
-    "question": "What do plants need to make their own food?",
-    "options": {
-      "A": "Water only",
-      "B": "Sunlight only",
-      "C": "Water, sunlight, and carbon dioxide",
-      "D": "Soil only"
+      "A": "Do not steal and do not kill",
+      "B": "Rest on the Sabbath and honour your parents",
+      "C": "Love God and love your neighbor as yourself",
+      "D": "Do not covet and do not bear false witness"
     },
     "correctAnswer": "C",
-    "explanation": "Plants need water, sunlight, and carbon dioxide to make food through photosynthesis."
+    "explanation": "When asked, Jesus summarized the law by stating that the greatest commandment is to love the Lord your God, and the second is to love your neighbor as yourself."
   },
+  {
+    "id": 207,
+    "subject": "Agriculture",
+    "question": "Which one of these farming practices helps to restore soil fertility?",
+    "options": {
+      "A": "Monocropping (planting the same crop every year)",
+      "B": "Overgrazing",
+      "C": "Deforestation",
+      "D": "Crop rotation"
+    },
+    "correctAnswer": "D",
+    "explanation": "Crop rotation, which is the practice of growing different types of crops in the same area in sequenced seasons, helps to replenish soil nutrients and reduce pest build-up."
+  },
+  {
+    "id": 208,
+    "subject": "Music",
+    "question": "When different musical notes are played together at the same time to create a pleasing sound, this is called?",
+    "options": {
+      "A": "Rhythm",
+      "B": "Harmony",
+      "C": "Melody",
+      "D": "Tempo"
+    },
+    "correctAnswer": "B",
+    "explanation": "Harmony is the combination of simultaneously sounded musical notes to produce chords and chord progressions having a pleasing effect."
+  },
+  {
+    "id": 209,
+    "subject": "Home Science",
+    "question": "What is the main reason for preserving food, for example by drying or salting?",
+    "options": {
+      "A": "To change its taste",
+      "B": "To make it smaller",
+      "C": "To stop it from spoiling so it can be eaten later",
+      "D": "To make it more expensive"
+    },
+    "correctAnswer": "C",
+    "explanation": "Food preservation techniques slow down or prevent the growth of microorganisms, stopping the food from spoiling and allowing it to be stored for future use."
+  },
+  {
+    "id": 210,
+    "subject": "Art & Craft",
+    "question": "The arrangement of elements like lines and shapes in a piece of art to create a feeling of stability is called...?",
+    "options": {
+      "A": "Contrast",
+      "B": "Balance",
+      "C": "Rhythm",
+      "D": "Emphasis"
+    },
+    "correctAnswer": "B",
+    "explanation": "Balance is a principle of art concerned with arranging the elements so that their visual weight is distributed evenly, creating a sense of stability in the artwork."
+  },
+
   {
     "id": 18,
     "subject": "Music",
@@ -13562,6 +14135,227 @@
     "explanation": "Jamhuri Day, celebrated on December 12th, marks the date Kenya became a republic in 1964 and also its independence from Britain in 1963."
   },
   {
+    "id": 1,
+    "subject": "Mathematics",
+    "question": "What is the value of 347 + 156?",
+    "options": {
+      "A": "503",
+      "B": "493",
+      "C": "513",
+      "D": "483"
+    },
+    "correctAnswer": "A",
+    "explanation": "347 + 156 = 503 by adding units, tens, and hundreds column-wise."
+  },
+  {
+    "id": 2,
+    "subject": "English",
+    "question": "Which word is a proper noun?",
+    "options": {
+      "A": "school",
+      "B": "Kenya",
+      "C": "book",
+      "D": "teacher"
+    },
+    "correctAnswer": "B",
+    "explanation": "Kenya is a proper noun because it names a specific country and starts with a capital letter."
+  },
+  {
+    "id": 3,
+    "subject": "Kiswahili",
+    "question": "Neno 'mzuri' ni aina gani ya maneno?",
+    "options": {
+      "A": "Nomino",
+      "B": "Kivumishi",
+      "C": "Kitenzi",
+      "D": "Kihusishi"
+    },
+    "correctAnswer": "B",
+    "explanation": "Mzuri ni kivumishi kinachoelezea sifa za kitu au mtu."
+  },
+  {
+    "id": 4,
+    "subject": "Science & Technology",
+    "question": "Which part of a plant makes food?",
+    "options": {
+      "A": "Roots",
+      "B": "Stem",
+      "C": "Leaves",
+      "D": "Flowers"
+    },
+    "correctAnswer": "C",
+    "explanation": "Leaves make food through photosynthesis using sunlight, water, and carbon dioxide."
+  },
+  {
+    "id": 5,
+    "subject": "Social Studies",
+    "question": "What is the capital city of Kenya?",
+    "options": {
+      "A": "Mombasa",
+      "B": "Kisumu",
+      "C": "Nairobi",
+      "D": "Eldoret"
+    },
+    "correctAnswer": "C",
+    "explanation": "Nairobi is the capital and largest city of Kenya."
+  },
+  {
+    "id": 6,
+    "subject": "CRE",
+    "question": "Who built the ark in the Bible?",
+    "options": {
+      "A": "Moses",
+      "B": "Noah",
+      "C": "Abraham",
+      "D": "David"
+    },
+    "correctAnswer": "B",
+    "explanation": "Noah built the ark as commanded by God to save his family and animals from the flood."
+  },
+  {
+    "id": 7,
+    "subject": "Agriculture",
+    "question": "Which season is best for planting maize in Kenya?",
+    "options": {
+      "A": "Dry season",
+      "B": "Cold season",
+      "C": "Rainy season",
+      "D": "Windy season"
+    },
+    "correctAnswer": "C",
+    "explanation": "Maize needs water to grow, so it's best planted during the rainy season."
+  },
+  {
+    "id": 8,
+    "subject": "Music",
+    "question": "How many strings does a guitar have?",
+    "options": {
+      "A": "4",
+      "B": "5",
+      "C": "6",
+      "D": "7"
+    },
+    "correctAnswer": "C",
+    "explanation": "A standard guitar has 6 strings tuned to different pitches."
+  },
+  {
+    "id": 9,
+    "subject": "Home Science",
+    "question": "Which nutrient helps build strong bones and teeth?",
+    "options": {
+      "A": "Protein",
+      "B": "Calcium",
+      "C": "Iron",
+      "D": "Vitamin A"
+    },
+    "correctAnswer": "B",
+    "explanation": "Calcium is essential for building and maintaining strong bones and teeth."
+  },
+  {
+    "id": 10,
+    "subject": "Art & Craft",
+    "question": "What are the primary colors?",
+    "options": {
+      "A": "Red, Blue, Yellow",
+      "B": "Red, Green, Blue",
+      "C": "Blue, Yellow, Orange",
+      "D": "Red, Purple, Green"
+    },
+    "correctAnswer": "A",
+    "explanation": "The primary colors are red, blue, and yellow. All other colors are made by mixing these."
+  },
+  {
+    "id": 11,
+    "subject": "Mathematics",
+    "question": "What is 8 × 7?",
+    "options": {
+      "A": "54",
+      "B": "56",
+      "C": "64",
+      "D": "48"
+    },
+    "correctAnswer": "B",
+    "explanation": "8 × 7 = 56, which can be calculated as 8 × 7 or 7 × 8."
+  },
+  {
+    "id": 12,
+    "subject": "English",
+    "question": "What is the past tense of 'run'?",
+    "options": {
+      "A": "runned",
+      "B": "ran",
+      "C": "running",
+      "D": "runs"
+    },
+    "correctAnswer": "B",
+    "explanation": "The past tense of 'run' is 'ran', which is an irregular verb form."
+  },
+  {
+    "id": 13,
+    "subject": "Kiswahili",
+    "question": "Wingi wa neno 'mti' ni nini?",
+    "options": {
+      "A": "miti",
+      "B": "mimti",
+      "C": "wamti",
+      "D": "mati"
+    },
+    "correctAnswer": "A",
+    "explanation": "Wingi wa mti ni miti. Hii ni katika ngeli za M-MI."
+  },
+  {
+    "id": 14,
+    "subject": "Science & Technology",
+    "question": "What do we call animals that eat only plants?",
+    "options": {
+      "A": "Carnivores",
+      "B": "Omnivores",
+      "C": "Herbivores",
+      "D": "Scavengers"
+    },
+    "correctAnswer": "C",
+    "explanation": "Herbivores are animals that eat only plants, like cows, goats, and rabbits."
+  },
+  {
+    "id": 15,
+    "subject": "Social Studies",
+    "question": "Which ocean borders Kenya to the east?",
+    "options": {
+      "A": "Atlantic Ocean",
+      "B": "Indian Ocean",
+      "C": "Pacific Ocean",
+      "D": "Arctic Ocean"
+    },
+    "correctAnswer": "B",
+    "explanation": "The Indian Ocean borders Kenya to the east, providing the country with a coastline."
+  },
+  {
+    "id": 16,
+    "subject": "CRE",
+    "question": "How many days did it take God to create the world?",
+    "options": {
+      "A": "5 days",
+      "B": "6 days",
+      "C": "7 days",
+      "D": "8 days"
+    },
+    "correctAnswer": "B",
+    "explanation": "According to Genesis, God created the world in 6 days and rested on the 7th day."
+  },
+  {
+    "id": 17,
+    "subject": "Agriculture",
+    "question": "What do plants need to make their own food?",
+    "options": {
+      "A": "Water only",
+      "B": "Sunlight only",
+      "C": "Water, sunlight, and carbon dioxide",
+      "D": "Soil only"
+    },
+    "correctAnswer": "C",
+    "explanation": "Plants need water, sunlight, and carbon dioxide to make food through photosynthesis."
+  },
+  {
     "id": 96,
     "subject": "CRE",
     "question": "In the parable of the Good Samaritan, who helped the man who was robbed and beaten?",
@@ -16992,798 +17786,5 @@
     },
     "correctAnswer": "C",
     "explanation": "Mending is the act of repairing a tear or hole in clothing, usually by sewing it with a needle and thread."
-  },
-  {
-    "id": 150,
-    "subject": "Art & Craft",
-    "question": "The art of folding paper to create decorative shapes and figures is called?",
-    "options": {
-      "A": "Origami",
-      "B": "Calligraphy",
-      "C": "Collage",
-      "D": "Quilling"
-    },
-    "correctAnswer": "A",
-    "explanation": "Origami is the Japanese art of paper folding, where a flat square sheet of paper is transformed into a finished sculpture through folding techniques."
-  },
-  {
-    "id": 151,
-    "subject": "Mathematics",
-    "question": "What is the next number in the pattern: 2, 5, 8, 11, __?",
-    "options": {
-      "A": "12",
-      "B": "13",
-      "C": "14",
-      "D": "15"
-    },
-    "correctAnswer": "C",
-    "explanation": "The pattern is adding 3 to the previous number. 2+3=5, 5+3=8, 8+3=11, so the next number is 11+3=14."
-  },
-  {
-    "id": 152,
-    "subject": "English",
-    "question": "My book is interesting, but ___ is boring.",
-    "options": {
-      "A": "your",
-      "B": "you're",
-      "C": "yours",
-      "D": "you"
-    },
-    "correctAnswer": "C",
-    "explanation": "'Yours' is a possessive pronoun that can stand alone, meaning 'the book that belongs to you'."
-  },
-  {
-    "id": 153,
-    "subject": "Kiswahili",
-    "question": "Mnyama anayetambaa na hana miguu ni yupi?",
-    "options": {
-      "A": "Kobe",
-      "B": "Nyoka",
-      "C": "Mamba",
-      "D": "Kenge"
-    },
-    "correctAnswer": "B",
-    "explanation": "Nyoka ni mnyama anayetambaa ardhini na hana miguu."
-  },
-  {
-    "id": 154,
-    "subject": "Science & Technology",
-    "question": "The force that pulls objects towards the center of the Earth is called?",
-    "options": {
-      "A": "Friction",
-      "B": "Magnetism",
-      "C": "Gravity",
-      "D": "Motion"
-    },
-    "correctAnswer": "C",
-    "explanation": "Gravity is the natural force that causes objects with mass to be attracted to one another, such as the force that keeps us on the ground."
-  },
-  {
-    "id": 155,
-    "subject": "Social Studies",
-    "question": "The green colour on the Kenyan flag represents...?",
-    "options": {
-      "A": "Peace",
-      "B": "The people of Kenya",
-      "C": "The blood shed for freedom",
-      "D": "The country's natural wealth"
-    },
-    "correctAnswer": "D",
-    "explanation": "Green symbolizes the agricultural and natural wealth of Kenya, including its forests and fields."
-  },
-  {
-    "id": 156,
-    "subject": "CRE",
-    "question": "What did God promise Abraham?",
-    "options": {
-      "A": "A new boat",
-      "B": "That he would be the father of many nations",
-      "C": "That he would never be sick",
-      "D": "That he would live forever"
-    },
-    "correctAnswer": "B",
-    "explanation": "God made a covenant with Abraham, promising to make him the father of a great people and give his descendants the land of Canaan."
-  },
-  {
-    "id": 157,
-    "subject": "Agriculture",
-    "question": "Which of these is a food crop?",
-    "options": {
-      "A": "Cotton",
-      "B": "Pyrethrum",
-      "C": "Coffee",
-      "D": "Maize"
-    },
-    "correctAnswer": "D",
-    "explanation": "A food crop is a crop grown to be eaten by humans. Maize is a staple food in Kenya. The others are cash crops."
-  },
-  {
-    "id": 158,
-    "subject": "Music",
-    "question": "Standing up straight and breathing properly are important for good...?",
-    "options": {
-      "A": "Dancing",
-      "B": "Singing posture",
-      "C": "Listening",
-      "D": "Composing"
-    },
-    "correctAnswer": "B",
-    "explanation": "Good posture and breath support are essential techniques for a singer to produce a strong and controlled sound."
-  },
-  {
-    "id": 159,
-    "subject": "Home Science",
-    "question": "Which of the following would you use to clean a greasy pot?",
-    "options": {
-      "A": "Cold water only",
-      "B": "A dry cloth",
-      "C": "Hot water and soap",
-      "D": "A newspaper"
-    },
-    "correctAnswer": "C",
-    "explanation": "Hot water and soap are effective for cutting through grease and cleaning oily utensils properly."
-  },
-  {
-    "id": 160,
-    "subject": "Art & Craft",
-    "question": "Using thin strips of paper to weave and create a mat-like surface is called?",
-    "options": {
-      "A": "Paper weaving",
-      "B": "Paper cutting",
-      "C": "Paper folding",
-      "D": "Paper collage"
-    },
-    "correctAnswer": "A",
-    "explanation": "Paper weaving involves interlacing strips of paper to create a flat, textured surface or pattern."
-  },
-  {
-    "id": 161,
-    "subject": "Mathematics",
-    "question": "A shopkeeper had 1000 eggs. 120 of them broke. How many eggs were left?",
-    "options": {
-      "A": "880",
-      "B": "980",
-      "C": "1120",
-      "D": "820"
-    },
-    "correctAnswer": "A",
-    "explanation": "To find the number of eggs left, you subtract the broken eggs from the total: 1000 - 120 = 880."
-  },
-  {
-    "id": 162,
-    "subject": "English",
-    "question": "Which sentence has the correct punctuation?",
-    "options": {
-      "A": "where are you going.",
-      "B": "Where are you going?",
-      "C": "Where are you going,",
-      "D": "Where are you going"
-    },
-    "correctAnswer": "B",
-    "explanation": "A sentence that asks a question must end with a question mark (?)."
-  },
-  {
-    "id": 163,
-    "subject": "Kiswahili",
-    "question": "Neno 'barabara' liko katika ngeli gani?",
-    "options": {
-      "A": "A-WA",
-      "B": "I-ZI",
-      "C": "U-I",
-      "D": "LI-YA"
-    },
-    "correctAnswer": "B",
-    "explanation": "Neno 'barabara' liko katika ngeli ya I-ZI. Mfano: Barabara hii ni ndefu (umoja), Barabara hizi ni ndefu (wingi)."
-  },
-  {
-    "id": 164,
-    "subject": "Science & Technology",
-    "question": "An animal that is hunted and eaten by another animal is called...",
-    "options": {
-      "A": "a predator.",
-      "B": "a producer.",
-      "C": "a prey.",
-      "D": "a decomposer."
-    },
-    "correctAnswer": "C",
-    "explanation": "In a food chain, a prey is an organism that is killed and eaten by another organism, the predator."
-  },
-  {
-    "id": 165,
-    "subject": "Social Studies",
-    "question": "The currency used in Kenya is the...?",
-    "options": {
-      "A": "Dollar",
-      "B": "Pound",
-      "C": "Shilling",
-      "D": "Rand"
-    },
-    "correctAnswer": "C",
-    "explanation": "The official currency of the Republic of Kenya is the Kenyan Shilling (KES)."
-  },
-  {
-    "id": 166,
-    "subject": "CRE",
-    "question": "What happened on the day of Pentecost?",
-    "options": {
-      "A": "Jesus was born",
-      "B": "The Holy Spirit came upon the disciples",
-      "C": "The world was created",
-      "D": "Moses received the Ten Commandments"
-    },
-    "correctAnswer": "B",
-    "explanation": "Pentecost is a Christian holiday that commemorates the descent of the Holy Spirit upon the Apostles and other followers of Jesus Christ, as described in the book of Acts."
-  },
-  {
-    "id": 167,
-    "subject": "Agriculture",
-    "question": "Why is it important to store harvested grains in a dry place?",
-    "options": {
-      "A": "To make them grow again",
-      "B": "To prevent them from rotting or getting mouldy",
-      "C": "To make them wet",
-      "D": "To change their colour"
-    },
-    "correctAnswer": "B",
-    "explanation": "Storing grains in a dry, well-ventilated place prevents the growth of mould and stops them from rotting, ensuring they remain safe to eat."
-  },
-  {
-    "id": 168,
-    "subject": "Music",
-    "question": "A song that is sung to make a baby sleep is called a...?",
-    "options": {
-      "A": "War song",
-      "B": "Work song",
-      "C": "Lullaby",
-      "D": "Hymn"
-    },
-    "correctAnswer": "C",
-    "explanation": "A lullaby is a soothing song or piece of music, usually played or sung to children to help them fall asleep."
-  },
-  {
-    "id": 169,
-    "subject": "Home Science",
-    "question": "Which of these is NOT a good personal hygiene practice?",
-    "options": {
-      "A": "Brushing teeth twice a day",
-      "B": "Bathing daily with soap and water",
-      "C": "Wearing dirty clothes",
-      "D": "Washing hands before eating"
-    },
-    "correctAnswer": "C",
-    "explanation": "Wearing dirty clothes can harbor germs and cause bad body odour. Good personal hygiene involves wearing clean clothes."
-  },
-  {
-    "id": 170,
-    "subject": "Art & Craft",
-    "question": "Which of these is a tool used for carving wood?",
-    "options": {
-      "A": "A paintbrush",
-      "B": "A chisel",
-      "C": "A needle",
-      "D": "A pencil"
-    },
-    "correctAnswer": "B",
-    "explanation": "A chisel is a tool with a characteristically shaped cutting edge of blade on its end, for carving or cutting a hard material such as wood, stone, or metal."
-  },
-  {
-    "id": 171,
-    "subject": "Mathematics",
-    "question": "What is the volume of a cuboid with length 5 cm, width 3 cm, and height 2 cm?",
-    "options": {
-      "A": "10 cm³",
-      "B": "15 cm³",
-      "C": "30 cm³",
-      "D": "6 cm³"
-    },
-    "correctAnswer": "C",
-    "explanation": "Volume of a cuboid is calculated as length × width × height. So, 5 cm × 3 cm × 2 cm = 30 cm³."
-  },
-  {
-    "id": 172,
-    "subject": "English",
-    "question": "The sun is shining ___. ",
-    "options": {
-      "A": "bright",
-      "B": "brightly",
-      "C": "brighter",
-      "D": "brightness"
-    },
-    "correctAnswer": "B",
-    "explanation": "An adverb is needed to describe how the sun is shining. 'Brightly' is the adverb form of 'bright'."
-  },
-  {
-    "id": 173,
-    "subject": "Kiswahili",
-    "question": "Chagua neno ambalo ni tofauti na mengine.",
-    "options": {
-      "A": "Chungwa",
-      "B": "Embe",
-      "C": "Ndizi",
-      "D": "Karoti"
-    },
-    "correctAnswer": "D",
-    "explanation": "Chungwa, embe, na ndizi ni matunda. Karoti ni mboga ya mizizi. Kwa hivyo, karoti ni tofauti."
-  },
-  {
-    "id": 174,
-    "subject": "Science & Technology",
-    "question": "Animals that eat both plants and other animals are called...?",
-    "options": {
-      "A": "Carnivores",
-      "B": "Herbivores",
-      "C": "Omnivores",
-      "D": "Producers"
-    },
-    "correctAnswer": "C",
-    "explanation": "Omnivores are animals that have a diet consisting of both plant and animal matter."
-  },
-  {
-    "id": 175,
-    "subject": "Social Studies",
-    "question": "Which of these is NOT a national symbol of Kenya?",
-    "options": {
-      "A": "The National Flag",
-      "B": "The Coat of Arms",
-      "C": "The National Anthem",
-      "D": "The Maasai Mara"
-    },
-    "correctAnswer": "D",
-    "explanation": "The flag, coat of arms, and national anthem are official national symbols. The Maasai Mara is a famous game reserve, but not an official national symbol."
-  },
-  {
-    "id": 176,
-    "subject": "CRE",
-    "question": "Which one of these is a fruit of the Holy Spirit?",
-    "options": {
-      "A": "Anger",
-      "B": "Jealousy",
-      "C": "Patience",
-      "D": "Pride"
-    },
-    "correctAnswer": "C",
-    "explanation": "According to Galatians 5:22-23, the fruits of the Spirit include love, joy, peace, patience, kindness, goodness, faithfulness, gentleness, and self-control."
-  },
-  {
-    "id": 177,
-    "subject": "Agriculture",
-    "question": "The practice of growing crops and raising animals is called?",
-    "options": {
-      "A": "Fishing",
-      "B": "Mining",
-      "C": "Agriculture",
-      "D": "Forestry"
-    },
-    "correctAnswer": "C",
-    "explanation": "Agriculture, or farming, is the science and art of cultivating plants and livestock."
-  },
-  {
-    "id": 178,
-    "subject": "Music",
-    "question": "The main tune of a song is called the...?",
-    "options": {
-      "A": "Rhythm",
-      "B": "Harmony",
-      "C": "Melody",
-      "D": "Beat"
-    },
-    "correctAnswer": "C",
-    "explanation": "The melody is a sequence of single notes that is musically satisfying; it's the part of the song you often hum or sing."
-  },
-  {
-    "id": 179,
-    "subject": "Home Science",
-    "question": "A meal that contains all the food groups in the right amounts is called a...?",
-    "options": {
-      "A": "Snack",
-      "B": "Junk food",
-      "C": "Balanced diet",
-      "D": "Large meal"
-    },
-    "correctAnswer": "C",
-    "explanation": "A balanced diet provides the body with all the essential nutrients (proteins, carbohydrates, fats, vitamins, minerals) it needs to function correctly."
-  },
-  {
-    "id": 180,
-    "subject": "Art & Craft",
-    "question": "A still life is a drawing or painting of...?",
-    "options": {
-      "A": "a person's face.",
-      "B": "a group of moving animals.",
-      "C": "a group of non-living objects.",
-      "D": "a wide view of the countryside."
-    },
-    "correctAnswer": "C",
-    "explanation": "A still life is a work of art depicting mostly inanimate subject matter, typically commonplace objects which may be either natural (food, flowers) or man-made (vases, books)."
-  },
-  {
-    "id": 181,
-    "subject": "Mathematics",
-    "question": "Which fraction is the largest: 1/2, 1/4, 1/3, 1/5?",
-    "options": {
-      "A": "1/2",
-      "B": "1/4",
-      "C": "1/3",
-      "D": "1/5"
-    },
-    "correctAnswer": "A",
-    "explanation": "When the numerator is the same (in this case, 1), the fraction with the smallest denominator has the largest value. 1/2 (or a half) is larger than a third, a quarter, or a fifth."
-  },
-  {
-    "id": 182,
-    "subject": "English",
-    "question": "A place where books are kept for people to read or borrow is a...",
-    "options": {
-      "A": "museum.",
-      "B": "library.",
-      "C": "market.",
-      "D": "stadium."
-    },
-    "correctAnswer": "B",
-    "explanation": "A library is a building or room containing collections of books, periodicals, and sometimes films and recorded music for use or borrowing by the public or the members of an institution."
-  },
-  {
-    "id": 183,
-    "subject": "Kiswahili",
-    "question": "Neno 'shamba' lina silabi ngapi?",
-    "options": {
-      "A": "Moja",
-      "B": "Mbili",
-      "C": "Tatu",
-      "D": "Nne"
-    },
-    "correctAnswer": "B",
-    "explanation": "Neno 'shamba' lina silabi mbili: 'sha-' na '-mba'."
-  },
-  {
-    "id": 184,
-    "subject": "Science & Technology",
-    "question": "To see very small things like germs, scientists use a special instrument called a...?",
-    "options": {
-      "A": "Telescope",
-      "B": "Microscope",
-      "C": "Binoculars",
-      "D": "Magnifying glass"
-    },
-    "correctAnswer": "B",
-    "explanation": "A microscope is a laboratory instrument used to examine objects that are too small to be seen by the naked eye."
-  },
-  {
-    "id": 185,
-    "subject": "Social Studies",
-    "question": "The colours on the Kenyan flag are black, red, green and...?",
-    "options": {
-      "A": "Yellow",
-      "B": "Blue",
-      "C": "White",
-      "D": "Orange"
-    },
-    "correctAnswer": "C",
-    "explanation": "The Kenyan flag has four colours: black, red, and green horizontal stripes, separated by thin white fimbriations (stripes)."
-  },
-  {
-    "id": 186,
-    "subject": "CRE",
-    "question": "The story of Noah and the Ark teaches about God's punishment for sin and his...?",
-    "options": {
-      "A": "anger.",
-      "B": "power.",
-      "C": "promise to save those who are faithful.",
-      "D": "knowledge."
-    },
-    "correctAnswer": "C",
-    "explanation": "The story shows that while God judges sin, He also provides a way of salvation for the righteous and faithful, as He did for Noah and his family."
-  },
-  {
-    "id": 187,
-    "subject": "Agriculture",
-    "question": "Which of these is a domestic animal used for transport, especially for carrying goods?",
-    "options": {
-      "A": "Cow",
-      "B": "Donkey",
-      "C": "Goat",
-      "D": "Pig"
-    },
-    "correctAnswer": "B",
-    "explanation": "Donkeys are commonly used as pack animals to transport goods and materials in many parts of Kenya and the world."
-  },
-  {
-    "id": 188,
-    "subject": "Music",
-    "question": "When you sing without any musical instruments playing along, it is called...?",
-    "options": {
-      "A": "Opera",
-      "B": "A cappella",
-      "C": "A solo",
-      "D": "A chorus"
-    },
-    "correctAnswer": "B",
-    "explanation": "A cappella is a performance by a singer or a singing group without instrumental accompaniment."
-  },
-  {
-    "id": 189,
-    "subject": "Home Science",
-    "question": "Which of these should NOT be touched with wet hands?",
-    "options": {
-      "A": "A book",
-      "B": "A piece of fruit",
-      "C": "An electrical switch",
-      "D": "A chair"
-    },
-    "correctAnswer": "C",
-    "explanation": "Touching electrical switches or appliances with wet hands is extremely dangerous because water conducts electricity and can cause a severe electric shock."
-  },
-  {
-    "id": 190,
-    "subject": "Art & Craft",
-    "question": "A type of crayon made of oil, wax, and pigment that is used for drawing is called an...?",
-    "options": {
-      "A": "Oil pastel",
-      "B": "Chalk",
-      "C": "Ink pen",
-      "D": "Watercolour"
-    },
-    "correctAnswer": "A",
-    "explanation": "Oil pastels are a drawing and painting medium with characteristics similar to pastels and wax crayons. They are known for their rich colours and oily texture."
-  },
-  {
-    "id": 191,
-    "subject": "Mathematics",
-    "question": "A right angle measures exactly...?",
-    "options": {
-      "A": "45 degrees",
-      "B": "90 degrees",
-      "C": "180 degrees",
-      "D": "360 degrees"
-    },
-    "correctAnswer": "B",
-    "explanation": "A right angle is an angle of exactly 90°, corresponding to a quarter turn."
-  },
-  {
-    "id": 192,
-    "subject": "English",
-    "question": "Which word describes how a tortoise moves?",
-    "options": {
-      "A": "Quickly",
-      "B": "Loudly",
-      "C": "Slowly",
-      "D": "Angrily"
-    },
-    "correctAnswer": "C",
-    "explanation": "Tortoises are known for their very slow movement. The adverb 'slowly' correctly describes this."
-  },
-  {
-    "id": 193,
-    "subject": "Kiswahili",
-    "question": "Mtu asiyesikia huitwaje?",
-    "options": {
-      "A": "Kipofu",
-      "B": "Bubu",
-      "C": "Kiziwi",
-      "D": "Kilema"
-    },
-    "correctAnswer": "C",
-    "explanation": "Mtu ambaye hawezi kusikia anaitwa kiziwi."
-  },
-  {
-    "id": 194,
-    "subject": "Science & Technology",
-    "question": "A shadow is formed when an object...",
-    "options": {
-      "A": "produces light.",
-      "B": "blocks the path of light.",
-      "C": "is transparent.",
-      "D": "is very small."
-    },
-    "correctAnswer": "B",
-    "explanation": "A shadow is a dark area where light from a light source is blocked by an opaque object."
-  },
-  {
-    "id": 195,
-    "subject": "Social Studies",
-    "question": "The traditional songs, stories, and beliefs that are passed down from one generation to the next form a community's...?",
-    "options": {
-      "A": "Government",
-      "B": "Economy",
-      "C": "Culture",
-      "D": "Climate"
-    },
-    "correctAnswer": "C",
-    "explanation": "Culture encompasses the social behavior, institutions, and norms found in human societies, as well as the knowledge, beliefs, arts, laws, customs, and habits of the individuals in these groups."
-  },
-  {
-    "id": 196,
-    "subject": "CRE",
-    "question": "A story with a heavenly meaning that Jesus used to teach people is called a...?",
-    "options": {
-      "A": "Miracle",
-      "B": "Parable",
-      "C": "Proverb",
-      "D": "Sermon"
-    },
-    "correctAnswer": "B",
-    "explanation": "A parable is a simple story used to illustrate a moral or spiritual lesson, as told by Jesus in the Gospels."
-  },
-  {
-    "id": 197,
-    "subject": "Agriculture",
-    "question": "Which of the following is a disadvantage of using too much chemical fertilizer on a farm?",
-    "options": {
-      "A": "It makes crops grow very fast",
-      "B": "It is cheap to buy",
-      "C": "It can pollute water sources and harm the soil",
-      "D": "It kills all pests"
-    },
-    "correctAnswer": "C",
-    "explanation": "Overuse of chemical fertilizers can lead to them being washed into rivers and lakes, causing water pollution, and can also damage the long-term health and structure of the soil."
-  },
-  {
-    "id": 198,
-    "subject": "Music",
-    "question": "The pattern of sounds and silences in music is called...?",
-    "options": {
-      "A": "Pitch",
-      "B": "Rhythm",
-      "C": "Tempo",
-      "D": "Melody"
-    },
-    "correctAnswer": "B",
-    "explanation": "Rhythm is the arrangement of sounds and silences in time, creating the 'beat' or 'pulse' of the music."
-  },
-  {
-    "id": 199,
-    "subject": "Home Science",
-    "question": "Why is it important to have windows in a house?",
-    "options": {
-      "A": "To keep the house dark",
-      "B": "To allow for ventilation and natural light",
-      "C": "To make it easier for thieves to enter",
-      "D": "To hang pictures on"
-    },
-    "correctAnswer": "B",
-    "explanation": "Windows are essential for letting fresh air circulate in a house (ventilation) and for allowing natural sunlight to enter, which is good for health and saves electricity."
-  },
-  {
-    "id": 200,
-    "subject": "Art & Craft",
-    "question": "The surface quality of an artwork, such as how it feels (e.g., rough, smooth), is called...?",
-    "options": {
-      "A": "Colour",
-      "B": "Shape",
-      "C": "Line",
-      "D": "Texture"
-    },
-    "correctAnswer": "D",
-    "explanation": "Texture is an element of art that refers to the way things feel, or look as if they might feel if touched."
-  },
-  {
-    "id": 201,
-    "subject": "Mathematics",
-    "question": "What is 1/2 + 1/4?",
-    "options": {
-      "A": "2/6",
-      "B": "1/6",
-      "C": "2/4",
-      "D": "3/4"
-    },
-    "correctAnswer": "D",
-    "explanation": "To add these fractions, you need a common denominator, which is 4. 1/2 is the same as 2/4. So, 2/4 + 1/4 = 3/4."
-  },
-  {
-    "id": 202,
-    "subject": "English",
-    "question": "An elephant is ___ than a mouse.",
-    "options": {
-      "A": "big",
-      "B": "bigger",
-      "C": "biggest",
-      "D": "more big"
-    },
-    "correctAnswer": "B",
-    "explanation": "When comparing two things, we use the comparative form of the adjective. The comparative of 'big' is 'bigger'."
-  },
-  {
-    "id": 203,
-    "subject": "Kiswahili",
-    "question": "Ukiona neno 'hospitalini', 'ni' mwishoni inamaanisha nini?",
-    "options": {
-      "A": "Ni wingi",
-      "B": "Inaonyesha mahali",
-      "C": "Ni kitenzi",
-      "D": "Ni kinyume"
-    },
-    "correctAnswer": "B",
-    "explanation": "Katika Kiswahili, kiambishi tamati '-ni' huongezwa kwenye nomino kuonyesha mahali. Kwa mfano, 'shuleni' (at/in school), 'sokoni' (at/in the market)."
-  },
-  {
-    "id": 204,
-    "subject": "Science & Technology",
-    "question": "The movement of the Earth around the Sun is called...?",
-    "options": {
-      "A": "Rotation",
-      "B": "Revolution",
-      "C": "Orbit",
-      "D": "Axis"
-    },
-    "correctAnswer": "B",
-    "explanation": "Revolution is the movement of one object around another. The Earth revolves around the Sun, which takes approximately 365 days to complete."
-  },
-  {
-    "id": 205,
-    "subject": "Social Studies",
-    "question": "What is the name of the ocean that borders Kenya to the East?",
-    "options": {
-      "A": "Atlantic Ocean",
-      "B": "Pacific Ocean",
-      "C": "Indian Ocean",
-      "D": "Arctic Ocean"
-    },
-    "correctAnswer": "C",
-    "explanation": "The eastern border of Kenya is the coastline along the Indian Ocean."
-  },
-  {
-    "id": 206,
-    "subject": "CRE",
-    "question": "What did Jesus say are the two greatest commandments?",
-    "options": {
-      "A": "Do not steal and do not kill",
-      "B": "Rest on the Sabbath and honour your parents",
-      "C": "Love God and love your neighbor as yourself",
-      "D": "Do not covet and do not bear false witness"
-    },
-    "correctAnswer": "C",
-    "explanation": "When asked, Jesus summarized the law by stating that the greatest commandment is to love the Lord your God, and the second is to love your neighbor as yourself."
-  },
-  {
-    "id": 207,
-    "subject": "Agriculture",
-    "question": "Which one of these farming practices helps to restore soil fertility?",
-    "options": {
-      "A": "Monocropping (planting the same crop every year)",
-      "B": "Overgrazing",
-      "C": "Deforestation",
-      "D": "Crop rotation"
-    },
-    "correctAnswer": "D",
-    "explanation": "Crop rotation, which is the practice of growing different types of crops in the same area in sequenced seasons, helps to replenish soil nutrients and reduce pest build-up."
-  },
-  {
-    "id": 208,
-    "subject": "Music",
-    "question": "When different musical notes are played together at the same time to create a pleasing sound, this is called?",
-    "options": {
-      "A": "Rhythm",
-      "B": "Harmony",
-      "C": "Melody",
-      "D": "Tempo"
-    },
-    "correctAnswer": "B",
-    "explanation": "Harmony is the combination of simultaneously sounded musical notes to produce chords and chord progressions having a pleasing effect."
-  },
-  {
-    "id": 209,
-    "subject": "Home Science",
-    "question": "What is the main reason for preserving food, for example by drying or salting?",
-    "options": {
-      "A": "To change its taste",
-      "B": "To make it smaller",
-      "C": "To stop it from spoiling so it can be eaten later",
-      "D": "To make it more expensive"
-    },
-    "correctAnswer": "C",
-    "explanation": "Food preservation techniques slow down or prevent the growth of microorganisms, stopping the food from spoiling and allowing it to be stored for future use."
-  },
-  {
-    "id": 210,
-    "subject": "Art & Craft",
-    "question": "The arrangement of elements like lines and shapes in a piece of art to create a feeling of stability is called...?",
-    "options": {
-      "A": "Contrast",
-      "B": "Balance",
-      "C": "Rhythm",
-      "D": "Emphasis"
-    },
-    "correctAnswer": "B",
-    "explanation": "Balance is a principle of art concerned with arranging the elements so that their visual weight is distributed evenly, creating a sense of stability in the artwork."
   }
 ]

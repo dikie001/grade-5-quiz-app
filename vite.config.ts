@@ -30,6 +30,7 @@ export default defineConfig({
         ],
       },
       workbox: {
+        maximumFileSizeToCacheInBytes: 5 * 1024 * 1024, // 5MB limit fix
         globPatterns: ["**/*.{js,css,html,ico,png,svg,json,woff2,mp3,ogg,wav}"],
         runtimeCaching: [
           {
