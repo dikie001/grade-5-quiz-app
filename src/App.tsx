@@ -1,13 +1,13 @@
+import { ArrowRight, Download, Shield, X, Zap } from "lucide-react";
 import { useEffect, useState } from "react";
+import { Toaster } from "react-hot-toast";
+import QuizApp from "./pages/NewQuiz";
 
 // Define the BeforeInstallPromptEvent type
 interface BeforeInstallPromptEvent extends Event {
   prompt: () => void;
   userChoice: Promise<{ outcome: "accepted" | "dismissed" }>;
 }
-import { Toaster } from "react-hot-toast";
-import QuizPage from "./pages/grade_5_quiz"
-import { ArrowRight, Download, Shield, X, Zap } from "lucide-react";
 
 const App = () => {
   const [deferredPrompt, setDeferredPrompt] = useState<BeforeInstallPromptEvent | null>(null);
@@ -92,7 +92,7 @@ const App = () => {
           </div>
         </div>
       )}
-      <QuizPage />
+      <QuizApp />
     </div>
   );
 };
