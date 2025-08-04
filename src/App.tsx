@@ -35,7 +35,7 @@ const App = () => {
   };
 
   return (
-    <div className="min-h-dvh bg-gradient-to-br from-pink-600 via-purple-800 to-purple-950 ">
+    <div className="min-h-dvh bg-gradient-to-br from-pink-800 via-purple-800 to-purple-950 ">
       <Toaster />
       {deferredPrompt && (
         <div className="fixed bottom-6 right-6 z-50 max-w-sm">

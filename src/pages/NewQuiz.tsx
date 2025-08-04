@@ -1,21 +1,21 @@
-import React, { useState, useEffect } from "react";
 import {
-  ChevronRight,
-  BookOpen,
-  Trophy,
-  Star,
-  RotateCcw,
-  Play,
-  CheckCircle,
-  XCircle,
-  Brain,
-  Sparkles,
-  Home,
   ArrowLeft,
-  X,
+  BookOpen,
+  Brain,
+  CheckCircle,
+  ChevronRight,
+  Home,
+  Laptop2,
+  Play,
+  RotateCcw,
+  Sparkles,
+  Star,
+  Trophy,
+  XCircle
 } from "lucide-react";
-import quizData1 from "../assets/jsons/RandomQuiz.json";
+import React, { useEffect, useState } from "react";
 import toast from "react-hot-toast";
+import quizData1 from "../assets/jsons/RandomQuiz.json";
 import useSound from "../hooks/useSound";
 
 // TypeScript interfaces
@@ -374,7 +374,7 @@ const QuizApp: React.FC = () => {
         toast.error("Incorrect password!", { id: "toasty" });
         return;
       }
-      if (password === "14572") {
+      if(password === "14572") {
         const confirmation = window.confirm(
           "Are you sure you want to clear all data?"
         );
@@ -422,11 +422,11 @@ const QuizApp: React.FC = () => {
 
   // Get performance message
   const getPerformanceMessage = (percentage: number): string => {
-    if (percentage >= 90) return "Outstanding! You're a quiz master! 🌟";
-    if (percentage >= 80) return "Excellent work! Keep it up! 🎉";
-    if (percentage >= 70) return "Great job! You're doing well! 👏";
-    if (percentage >= 60) return "Good effort! Keep practicing! 💪";
-    return "Keep studying and you'll improve! 📚";
+    if (percentage >= 90) return "E.E. Outstanding! You're a quiz master! 🌟";
+    if (percentage >= 80) return "M.E. Excellent work! Keep it up! 🎉";
+    if (percentage >= 70) return "M.E. Great job! You're doing well! 👏";
+    if (percentage >= 60) return "A.E. Good effort! Keep practicing! 💪";
+    return "B.E. Keep studying and you'll improve! 📚 " ;
   };
 
   // Loading screen
@@ -478,10 +478,7 @@ const QuizApp: React.FC = () => {
           <div className="bg-slate-800 rounded-lg p-4 text-left text-sm text-gray-300">
             <p className="mb-2">Expected format:</p>
             <code className="text-purple-300">
-              {`// Add to your component:
-import quizData from '../assets/jsons/RandomQuiz.json';
-
-// Or set window.quizData = [...] for testing`}
+  
             </code>
           </div>
         </div>
@@ -492,7 +489,7 @@ import quizData from '../assets/jsons/RandomQuiz.json';
   // Home Screen
   if (state.gameState === "home") {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-gray-900 via-purple-900 to-slate-900 p-4">
+      <div className="min-h-screen bg-gradient-to-br from-gray-950 via-purple-900 to-slate-900 p-4">
         <div className="max-w-4xl mx-auto">
           {/* Header */}
           <div className="text-center mb-4 pt-4">
@@ -500,7 +497,7 @@ import quizData from '../assets/jsons/RandomQuiz.json';
               <Brain className="w-12 h-12 text-purple-400 mr-3" />
               <Sparkles className="w-8 h-8 text-pink-400" />
             </div>
-            <h1 className="text-4xl font-bold bg-gradient-to-r from-purple-400 via-pink-400 to-cyan-400 bg-clip-text text-transparent mb-1">
+            <h1 className="text-4xl font-bold bg-gradient-to-r from-yellow-500 via-pink-600 to-indigo-400 bg-clip-text text-transparent mb-1">
               Matilda Awino
             </h1>
             <p className="text-xl text-gray-300">Grade 5 Quiz Master</p>
@@ -508,28 +505,28 @@ import quizData from '../assets/jsons/RandomQuiz.json';
 
           {/* Enhanced Stats */}
           <div className="grid md:grid-cols-4 gap-3 mb-4">
-            <div className="bg-slate-800/50 backdrop-blur-lg rounded-2xl p-4 border border-purple-500/20">
+            <div className="bg-gradient-to-r from-black/30 to-black/20 backdrop-blur-lg rounded-2xl p-4 border border-purple-500/40 shadow-xl">
               <BookOpen className="w-8 h-8 text-purple-400 mb-3" />
               <h3 className="text-2xl font-bold text-white">
                 {state.quizData.length}
               </h3>
               <p className="text-gray-400">Total Questions</p>
             </div>
-            <div className="bg-slate-800/50 backdrop-blur-lg rounded-2xl p-6 border border-pink-500/20">
+            <div className="bg-gradient-to-r from-black/30 to-black/20 backdrop-blur-lg rounded-2xl p-6 border border-pink-500/40 shadow-xl">
               <Trophy className="w-8 h-8 text-pink-400 mb-3" />
               <h3 className="text-2xl font-bold text-white">
                 {getTotalTests()}
               </h3>
               <p className="text-gray-400">Available Tests</p>
             </div>
-            <div className="bg-slate-800/50 backdrop-blur-lg rounded-2xl p-6 border border-purple-500/20">
+            <div className="bg-gradient-to-r from-black/30 to-black/20 backdrop-blur-xl rounded-2xl p-6 border border-yellow-500/40 shadow-xl">
               <Star className="w-8 h-8 text-yellow-400 mb-3" />
               <h3 className="text-2xl font-bold text-white">
                 {state.testResults.length}
               </h3>
               <p className="text-gray-400">Tests Completed</p>
             </div>
-            <div className="bg-slate-800/50 backdrop-blur-lg rounded-2xl p-6 border border-green-500/20">
+            <div className="bg-gradient-to-r from-black/30 to-black/20 backdrop-blur-lg rounded-2xl p-6 border border-green-500/40 shadow-xl">
               <Brain className="w-8 h-8 text-green-400 mb-3" />
               <h3 className="text-2xl font-bold text-white">
                 {state.testResults.length > 0
@@ -551,7 +548,7 @@ import quizData from '../assets/jsons/RandomQuiz.json';
             {state.currentTest < getTotalTests() && (
               <button
                 onClick={() => startTest(state.currentTest)}
-                className="w-full bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white p-6 rounded-2xl font-bold text-xl transition-all duration-300 transform hover:scale-105 shadow-2xl"
+                className="w-full bg-gradient-to-r from-purple-700 to-pink-700 animate-pulse   text-white p-6 rounded-2xl font-bold text-xl transition-all duration-300 transform hover:scale-105 shadow-xl"
               >
                 <div className="flex items-center justify-center">
                   <Play className="w-6 h-6 mr-3" />
@@ -565,7 +562,7 @@ import quizData from '../assets/jsons/RandomQuiz.json';
             {state.testResults.length > 0 && (
               <button
                 onClick={() => setGameState("allResults")}
-                className="w-full bg-slate-700/50 hover:bg-slate-600/50 text-white p-4 rounded-2xl font-semibold transition-all duration-300 border border-purple-500/30"
+                className="w-full bg-slate-700/50 hover:bg-slate-600/50 text-white p-4 rounded-2xl font-semibold transition-all duration-300 border border-purple-500/30 shadow-xl"
               >
                 <div className="flex items-center justify-center">
                   <Trophy className="w-5 h-5 mr-2" />
@@ -577,7 +574,7 @@ import quizData from '../assets/jsons/RandomQuiz.json';
             {state.testResults.length > 0 && (
               <button
                 onClick={resetAllData}
-                className="w-full bg-red-600/20 hover:bg-red-600/30 text-red-400 p-4 rounded-2xl font-semibold transition-all duration-300 border border-red-500/30"
+                className="w-full bg-red-600/20 hover:bg-red-600/30 text-red-400 p-4 rounded-2xl font-semibold transition-all duration-300 border border-red-500/30 shadow-xl"
               >
                 <div className="flex items-center justify-center">
                   <RotateCcw className="w-5 h-5 mr-2" />
@@ -586,6 +583,21 @@ import quizData from '../assets/jsons/RandomQuiz.json';
               </button>
             )}
           </div>
+        </div>
+        <div className="mt-8 mb-2 flex gap-2 justify-center items-center">
+          <p className="text-gray-400 text-sm text-center">
+            from code to impact -{" "}
+            <span className="text-pink-400 underline font-medium">
+              <a
+                href="https://dikie.vercel.app"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                dikie.dev
+              </a>
+            </span>
+          </p>
+          <Laptop2 className="text-pink-500" />
         </div>
       </div>
     );
@@ -615,7 +627,7 @@ import quizData from '../assets/jsons/RandomQuiz.json';
     }
 
     return (
-      <div className="min-h-screen bg-gradient-to-br from-gray-900 via-purple-900 to-slate-900 p-4">
+      <div className="min-h-screen bg-gradient-to-br from-gray-950 via-purple-900 to-slate-900 p-4">
         <div className="max-w-4xl mx-auto">
           {/* Enhanced Header */}
           <div className="flex items-center justify-between mb-6">
@@ -631,11 +643,11 @@ import quizData from '../assets/jsons/RandomQuiz.json';
                 Test {state.currentTest + 1}
               </h2>
               <p className="text-purple-300">{currentQ.subject}</p>
-              {currentQ.difficulty && (
+              {/* {currentQ.difficulty && (
                 <p className="text-sm text-gray-400 capitalize">
                   {currentQ.difficulty} Level
                 </p>
-              )}
+              )} */}
             </div>
             <div className="text-right">
               <p className="text-purple-200">
@@ -656,7 +668,7 @@ import quizData from '../assets/jsons/RandomQuiz.json';
           {/* Progress Bar */}
           <div className="bg-slate-800 rounded-full h-3 mb-6 overflow-hidden">
             <div
-              className="bg-gradient-to-r from-purple-500 to-pink-500 h-full transition-all duration-500 ease-out"
+              className="bg-gradient-to-r from-purple-500 via-cyan-400  to-pink-500 h-full transition-all duration-500 ease-out"
               style={{
                 width: `${
                   ((state.currentQuestion + 1) / currentQuestions.length) * 100
@@ -666,9 +678,9 @@ import quizData from '../assets/jsons/RandomQuiz.json';
           </div>
 
           {/* Question Card */}
-          <div className="bg-slate-800/50 backdrop-blur-lg rounded-3xl px-4 py-6 border border-purple-500/20 shadow-2xl mb-6">
+          <div className="bg-slate-800/50 shadow-cyan-800 backdrop-blur-lg rounded-3xl px-4 py-6 border border-purple-500/20 shadow-lg mb-6">
             <div className="flex items-start justify-between mb-4">
-              <h3 className="text-2xl font-bold text-white leading-8 flex-1">
+              <h3 className="text-2xl font-bold text-white leading-relaxed flex-1">
                 {currentQ.question}
               </h3>
               {currentQ.category && (
@@ -687,7 +699,7 @@ import quizData from '../assets/jsons/RandomQuiz.json';
                 ][]
               ).map(([key, value]) => {
                 let buttonClass =
-                  "w-full p-4 rounded-3xl font-semibold text-lg transition-all duration-300 transform hover:scale-102 border-2 ";
+                  "w-full p-3 rounded-3xl text-start font-semibold text-lg transition-all duration-300 transform hover:scale-102 border-2 ";
 
                 if (!state.showFeedback) {
                   buttonClass +=
@@ -717,7 +729,7 @@ import quizData from '../assets/jsons/RandomQuiz.json';
                     disabled={state.showFeedback}
                   >
                     <div className="flex items-center">
-                      <span className="w-8 h-8 rounded-full  bg-gradient-to-r from-black/50 to-white/20 shadow-sm flex items-center justify-center mr-2 font-bold">
+                      <span className="min-w-8 min-h-8 rounded-full  bg-gradient-to-r from-black/50 to-white/20 shadow-sm flex items-center justify-center mr-2 font-bold">
                         <p className="text-gray-200">{key} </p>
                       </span>
                       {value}
@@ -739,7 +751,7 @@ import quizData from '../assets/jsons/RandomQuiz.json';
             {state.showFeedback && (
               <div className=" p-4 absolute left-0 right-0 top-0 bg-slate-900 rounded-3xl border border-purple-800">
                 <div className="flex items-start">
-                  <button
+                  {/* <button
                     onClick={() =>
                       setState((prev) => ({
                         ...prev,
@@ -750,7 +762,7 @@ import quizData from '../assets/jsons/RandomQuiz.json';
                     className="text-white absolute right-4 top-4 "
                   >
                     <X size={20} />
-                  </button>
+                  </button> */}
                   {state.selectedAnswer === currentQ.correctAnswer ? (
                     <CheckCircle className="w-6 h-6 text-green-400 mr-3 mt-1 flex-shrink-0" />
                   ) : (
@@ -843,11 +855,11 @@ import quizData from '../assets/jsons/RandomQuiz.json';
               <p className="text-2xl text-white font-semibold">
                 {latestResult.score} out of {latestResult.totalQuestions}
               </p>
-              <p className="text-purple-300 mt-2">
+              <p className="text-purple-300 mt-2 text-sm">
                 Test {latestResult.testNumber} - {latestResult.subject}
               </p>
               {latestResult.timeTaken && (
-                <p className="text-sm text-gray-400 mt-1">
+                <p className="text-xs text-gray-400 mt-1">
                   Completed in {formatTime(latestResult.timeTaken)}
                 </p>
               )}
@@ -871,7 +883,7 @@ import quizData from '../assets/jsons/RandomQuiz.json';
             {state.currentTest < getTotalTests() && (
               <button
                 onClick={() => startTest(state.currentTest)}
-                className="w-full bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white p-4 rounded-2xl font-bold text-lg transition-all duration-300 transform hover:scale-105"
+                className="w-full animate-pulse bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white p-4 rounded-2xl font-bold text-lg transition-all duration-300 transform hover:scale-105"
               >
                 <div className="flex items-center justify-center">
                   <Play className="w-5 h-5 mr-2" />
@@ -900,6 +912,21 @@ import quizData from '../assets/jsons/RandomQuiz.json';
               </div>
             </button>
           </div>
+        </div>
+        <div className="mt-8 mb-2 flex gap-2 justify-center items-center">
+          <p className="text-gray-400 text-sm text-center">
+            from code to impact -{" "}
+            <span className="text-pink-400 underline font-medium">
+              <a
+                href="https://dikie.vercel.app"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                dikie.dev
+              </a>
+            </span>
+          </p>
+          <Laptop2 className="text-pink-500" />
         </div>
       </div>
     );
@@ -932,7 +959,7 @@ import quizData from '../assets/jsons/RandomQuiz.json';
               {state.testResults.map((result, index) => (
                 <div
                   key={index}
-                  className="bg-slate-800/50 backdrop-blur-lg rounded-2xl p-6 border border-purple-500/20 shadow-lg"
+                  className="bg-slate-800/50 backdrop-blur-lg rounded-2xl p-6 border border-purple-500/40 shadow-lg"
                 >
                   <div className="flex items-center justify-between">
                     <div>
@@ -954,7 +981,7 @@ import quizData from '../assets/jsons/RandomQuiz.json';
                         )}
                       </div>
                     </div>
-                    <div className="text-right">
+                    <div className="text-right fixed top-0 right-0 backdrop-blur-2xl  bg-slate-800/60 p-3 border border-purple-600/70 rounded-2xl z-50  ">
                       <div className="text-3xl font-bold bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
                         {result.percentage}%
                       </div>
@@ -970,7 +997,7 @@ import quizData from '../assets/jsons/RandomQuiz.json';
 
           {/* Enhanced Overall Stats */}
           {state.testResults.length > 0 && (
-            <div className="mt-8 bg-slate-800/50 backdrop-blur-lg rounded-2xl p-6 border border-purple-500/20">
+            <div className="mt-8 bg-slate-800/50 backdrop-blur-lg rounded-2xl p-6 border border-purple-500/40 shadow-lg">
               <h3 className="text-xl font-bold text-white mb-4">
                 Overall Performance
               </h3>
@@ -1008,6 +1035,21 @@ import quizData from '../assets/jsons/RandomQuiz.json';
               </div>
             </div>
           )}
+          <div className="mt-8 mb-2 flex gap-2 justify-center items-center">
+            <p className="text-gray-400 text-sm text-center">
+              from code to impact -{" "}
+              <span className="text-pink-400 underline font-medium">
+                <a
+                  href="https://dikie.vercel.app"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  dikie.dev
+                </a>
+              </span>
+            </p>
+            <Laptop2 className="text-pink-500" />
+          </div>
         </div>
       </div>
     );
