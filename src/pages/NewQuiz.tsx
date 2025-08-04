@@ -9,15 +9,18 @@ import {
   Laptop2,
   Play,
   RotateCcw,
-  Sparkles,
   Star,
   Trophy,
   XCircle
 } from "lucide-react";
 import React, { useEffect, useState } from "react";
 import toast from "react-hot-toast";
+import book2 from "../assets/images/book2.png";
+import letter2 from "../assets/images/m.png";
+import quiz from "../assets/images/quiz.png";
 import quizData1 from "../assets/jsons/RandomQuiz.json";
 import useSound from "../hooks/useSound";
+import ShortStoriesPage from "./NewStories";
 
 // TypeScript interfaces
 interface QuizQuestion {
@@ -85,6 +88,7 @@ const QuizApp: React.FC = () => {
     quizData: [],
     error: null,
   });
+  const [showStoriesPage, setShowStoriesPage] = useState<boolean>(false);
 
   const QUESTIONS_PER_TEST = 20;
   const STORAGE_KEYS = {
@@ -375,7 +379,7 @@ const QuizApp: React.FC = () => {
         toast.error("Incorrect password!", { id: "toasty" });
         return;
       }
-      if(password === "14572") {
+      if (password === "14572") {
         const confirmation = window.confirm(
           "Are you sure you want to clear all data?"
         );
@@ -384,7 +388,7 @@ const QuizApp: React.FC = () => {
           localStorage.removeItem(STORAGE_KEYS.QUIZ_PROGRESS);
           localStorage.removeItem(STORAGE_KEYS.CURRENT_TEST_INDEX);
           toast.success("Data cleared Successfully");
-          window.location.reload()
+          window.location.reload();
         } else {
           toast("You have cancelled deletion!");
           return;
@@ -428,7 +432,7 @@ const QuizApp: React.FC = () => {
     if (percentage >= 80) return "M.E. Excellent work! Keep it up! 🎉";
     if (percentage >= 70) return "M.E. Great job! You're doing well! 👏";
     if (percentage >= 60) return "A.E. Good effort! Keep practicing! 💪";
-    return "B.E. Keep studying and you'll improve! 📚 " ;
+    return "B.E. Keep studying and you'll improve! 📚 ";
   };
 
   // Loading screen
@@ -479,27 +483,37 @@ const QuizApp: React.FC = () => {
           </p>
           <div className="bg-slate-800 rounded-lg p-4 text-left text-sm text-gray-300">
             <p className="mb-2">Expected format:</p>
-            <code className="text-purple-300">
-  
-            </code>
+            <code className="text-purple-300"></code>
           </div>
         </div>
       </div>
     );
   }
 
+  // STORIES PAGE
+  if(showStoriesPage){
+    return <ShortStoriesPage setShowStoriesPage={setShowStoriesPage}  />;
+  }
+
   // Home Screen
   if (state.gameState === "home") {
     return (
       <div className="min-h-screen bg-gradient-to-br from-gray-950 via-purple-900 to-slate-900 p-4">
-        <div className="max-w-4xl mx-auto">
+        <div className="max-w-3xl  mx-auto">
+          <div className="text-white">
+            <img
+              src={book2}
+              className="h-10"
+              alt="book image"
+              onClick={() => setShowStoriesPage(true)}
+            />
+          </div>
           {/* Header */}
-          <div className="text-center mb-4 pt-4">
-            <div className="flex items-center justify-center mb-4">
-              <Brain className="w-12 h-12 text-purple-400 mr-3" />
-              <Sparkles className="w-8 h-8 text-pink-400" />
+          <div className="text-center mb-4 pt-2">
+            <div className="flex items-center justify-center mb-2">
+              <img src={letter2} className="h-20" />
             </div>
-            <h1 className="text-4xl font-bold bg-gradient-to-r from-yellow-500 via-pink-600 to-indigo-400 bg-clip-text text-transparent mb-1">
+            <h1 className="text-4xl font-bold bg-gradient-to-r from-yellow-500 via-pink-600 to-gray-950 bg-clip-text text-transparent mb-1">
               Matilda Awino
             </h1>
             <p className="text-xl text-gray-300">Grade 5 Quiz Master</p>
@@ -632,7 +646,7 @@ const QuizApp: React.FC = () => {
       <div className="min-h-screen bg-gradient-to-br from-gray-950 via-purple-900 to-slate-900 p-4">
         <div className="max-w-4xl mx-auto">
           {/* Enhanced Header */}
-          <div className="flex items-center justify-between mb-6">
+          <div className="flex items-center justify-between mb-6 mt-1">
             <button
               onClick={() => setGameState("home")}
               className="flex items-center text-purple-300 hover:text-purple-200 transition-colors"
@@ -641,9 +655,12 @@ const QuizApp: React.FC = () => {
               Home
             </button>
             <div className="text-center">
-              <h2 className="text-2xl font-bold text-white">
-                Test {state.currentTest + 1}
-              </h2>
+              <div className="flex items-center  gap-2">
+                <h2 className="text-2xl font-bold text-white">
+                  Test {state.currentTest + 1}
+                </h2>
+                <img src={quiz} className="h-10" alt="quiz icon"/>
+              </div>
               <p className="text-purple-300">{currentQ.subject}</p>
               {/* {currentQ.difficulty && (
                 <p className="text-sm text-gray-400 capitalize">
@@ -668,7 +685,7 @@ const QuizApp: React.FC = () => {
           </div>
 
           {/* Progress Bar */}
-          <div className="bg-slate-800 rounded-full h-3 mb-6 overflow-hidden">
+          <div className="bg-slate-800 rounded-xl h-3 mb-8 overflow-hidden">
             <div
               className="bg-gradient-to-r from-purple-500 via-cyan-400  to-pink-500 h-full transition-all duration-500 ease-out"
               style={{
