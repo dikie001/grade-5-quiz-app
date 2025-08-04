@@ -383,6 +383,7 @@ const QuizApp: React.FC = () => {
           localStorage.removeItem(STORAGE_KEYS.QUIZ_PROGRESS);
           localStorage.removeItem(STORAGE_KEYS.CURRENT_TEST_INDEX);
           toast.success("Data cleared Successfully");
+          window.location.reload()
         } else {
           toast("You have cancelled deletion!");
           return;
