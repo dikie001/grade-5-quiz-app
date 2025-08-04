@@ -4,6 +4,7 @@ import {
   Brain,
   CheckCircle,
   ChevronRight,
+  Clock,
   Home,
   Laptop2,
   Play,
@@ -964,16 +965,20 @@ const QuizApp: React.FC = () => {
                 >
                   <div className="flex items-center justify-between">
                     <div>
-                      <h3 className="text-xl font-bold text-white mb-1">
+                      <h3 className="text-2xl font-bold text-white mb-2">
                         Test {result.testNumber}
                       </h3>
+                      <hr className="mb-2 text-purple-500/40" />
                       <p className="text-purple-300 text-sm mb-2">
                         {result.subject}
                       </p>
-                      <div className="flex items-center gap-4 text-gray-400 text-sm">
+                      <div className="flex  items-center gap-4 text-gray-400 font-medium text-sm">
                         <span>{result.date}</span>
                         {result.timeTaken && (
-                          <span>⏱️ {formatTime(result.timeTaken)}</span>
+                          <div className="flex items-center gap-2 justify-center">
+                            <Clock size={14} />
+                            <span> {formatTime(result.timeTaken)}</span>
+                          </div>
                         )}
                         {result.difficulty && (
                           <span className="capitalize">
@@ -982,13 +987,13 @@ const QuizApp: React.FC = () => {
                         )}
                       </div>
                     </div>
-                    <div className="text-right fixed top-0 right-0 backdrop-blur-2xl  bg-slate-800/60 p-3 border border-purple-600/70 rounded-2xl z-50  ">
+                    <div className="text-right fixed top-0 right-0  p-3  ">
                       <div className="text-3xl font-bold bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
                         {result.percentage}%
                       </div>
-                      <p className="text-gray-300 text-sm">
+                      {/* <p className="text-gray-300 text-sm">
                         {result.score}/{result.totalQuestions}
-                      </p>
+                      </p> */}
                     </div>
                   </div>
                 </div>
