@@ -503,7 +503,7 @@ const QuizApp: React.FC = () => {
   // Home Screen
   if (state.gameState === "home") {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-gray-950 via-purple-900 to-slate-900 p-4">
+      <div className="min-h-screen bg-gradient-to-br from-gray-950 via-purple-950 to-slate-900 p-4">
         <div className="max-w-3xl  mx-auto">
           <div className="text-white flex justify-between mb-2">
             <img
