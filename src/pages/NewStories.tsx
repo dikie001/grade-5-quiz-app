@@ -1,8 +1,8 @@
-import { ArrowLeft, ChevronDown, House, Loader2 } from "lucide-react";
+import { ArrowLeft, ChevronDown, Loader2 } from "lucide-react";
 import React, { useEffect, useState } from "react";
-import book1 from "../assets/images/book.png";
 import house from "../assets/images/3d-house.png";
-import m from "../assets/images/m.png"
+import book1 from "../assets/images/book.png";
+import m from "../assets/images/m.png";
 import data from "../assets/jsons/stories.json";
 import useSound from "../hooks/useSound";
 

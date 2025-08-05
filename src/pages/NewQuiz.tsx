@@ -1,7 +1,6 @@
 import {
   ArrowLeft,
   BookOpen,
-  Brain,
   CheckCircle,
   ChevronRight,
   Clock,
@@ -11,15 +10,15 @@ import {
   RotateCcw,
   Star,
   Trophy,
-  XCircle,
+  XCircle
 } from "lucide-react";
 import React, { useEffect, useState } from "react";
 import toast from "react-hot-toast";
-import book2 from "../assets/images/book2.png";
-import girl from "../assets/images/girl-power.png";
-import finish from "../assets/images/finish.png";
 import available from "../assets/images/available.png";
 import average from "../assets/images/average.png";
+import book2 from "../assets/images/book2.png";
+import finish from "../assets/images/finish.png";
+import girl from "../assets/images/girl-power.png";
 
 
 
