@@ -99,7 +99,7 @@ export default function ShortStoriesPage({ setShowStoriesPage }: PropTypes) {
     console.log("Rendering selected story:", selectedStory); // Debug log
     return (
       <div className="min-h-screen bg-gradient-to-br from-purple-900 via-blue-900 to-indigo-900">
-        <div className="max-w-4xl mx-auto p-6">
+        <div className="max-w-3xl mx-auto p-4">
           {/* Header */}
           <div className="flex items-center justify-between mb-6">
             <button
@@ -114,7 +114,7 @@ export default function ShortStoriesPage({ setShowStoriesPage }: PropTypes) {
           </div>
 
           {/* Story Content */}
-          <div className="bg-black/40 backdrop-blur-sm rounded-2xl p-8 border border-cyan-500/30 shadow-2xl">
+          <div className="bg-black/40 backdrop-blur-sm rounded-2xl px-3 py-8 border border-cyan-500/30 shadow-2xl">
             {/* Story Header */}
             <div className="mb-6">
               <h1 className="text-3xl font-bold text-white mb-2">
@@ -139,7 +139,7 @@ export default function ShortStoriesPage({ setShowStoriesPage }: PropTypes) {
 
             {/* Moral */}
             {selectedStory.moral && (
-              <div className="p-6 bg-gradient-to-br from-purple-900/50 to-cyan-900/30 rounded-xl border border-cyan-400/30 shadow-lg">
+              <div className="p-4 bg-gradient-to-br from-purple-900/50 to-cyan-900/30 rounded-xl border border-cyan-400/30 shadow-lg">
                 <h3 className="text-cyan-300 font-semibold text-lg mb-2">
                   💡 Moral of the Story
                 </h3>
@@ -157,7 +157,7 @@ export default function ShortStoriesPage({ setShowStoriesPage }: PropTypes) {
   // Stories list view
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-900 via-blue-900 to-indigo-900">
-      <div className="max-w-6xl mx-auto p-6">
+      <div className="max-w-3xl mx-auto p-4">
         {/* Header */}
         <div className="flex justify-between items-center mb-8">
           <img
@@ -197,16 +197,16 @@ export default function ShortStoriesPage({ setShowStoriesPage }: PropTypes) {
             </div>
           </div>
         ) : (
-          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
             {stories.map((story: StoryTypes) => (
               <div
                 key={story.id}
                 onClick={() => handleSelectStory(story)}
-                className="group relative bg-black/40 backdrop-blur-sm border border-cyan-500/30 rounded-xl p-6 cursor-pointer hover:border-cyan-400/60 hover:shadow-2xl hover:shadow-cyan-500/20 transition-all duration-300 hover:-translate-y-1"
+                className="group relative bg-black/40 backdrop-blur-sm border border-cyan-500/30 rounded-xl p-4 cursor-pointer hover:border-cyan-400/60 hover:shadow-2xl hover:shadow-cyan-500/20 transition-all duration-300 hover:-translate-y-1"
               >
                 {/* Story Number Badge */}
                 <div className="absolute -top-3 -right-3 w-8 h-8 bg-gradient-to-br from-cyan-400 to-purple-500 rounded-full flex items-center justify-center shadow-lg">
-                  <span className="text-white font-bold text-sm">
+                  <span className="text-black/80 font-bold text-sm">
                     {story.id}
                   </span>
                 </div>
