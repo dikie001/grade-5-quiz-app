@@ -798,7 +798,7 @@ const QuizApp: React.FC = () => {
                 <div className="flex items-start">
                   {/* <button
                     onClick={() =>
-                      setState((prev) => ({
+                      setState((prev) => ({j
                         ...prev,
 
                         showFeedback: false,
