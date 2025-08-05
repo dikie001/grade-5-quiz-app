@@ -3,20 +3,16 @@ import success from "/sounds/success.mp3";
 import error from "/sounds/error.mp3";
 import finish from "/sounds/finish.mp3";
 import send from "/sounds/send.mp3";
-import receive from "/sounds/receive.mp3";
 import correct from '/sounds/correct.mp3'
-import ding from '/sounds/ding.mp3'
 import wrong from '/sounds/wrong.mp3'
 
 const useSound = () => {
   const soundMap = useMemo(() => ({
-    success: { src: success, volume: 0.7 },
+    success: { src: success, volume: 0.8 },
     error: { src: error, volume: 1 },
     finish: { src: finish, volume: 1 },
-    send: { src: send, volume: 1 },
-    receive: { src: receive, volume: 1 },
+    send: { src: send, volume: 0.4 },
     correct: { src: correct, volume: 1 },
-    ding: { src: ding, volume: 1 },
     wrong: { src: wrong, volume: 1 },
   }), []);
 
@@ -50,8 +46,6 @@ const useSound = () => {
     playError: () => playSound("error"),
     playFinish: () => playSound("finish"),
     playSend: () => playSound("send"),
-    playReceive: () => playSound("receive"),
-    playDing: ()=>playSound("ding"),
     playWrong: ()=>playSound("wrong"),
     playCorrect:()=>playSound("correct")
   };

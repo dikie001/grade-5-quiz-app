@@ -11,11 +11,12 @@ import {
   RotateCcw,
   Star,
   Trophy,
-  XCircle
+  XCircle,
 } from "lucide-react";
 import React, { useEffect, useState } from "react";
 import toast from "react-hot-toast";
 import book2 from "../assets/images/book2.png";
+import girl from "../assets/images/girl.png";
 import letter2 from "../assets/images/m.png";
 import quiz from "../assets/images/quiz.png";
 import quizData1 from "../assets/jsons/RandomQuiz.json";
@@ -97,7 +98,12 @@ const QuizApp: React.FC = () => {
     CURRENT_TEST_INDEX: "quiz_current_test_index",
   };
 
-  const { playError, playSuccess } = useSound();
+  const {
+    playError,
+    playSuccess,
+    playFinish,
+    playSend,
+  } = useSound();
 
   // Initialize app
   useEffect(() => {
@@ -294,6 +300,7 @@ const QuizApp: React.FC = () => {
 
   // Complete current test
   const completeTest = (): void => {
+    playFinish();
     const currentQuestions = getCurrentTestQuestions();
     const timeTaken = state.startTime
       ? Math.floor((Date.now() - state.startTime) / 1000)
@@ -491,8 +498,8 @@ const QuizApp: React.FC = () => {
   }
 
   // STORIES PAGE
-  if(showStoriesPage){
-    return <ShortStoriesPage setShowStoriesPage={setShowStoriesPage}  />;
+  if (showStoriesPage) {
+    return <ShortStoriesPage setShowStoriesPage={setShowStoriesPage} />;
   }
 
   // Home Screen
@@ -505,13 +512,16 @@ const QuizApp: React.FC = () => {
               src={book2}
               className="h-10"
               alt="book image"
-              onClick={() => setShowStoriesPage(true)}
+              onClick={() => {
+                playSend();
+                setShowStoriesPage(true);
+              }}
             />
           </div>
           {/* Header */}
           <div className="text-center mb-4 pt-2">
             <div className="flex items-center justify-center mb-2">
-              <img src={letter2} className="h-20" />
+              <img src={girl} className="h-20 text-cyan-400" />
             </div>
             <h1 className="text-4xl font-bold bg-gradient-to-r from-yellow-500 via-pink-600 to-gray-950 bg-clip-text text-transparent mb-1">
               Matilda Awino
@@ -563,7 +573,10 @@ const QuizApp: React.FC = () => {
           <div className="space-y-4">
             {state.currentTest < getTotalTests() && (
               <button
-                onClick={() => startTest(state.currentTest)}
+                onClick={() => {
+                  playSend();
+                  startTest(state.currentTest);
+                }}
                 className="w-full bg-gradient-to-r from-purple-700 to-pink-700 animate-pulse   text-white p-6 rounded-2xl font-bold text-xl transition-all duration-300 transform hover:scale-105 shadow-xl"
               >
                 <div className="flex items-center justify-center">
@@ -577,7 +590,10 @@ const QuizApp: React.FC = () => {
 
             {state.testResults.length > 0 && (
               <button
-                onClick={() => setGameState("allResults")}
+                onClick={() => {
+                  playSend();
+                  setGameState("allResults");
+                }}
                 className="w-full bg-slate-700/50 hover:bg-slate-600/50 text-white p-4 rounded-2xl font-semibold transition-all duration-300 border border-purple-500/30 shadow-xl"
               >
                 <div className="flex items-center justify-center">
@@ -632,7 +648,10 @@ const QuizApp: React.FC = () => {
               No questions available for this test.
             </p>
             <button
-              onClick={() => setGameState("home")}
+              onClick={() => {
+                playSend();
+                setGameState("home");
+              }}
               className="mt-4 bg-purple-600 hover:bg-purple-700 text-white px-6 py-3 rounded-xl"
             >
               Go Home
@@ -648,7 +667,10 @@ const QuizApp: React.FC = () => {
           {/* Enhanced Header */}
           <div className="flex items-center justify-between mb-6 mt-1">
             <button
-              onClick={() => setGameState("home")}
+              onClick={() => {
+                playSend();
+                setGameState("home");
+              }}
               className="flex items-center text-purple-300 hover:text-purple-200 transition-colors"
             >
               <ArrowLeft className="w-5 h-5 mr-2" />
@@ -659,7 +681,7 @@ const QuizApp: React.FC = () => {
                 <h2 className="text-2xl font-bold text-white">
                   Test {state.currentTest + 1}
                 </h2>
-                <img src={quiz} className="h-10" alt="quiz icon"/>
+                <img src={quiz} className="h-10" alt="quiz icon" />
               </div>
               <p className="text-purple-300">{currentQ.subject}</p>
               {/* {currentQ.difficulty && (
@@ -844,7 +866,10 @@ const QuizApp: React.FC = () => {
           <div className="text-center">
             <p className="text-white text-xl">No results available.</p>
             <button
-              onClick={() => setGameState("home")}
+              onClick={() => {
+                playSend()
+                setGameState("home");
+              }}
               className="mt-4 bg-purple-600 hover:bg-purple-700 text-white px-6 py-3 rounded-xl"
             >
               Go Home
@@ -901,7 +926,10 @@ const QuizApp: React.FC = () => {
           <div className="space-y-4">
             {state.currentTest < getTotalTests() && (
               <button
-                onClick={() => startTest(state.currentTest)}
+                onClick={() => {
+                  playSend();
+                  startTest(state.currentTest);
+                }}
                 className="w-full animate-pulse bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white p-4 rounded-2xl font-bold text-lg transition-all duration-300 transform hover:scale-105"
               >
                 <div className="flex items-center justify-center">
@@ -912,7 +940,10 @@ const QuizApp: React.FC = () => {
             )}
 
             <button
-              onClick={() => setGameState("allResults")}
+              onClick={() => {
+                playSend();
+                setGameState("allResults");
+              }}
               className="w-full bg-slate-700/50 hover:bg-slate-600/50 text-white p-4 rounded-2xl font-semibold transition-all duration-300 border border-purple-500/30"
             >
               <div className="flex items-center justify-center">
@@ -922,7 +953,10 @@ const QuizApp: React.FC = () => {
             </button>
 
             <button
-              onClick={() => setGameState("home")}
+              onClick={() => {
+                playSend();
+                setGameState("home");
+              }}
               className="w-full bg-slate-800/50 hover:bg-slate-700/50 text-purple-300 p-4 rounded-2xl font-semibold transition-all duration-300 border border-slate-600/30"
             >
               <div className="flex items-center justify-center">
@@ -958,7 +992,10 @@ const QuizApp: React.FC = () => {
         <div className="max-w-4xl mx-auto">
           <div className="flex items-center justify-between mb-8">
             <button
-              onClick={() => setGameState("home")}
+              onClick={() => {
+                playSend();
+                setGameState("home");
+              }}
               className="flex items-center text-purple-300 hover:text-purple-200 transition-colors"
             >
               <ArrowLeft className="w-5 h-5 mr-2" />

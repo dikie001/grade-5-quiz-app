@@ -1,12 +1,10 @@
-import {
-  ArrowLeft,
-  ChevronDown,
-  House,
-  Loader2
-} from "lucide-react";
+import { ArrowLeft, ChevronDown, House, Loader2 } from "lucide-react";
 import React, { useEffect, useState } from "react";
 import book1 from "../assets/images/book.png";
+import house from "../assets/images/3d-house.png";
+
 import data from "../assets/jsons/stories.json";
+import useSound from "../hooks/useSound";
 
 interface StoryTypes {
   id: number;
@@ -19,14 +17,18 @@ interface StoryTypes {
 }
 
 interface PropTypes {
-  setShowStoriesPage: React.Dispatch<React.SetStateAction<boolean>>
+  setShowStoriesPage: React.Dispatch<React.SetStateAction<boolean>>;
 }
 export default function ShortStoriesPage({ setShowStoriesPage }: PropTypes) {
   const [selectedStory, setSelectedStory] = useState<StoryTypes | null>(null);
   const [stories, setStories] = useState<StoryTypes[] | null>(null);
   const handleSelectStory = (story: StoryTypes) => setSelectedStory(story);
   const [loading, setLoading] = useState<boolean>(true);
-  const handleBack = () => setSelectedStory(null);
+  const handleBack = () => {
+    playSend();
+    setSelectedStory(null);
+  };
+  const { playSend } = useSound();
 
   useEffect(() => {
     setStories(data);
@@ -48,10 +50,10 @@ export default function ShortStoriesPage({ setShowStoriesPage }: PropTypes) {
         <p className="text-sm text-gray-500 mt-1">
           by {selectedStory.author} · {selectedStory.genre}
         </p>
-        <p className="mt-4 whitespace-pre-line text-lg  leading-relaxed">
+        <p className="mt-4 whitespace-pre-line text-lg text-gray-200 leading-relaxed">
           {selectedStory.story}
         </p>
-        <div className="mt-6 p-4  bg-gradient-to-br from-purple-950 to-black/50 rounded-2xl  shadow-lg shadow-cyan-500/30">
+        <div className="mt-6 p-4 text-cyan-200  bg-gradient-to-br from-purple-950 to-black/50 rounded-2xl  shadow-lg shadow-cyan-500/30">
           <strong>Moral:</strong> {selectedStory.moral}
         </div>
       </div>
@@ -70,7 +72,10 @@ export default function ShortStoriesPage({ setShowStoriesPage }: PropTypes) {
     <div className="p-6 max-w-4xl mx-auto">
       <House
         className="text-cyan-600 "
-        onClick={() => setShowStoriesPage(false)}
+        onClick={() => {
+          playSend();
+          setShowStoriesPage(false);
+        }}
       />
 
       <h2 className="text-2xl underline  justify-center font-bold mb-6 flex items-center gap-3 text-gray-900 dark:text-white">
@@ -78,13 +83,17 @@ export default function ShortStoriesPage({ setShowStoriesPage }: PropTypes) {
         Short Stories
       </h2>
 
-      <div className="grid gap-4 sm:grid-cols-2">
+      <div className="grid gap-4 sm:grid-cols-2 relative">
         {stories?.map((story: StoryTypes) => (
           <div
             key={story.id}
-            onClick={() => handleSelectStory(story)}
+            onClick={() => {
+              playSend()
+              handleSelectStory(story);
+            }}
             className="bg-gray-100 dark:bg-black/40 shadow-lg border border-cyan-600/40 rounded-xl p-4 cursor-pointer hover:shadow transition"
           >
+            <p className=" text-end text-white  text-2xl absolute right-2  font-bold">{story.id}</p>
             <h3 className="text-lg font-semibold text-cyan-500">
               {story.title}
             </h3>
