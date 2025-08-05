@@ -110,7 +110,7 @@ export default function ShortStoriesPage({ setShowStoriesPage }: PropTypes) {
               <span className="font-medium">Back to Stories</span>
             </button>
 
-            <img src={m} className="h-10" alt="Profile" />
+            <img src={m} className="h-8" alt="Profile" />
           </div>
 
           {/* Story Content */}
@@ -167,7 +167,7 @@ export default function ShortStoriesPage({ setShowStoriesPage }: PropTypes) {
             alt="Home"
           />
 
-          <img src={book1} className="h-10" alt="Book" />
+          <img src={book1} className="h-8" alt="Book" />
         </div>
 
         {/* Title */}

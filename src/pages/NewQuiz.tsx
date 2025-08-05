@@ -508,14 +508,14 @@ const QuizApp: React.FC = () => {
           <div className="text-white flex justify-between mb-2">
             <img
               src={book2}
-              className="h-10"
+              className="h-8"
               alt="book image"
               onClick={() => {
                 playSend();
                 setShowStoriesPage(true);
               }}
             />
-            <img src={m} className="h-10"/>
+            <img src={m} className="h-8"/>
           </div>
           {/* Header */}
           <div className="text-center mb-4 pt-2">
