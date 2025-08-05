@@ -2,7 +2,7 @@ import { ArrowLeft, ChevronDown, House, Loader2 } from "lucide-react";
 import React, { useEffect, useState } from "react";
 import book1 from "../assets/images/book.png";
 import house from "../assets/images/3d-house.png";
-
+import m from "../assets/images/m.png"
 import data from "../assets/jsons/stories.json";
 import useSound from "../hooks/useSound";
 
@@ -38,7 +38,7 @@ export default function ShortStoriesPage({ setShowStoriesPage }: PropTypes) {
 
   if (selectedStory) {
     return (
-      <div className="p-6 max-w-3xl mx-auto bg-black/60 min-h-screen text-gray-900 dark:text-white">
+      <div className="p-4 max-w-3xl mx-auto bg-black/60 min-h-screen text-gray-900 dark:text-white">
         <button
           onClick={handleBack}
           className="mb-4 flex items-center text-blue-600 dark:text-blue-400"
@@ -46,6 +46,7 @@ export default function ShortStoriesPage({ setShowStoriesPage }: PropTypes) {
           <ArrowLeft className="mr-2 w-5 h-5" />
           Back to stories
         </button>
+        <img src={m} className="h-10 absolute top-2 right-4 "/>
         <h1 className="text-2xl font-bold">{selectedStory.title}</h1>
         <p className="text-sm text-gray-500 mt-1">
           by {selectedStory.author} · {selectedStory.genre}
@@ -69,17 +70,21 @@ export default function ShortStoriesPage({ setShowStoriesPage }: PropTypes) {
   }
 
   return (
-    <div className="p-6 max-w-4xl mx-auto">
-      <House
-        className="text-cyan-600 "
-        onClick={() => {
-          playSend();
-          setShowStoriesPage(false);
-        }}
-      />
+    <div className="p-4 max-w-3xl mx-auto">
+      <div className="flex justify-between"> 
+        <img
+          src={house}
+          className="text-cyan-600 h-10"
+          onClick={() => {
+            playSend();
+            setShowStoriesPage(false);
+          }}
+        />
 
-      <h2 className="text-2xl underline  justify-center font-bold mb-6 flex items-center gap-3 text-gray-900 dark:text-white">
         <img src={book1} className="h-10" />
+      </div>
+
+      <h2 className="text-2xl underline  justify-center font-bold mb-4 flex items-center  text-gray-900 dark:text-white">
         Short Stories
       </h2>
 
@@ -88,12 +93,14 @@ export default function ShortStoriesPage({ setShowStoriesPage }: PropTypes) {
           <div
             key={story.id}
             onClick={() => {
-              playSend()
+              playSend();
               handleSelectStory(story);
             }}
             className="bg-gray-100 dark:bg-black/40 shadow-lg border border-cyan-600/40 rounded-xl p-4 cursor-pointer hover:shadow transition"
           >
-            <p className=" text-end text-white  text-2xl absolute right-2  font-bold">{story.id}</p>
+            <p className=" text-end text-white  text-2xl absolute right-2  font-bold">
+              {story.id}
+            </p>
             <h3 className="text-lg font-semibold text-cyan-500">
               {story.title}
             </h3>

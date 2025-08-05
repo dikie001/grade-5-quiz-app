@@ -16,8 +16,13 @@ import {
 import React, { useEffect, useState } from "react";
 import toast from "react-hot-toast";
 import book2 from "../assets/images/book2.png";
-import girl from "../assets/images/girl.png";
-import letter2 from "../assets/images/m.png";
+import girl from "../assets/images/girl-power.png";
+import finish from "../assets/images/finish.png";
+import available from "../assets/images/available.png";
+import average from "../assets/images/average.png";
+
+
+
 import quiz from "../assets/images/quiz.png";
 import quizData1 from "../assets/jsons/RandomQuiz.json";
 import useSound from "../hooks/useSound";
@@ -532,14 +537,14 @@ const QuizApp: React.FC = () => {
           {/* Enhanced Stats */}
           <div className="grid md:grid-cols-4 gap-3 mb-4">
             <div className="bg-gradient-to-r from-black/30 to-black/20 backdrop-blur-lg rounded-2xl p-4 border border-purple-500/40 shadow-xl">
-              <BookOpen className="w-8 h-8 text-purple-400 mb-3" />
+              <img src={quiz} className="w-8 h-8 text-purple-400 mb-3" />
               <h3 className="text-2xl font-bold text-white">
                 {state.quizData.length}
               </h3>
               <p className="text-gray-400">Total Questions</p>
             </div>
             <div className="bg-gradient-to-r from-black/30 to-black/20 backdrop-blur-lg rounded-2xl p-6 border border-pink-500/40 shadow-xl">
-              <Trophy className="w-8 h-8 text-pink-400 mb-3" />
+              <img src={available} className="w-8 h-8 text-pink-400 mb-3" />
               <h3 className="text-2xl font-bold text-white">
                 {getTotalTests()}
               </h3>
@@ -553,7 +558,7 @@ const QuizApp: React.FC = () => {
               <p className="text-gray-400">Tests Completed</p>
             </div>
             <div className="bg-gradient-to-r from-black/30 to-black/20 backdrop-blur-lg rounded-2xl p-6 border border-green-500/40 shadow-xl">
-              <Brain className="w-8 h-8 text-green-400 mb-3" />
+              <img src={average} className="w-8 h-8 text-green-400 mb-3" />
               <h3 className="text-2xl font-bold text-white">
                 {state.testResults.length > 0
                   ? Math.round(
@@ -883,7 +888,7 @@ const QuizApp: React.FC = () => {
       <div className="min-h-screen bg-gradient-to-br from-gray-900 via-purple-900 to-slate-900 p-4">
         <div className="max-w-2xl mx-auto text-center">
           <div className="mb-8 pt-8">
-            <Trophy className="w-20 h-20 text-yellow-400 mx-auto mb-4" />
+            <img src={finish} className="w-20 h-20  mx-auto mb-4" />
             <h1 className="text-4xl font-bold text-white mb-2">
               Test Complete!
             </h1>
