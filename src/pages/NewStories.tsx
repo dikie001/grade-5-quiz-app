@@ -202,7 +202,7 @@ export default function ShortStoriesPage({ setShowStoriesPage }: PropTypes) {
               <div
                 key={story.id}
                 onClick={() => handleSelectStory(story)}
-                className="group relative bg-black/40 backdrop-blur-sm border border-cyan-500/30 rounded-xl p-4 cursor-pointer hover:border-cyan-400/60 hover:shadow-2xl hover:shadow-cyan-500/20 transition-all duration-300 hover:-translate-y-1"
+                className="group relative bg-black/40 backdrop-blur-sm border border-cyan-500/30 rounded-xl px-2 py-3 cursor-pointer hover:border-cyan-400/60 hover:shadow-2xl hover:shadow-cyan-500/20 transition-all duration-300 hover:-translate-y-1"
               >
                 {/* Story Number Badge */}
                 <div className="absolute -top-3 -right-3 w-8 h-8 bg-gradient-to-br from-cyan-400 to-purple-500 rounded-full flex items-center justify-center shadow-lg">
@@ -212,7 +212,7 @@ export default function ShortStoriesPage({ setShowStoriesPage }: PropTypes) {
                 </div>
 
                 {/* Story Content */}
-                <div className="space-y-3">
+                <div className="space-y-2">
                   <h3 className="text-xl font-semibold text-cyan-300 group-hover:text-cyan-200 transition-colors">
                     {story.title}
                   </h3>
@@ -230,8 +230,8 @@ export default function ShortStoriesPage({ setShowStoriesPage }: PropTypes) {
                     {story.summary}
                   </p>
 
-                  <div className="flex items-center justify-between pt-2">
-                    <span className="text-cyan-400 text-sm font-medium group-hover:text-cyan-300 transition-colors">
+                  <div className="flex items-center justify-between">
+                    <span className="text-cyan-400 text-sm font-medium group-hover:text-cyan-300 transition-colors ">
                       Read Story
                     </span>
                     <ChevronRight className="w-4 h-4 text-cyan-400 group-hover:text-cyan-300 group-hover:translate-x-1 transition-all" />

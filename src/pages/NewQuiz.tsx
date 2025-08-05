@@ -1010,7 +1010,7 @@ const QuizApp: React.FC = () => {
               <p className="text-xl text-gray-400">No tests completed yet.</p>
             </div>
           ) : (
-            <div className="grid  gap-4">
+            <div className="grid  gap-3">
               {state.testResults.slice().reverse().map((result, index) => (
                 <div
                   key={index}
