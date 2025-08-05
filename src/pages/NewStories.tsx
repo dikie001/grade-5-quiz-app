@@ -1,4 +1,4 @@
-import { ArrowLeft, ChevronDown, Loader2 } from "lucide-react";
+import { ArrowLeft, ChevronRight, Loader2 } from "lucide-react";
 import React, { useEffect, useState } from "react";
 import house from "../assets/images/3d-house.png";
 import book1 from "../assets/images/book.png";
@@ -19,102 +19,228 @@ interface StoryTypes {
 interface PropTypes {
   setShowStoriesPage: React.Dispatch<React.SetStateAction<boolean>>;
 }
+
 export default function ShortStoriesPage({ setShowStoriesPage }: PropTypes) {
   const [selectedStory, setSelectedStory] = useState<StoryTypes | null>(null);
-  const [stories, setStories] = useState<StoryTypes[] | null>(null);
-  const handleSelectStory = (story: StoryTypes) => setSelectedStory(story);
+  const [stories, setStories] = useState<StoryTypes[]>([]);
   const [loading, setLoading] = useState<boolean>(true);
+  const [error, setError] = useState<string | null>(null);
+
+  const { playSend } = useSound();
+
+  const handleSelectStory = (story: StoryTypes) => {
+    playSend();
+    setSelectedStory(story);
+  };
+
   const handleBack = () => {
     playSend();
     setSelectedStory(null);
   };
-  const { playSend } = useSound();
+
+  const handleHome = () => {
+    playSend();
+    setShowStoriesPage(false);
+  };
 
   useEffect(() => {
-    setStories(data);
-    setLoading(false);
-  }),
-    [];
+    try {
+      console.log("Loading stories data:", data); // Debug log
+      if (data && Array.isArray(data)) {
+        setStories(data);
+      } else {
+        console.error("Invalid data format:", data);
+        setError("Invalid stories data format");
+      }
+      setLoading(false);
+    } catch (err) {
+      console.error("Error loading stories:", err);
+      setError("Failed to load stories");
+      setLoading(false);
+    }
+  }, []);
 
-  if (selectedStory) {
+  // Loading state
+  if (loading) {
     return (
-      <div className="p-4 max-w-3xl mx-auto bg-black/60 min-h-screen text-gray-900 dark:text-white">
-        <button
-          onClick={handleBack}
-          className="mb-4 flex items-center text-blue-600 dark:text-blue-400"
-        >
-          <ArrowLeft className="mr-2 w-5 h-5" />
-          Back to stories
-        </button>
-        <img src={m} className="h-10 absolute top-2 right-4 "/>
-        <h1 className="text-2xl font-bold">{selectedStory.title}</h1>
-        <p className="text-sm text-gray-500 mt-1">
-          by {selectedStory.author} · {selectedStory.genre}
-        </p>
-        <p className="mt-4 whitespace-pre-line text-lg text-gray-200 leading-relaxed">
-          {selectedStory.story}
-        </p>
-        <div className="mt-6 p-4 text-cyan-200  bg-gradient-to-br from-purple-950 to-black/50 rounded-2xl  shadow-lg shadow-cyan-500/30">
-          <strong>Moral:</strong> {selectedStory.moral}
+      <div className="min-h-screen bg-gradient-to-br from-purple-900 via-blue-900 to-indigo-900 flex flex-col justify-center items-center">
+        <div className="bg-black/40 backdrop-blur-sm rounded-2xl p-8 border border-cyan-500/30 shadow-2xl">
+          <Loader2
+            className="animate-spin text-cyan-400 mx-auto mb-4"
+            size={48}
+          />
+          <p className="text-cyan-200 text-lg font-medium">
+            Loading stories...
+          </p>
         </div>
       </div>
     );
   }
-  if (loading) {
+
+  // Error state
+  if (error) {
     return (
-      <div className="flex flex-col h-screen justify-center items-center ">
-        <Loader2 className="animate-spin text-purple-300 " size={40} />
-        <p className="text-gray-300">Loading stories...</p>
+      <div className="min-h-screen bg-gradient-to-br from-purple-900 via-blue-900 to-indigo-900 flex flex-col justify-center items-center p-4">
+        <div className="bg-red-900/40 backdrop-blur-sm rounded-2xl p-8 border border-red-500/30 shadow-2xl max-w-md">
+          <p className="text-red-200 text-lg font-medium mb-4">{error}</p>
+          <button
+            onClick={() => window.location.reload()}
+            className="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg transition-colors"
+          >
+            Try Again
+          </button>
+        </div>
       </div>
     );
   }
 
-  return (
-    <div className="p-4 max-w-3xl mx-auto">
-      <div className="flex justify-between"> 
-        <img
-          src={house}
-          className="text-cyan-600 h-10"
-          onClick={() => {
-            playSend();
-            setShowStoriesPage(false);
-          }}
-        />
+  // Story detail view
+  if (selectedStory) {
+    console.log("Rendering selected story:", selectedStory); // Debug log
+    return (
+      <div className="min-h-screen bg-gradient-to-br from-purple-900 via-blue-900 to-indigo-900">
+        <div className="max-w-4xl mx-auto p-6">
+          {/* Header */}
+          <div className="flex items-center justify-between mb-6">
+            <button
+              onClick={handleBack}
+              className="flex items-center gap-2 text-cyan-400 hover:text-cyan-300 transition-colors group"
+            >
+              <ArrowLeft className="w-5 h-5 group-hover:-translate-x-1 transition-transform" />
+              <span className="font-medium">Back to Stories</span>
+            </button>
 
-        <img src={book1} className="h-10" />
+            <img src={m} className="h-10" alt="Profile" />
+          </div>
+
+          {/* Story Content */}
+          <div className="bg-black/40 backdrop-blur-sm rounded-2xl p-8 border border-cyan-500/30 shadow-2xl">
+            {/* Story Header */}
+            <div className="mb-6">
+              <h1 className="text-3xl font-bold text-white mb-2">
+                {selectedStory.title}
+              </h1>
+              <div className="flex flex-wrap items-center gap-4 text-cyan-300">
+                <span className="bg-cyan-900/30 px-3 py-1 rounded-full text-sm">
+                  by {selectedStory.author}
+                </span>
+                <span className="bg-purple-900/30 px-3 py-1 rounded-full text-sm">
+                  {selectedStory.genre}
+                </span>
+              </div>
+            </div>
+
+            {/* Story Text */}
+            <div className="prose prose-lg max-w-none mb-8">
+              <p className="text-gray-200 leading-relaxed whitespace-pre-line text-lg">
+                {selectedStory.story}
+              </p>
+            </div>
+
+            {/* Moral */}
+            {selectedStory.moral && (
+              <div className="p-6 bg-gradient-to-br from-purple-900/50 to-cyan-900/30 rounded-xl border border-cyan-400/30 shadow-lg">
+                <h3 className="text-cyan-300 font-semibold text-lg mb-2">
+                  💡 Moral of the Story
+                </h3>
+                <p className="text-cyan-100 leading-relaxed">
+                  {selectedStory.moral}
+                </p>
+              </div>
+            )}
+          </div>
+        </div>
       </div>
+    );
+  }
 
-      <h2 className="text-2xl underline  justify-center font-bold mb-4 flex items-center  text-gray-900 dark:text-white">
-        Short Stories
-      </h2>
+  // Stories list view
+  return (
+    <div className="min-h-screen bg-gradient-to-br from-purple-900 via-blue-900 to-indigo-900">
+      <div className="max-w-6xl mx-auto p-6">
+        {/* Header */}
+        <div className="flex justify-between items-center mb-8">
+          <img
+            src={house}
+            className="h-8 cursor-pointer hover:scale-110 transition-transform"
+            onClick={handleHome}
+            alt="Home"
+          />
 
-      <div className="grid gap-4 sm:grid-cols-2 relative">
-        {stories?.map((story: StoryTypes) => (
-          <div
-            key={story.id}
-            onClick={() => {
-              playSend();
-              handleSelectStory(story);
-            }}
-            className="bg-gray-100 dark:bg-black/40 shadow-lg border border-cyan-600/40 rounded-xl p-4 cursor-pointer hover:shadow transition"
-          >
-            <p className=" text-end text-white  text-2xl absolute right-2  font-bold">
-              {story.id}
+          <img src={book1} className="h-10" alt="Book" />
+        </div>
+
+        {/* Title */}
+        <div className="text-center mb-10">
+          <h2 className="text-4xl font-bold text-white mb-2">Short Stories</h2>
+          <div className="w-24 h-1 bg-gradient-to-r from-cyan-400 to-purple-500 mx-auto rounded-full"></div>
+        </div>
+
+        {/* Stories Grid */}
+        {!stories || stories.length === 0 ? (
+          <div className="text-center py-12">
+            <div className="w-16 h-16 border-4 border-cyan-400/30 border-t-cyan-400 rounded-full animate-spin mx-auto mb-4"></div>
+            <p className="text-cyan-200 text-lg">No stories available</p>
+            <p className="text-cyan-400 text-sm mt-2">
+              {loading ? "Loading stories..." : "Check your stories.json file"}
             </p>
-            <h3 className="text-lg font-semibold text-cyan-500">
-              {story.title}
-            </h3>
-            <p className="text-sm text-gray-500">
-              by {story.author} · {story.genre}
-            </p>
-            <p className="mt-2 text-sm text-gray-700 dark:text-gray-300 line-clamp-3">
-              {story.summary}
-            </p>
-            <div className="mt-3 text-blue-600 flex items-center text-sm">
-              Read story <ChevronDown className="ml-1 w-4 h-4" />
+            <div className="mt-4 text-xs text-gray-400">
+              <p>
+                Debug info:{" "}
+                {JSON.stringify({
+                  dataExists: !!data,
+                  dataLength: data?.length || 0,
+                  dataType: typeof data,
+                  isArray: Array.isArray(data),
+                })}
+              </p>
             </div>
           </div>
-        ))}
+        ) : (
+          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            {stories.map((story: StoryTypes) => (
+              <div
+                key={story.id}
+                onClick={() => handleSelectStory(story)}
+                className="group relative bg-black/40 backdrop-blur-sm border border-cyan-500/30 rounded-xl p-6 cursor-pointer hover:border-cyan-400/60 hover:shadow-2xl hover:shadow-cyan-500/20 transition-all duration-300 hover:-translate-y-1"
+              >
+                {/* Story Number Badge */}
+                <div className="absolute -top-3 -right-3 w-8 h-8 bg-gradient-to-br from-cyan-400 to-purple-500 rounded-full flex items-center justify-center shadow-lg">
+                  <span className="text-white font-bold text-sm">
+                    {story.id}
+                  </span>
+                </div>
+
+                {/* Story Content */}
+                <div className="space-y-3">
+                  <h3 className="text-xl font-semibold text-cyan-300 group-hover:text-cyan-200 transition-colors">
+                    {story.title}
+                  </h3>
+
+                  <div className="flex flex-wrap gap-2">
+                    <span className="text-xs bg-cyan-900/30 text-cyan-300 px-2 py-1 rounded-full">
+                      {story.author}
+                    </span>
+                    <span className="text-xs bg-purple-900/30 text-purple-300 px-2 py-1 rounded-full">
+                      {story.genre}
+                    </span>
+                  </div>
+
+                  <p className="text-gray-300 text-sm leading-relaxed line-clamp-3">
+                    {story.summary}
+                  </p>
+
+                  <div className="flex items-center justify-between pt-2">
+                    <span className="text-cyan-400 text-sm font-medium group-hover:text-cyan-300 transition-colors">
+                      Read Story
+                    </span>
+                    <ChevronRight className="w-4 h-4 text-cyan-400 group-hover:text-cyan-300 group-hover:translate-x-1 transition-all" />
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        )}
       </div>
     </div>
   );
