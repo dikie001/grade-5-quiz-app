@@ -10,17 +10,16 @@ import {
   RotateCcw,
   Star,
   Trophy,
-  XCircle
+  XCircle,
 } from "lucide-react";
 import React, { useEffect, useState } from "react";
 import toast from "react-hot-toast";
 import available from "../assets/images/available.png";
 import average from "../assets/images/average.png";
 import book2 from "../assets/images/book2.png";
+import m from "../assets/images/m.png";
 import finish from "../assets/images/finish.png";
 import girl from "../assets/images/girl-power.png";
-
-
 
 import quiz from "../assets/images/quiz.png";
 import quizData1 from "../assets/jsons/RandomQuiz.json";
@@ -102,12 +101,7 @@ const QuizApp: React.FC = () => {
     CURRENT_TEST_INDEX: "quiz_current_test_index",
   };
 
-  const {
-    playError,
-    playSuccess,
-    playFinish,
-    playSend,
-  } = useSound();
+  const { playError, playSuccess, playFinish, playSend } = useSound();
 
   // Initialize app
   useEffect(() => {
@@ -511,7 +505,7 @@ const QuizApp: React.FC = () => {
     return (
       <div className="min-h-screen bg-gradient-to-br from-gray-950 via-purple-900 to-slate-900 p-4">
         <div className="max-w-3xl  mx-auto">
-          <div className="text-white">
+          <div className="text-white flex justify-between mb-2">
             <img
               src={book2}
               className="h-10"
@@ -521,6 +515,7 @@ const QuizApp: React.FC = () => {
                 setShowStoriesPage(true);
               }}
             />
+            <img src={m} className="h-10"/>
           </div>
           {/* Header */}
           <div className="text-center mb-4 pt-2">
@@ -871,7 +866,7 @@ const QuizApp: React.FC = () => {
             <p className="text-white text-xl">No results available.</p>
             <button
               onClick={() => {
-                playSend()
+                playSend();
                 setGameState("home");
               }}
               className="mt-4 bg-purple-600 hover:bg-purple-700 text-white px-6 py-3 rounded-xl"
